@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="nilnul.dev.bak.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="upgradeRequired" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="semaphore" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="shieldsBaked" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="modulesBaked" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="branchTmp" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tmp</Value>
+    </Setting>
+    <Setting Name="branchBak" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bak</Value>
+    </Setting>
+    <Setting Name="shields2Bak" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="pushErrsAsWarningIfSuccessesGe" Type="System.UInt32" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="warnIfOverG" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="git_module_remote_bak_clients" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bak_clients</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
