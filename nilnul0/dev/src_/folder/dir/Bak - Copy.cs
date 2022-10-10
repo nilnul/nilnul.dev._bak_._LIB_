@@ -38,7 +38,7 @@ namespace nilnul.dev.src_.folder.dir
 			}
 			else
 			{
-			new dir_.unjoint.Bak_srcsInAddresses(_cfg).Exe(folder);
+			new dir_.unjoint.Bak_srcsInAddresses(_cfg).exe(folder);
 
 			}
 

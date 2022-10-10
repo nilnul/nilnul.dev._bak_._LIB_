@@ -1,11 +1,16 @@
 ﻿using nilnul.dev.src.div.dir.cognomen_.commentedSegs._parse.parener._dotter.lex.symbol_;
 using nilnul.fs._address;
+using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 
 namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect
 {
+	//[Obsolete("categorize according to git first; then depth1st; then for the intent.")]
+	/// <summary>
+	/// by git category.
+	/// </summary>
 	public class Bak_srcsInAddresses
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
@@ -52,44 +57,42 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect
 		}
 
 		public void _vod(
-			string folder
+			string folderAddress
 			
 		)
 		{
-			var tip = nilnul.fs.address_.shield_.BaseDir.FroAddress(folder);
-			var tip1 = tip.child;
-
-			var parsed = nilnul.dev.src.div.dir.cognomen_.commentedSegs._ParseX.Parse(tip1.denote.en);
-
-
-
-			if (
-			parsed.HasNotationCaseInsensitiveNonrecur("git")
-			&&!string.IsNullOrWhiteSpace( parsed.cognomen)
-
-				//nilnul.fs.git.module._ignore_.rule_.nn_._IntendGitX.IsIntend_ofShieldAddress(folder)
-
-			)
+			try
 			{
-
-				if (module != null)
+				switch (nilnul.fs.folder.categorize_.git_.PlainWorkRepo.Category_ofAddress(folderAddress))
 				{
-					innerModules.Add(
-						nilnul.fs.address_.shield.co_.sup._DifX._ofAddresses(
-							module
-							,
-							folder
-						)
-					);
+					case fs.folder.categorize_.git_._plainWorkRepo.Ret.Plain:
+						new nonneglect_.giT_.plain.BakByIntent(cfg, innerModules, innerModules2reinclude, module)._Exe(folderAddress);
 
+						break;
+					case fs.folder.categorize_.git_._plainWorkRepo.Ret.Work:
+						new nonneglect_. giT_.work.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude, module).Exe(folderAddress);
+
+						break;
+					case fs.folder.categorize_.git_._plainWorkRepo.Ret.Repo:
+						break;
+					default:
+						Trace.TraceError(
+							$"{folderAddress} is triaged into an unknown category other than Plain|Work|Repo"
+						);
+						break;
 				}
-
-				new nonneglect_.intent.Bak_srcsInAddress(cfg).Exe(folder);
 			}
-			else
+			catch (OperationCanceledException e)
 			{
-				new nonneglect_.nonintent.Bak(cfg, innerModules,innerModules2reinclude,module) ._void(folder);
+				Trace.TraceWarning($"operation cancelled when processing by {this.GetType().FullName}: {folderAddress}: {e}");
+				throw;
 			}
+
+			catch (Exception e)
+			{
+				Trace.TraceWarning($"exception in categorize for git in baking  by {this.GetType().FullName}: {folderAddress}: {e}");
+			}
+
 		}
 
 		public void vod(

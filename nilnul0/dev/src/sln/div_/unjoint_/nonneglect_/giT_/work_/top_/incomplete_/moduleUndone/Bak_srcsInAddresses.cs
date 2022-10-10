@@ -67,21 +67,22 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_.incomplet
 		/// <returns>
 		/// newly processed
 		/// </returns>
-		[Obsolete("",false)]
+		[Obsolete("as we do depth first traverse, we shall directly call container_Undone.bak",true)]
 		public void _Exe(
 			string folder
 		)
 		{
 			Trace.TraceInformation($"in {typeof(Bak).FullName} {nameof(_Exe)}  for {folder} ");
 
-			cfg.cancel.ThrowIfCancellationRequested();
+			//cfg.cancel.ThrowIfCancellationRequested();
 			ConcurrentBag<nilnul.fs._address.DivI> innerModules = new ConcurrentBag<DivI>();
 			ConcurrentBag<nilnul.fs._address.DivI> innerModules2reinclude = new ConcurrentBag<DivI>();
 
 			/// for incomplete,
 			///		content is not done.
 			///			but some module is done , some module is not done.
-			new _incomplete_.content.Bak_srcsInAddresses(cfg, innerModules,innerModules2reinclude)._Exe(folder);
+			/// todo: as we got depth-first traverse, this is not necessary.
+			//new _incomplete_.content.Bak_srcsInAddresses(cfg, innerModules,innerModules2reinclude)._Exe(folder);
 
 			cfg.cancel.ThrowIfCancellationRequested();
 

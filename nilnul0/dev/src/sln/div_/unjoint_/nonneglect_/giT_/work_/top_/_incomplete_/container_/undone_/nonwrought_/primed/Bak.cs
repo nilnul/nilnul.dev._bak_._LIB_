@@ -58,6 +58,9 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			}
 			else
 			{
+				Trace.TraceError(
+					$"{folder} stage is not clean."
+				);
 				return new primed_.stageDirty.Bak_srcsInAddresses(cfg)._exe(folder, cancel,git);
 			}
 		}

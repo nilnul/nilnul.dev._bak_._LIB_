@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,6 +10,14 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.bak.put
 	static public class _ResultX
 	{
 
+		/// <summary>
+		/// name assume unnormed
+		/// </summary>
+		/// <param name="gitTop"></param>
+		/// <param name="svrRepoName">assume unnormed</param>
+		/// <param name="client"></param>
+		/// <param name="git"></param>
+		/// <returns></returns>
 		public static nilnul._op.result_.Explain<bool> NewlyCreated(
 			nilnul.fs.git.ModuleI gitTop
 			,
@@ -64,6 +73,32 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.bak.put
 							)
 						);
 					}
+					catch (Exception e) /*Aggregate Exception: inner: ProjectAlreadyExistsException: TF200019: The following project already exists on the Azure DevOps Server: -_nilnulEdu_. You cannot create a new project with the same name as an existing project. Provide a different name.
+*/
+					{
+						Trace.TraceError(
+							$"{typeof(_ResultX).FullName }.{nameof(NewlyCreated)}({gitTop}, azure, {svrRepoName}): {e.ToString()}"
+						);
+						return _op.result_.Explain<bool>.FroXpn(e.ToString());
+						//throw;
+					}
+					break;
+
+				case nilnul.fs.git.svr_.github.client_.Vaulted github:
+
+					try
+					{
+						return new nilnul._op.result_.Explain<bool>(
+							baK_.github.ensure_._EnsureSvrFirstX.NewlyCreated(
+								gitTop
+								,
+								nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
+									client.name
+								)
+								, github, svrRepoName, git
+							)
+						);
+					}
 					catch (Exception e)
 					{
 						return _op.result_.Explain<bool>.FroXpn(e.ToString());
@@ -94,7 +129,6 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.bak.put
 					break;
 
 				case nilnul.fs.git.svr.client_.accVaulted_.GitlabI gitlab:
-
 					try
 					{
 						return

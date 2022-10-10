@@ -23,7 +23,9 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.gitlab.ensure
 		)
 		{
 
-			return new _op.result_.Explain<bool>(gitlab._EnsureOneX. NewlyCreated(gitTop,remoteNameNom,usr, svrRepoName, git));
+			return new _op.result_.Explain<bool>(
+				gitlab._EnsureOneX.NewlyCreated(gitTop,remoteNameNom,usr, svrRepoName, git)
+			);
 		}
 		public static nilnul._op.result_.Explain<bool> NewlyCreated(
 			nilnul.fs.git.ModuleI gitTop

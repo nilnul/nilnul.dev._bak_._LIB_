@@ -13,6 +13,15 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.github.ensure_
 
 	static public class _EnsureSvrFirstX
 	{
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="gitTop"></param>
+		/// <param name="remoteNameNom">assume nom</param>
+		/// <param name="client"></param>
+		/// <param name="svrRepoName">assume unnormed</param>
+		/// <param name="git"></param>
+		/// <returns></returns>
 		public static bool NewlyCreated(
 			nilnul.fs.git.ModuleI gitTop
 			,
@@ -36,7 +45,23 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.github.ensure_
 				return false;
 			}
 
-			var url = nilnul.fs.git.svr_.github.client.repo.create_._PersonalX.Ensure(client,svrRepoName);
+
+			/// here we might encouter xpn which failed to be caught by our logic, as the client's might change its logic as it's a preview version.
+			///
+			string url=null;
+			try
+			{
+				 url = nilnul.fs.git.svr_.github.client.repo.create_._PersonalX.Ensure(client,svrRepoName);
+
+			}
+			catch (Exception x)
+			{
+				Trace.TraceError(
+					$"when creating {svrRepoName} at github: {x.ToString()}. "
+				);
+				/// we don't rethrow; instead we assume it's successful.
+				//throw;
+			}
 
 
 			
@@ -48,7 +73,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.github.ensure_
 			_CreateX.Exe(
 				gitTop
 				,
-				 txt_._vered_.Name.CreateByAppendingUnderscoreIfNecessary(
+				 txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
 				remoteNameNom
 				)
 				 ,
@@ -59,7 +84,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.github.ensure_
 				git
 			);
 			
-
+			///here as the remote key is not found, we return true.
 			return true;
 
 

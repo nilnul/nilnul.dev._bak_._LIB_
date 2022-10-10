@@ -66,7 +66,9 @@ namespace nilnul.dev.sln.div_.nonlink_.nonneglect_.giT_.work_.top_._incomplete_.
 
 			var ensured = nilnul.fs.git.module.repo._cfg_.remotes_.bak_.awGlVs.ensure._UpsertOmegaX.Msg(_folder_address, name, git);
 			#region clients
-			foreach (var item in nilnul.fs.git.Properties.SettingsX.client__noCred_Nameds)
+			foreach (var item in nilnul.fs.git.Properties.SettingsX.Clients_my
+				//.client__noCred_Nameds
+				)
 			{
 				/// todo
 				//var url = item.client..data.genClient().ensureRepo(

@@ -53,9 +53,6 @@ namespace nilnul.dev.sln_.nonlink.div_.nonlink_.nonneglect_.intent_.giT_.plain0n
 				cancel.ThrowIfCancellationRequested();
 
 
-				try
-				{
-
 					_bak._IniX.Setup(folderAddress, git);
 
 					
@@ -64,12 +61,7 @@ namespace nilnul.dev.sln_.nonlink.div_.nonlink_.nonneglect_.intent_.giT_.plain0n
 					new nilnul.dev.sln_.nonlink.div_.nonlink_.nonneglect_.giT_.work_.top_.incomplete_.moduleUndone.Bak(cfg)._Exe(folderAddress);
 
 
-				}
-				catch (Exception)
-				{
-					//ini failed 
-					throw;
-				}
+	
 
 
 

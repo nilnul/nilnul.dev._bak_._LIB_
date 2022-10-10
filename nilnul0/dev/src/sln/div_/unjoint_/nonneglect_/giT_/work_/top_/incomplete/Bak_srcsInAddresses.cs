@@ -65,8 +65,10 @@ If a parent cancels itself before its child task is started, the child never sta
 			var noErr = true;
 			try
 			{
-				this._cfg.onNotify($"baking the content of {folder}...");
+				//this._cfg.onNotify($"{DateTime.Now.ToString()}: bakking the content of {folder}...");
+
 				new _incomplete_.content.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude) {/* module=nilnul.fs.address_.shield_._AddressX1.Create(folder) */}._Exe(folder);
+				//this._cfg.onNotify($"{DateTime.Now.ToString()}: bakked the content of {folder}...");
 
 			}
 			catch (OperationCanceledException ex)
@@ -82,8 +84,10 @@ If a parent cancels itself before its child task is started, the child never sta
 			cfg.cancel.ThrowIfCancellationRequested();
 			try
 			{
-				this.cfg.onNotify($"baking the container of {folder}...");
+				this.cfg.onNotify($"{DateTime.Now.ToString()}: bakking the container of {folder}...");
 				new _incomplete_.container.Bak_srcsInAddresses(cfg)._Exe(folder, innerModules, innerModules2reinclude);
+				this.cfg.onNotify($"{DateTime.Now.ToString()}: bakked the container of {folder}...");
+
 
 			}
 			catch (OperationCanceledException ex)

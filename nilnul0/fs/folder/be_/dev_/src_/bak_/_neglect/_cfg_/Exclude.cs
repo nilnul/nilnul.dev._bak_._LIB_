@@ -5,6 +5,7 @@
 	/// <remarks>
 	/// to be used in non-gitRepo folders, we shall put the cfg file in the folder rather than the ".git" folder, as normal folder will have no dir:".git"
 	/// </remarks>
+	/// <see cref="nilnul.fs.folder.dnt_.cfg_"/>
 	public static class _ExcludeX
 	{
 

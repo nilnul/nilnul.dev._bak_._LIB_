@@ -72,6 +72,8 @@ namespace nilnul.dev.src.sln.directory_.unjoint
 		)
 		{
 			cfg.cancel.ThrowIfCancellationRequested();
+
+
 			if (nilnul.fs.folder.be_.deV_.src_.bak_._NeglectX.Be(shield,cfg.git) )
 			{
 				Trace.TraceWarning(

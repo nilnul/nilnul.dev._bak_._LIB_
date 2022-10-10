@@ -20,12 +20,14 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.gitlab
 			,
 			nilnul.win.prog_.Git git=null
 		) {
+
+
 			nilnul.fs.git.module.repo._cfg_.remote._CreateX.RetVoid(
 				_gitTop
 				,
 				remoteNom
 				,
-				nilnul.fs.git.svr_.gitlab.client.repo._UrlX.Gen(usr, svrRepoName)
+				nilnul.fs.git.svr_.gitlab.client.repo._UrlX._Gen_repoAssumeUnnormed(usr, svrRepoName)
 				,git
 			);
 		}

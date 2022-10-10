@@ -34,7 +34,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.azure.create.ensure_
 				return false;
 			}
 
-			var url = client.gitUrl(svrRepoName);
+			//var url = client.gitUrl(svrRepoName);
 
 
 			var r = nilnul.fs.git.svr_.azure.client.teamwork.create_.personal._EnsureX.Result(

@@ -66,7 +66,7 @@ namespace nilnul.dev.src_.folder.div_.unjoint
 				case 1: //sln or commented folder
 
 
-					new nilnul.dev.src_.folder.dir_.link.Bak_srcsInAddresses(cfg).exe_ofAddress(_div_inSrc.ToString());
+					new nilnul.dev.src_.folder.dir_.unjoint.Bak_srcsInAddresses(cfg).exe(_div_inSrc.ToString());
 					break;
 
 				default:    //inside sln

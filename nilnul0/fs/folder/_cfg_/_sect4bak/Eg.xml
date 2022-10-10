@@ -1,0 +1,18 @@
+﻿<!--<?xml version="1.0" encoding="utf-8" ?>
+
+<configuration>-->
+	
+	<bak>
+		<push>
+			<done>
+				amazon,azure,gitlab
+			</done>
+			<fail>
+				github
+				<xpn>
+					some file is too large, more than 50M.
+				</xpn>
+			</fail>
+		</push>
+	</bak>
+<!--</configuration>-->

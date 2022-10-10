@@ -20,12 +20,15 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.github
 			nilnul.win.prog_.Git git=null
 		)
 		{
-			nilnul.fs.git.module.repo._cfg_.remote._CreateX.RetVoid(
+			nilnul.fs.git.module.repo._cfg_.remote._CreateX._Vod_assumeUrn(
 				_gitTop
 				,
 				remoteNom
 				,
-				nilnul.fs.git.svr_.github.client.repo._UrlX.Url_withCred(usr,svrRepoName)
+				nilnul.fs.git.svr_.github.repo.urn_._SshX._Urn_assumesUsrRepo(
+					usr,svrRepoName
+				)
+				//nilnul.fs.git.svr_.github.client.repo._UrlX.Url_withCred(usr,svrRepoName)
 				,git
 			);
 		}

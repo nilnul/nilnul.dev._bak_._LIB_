@@ -11,7 +11,10 @@ namespace nilnul.dev.src.sln.directory_.unjoint_.nonneglect
 {
 	/// <summary>
 	/// </summary>
-	public  class Bak_srcsInAddresses
+	///
+	//[Obsolete("categorize according to git first; then depth1st; then for the intent.")]
+
+	public class Bak_srcsInAddresses
 	{
 
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;

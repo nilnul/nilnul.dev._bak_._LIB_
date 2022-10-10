@@ -48,7 +48,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
 
 			if (newlyCreatedS.Any(x => x.ret))
 			{
-				var urls = nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.newly._CreateX.Urls(
+				var urls = nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.next._CreateX.Urns(
 					gitTop, names, git
 				).Select(
 					u=> nilnul.web.url.op_.unary_._DelKeyX.Op(u).ToString()
@@ -59,7 +59,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
 			}
 			else
 			{
-				return remote_.dev_.baK_.all_.last.nulable.urls._EnsureX.Msg(
+				return remote_.dev_.baK_.all_.last.nulable.urns._EnsureX.Msg(
 					gitTop
 					,
 					names
@@ -83,7 +83,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
 				,
 				svrRepoName
 				,
-				nilnul.fs.git.Properties.SettingsX.client__noCred_Nameds
+				nilnul.fs.git.Properties.SettingsX.Clients_my
 				,
 				git
 			);
@@ -156,7 +156,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
 				,
 				svrRepoName
 				,
-				nilnul.fs.git.Properties.SettingsX.client__noCred_Nameds
+				nilnul.fs.git.Properties.SettingsX.Clients_my
 				,
 				git
 			);

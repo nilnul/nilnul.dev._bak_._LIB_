@@ -16,26 +16,40 @@ namespace nilnul.fs.folder.be_.deV_.src_.bak_._neglect
 	/// </summary>
 	static public class _PerNameX
 	{
+		public const string CONTENT = "!Bak";
 
-		public const string SUFFIX = "(!Bak";
-
+		public const string PREFIX =  CONTENT + ")";
+		public const string SUFFIX ="("+ "!Bak";
 		public const string INFIX = SUFFIX + ")";
 
 		/// <summary>
 		/// note: "(!Git" is for git to ignore, not for bak to neglect
 		/// </summary>
 		static public nilnul.txts_.seq_.BothCases SUFFIXS = new nilnul.txts_.seq_.BothCases(SUFFIX);
+		static public nilnul.txts_.seq_.BothCases PREFIXS = new nilnul.txts_.seq_.BothCases(PREFIX);
 
 		static public nilnul.txts_.seq_.BothCases INFIXS = new nilnul.txts_.seq_.BothCases(INFIX);
+
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="s"></param>
+		/// <param name="git"></param>
+		/// <returns></returns>
+		/// todo: commented is not considered. eg: (!Bak (downed from web))
 
 		static public bool Be(nilnul.fs._address._dst.Denote s, nilnul.win.prog_.Git git =null)
 		{
 			if (
+				(PREFIXS).Any(
+					x=>
+					s.ToString().StartsWith( x, StringComparison.InvariantCultureIgnoreCase  )
+				)
+				||
 				(SUFFIXS).Any(
 					x=>
 					s.ToString().EndsWith( x, StringComparison.InvariantCultureIgnoreCase  )
 				)
-
 				||
 				INFIXS.Any(x=>
 					s.ToString().ToLower().Contains(x.ToLower())

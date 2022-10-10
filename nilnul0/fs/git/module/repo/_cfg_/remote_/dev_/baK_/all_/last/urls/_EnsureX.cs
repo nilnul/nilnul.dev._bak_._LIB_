@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -63,19 +64,38 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.last.urls
 			urls2add.ForEach(
 				x =>
 				{
+					try
+					{
+						/// some, such as ssh, might be not url
+						nilnul.fs.git.module.repo._cfg_.remote.urns_.push._InsX._Vod_assumesValid(
+							gitTop
+							,
+							key.ToString()
+							//new _remote.Name(
+							//	_AwGlBbVsX.GetLastAsName()
+							//)
+							,
+							x
+							,
+							git
+						);
 
-					nilnul.fs.git.module.repo._cfg_.remote.urls_.push._InsX1.Exe(
-						gitTop
-						,
-						key.ToString()
-						//new _remote.Name(
-						//	_AwGlBbVsX.GetLastAsName()
-						//)
-						,
-						x
-						,
-						git
-					);
+
+					}
+					catch (nilnul.exception_.ParseException parseXpn) {
+						Trace.TraceError(
+							$"when del pass from url by {typeof(_EnsureX).FullName}.{nameof(Msg)}, the parse failed: {parseXpn}"
+						);
+						
+
+					}
+					catch (Exception xpn1)
+					{
+						Trace.TraceError(
+							$"when del pass from url by {typeof(_EnsureX).FullName}.{nameof(Msg)}: {xpn1}"
+						);
+						//throw;
+					}
 				}
 			);
 

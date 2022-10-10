@@ -42,7 +42,10 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			///whether to touch ".gitignore"
 			///
 
-			if (nilnul.fs.git.module.be_.dev_.NothingButSetting.Singleton._Be_assumeWorkbaseAddress(folder))
+			if (
+				
+nilnul.fs.git.module.be_.Nonwrought.Singleton._Be_assumeWorkbaseAddress(folder)
+			)
 			{
 				new container_.undone_.nonwrought.Bak_srcsInAddresses(_cfg)._exe(folder); //no need to pass in the parameters: innerModules and innerModules2reinclude, as have already been done by caller.
 			}
@@ -50,11 +53,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			{
 				new undone_.wrought.Bak_srcsInAddresses(_cfg)._exe(folder);
 			}
-
-
 		}
-
-
 
 		/// <summary>
 		/// </summary>
@@ -110,7 +109,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 
 
 			/// ensure (only touch it if not done)
-			nilnul.fs.git.module.repo.cfg.section_.core.Longpaths.SetTrue_ofAddress(folder);
+			nilnul.fs.git.module.repo.cfg.section_.core.Longpaths.EnsureTrue_ofAddress(folder);
 
 			nilnul.fs.git.module._ignore_.exclude.put._IfLinesNonemptyX.Void_ofModuleAddress(folder, innerModules);
 

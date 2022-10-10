@@ -70,8 +70,9 @@ namespace nilnul.dev.src.sln.directory_.unjoint_.nonneglect_.giT_.work_.nontop_.
 		public void Exe( 
 			string folderAddress
 		) {
-			
-				new sln.div_.unjoint_.nonneglect_.intent_.giT_.plain0nontop.Bak_srcsInAddresses(cfg ,innerModules,innerModules2reinclude,module).Exe(folderAddress);
+				new sln.div_.unjoint_.nonneglect_.giT_.work_.nontop_.intent.Bak(cfg ,innerModules,innerModules2reinclude,module)._exe(folderAddress);
+
+				//new sln.div_.unjoint_.nonneglect_.intent_.giT_.plain0nontop.Bak_srcsInAddresses(cfg ,innerModules,innerModules2reinclude,module).Exe(folderAddress);
 				
 		}
 	}

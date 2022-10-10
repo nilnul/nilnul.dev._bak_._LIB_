@@ -72,7 +72,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 
 			}
 
-			var clients = nilnul.fs.git.Properties.SettingsX.client__noCred_Nameds.Select(c=>c.name);
+			var clients = nilnul.fs.git.Properties.SettingsX.Clients_my.Select(c=>c.name);
 
 			bool noErr = _bak_._UploadX._Void(
 				folder

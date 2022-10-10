@@ -72,7 +72,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.nonintent
 
 						break;
 					case fs.folder.categorize_.git_._plainWorkRepo.Ret.Work:
-						new nonintent_.giT_.work.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude,module) .Exe(folderAddress);
+						new giT_.work_.nonintent.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude,module).Exe(folderAddress);
 
 						break;
 					case fs.folder.categorize_.git_._plainWorkRepo.Ret.Repo:

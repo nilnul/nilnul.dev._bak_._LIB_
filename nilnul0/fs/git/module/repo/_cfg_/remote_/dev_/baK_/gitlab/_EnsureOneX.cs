@@ -9,6 +9,15 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.gitlab
 
 	static public class _EnsureOneX
 	{
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="gitTop"></param>
+		/// <param name="remoteNameNom"></param>
+		/// <param name="usr"></param>
+		/// <param name="svrRepoName">assume unnormed</param>
+		/// <param name="git"></param>
+		/// <returns></returns>
 		public static bool NewlyCreated(
 			nilnul.fs.git.ModuleI gitTop
 			,

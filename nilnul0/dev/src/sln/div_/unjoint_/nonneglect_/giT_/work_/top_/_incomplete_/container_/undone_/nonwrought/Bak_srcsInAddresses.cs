@@ -15,6 +15,9 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 	///			if something is added but not commited., a warning is issued.
 	///			if all commited, a warning is not issued.
 	/// </summary>
+	/// <remarks>
+	/// this is similar to a <see cref="nilnul.fs.git.repo_.IBare"/>. we just commit the index, if any, to a tmp stash, before pushing.
+	/// </remarks>
 	public class Bak_srcsInAddresses
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
@@ -45,7 +48,6 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 
 		public void _exe(
 			string folder
-
 
 		)
 		{

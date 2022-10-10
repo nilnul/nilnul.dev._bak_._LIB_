@@ -46,12 +46,8 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			}
 
 			#region check whether there are uncommited in index.
-			/// todo:
-
-			#region  ///todo:if there are uncommited, issue a warning
-			///todo:if there are uncommited, issue a warning
-
-			#endregion
+			 ///:if there are uncommited, issue a warning
+			/// <see cref="nonwrought_.primed.Bak"/>
 			#endregion
 
 
@@ -71,32 +67,8 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 				,
 				git
 			);
-			#region clients
-
-			//foreach (var item in nilnul.fs.git.Properties.SettingsX.client__noCred_Nameds)
-			//{
-			//	/// todo
-			//	//var url = item.client..data.genClient().ensureRepo(
-			//	//	name
-			//	//);	
 
 
-			//	//if (item.data is nilnul.fs.git.client.noCred_.Github github)
-			//	//{
-			//	//	nilnul.fs.git.module.repo._cfg_.remote_.vered_.name_.newest.nulable.url._AppendIfNoX.Appended(
-			//	//		_folder_address,
-			//	//		$"bak_{github.GetType().Name}"
-			//	//		,
-			//	//		url
-			//	//		,
-			//	//		git
-			//	//	);
-
-			//	//	//  append ulr to the umbrella aggregate urls
-			//	//	//nilnul.fs.git.module.repo._cfg_.remote_.bak_.awGlBbVs_.last._CreateX
-			//	//}
-			//}
-			#endregion
 			#endregion
 
 

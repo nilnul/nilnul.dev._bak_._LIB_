@@ -62,6 +62,8 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.plain
 		string folder
 	)
 		{
+			new nonneglect_.giT_._plain.Depth1st(cfg, innerModules, innerModules) { module = this.module }._vod(folder);
+
 			try
 			{
 
@@ -69,13 +71,15 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.plain
 					nilnul.dev.sln.div.be_._IntendGitX.Be_ofAddress(folder, cfg.git)
 			)
 				{
-					new intent_.giT_.plain0nontop.Bak_srcsInAddresses(cfg,innerModules,innerModules2reinclude,module).Exe(folder);
-				}
-				else
-				{
-					new nonneglect_.nonintent_.giT_.plain.Bak(cfg,innerModules,innerModules2reinclude,module)._vod(folder);
 
+					new plain0nontop_.intent._bak.Container(cfg,innerModules,innerModules2reinclude,module).Exe(folder);
+					//new intent_.giT_.plain0nontop.Bak_srcsInAddresses(cfg,innerModules,innerModules2reinclude,module).Exe(folder);
 				}
+				//else
+				//{
+				//	new nonneglect_.nonintent_.giT_.plain.Bak(cfg,innerModules,innerModules2reinclude,module)._vod(folder);
+
+				//}
 
 
 

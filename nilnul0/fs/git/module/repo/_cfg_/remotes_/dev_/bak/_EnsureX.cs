@@ -11,6 +11,14 @@ namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
 	/// </summary>
 	static public class _EnsureEachX
 	{
+		/// <summary>
+		/// assume name unnormed.
+		/// </summary>
+		/// <param name="gitTop"></param>
+		/// <param name="svrRepoName"></param>
+		/// <param name="clients"></param>
+		/// <param name="git"></param>
+		/// <returns></returns>
 		static public IEnumerable<nilnul._op.result_.Explain<bool>> NewlyCreatedS(
 			nilnul.fs.git.ModuleI gitTop
 			,

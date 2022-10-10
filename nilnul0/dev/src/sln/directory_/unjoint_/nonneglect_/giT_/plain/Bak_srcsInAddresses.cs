@@ -47,19 +47,22 @@ namespace nilnul.dev.src.sln.directory_.unjoint_.nonneglect_.giT_.plain
 			string folder
 		)
 		{
+			new div_.unjoint_.nonneglect_.giT_.plain.BakByIntent(
+				cfg,innerModules,innerModules2reinclude
+			){module=this.module  }._Exe(folder);
+			return;
 
-			if (
-				nilnul.fs.git.module._ignore_.rule_.nn_._IntendGitX.IsIntend_ofShieldAddress(folder)
-			)
-			{
-				
+			//if (
+			//	nilnul.fs.git.module._ignore_.rule_.nn_._IntendGitX.IsIntend_ofShieldAddress(folder)
+			//)
+			//{
 
-				new div_.unjoint_.nonneglect_.intent_.giT_.plain0nontop.Bak_srcsInAddresses(cfg,innerModules,innerModules2reinclude){module=this.module  }.Exe(folder);
-			}
-			else
-			{
-				new div_.unjoint_.nonneglect_.nonintent_.giT_.plain.Bak(cfg,innerModules,innerModules2reinclude) {module=this.module  }._vod(folder);
-			}
+			//	new div_.unjoint_.nonneglect_.intent_.giT_.plain0nontop.Bak_srcsInAddresses(cfg,innerModules,innerModules2reinclude){module=this.module  }.Exe(folder);
+			//}
+			//else
+			//{
+			//	new div_.unjoint_.nonneglect_.nonintent_.giT_.plain.Bak(cfg,innerModules,innerModules2reinclude) {module=this.module  }._vod(folder);
+			//}
 
 		}
 	}
