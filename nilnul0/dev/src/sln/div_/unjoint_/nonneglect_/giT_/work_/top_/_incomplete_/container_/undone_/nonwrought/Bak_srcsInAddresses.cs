@@ -62,7 +62,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 				new undone_.nonwrought_.primed.Bak(_cfg)._exe(folder, /*innerModules,*/ cancel, git)
 			)
 			{
-				Trace.TraceError(
+				Trace.TraceWarning(
 					$"{folder} is clearable as all pushed to at least {nilnul.dev.bak.Properties.Settings.Default.pushErrsAsWarningIfSuccessesGe} or all remotes"
 				);
 				///todo: delete

@@ -49,7 +49,7 @@ namespace nilnul.dev.src.sln.directory_.unjoint_.nonneglect
 		}
 
 
-		private Bak_srcsInAddresses(
+		public Bak_srcsInAddresses(
 			nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg, ConcurrentBag<DivI> innerModules1
 		) : this(
 			cfg, innerModules1, new ConcurrentBag<DivI>()

@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.Threading;
 
 namespace nilnul.dev.src_.folder_.unjoint_.nonneglect
@@ -13,6 +14,8 @@ namespace nilnul.dev.src_.folder_.unjoint_.nonneglect
 	///		unjoint
 	///		unjointAlreadyEnsured
 	/// </remarks>
+	///
+	[Obsolete(nameof(nilnul.dev.src.div_.cognable_.empty_.nonneglect.Bak))]
 	public  class Bak
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
@@ -35,12 +38,28 @@ namespace nilnul.dev.src_.folder_.unjoint_.nonneglect
 			switch (nilnul.fs.folder.categorize_.git_.PlainWorkRepo.Category(folder))
 			{
 				case fs.folder.categorize_.git_._plainWorkRepo.Ret.Plain:
-					new nilnul.dev.src_.folder_.unjoint_.nonneglect_.giT_.nonrepo.Bak_srcsInAddresses(cfg).Exe(folder);
+					new nilnul.dev.src_.folder_.unjoint_.nonneglect_.giT_.nonrepo.Bak_srcsInAddresses(cfg) {
+						src=folder.address.en
+						,
+						div= new fs._address.Div()
+						,
+						cognom= new string[0]
+					}.Exe(
+						//folder
+					);
 
 					break;
 				case fs.folder.categorize_.git_._plainWorkRepo.Ret.Work:
 					//Trace.TraceWarning($"src {folder} shall not be a git workspace; it shall be a plain folder");
-					new nilnul.dev.src_.folder_.unjoint_.nonneglect_.giT_.nonrepo.Bak_srcsInAddresses(cfg).Exe(folder);
+					new nilnul.dev.src_.folder_.unjoint_.nonneglect_.giT_.nonrepo.Bak_srcsInAddresses(cfg){
+						src=folder.address.en
+						,
+						div= new fs._address.Div()
+						,
+						cognom= new string[0]
+					}.Exe(
+						//folder
+					);
 
 					break;
 				case fs.folder.categorize_.git_._plainWorkRepo.Ret.Repo:

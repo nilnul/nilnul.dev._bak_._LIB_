@@ -3,6 +3,7 @@ using nilnul.fs.address_.shields.dev_._bak;
 using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
+using System.Linq;
 using System.Threading;
 
 namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.nontop._bak
@@ -75,12 +76,31 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.nontop._bak
 				Trace.Indent();
 				try
 				{
+					var neglected = nilnul.fs.folder.dnts_._neglect._cfg_.doc_._DefaultX.Captions_ofAddress(_location__nonrootWork);
+
 					foreach (
-						string child in nilnul.fs.folder.dirs_._ExcludeVsX.EnumerateAsAddresses(
+						var dir
+						in
+						nilnul.fs.folder.dirs_.notDotLed_.deV_._ExcludeAutogenX.Dirs_ofAddress(
 							_location__nonrootWork
 						)
 					)
 					{
+						var dnt = dir.denote.en;
+
+						if (
+							neglected.Contains(
+								dnt
+								,
+								nilnul.txt.eq_.CaseInsensitive.Singleton
+							)
+						)
+						{
+							continue;
+						}
+
+						var child = System.IO.Path.Combine(_location__nonrootWork, dnt);
+
 						cancel.ThrowIfCancellationRequested();
 
 						/// nonplain

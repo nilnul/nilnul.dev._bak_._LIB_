@@ -63,50 +63,57 @@ namespace nilnul.fs.addresses_._disjoint.item.deV_
 			Trace.TraceInformation($"{this.GetType().FullName}.{nameof(vod)}({address})>>>");
 			/// get the parent src
 
-			var parent = cfg.srcs.addresses.Where(
+			var sup = cfg.srcs.addresses.Where(
 				a => nilnul.fs.address.re_.Sup.Singleton.re(a, address)
 			).SingleOrDefault();
 
+			var src = nilnul.fs.address_.shield_._AddressX1.Create(sup);
 
-			if (parent is null)
+			if (sup is null)
 			{
 
 				Trace.TraceInformation($"{address} in not in srcs:{cfg.srcs}");
 				//return ;
 			}
-			else  //parent.Count() is 1
+			else  //sup is not null
 			{
 
 				if (
 					nilnul.fs.address.re_.sup_.EndMatters.Singleton.re(
-						parent, address
+						sup, address
 					)
 				)
 				{
-					new address_.deV_.inSrc.Bak(
+					new dev.src.div._bak.Cognable0not(
 							cfg
-						).exe(address);
+						)
+					{
+						src=src,
+					}.vod(address);
 				}
 				else if (
 					nilnul.fs.address.eq_.AsShield.Singleton.Equals(
 						address
 						,
-						parent
+						sup
 					)
 				)
 				{
-					Trace.TraceWarning($"{address} is appended a dirSep, before being taken as the sub of {parent}; or else {address} is the proper sup of {parent}. ");
+					Trace.TraceWarning($"{address} is appended a dirSep, before being taken as the sub of {sup}; or else {address} is the proper sup of {sup}. ");
 
-					new address_.deV_.inSrc.Bak(
-						cfg
-					).exe(
-						nilnul.fs.address_.Shield.Ov(address)
+					new  dev.src.div._bak.Cognable0not(
+							cfg
+						)
+					{
+						src = src,
+					}.vod(
+						(address)
 					);
 
 				}
 				else
 				{
-					Trace.TraceError($" unexpected. {address}, when converted to shield, shall be in {parent}.");
+					Trace.TraceError($" unexpected. {address}, when converted to shield, shall be in {sup}.");
 
 				}
 

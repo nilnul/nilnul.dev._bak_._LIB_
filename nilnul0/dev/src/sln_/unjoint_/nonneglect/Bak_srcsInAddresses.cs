@@ -43,7 +43,7 @@ namespace nilnul.dev.src.sln_.unjoint_.nonneglect
 
 		}
 
-		private Bak_srcsInAddresses(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg) : this(cfg, new ConcurrentBag<DivI>())
+		public Bak_srcsInAddresses(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg) : this(cfg, new ConcurrentBag<DivI>())
 		{
 		}
 

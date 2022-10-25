@@ -10,6 +10,10 @@ using System.Threading.Tasks;
 
 namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.wrought._bak_
 {
+	/// <summary>
+	/// ensure ignore;
+	/// ensure remotes
+	/// </summary>
 	static public class _PrimeX
 	{
 		static public void _Exe(

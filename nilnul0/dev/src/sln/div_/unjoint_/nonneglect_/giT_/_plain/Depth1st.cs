@@ -79,11 +79,28 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_._plain
 				Trace.Indent();
 				try
 				{
+					var neglected = nilnul.fs.folder.dnts_._neglect._cfg_.doc_._DefaultX.Captions_ofAddress(_location__nonrootWork);
 
-					foreach (var child in nilnul.fs.folder.dirs_._ExcludeVsX.EnumerateAsAddresses(
+					foreach (var dir in nilnul.fs.folder.dirs_.notDotLed_.deV_._ExcludeAutogenX.Dirs_ofAddress(
 						_location__nonrootWork))
 					{
-						var gitCategory = nilnul.fs.folder.categorize_.giT_.plainWorkRepo_._ByIsInsideGitDirX.Category_ofAddress(_location__nonrootWork);
+
+						var dnt = dir.denote.en;
+
+						if (
+							neglected.Contains(
+								dnt
+								,
+								nilnul.txt.eq_.CaseInsensitive.Singleton
+							)
+						)
+						{
+							continue;
+						}
+
+						var child = System.IO.Path.Combine(_location__nonrootWork, dnt);
+
+						var gitCategory = nilnul.fs.folder.categorize_.giT_.plainWorkRepo_._ByIsInsideGitDirX.Category_ofAddress(child);
 
 						switch (gitCategory)
 						{

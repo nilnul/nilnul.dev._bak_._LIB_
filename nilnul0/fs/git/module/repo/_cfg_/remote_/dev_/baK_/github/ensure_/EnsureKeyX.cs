@@ -63,9 +63,6 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.github.ensure_
 				//throw;
 			}
 
-
-			
-
 			Trace.TraceInformation(
 				$"creating repo at github with given repoName{svrRepoName}; response:{url}."
 			);

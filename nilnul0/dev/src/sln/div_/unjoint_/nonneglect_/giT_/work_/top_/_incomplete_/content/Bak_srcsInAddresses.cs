@@ -4,6 +4,7 @@ using nilnul.fs.address_.shields.dev_._bak;
 using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
+using System.Linq;
 
 namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomplete_.content
 {
@@ -65,7 +66,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 		)
 		{
 
-			Trace.TraceInformation($@"baking {typeof(Bak_srcsInAddresses).FullName}:{folder}...");
+			Trace.TraceInformation($@"bakking {typeof(Bak_srcsInAddresses).FullName}:{folder}...");
 
 			if (cfg.cancel.IsCancellationRequested)
 			{
@@ -78,62 +79,40 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			win.prog_.Git git = cfg.git;
 			try
 			{
-				foreach (string child in nilnul.fs.folder.dirs_._ExcludeVsX.EnumerateAsAddresses(folder))
+				var unlisted = nilnul.fs.folder.dnts_._neglect._cfg_.doc_._DefaultX.Captions_ofAddress(folder);
+
+				foreach (var dir in nilnul.fs.folder.dirs_._ArtisanX.Dirs_ofAddress(folder))
 				{
+					var dnt = dir.denote.en;
+
+					//if (
+					//	unlisted.Contains(
+					//		dnt
+					//		,
+					//		nilnul.txt.eq_.CaseInsensitive.Singleton
+					//	)
+					//)
+					//{
+					//	continue;
+					//}
+
+					var child = System.IO.Path.Combine(folder, dnt);
+
 					if (cfg.cancel.IsCancellationRequested)
 					{
-						Trace.TraceWarning($"cancelling {folder}");
+						Trace.TraceWarning($"cancelling {folder} at child:{child}");
 						cfg.cancel.ThrowIfCancellationRequested();
 						return;
 						break;
 					}
-					new nilnul.dev.src.sln.directory_.unjoint_.giT_.nonplain.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude)
+
+					new nilnul.dev.src.sln.directory_.giT_.nonplain.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude)
 					{
 						module = nilnul.fs.address_.shield_._AddressX1.Create(folder)
-					}._void(child);
+					}._void(
+						child
+					);
 
-
-					//if (nilnul.fs.git.module.dir.be_._WorkX.Be(child, git))
-					//{
-					//	new directory_.nonlink_.git_.work.Bak(cfg, innerModules).__Exe(child);
-					//	if (nilnul.fs.folder.be_.dev_.src_.bak_._NeglectX.Be_ofAddress(child, cfg.git))
-					//	{
-
-					//		///todo: maybe insideDirectModules; but that would be too slow
-					//		innerModules.Add(
-					//			nilnul.fs.address_.shield.co_.sup._DifX._ofAddresses(
-					//					folder
-					//					,
-					//					child
-					//			)
-					//		);
-					//		Trace.TraceWarning($"{child} is neglected");
-					//		continue;
-					//	}
-					//	else
-					//					if (
-					//	nilnul.fs.git.module.dir_.work.be_._TopX._Be(child, git)
-					//)
-					//					{
-					//						innerModules.Add(
-					//							nilnul.fs.address_.shield.co_.sup._DifX._ofAddresses(
-					//								folder //module
-					//								,
-					//								child
-					//							)
-					//						);
-					//						new div_.nonlink_.git_.work_.top.Bak(cfg).__Exe(
-					//							child
-					//					   );
-					//					}
-					//					else
-					//					{
-					//						new sln_.nonlink.directory_.nonlink_.git_.work_.nontop.Bak(cfg, innerModules)
-					//						{
-					//							module = nilnul.fs.address_.shield_._AddressX1.Create(folder)
-					//						}._exe(child);
-					//					}
-					//}
 				}
 				Trace.TraceInformation($@"baked {typeof(Bak_srcsInAddresses).FullName}:{folder}");
 

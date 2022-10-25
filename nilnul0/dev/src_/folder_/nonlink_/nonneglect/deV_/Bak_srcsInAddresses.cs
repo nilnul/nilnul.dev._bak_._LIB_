@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.Threading;
 
 namespace nilnul.dev.src_.folder_.nonlink_.nonneglect
@@ -8,7 +9,11 @@ namespace nilnul.dev.src_.folder_.nonlink_.nonneglect
 	///		* srcs are already checked that the eventual targets are disjoint
 	///		* each div, and div.dir, is checked on the fly such as to be unjoint  with any srcs.
 	/// </summary>
+	///
+	[Obsolete(nameof(dev.src.div_.folder_.unjoint_.nonneglect_.giT_.nonrepo.IBak))]
 	public  class Bak_srcsAsAddresses
+		:
+		dev.src.div_.folder_.unjoint_.nonneglect_.giT_.nonrepo.IBak
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
 		public nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg

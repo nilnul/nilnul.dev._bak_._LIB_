@@ -63,7 +63,6 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.nontop_.intent
 			string folder
 		)
 		{
-
 			new nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.nontop._bak.Depth1st(
 				cfg
 				,
@@ -86,9 +85,6 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.nontop_.intent
 
 			//}
 
-
 		}
-
-
 	}
 }

@@ -4,7 +4,7 @@ using nilnul.fs.address_.shields.dev_._bak;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 
-namespace nilnul.dev.sln.directory_.unjoint_.giT_.nonplain
+namespace nilnul.dev.src.sln.directory_.unjoint_.giT_.nonplain
 {
 	/// <summary>
 	/// </summary>
@@ -76,7 +76,7 @@ namespace nilnul.dev.sln.directory_.unjoint_.giT_.nonplain
 
 			if (nilnul.fs.folder.be_.git_.Work.Singleton.be_ofAddress(folder))
 			{
-				new directory_.nonlink_.giT_.work.Bak_srcsInAddresses(cfg, innerModules,innerModules2reinclude) { module=this.module}.__Exe(folder);
+				new directory_.unjoint_.giT_.work.Bak4unjoint(cfg, innerModules,innerModules2reinclude) { module=this.module}.__exe(folder);
 			}
 
 			//Trace.TraceInformation($@"baked {typeof(Bak).FullName}:{folder}");

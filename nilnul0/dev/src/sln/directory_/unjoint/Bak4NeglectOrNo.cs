@@ -47,13 +47,13 @@ namespace nilnul.dev.src.sln.directory_.unjoint
 			this._module = module;
 		}
 
-		private Bak4unjoint(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg, ConcurrentBag<DivI> innerModules, ConcurrentBag<DivI> innerModules2reinclude) : this(cfg, innerModules, innerModules2reinclude, null)
+		public Bak4unjoint(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg, ConcurrentBag<DivI> innerModules, ConcurrentBag<DivI> innerModules2reinclude) : this(cfg, innerModules, innerModules2reinclude, null)
 		{
 
 		}
 
 
-		private Bak4unjoint(
+		public Bak4unjoint(
 			nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg, ConcurrentBag<DivI> innerModules1
 		) : this(
 			cfg, innerModules1, new ConcurrentBag<DivI>()

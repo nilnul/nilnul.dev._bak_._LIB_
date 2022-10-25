@@ -4,7 +4,7 @@ using nilnul.fs.address_.shields.dev_._bak;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 
-namespace nilnul.dev.src.sln.directory_.unjoint_.giT_.nonplain
+namespace nilnul.dev.src.sln.directory_.giT_.nonplain
 {
 	/// <summary>
 	/// </summary>

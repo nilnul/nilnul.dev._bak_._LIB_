@@ -117,7 +117,12 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.bak.put
 								nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
 									client.name
 								)
-								, github, svrRepoName, git
+								,
+								github
+								,
+								svrRepoName
+								,
+								git
 							)
 						);
 					}

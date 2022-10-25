@@ -37,7 +37,6 @@ namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
 				,
 				git
 			).ToArray(
-
 			);
 
 			var names = clients.Select(
@@ -50,9 +49,11 @@ namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
 			{
 				var urls = nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.next._CreateX.Urns(
 					gitTop, names, git
-				).Select(
-					u=> nilnul.web.url.op_.unary_._DelKeyX.Op(u).ToString()
-				);
+				)
+					//.Select(
+					//	u=> nilnul.web.url.op_.unary_._DelKeyX.Op(u).ToString()
+					//)
+				;
 
 				return $@"created new bakAll branch,  of urls:
 {nilnul.txt.accumulate_.join_.DuoLineBreak.Singleton.accumulate(urls)}";

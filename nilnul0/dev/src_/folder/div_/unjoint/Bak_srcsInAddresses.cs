@@ -37,13 +37,12 @@ namespace nilnul.dev.src_.folder.div_.unjoint
 			nilnul.fs.address_.ShieldI _div_inSrc
 		)
 		{
-			
 
 			fs.address_.ShieldI shield = _div_inSrc;
 
 			Trace.TraceInformation($"{this.GetType().FullName}.{nameof(exe)}({_div_inSrc})>>>");
 
-			/// get the parent src
+			/// get the progenitor src
 
 			var parent = nilnul.fs.address_.Shield.FroAddress(
 				_cfg.srcs.addresses.Where(
@@ -51,34 +50,60 @@ namespace nilnul.dev.src_.folder.div_.unjoint
 				).Single()
 			);
 
+			var div = nilnul.fs.address_.shield.co_.sup._DifX._ofSupSub(
+				parent
+				,
+				_div_inSrc
+			);
 
+			var parseds = div.dirs.Select(d =>
+				{
+					try
+					{
+						return nilnul.fs.folder._repoName.dir.name_.idioms0Comments._ParseX.Parse(
+							d.denote.en
+						);
 
-			uint distance = nilnul.fs.address_.shield.co_.sup._DistanceX1._ofSupSub(parent, shield);
+					}
+					catch (System.Exception)
+					{
+						return null;
+						//throw;
+					}
+				}
+			//nilnul.txt.parse_.NotedWordsX.Nulable(
+			//	d.denote.en
+			//)
+			);
 
+			if (
+				parseds.Where(
+					c=>c is  null			
+				).Any()
+			)
+			{
+				return;
+			}
+			var distance=parseds.Where( x=> x.name!="").Count();
+
+			//uint distance = nilnul.fs.address_.shield.co_.sup._DistanceX1._ofSupSub(parent, shield);
 			switch (distance)
 			{
 				case 0: //src
 					new nilnul.dev.src_.folder_.unjoint.Bak(cfg).Exe(
 					   _div_inSrc.ToString()
 					);
-
 					break;
-				case 1: //sln or commented folder
-
-
+				case 1: //sln			//or commented folder
 					new nilnul.dev.src_.folder.dir_.unjoint.Bak_srcsInAddresses(cfg).exe(_div_inSrc.ToString());
 					break;
-
 				default:    //inside sln
 					new nilnul.dev.src.sln.directory_.unjoint.Bak4unjoint(cfg)._exe(
 						 shield
 						);
 					break;
 			}
-
-
 		}
-
 
 		public void exe(Exist address)
 		{

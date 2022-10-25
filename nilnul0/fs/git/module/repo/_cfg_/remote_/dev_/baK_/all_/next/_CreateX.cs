@@ -34,7 +34,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.next
 			);
 
 			var notNuls = remotes.Where(x => x != null);
-			var urls = new List<string>();
+			var urns = new List<string>();
 
 			if (notNuls.Any())
 			{
@@ -45,7 +45,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.next
 				//	notNuls.First().ToString()
 				//);
 
-				var firstUrl = nilnul.fs.git.module.repo._cfg_.remote.urn._VwX._Txt_assumesModuleAddress1Remote(
+				var firstUrn = nilnul.fs.git.module.repo._cfg_.remote.urn._VwX._Txt_assumesModuleAddress1Remote(
 					gitTop
 					,
 					
@@ -53,7 +53,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.next
 					
 				);
 
-				urls.Add(firstUrl);
+				urns.Add(firstUrn);
 
 				var nextKey =
 nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.newly._VwX._Vered_assumeModuleAddress
@@ -65,7 +65,7 @@ nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.newly._VwX._Vered_assumeM
 					,
 					nextKey.ToString()
 					,
-					firstUrl
+					firstUrn
 					,
 					git
 				);
@@ -87,7 +87,7 @@ nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.newly._VwX._Vered_assumeM
 							
 						);
 
-						urls.Add(u);
+						urns.Add(u);
 
 						nilnul.fs.git.module.repo._cfg_.remote.urns_.push._InsX._Vod_moduleAssumeAddress_urnAssume(
 							gitTop,
@@ -105,7 +105,7 @@ nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.newly._VwX._Vered_assumeM
 
 
 			}
-			return urls;
+			return urns;
 		}
 		public static IEnumerable<string> Urns(
 			nilnul.fs.git.ModuleI gitTop

@@ -59,36 +59,59 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.nontop
 		}
 
 
-		internal  void _exe(
+		internal void _exe(
 			string folder
 		)
 		{
 
-			new _bak.Depth1st(
-				cfg
-				,
-				innerModules
-				,
-				innerModules2reinclude
-				,
-				module
-			)._exe(
-				folder
-			);
 
 			if (
 				nilnul.dev.sln.div.be_._IntendGitX.Be_ofAddress(folder, cfg.git)
 		)
 			{
-				new giT_.plain0nontop_.intent._bak.Container(cfg,innerModules,innerModules2reinclude,module).Exe(folder);
+				if (module is not null)
+				{
+
+					innerModules.Add(
+						nilnul.fs.address_.shield.co_.sup._DifX._ofAddresses(
+							module
+							,
+							folder
+						)
+					);
+
+
+				}
+
+
+				new nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.nontop_.intent.Bak(
+					cfg,
+					new ConcurrentBag<DivI>(),
+					new ConcurrentBag<DivI>(),
+					nilnul.fs.address_.Shield.FroAddress(
+						folder
+					)
+				)._exe(folder);
 
 				//new intent_.giT_.plain0nontop.Bak_srcsInAddresses(cfg,innerModules,innerModules2reinclude,module).Exe(folder);
 			}
-			//else
-			//{
-			//	new nonintent_.giT_.work_.nontop.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude,module) ._exe(folder);
+			else
+			{
+				new _bak.Depth1st(
+					cfg
+					,
+					innerModules
+					,
+					innerModules2reinclude
+					,
+					module
+				)._exe(
+					folder
+				);
 
-			//}
+				//new nonintent_.giT_.work_.nontop.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude, module)._exe(folder);
+
+			}
 
 
 		}
