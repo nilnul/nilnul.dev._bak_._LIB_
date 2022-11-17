@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.azure.create.ensure_
 {
 
+	/// <summary>
+	/// 
+	/// </summary>
+	/// <see cref="nilnul.fs.git.module.repo.remote_.dev_.baK_.azure_.vered_.newest.ensure_.svr1st_._NormRepoNameX"/>
 	static public class _SvrFirstX
 	{
 		public static bool NewlyCreated(
@@ -23,6 +27,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.azure.create.ensure_
 			nilnul.win.prog_.Git git = null
 		)
 		{
+
 			if (nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.vered.be_._AnyX.Be_remoteOfNom(
 				gitTop
 				,

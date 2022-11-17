@@ -32,5 +32,11 @@
     <Setting Name="git_module_remote_bak_clients" Type="System.String" Scope="User">
       <Value Profile="(Default)">bak_clients</Value>
     </Setting>
+    <Setting Name="update_umbrella_remote_always" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="remove_azure_remote_with_invalid_reponame" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

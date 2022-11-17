@@ -69,10 +69,10 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.plain
 
 				if (
 					nilnul.dev.sln.div.be_._IntendGitX.Be_ofAddress(folder, cfg.git)
-			)
+				)
 				{
 
-					new plain0nontop_.intent._bak.Container(cfg,innerModules,innerModules2reinclude,module).Exe(folder);
+					new plain0nontop_.intent._bak.Container(cfg, innerModules, innerModules2reinclude, module).Exe(folder);
 					//new intent_.giT_.plain0nontop.Bak_srcsInAddresses(cfg,innerModules,innerModules2reinclude,module).Exe(folder);
 				}
 				//else

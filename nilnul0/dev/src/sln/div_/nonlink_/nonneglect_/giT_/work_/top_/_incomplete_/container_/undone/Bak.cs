@@ -88,7 +88,7 @@ namespace nilnul.dev.sln.div_.module_.nonlink_.nonneglect_._incomplete_.containe
 
 
 			/// ensure (only touch it if not done)
-			nilnul.fs.git.module.repo.cfg.section_.core.Longpaths.SetTrue_ofAddress(folder);
+			nilnul.fs.git.module.repo.cfg.section_.core.Longpaths.EnsureTrue_ofAddress(folder);
 
 			nilnul.fs.git.module._ignore_.exclude.put._IfLinesNonemptyX.Void_ofModuleAddress(folder, innerModules);
 

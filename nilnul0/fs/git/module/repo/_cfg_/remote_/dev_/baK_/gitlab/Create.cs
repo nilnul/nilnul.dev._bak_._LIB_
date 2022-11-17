@@ -9,6 +9,14 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.gitlab
 	//extern alias git;
 	static public class _CreateX
 	{
+		/// <summary>
+		/// assume unnormed
+		/// </summary>
+		/// <param name="_gitTop"></param>
+		/// <param name="remoteNom"></param>
+		/// <param name="usr"></param>
+		/// <param name="svrRepoName"></param>
+		/// <param name="git"></param>
 		static public void Exe(
 			nilnul.fs.git.ModuleI _gitTop
 						,

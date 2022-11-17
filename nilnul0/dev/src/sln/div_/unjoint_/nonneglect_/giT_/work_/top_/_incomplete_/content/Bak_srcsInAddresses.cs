@@ -106,6 +106,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 						break;
 					}
 
+					/// if a dir is crashed/corrupted module, the git trichnomy would indicate it's plain.
 					new nilnul.dev.src.sln.directory_.giT_.nonplain.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude)
 					{
 						module = nilnul.fs.address_.shield_._AddressX1.Create(folder)

@@ -63,7 +63,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect
 		{
 			try
 			{
-				switch (nilnul.fs.folder.categorize_.git_.PlainWorkRepo.Category_ofAddress(folderAddress))
+				switch (nilnul.fs.folder.categorize_.git_.plainWorkRepo_.Deadlined.Category_ofAddress(folderAddress))
 				{
 					case fs.folder.categorize_.git_._plainWorkRepo.Ret.Plain:
 						new nonneglect_.giT_.plain.BakByIntent(cfg, innerModules, innerModules2reinclude, module)._Exe(folderAddress);
@@ -88,7 +88,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect
 				throw;
 			}
 
-			catch (Exception e)
+			catch (Exception e) //for example timeout
 			{
 				Trace.TraceWarning($"exception in categorize for git in baking  by {this.GetType().FullName}: {folderAddress}: {e}");
 			}

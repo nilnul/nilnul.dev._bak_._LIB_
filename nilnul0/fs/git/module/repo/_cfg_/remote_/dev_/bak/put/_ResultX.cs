@@ -63,7 +63,10 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.bak.put
 					try
 					{
 						return new nilnul._op.result_.Explain<bool>(
-							baK_.azure.create.ensure_._SvrFirstX.NewlyCreated(
+							nilnul.fs.git.module.repo.remote_.dev_.baK_.azure_.vered_.newest.ensure_.svr1st_._NormRepoNameX
+							//baK_.azure.create.ensure_._SvrFirstX
+							.NewlyCreated
+							(
 								gitTop
 								,
 								nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
@@ -89,7 +92,9 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.bak.put
 					try
 					{
 						return new nilnul._op.result_.Explain<bool>(
-							baK_.github.ensure_._EnsureSvrFirstX.NewlyCreated(
+							//baK_.github.ensure_._EnsureSvrFirstX.NewlyCreated
+							nilnul.fs.git.module.repo.remote_.dev_.baK_.github_.vered_.newest.ensure_.svr1st_._EnsureSshX.NewlyCreated
+							(
 								gitTop
 								,
 								nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
@@ -111,7 +116,9 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.bak.put
 					try
 					{
 						return new nilnul._op.result_.Explain<bool>(
-							baK_.github.ensure_._EnsureSvrFirstX.NewlyCreated(
+							//baK_.github.ensure_._EnsureSvrFirstX.NewlyCreated
+nilnul.fs.git.module.repo.remote_.dev_.baK_.github_.vered_.newest.ensure_.svr1st_._EnsureSshX.NewlyCreated
+							(
 								gitTop
 								,
 								nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
@@ -137,14 +144,18 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.bak.put
 					try
 					{
 						return
-							baK_.gitlab.ensure._ResultX.NewlyCreated(
+							new nilnul._op.result_.Explain<bool>(
+							//baK_.gitlab.ensure._ResultX.NewlyCreated
+							module.repo.remote_.dev_.baK_.gitlab_.vered_.newest.ensure_._NormRepoNameX._Created_repoNameAssumeUnnormed
+							(
 								gitTop,
 																nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
 									client.name
 								)
 
-								, gitlab.usr, svrRepoName, git
+								, gitlab, svrRepoName, git
 							)
+						)
 						;
 					}
 					catch (Exception e)

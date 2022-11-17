@@ -74,6 +74,8 @@ namespace nilnul.dev.src.sln_.unjoint_.nonneglect
 			///		the semaphore is released after the task started, so the tasks are kept being started
 			cfg.semaphore.Wait(cfg.cancel);
 
+			/// todo: schedule task according to the last succeeded bak time
+
 			Task.Factory.StartNew(
 				() =>
 				{
