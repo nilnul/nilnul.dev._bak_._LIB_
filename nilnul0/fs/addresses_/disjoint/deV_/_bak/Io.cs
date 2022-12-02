@@ -193,6 +193,7 @@ namespace nilnul.fs.addresses_.disjoint.deV_._bak
 			nilnul.fs.address_.shields_.Disjoint shields2neglect
 			,
 			nilnul.fs.address_.shield.Set modules2neglect
+			, int initialAvailable
 			,
 			int moreThanCores
 			,
@@ -247,9 +248,9 @@ nilnul.fs.folder.BeIX.Be(nilnul.fs.folder.be_.link_.Sym.Singleton, f1)
 			_modules2neglect = modules2neglect;
 
 			this.semaphore = new SemaphoreSlim(
-				broughtOutResources
+				initialAvailable
 				,
-				broughtOutResources + moreThanCores
+				initialAvailable + moreThanCores
 			);
 
 
@@ -258,6 +259,43 @@ nilnul.fs.folder.BeIX.Be(nilnul.fs.folder.be_.link_.Sym.Singleton, f1)
 
 		}
 
+		public Io(
+			nilnul.dev.SrcsI_addresses srcs
+			,
+			nilnul.fs.address_.shields_.Disjoint shields2neglect
+			,
+			nilnul.fs.address_.shield.Set modules2neglect
+			,
+			int initialAvailable
+			,
+			CancellationToken cancel
+			,
+			win.prog_.Git git = null
+		):this(srcs,shields2neglect,modules2neglect,initialAvailable,0,cancel)
+		{
+
+
+		}
+
+		public Io(
+			nilnul.dev.SrcsI_addresses srcs
+			,
+			nilnul.fs.address_.shields_.Disjoint shields2neglect
+			,
+			nilnul.fs.address_.shield.Set modules2neglect
+			,
+			CancellationToken cancel
+			,
+			win.prog_.Git git = null
+		):this(
+			srcs
+			,shields2neglect,modules2neglect
+			,
+			nilnul.dev.bak.Properties.Settings.Default.semaphore
+			,cancel
+		)
+		{
+		}
 
 
 		/// <summary>
@@ -292,6 +330,35 @@ nilnul.fs.folder.BeIX.Be(nilnul.fs.folder.be_.link_.Sym.Singleton, f1)
 				shieldAddress
 			);
 		}
+		static public Io OfMoreThanCores(
+			nilnul.dev.SrcsI_addresses srcs
+			,
+			nilnul.fs.address_.shields_.Disjoint shields2neglect
+			,
+			nilnul.fs.address_.shield.Set modules2neglect
+			,
+			int moreThanCores
+			,
+			CancellationToken cancel
+			,
+			win.prog_.Git git = null
+		)
+		{
+			return new Io(
+srcs
+,
+shields2neglect
+,
+modules2neglect
+,
+broughtOutResources
+, moreThanCores
+,
+ cancel,
+			 git);
+
+		}
+
 	}
 }
 

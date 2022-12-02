@@ -9,11 +9,14 @@ using System.Linq;
 using nilnul.fs.address_;
 using nilnul.fs._address;
 using System.Collections.Generic;
+using System;
 
 namespace nilnul.dev.src.div_.nonneglect
 {
 	/// <summary>
 	/// </summary>
+	///
+	[Obsolete(nameof(srcs.each.div_._delvable),true)]
 	public  class Bak_srcsInAddresses
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;

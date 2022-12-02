@@ -12,7 +12,7 @@ namespace nilnul.dev.src.div
 	///		from this on, we no longer need to look about the progenitors, thus we can look about the child only
 	/// </summary>
 	///
-	[Obsolete(nameof(Bak_byCognom))]
+	[Obsolete(nameof(Bak_byCognom),true)]
 	public class Bak_srcsInAddresses
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;

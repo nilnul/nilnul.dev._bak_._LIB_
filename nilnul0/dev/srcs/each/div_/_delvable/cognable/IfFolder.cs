@@ -9,6 +9,7 @@ using nilnul.dev.srcs._bak;
 using nilnul.fs;
 using nilnul.fs._address;
 using nilnul.fs.address_;
+using nilnul.lang_.cognom._tex.symbol_;
 using nilnul.win.program_;
 
 namespace nilnul.dev.src.div._bak.cognable
@@ -18,6 +19,8 @@ namespace nilnul.dev.src.div._bak.cognable
 	 public class IfFolder
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
+		internal IEnumerable<Seg[]> segsEs;
+
 		public nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg
 		{
 			get { return _cfg; }
@@ -50,6 +53,8 @@ namespace nilnul.dev.src.div._bak.cognable
 					src=src,
 					cognom=cognom,
 					div=div
+					,
+					segsEs=segsEs
 				}.exe(
 					//_shield
 				);

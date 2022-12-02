@@ -24,7 +24,7 @@ namespace nilnul.fs.folder.be_.deV_.src_.bak_._neglect._cfg_
 			var spear = new address_.spear_.ParentDoc(s.address.en, ".nilnulCfg");
 			if (nilnul.fs.address_.spear.be_.File.Singleton.be(spear))
 			{
-				win.prog._run.Result r = nilnul.win.prog_.git_.cfg.read_._ResultX.Result(
+				var r = nilnul.win.prog_.git_.cfg.read_._ResultX.Result(
 					new address_.spear_.ParentDoc(s.address.en, ".nilnulCfg")
 					,
 					"bak.exclude"

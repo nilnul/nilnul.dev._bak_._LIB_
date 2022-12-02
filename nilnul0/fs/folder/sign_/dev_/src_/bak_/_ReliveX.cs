@@ -14,7 +14,7 @@ namespace nilnul.fs.folder.sign_.dev_.src_.bak_
 				return null;
 
 			}
-			win.prog._run.Result r = nilnul.win.prog_.git_.cfg.read_._ResultX.Result(
+			var r = nilnul.win.prog_.git_.cfg.read_._ResultX.Result(
 				spear,
 			   "bak.aft", git
 			);

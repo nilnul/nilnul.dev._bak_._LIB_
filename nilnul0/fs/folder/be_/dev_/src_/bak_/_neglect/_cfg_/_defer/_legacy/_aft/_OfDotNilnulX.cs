@@ -16,7 +16,7 @@ namespace nilnul.fs.folder.be_.deV_.src_.bak_._aft
 			var spear = new address_.spear_.ParentDoc(s.address.en, ".nilnul");
 			if (nilnul.fs.address_.spear.be_.File.Singleton.be(spear))
 			{
-				win.prog._run.Result r = nilnul.win.prog_.git_.cfg.read_._ResultX.Result
+				var r = nilnul.win.prog_.git_.cfg.read_._ResultX.Result
 					   (spear,
 					   "bak.aft", git);
 				if (r.beErr)

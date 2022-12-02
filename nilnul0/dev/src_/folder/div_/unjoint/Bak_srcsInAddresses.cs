@@ -6,11 +6,14 @@ using System.Diagnostics;
 using System.Threading;
 using nilnul.fs.addresses_.disjoint;
 using System.Linq;
+using System;
 
 namespace nilnul.dev.src_.folder.div_.unjoint
 {
 	/// <summary>
 	/// </summary>
+	///
+	[Obsolete(nameof(srcs.each.div_.IDelvable),true)]
 	public  class Bak4sln
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;

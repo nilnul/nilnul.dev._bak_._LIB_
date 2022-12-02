@@ -1,5 +1,6 @@
 ﻿using nilnul.fs._address;
 using nilnul.fs.address_;
+using nilnul.lang_.cognom._tex.symbol_;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -14,6 +15,8 @@ namespace nilnul.dev.src.div
 	public class Bak_byCognom
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
+		internal IEnumerable<Seg[]> segsEs;
+
 		public nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg
 		{
 			get { return _cfg; }
@@ -51,7 +54,7 @@ namespace nilnul.dev.src.div
 				div
 			);
 
-			var distance = this.cognom.Count();
+			var distance = this.segsEs.Where(s=>s.Length!=0).Count();
 
 			switch (distance)
 			{
@@ -65,7 +68,7 @@ namespace nilnul.dev.src.div
 					new nilnul.dev.src.sln_.unjoint.Bak_srcsInAddresses(cfg)._vod(_div_inSrc);
 					break;
 
-				default:    //inside sln
+				default:    //inner sln
 					new nilnul.dev.src.sln.directory_.unjoint.Bak4unjoint(
 						cfg, new ConcurrentBag<fs._address.DivI>()
 					)._exe(

@@ -53,13 +53,20 @@ namespace nilnul.dev.src.div._bak
 			);
 
 			IEnumerable<lang_.cognom._tex.symbol_.Seg> segs;
+			IEnumerable<lang_.cognom._tex.symbol_.Seg[]> segsEs;
 			try
 			{
+				segsEs = div.dirs.Select(
+					d => nilnul.lang_.cognom._TexX.Parse(
+						d.denote.en
+					).segs.ToArray()
+				);
 				segs = div.dirs.SelectMany(
 					d => nilnul.lang_.cognom._TexX.Parse(
 						d.denote.en
 					).segs
 				);
+				
 			}
 			catch (Exception e)
 			{
@@ -70,7 +77,7 @@ namespace nilnul.dev.src.div._bak
 				//throw ;
 			}
 
-			new cognable.IfFolder(cfg) { src=src,div=div, cognom=segs.Select(s=>s.name)}.vod(
+			new cognable.IfFolder(cfg) { src=src,div=div, cognom=segs.Select(s=>s.name), segsEs =segsEs}.vod(
 				//_shield
 				);
 

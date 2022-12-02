@@ -25,6 +25,8 @@ namespace nilnul.dev.src.div._bak.cognable_.folder
 	public class EnsureUnjoint
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
+		internal IEnumerable<lang_.cognom._tex.symbol_.Seg[]> segsEs;
+
 		public nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg
 		{
 			get { return _cfg; }
@@ -125,6 +127,8 @@ namespace nilnul.dev.src.div._bak.cognable_.folder
 			
 			new nilnul.dev.src.div.Bak_byCognom(cfg) {
 				src=src, div=div,cognom=cognom
+				,
+				segsEs=segsEs
 			}.exe(
 			//	_shield
 			);

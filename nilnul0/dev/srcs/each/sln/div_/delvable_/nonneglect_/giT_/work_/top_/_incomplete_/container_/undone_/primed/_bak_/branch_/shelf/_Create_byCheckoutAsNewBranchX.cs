@@ -60,7 +60,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 				//fs.git.module.head.set_.ref_._BranchX.Exe(module, bakBranch,git);
 
 				//nilnul.win.prog_.git.run.result._Void_throwErrX.OfAddress
-				nilnul.os.prog_.git.run_.timed_.ended.result._Vow_codOkX.OfAddress
+				nilnul.os.prog_.git.run_.exit_.onDue.result._Vow_codOkX.OfAddress
 
 					(
 					_location, $"checkout -b {bakBranch}", git);        //if the worktree is to be overridden by the checked-out files, an error will be thrown.

@@ -13,6 +13,7 @@ namespace nilnul.fs.addresses_._disjoint.item.deV_
 {
 	/// <summary>
 	/// processing each member of the disjoint addresses.
+	/// 
 	/// </summary>
 	public class Bak
 	{
@@ -73,52 +74,48 @@ namespace nilnul.fs.addresses_._disjoint.item.deV_
 			{
 
 				Trace.TraceInformation($"{address} in not in srcs:{cfg.srcs}");
-				//return ;
+				return;
 			}
-			else  //sup is not null
+
+			/// in src
+			if (
+				nilnul.fs.address.re_.sup_.EndMatters.Singleton.re(
+					sup, address
+				)
+			)
 			{
-
-				if (
-					nilnul.fs.address.re_.sup_.EndMatters.Singleton.re(
-						sup, address
+				new dev.src.div._bak.Cognable0not(
+						cfg
 					)
-				)
 				{
-					new dev.src.div._bak.Cognable0not(
-							cfg
-						)
-					{
-						src=src,
-					}.vod(address);
-				}
-				else if (
-					nilnul.fs.address.eq_.AsShield.Singleton.Equals(
-						address
-						,
-						sup
+					src = src,
+				}.vod(address);
+				return;
+			}
+
+			if (
+				nilnul.fs.address.eq_.AsShield.Singleton.Equals(
+					address
+					,
+					sup
+				)
+			)
+			{
+				Trace.TraceWarning($"{address} is appended a dirSep, before being taken as the sub of {sup}; or else {address} is the proper sup of {sup}. ");
+
+				new dev.src.div._bak.Cognable0not(
+						cfg
 					)
-				)
 				{
-					Trace.TraceWarning($"{address} is appended a dirSep, before being taken as the sub of {sup}; or else {address} is the proper sup of {sup}. ");
-
-					new  dev.src.div._bak.Cognable0not(
-							cfg
-						)
-					{
-						src = src,
-					}.vod(
-						(address)
-					);
-
-				}
-				else
-				{
-					Trace.TraceError($" unexpected. {address}, when converted to shield, shall be in {sup}.");
-
-				}
-
+					src = src,
+				}.vod(
+					(address)
+				);
+				return;
 
 			}
+
+			Trace.TraceError($" unexpected. {address}, when converted to shield, shall be in {sup}.");
 		}
 
 

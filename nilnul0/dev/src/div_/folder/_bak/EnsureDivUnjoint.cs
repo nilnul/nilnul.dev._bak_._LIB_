@@ -19,6 +19,8 @@ namespace nilnul.dev.src.div_.folder._bak
 	/// <remarks>
 	///
 	/// </remarks>
+	///
+	[Obsolete(nameof(srcs.each.div_._delvable.cognable_.folder.IWhetherUnjoint ),true)]
 	public class EnsureDivUnjoint
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;

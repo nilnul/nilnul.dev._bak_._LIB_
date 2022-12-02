@@ -49,10 +49,10 @@ namespace nilnul.dev.src_.folder_.unjoint_.nonneglect_.giT_.nonrepo
 			)
 		{
 			var shield = new nilnul.fs.address_.shield_.BaseDiv(
-	src
-	,
-	div
-);
+				src
+				,
+				div
+			);
 
 			var folder = new nilnul.fs.Folder(shield);
 			Trace.TraceInformation($"baking src:{folder}");

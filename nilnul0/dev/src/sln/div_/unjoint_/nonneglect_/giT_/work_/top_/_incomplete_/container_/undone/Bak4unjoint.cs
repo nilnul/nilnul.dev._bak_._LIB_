@@ -72,24 +72,17 @@ nilnul.fs.git.module.be_.Nonwrought.Singleton._Be_assumeWorkbaseAddress(folder)
 			ConcurrentBag<DivI> innerModules
 			,
 			ConcurrentBag<DivI> innerModules2reinclude
-
 		)
 		{
-
 			bool isUnlocked = false;
 			var waitInbetween = 5000;
 			var tryingTimes = 10;
 			for (int i = 0; i < tryingTimes; i++)
 			{
 				if (
-
 					isUnlocked = nilnul.fs.git.module.be_.locked.Anto.Singleton._Be_assumeWorkbaseAddress(folder))
 				{
-
-
 					break;
-
-
 				}
 				else
 				{
@@ -103,10 +96,10 @@ nilnul.fs.git.module.be_.Nonwrought.Singleton._Be_assumeWorkbaseAddress(folder)
 
 					$"after checking {tryingTimes} time at a time interval of {waitInbetween} milliseconds,  {folder} is all the way locked. backup will not be done on this repo."
 				);
-				return;
+				nilnul.fs.git.module.repo._UnlockX._ByRename_moduleAssumeAddress(folder);
 
+				//return;
 			}
-
 
 			/// ensure (only touch it if not done)
 			nilnul.fs.git.module.repo.cfg.section_.core.Longpaths.EnsureTrue_ofAddress(folder);
@@ -115,15 +108,9 @@ nilnul.fs.git.module.be_.Nonwrought.Singleton._Be_assumeWorkbaseAddress(folder)
 
 			nilnul.fs.git.module._ignore_.exclude.unput._IfLinesNonemptyX._OfModuleAddress(folder, innerModules2reinclude.Select(x => x.ToString()));
 
-
-			_exe(folder
-				
-
-				);
-
-		
+			_exe(
+				folder
+			);
 		}
-
-
 	}
 }

@@ -55,6 +55,10 @@ namespace nilnul.dev.src.sln_.unjoint_.nonneglect
 		{
 		}
 
+		/// <summary>
+		/// called by the task
+		/// </summary>
+		/// <param name="folder"></param>
 		public void __exe(
 			string folder
 		)
@@ -106,18 +110,19 @@ namespace nilnul.dev.src.sln_.unjoint_.nonneglect
 
 					try
 					{
-						nilnul.fs.git.module.repo.doc_.cfg_.custom._TimeX.Vod_ifModule(
+						//nilnul.fs.git.module.repo.doc_.cfg_.custom._TimeX.Vod_ifModule(
 							
-							folder
+						//	folder
 							
-							,null
-							,
-							_cfg.git
-						);
+						//	,null
+						//	,
+						//	_cfg.git
+						//);
+						nilnul.fs.folder.cfg.bak.visited._AppendX.Vod_folderOfAddress(folder);
 					}
 					catch (System.Exception e)
 					{
-						Trace.TraceError( $"when configing baked.time for {folder} there is exception (see rethrown exception); this may indicate that the folder is not a git module, and no '.git' subfolder is found inside." );
+						Trace.TraceError( $"when configing baked.time for {folder} there is exception:{e}; (see rethrown exception); this may indicate that the folder is not a git module, and no '.git' subfolder is found inside." );
 						//throw;
 					}
 					//cfg.shieldsNewlyBaked.Add(folder); // as is already done in module bak
