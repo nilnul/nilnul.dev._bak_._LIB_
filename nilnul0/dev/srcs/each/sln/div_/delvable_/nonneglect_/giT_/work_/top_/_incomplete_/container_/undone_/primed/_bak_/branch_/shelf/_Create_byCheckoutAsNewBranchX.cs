@@ -45,7 +45,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 			string bakVeredKey = nilnul.txt_.vered._KeyX._Txt(nilnul.dev.bak.Properties.Settings.Default.branchBak);
 			string bakBranch = bakVeredKey + timestamp;
 
-
+			/// todo: consider using "git stash"
 
 			string _oldHead = fs.git.module.repo.head._VwX.Txt(module, git);
 			Trace.TraceInformation($"oldHead:{_oldHead} of {_location}");
@@ -64,6 +64,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 
 					(
 					_location, $"checkout -b {bakBranch}", git);        //if the worktree is to be overridden by the checked-out files, an error will be thrown.
+				//// todo: "checkout -b" means if large files are commited in somewhere in the history, that file won't be bunced by server quota; consider using "checkout --orphan" in addtion to this to keep the current snapshot without history;
 
 			}
 			catch (Exception x)

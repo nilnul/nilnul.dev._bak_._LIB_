@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace nilnul.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.primed._bak_.branch_.shelf.create._collapse
+namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.primed._bak_.branch_.shelf.create._collapse
 {
 	/// <summary>
 	/// if the last two bakBranches are same in contents, delete the last one, 

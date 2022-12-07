@@ -89,10 +89,10 @@
       <HintPath>packages\AE.Net.Mail.1.7.7816.38666\lib\net48\AE.Net.Mail.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.CodeCommit, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\AWSSDK.CodeCommit.3.7.100.27\lib\net45\AWSSDK.CodeCommit.dll</HintPath>
+      <HintPath>..\..\(packages)\AWSSDK.CodeCommit.3.7.100.30\lib\net45\AWSSDK.CodeCommit.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\AWSSDK.Core.3.7.100.27\lib\net45\AWSSDK.Core.dll</HintPath>
+      <HintPath>..\..\(packages)\AWSSDK.Core.3.7.101.2\lib\net45\AWSSDK.Core.dll</HintPath>
     </Reference>
     <Reference Include="DotNetZip, Version=1.16.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
       <HintPath>packages\DotNetZip.1.16.0\lib\net40\DotNetZip.dll</HintPath>
@@ -358,7 +358,7 @@
       <HintPath>..\..\(packages)\nilnul._dev_._LIB_.1.1.221023.51332\lib\net481\nilnul._dev_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._fs_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul._fs_._LIB_.2.1.221202.150820\lib\net481\nilnul._fs_._LIB_.dll</HintPath>
+      <HintPath>..\..\(packages)\nilnul._fs_._LIB_.2.1.221207.132007\lib\net481\nilnul._fs_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._fs_._WIN_CTR_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\nilnul._fs_._WIN_CTR_.1.1.220828.160201\lib\net481\nilnul._fs_._WIN_CTR_.dll</HintPath>
@@ -1233,7 +1233,7 @@
     <Content Include="prj_\_cs_\target_\Msg.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\..\%28packages%29\AWSSDK.CodeCommit.3.7.100.27\analyzers\dotnet\cs\AWSSDK.CodeCommit.CodeAnalysis.dll" />
+    <Analyzer Include="..\..\%28packages%29\AWSSDK.CodeCommit.3.7.100.30\analyzers\dotnet\cs\AWSSDK.CodeCommit.CodeAnalysis.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="PostBuildMacros">
