@@ -10,6 +10,12 @@ using System.Threading.Tasks;
 
 namespace nilnul.dev.src_.folder.dir_.unjoint
 {
+	[Obsolete(
+		nameof(nilnul.dev.srcs.each.div_.delvable_.dispat_.nonneglect_.giT_.nonrepo_.incomplete.dir_.enlist_.unjoint.IBak
+)
+		,
+		true
+	)]
 	public class Bak_srcsInAddresses
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
@@ -52,7 +58,7 @@ namespace nilnul.dev.src_.folder.dir_.unjoint
 			else
 			{
 				///the parent is nonneglected; but that doesnot mean the dir is nonneglected
-				new src.sln_.unjoint.Bak_srcsInAddresses(cfg)._vod(folder);
+				new srcs.each.sln_.delvable.BakTraverse(cfg)._vod(folder);
 
 			}
 		}

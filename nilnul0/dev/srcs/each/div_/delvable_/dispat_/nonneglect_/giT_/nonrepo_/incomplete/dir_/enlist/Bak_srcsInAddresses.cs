@@ -12,6 +12,9 @@ using System.Threading.Tasks;
 
 namespace nilnul.dev.src_.folder_.unjoint_.nonneglect_.giT_.nonrepo_.incomplete.dir
 {
+	/// <summary>
+	/// for enlisted
+	/// </summary>
 	public class Bak_srcsInAddresses
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
@@ -30,9 +33,9 @@ namespace nilnul.dev.src_.folder_.unjoint_.nonneglect_.giT_.nonrepo_.incomplete.
 			_cfg = cfg;
 		}
 
-		 public void _exe(
-			nilnul.fs.folder_.ParentDir folder
-		)
+		public void _exe(
+		   nilnul.fs.folder_.ParentDir folder
+	   )
 		{
 
 			if (
@@ -51,14 +54,14 @@ namespace nilnul.dev.src_.folder_.unjoint_.nonneglect_.giT_.nonrepo_.incomplete.
 			}
 			else
 			{
-			new dir_.unjoint.Bak_srcsInAddresses(_cfg)
-			{
-				src = this.src
-					,
-				div = this.div
-					,
-				cognom = this.cognom
-			}.Exe(folder);
+				new dir_.unjoint.Bak_srcsInAddresses(_cfg)
+				{
+					src = this.src
+						,
+					div = this.div
+						,
+					cognom = this.cognom
+				}.Exe(folder);
 
 			}
 
@@ -70,9 +73,9 @@ namespace nilnul.dev.src_.folder_.unjoint_.nonneglect_.giT_.nonrepo_.incomplete.
 		/// <param name="cancel"></param>
 		/// <param name="git"></param>
 		/// <returns>newly baked</returns>
-		 public void exe(
-			nilnul.fs.FolderI folder
-		)
+		public void exe(
+		   nilnul.fs.FolderI folder
+	   )
 		{
 
 			_exe(new nilnul.fs.folder_.ParentDir(folder));
@@ -95,11 +98,11 @@ namespace nilnul.dev.src_.folder_.unjoint_.nonneglect_.giT_.nonrepo_.incomplete.
 			//}
 		}
 
-		
 
-		 public void exe_ofAddress(
-			string folder
-		)
+
+		public void exe_ofAddress(
+		   string folder
+	   )
 		{
 			exe(nilnul.fs.Folder.FroAddress(folder));
 		}

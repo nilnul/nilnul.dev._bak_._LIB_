@@ -11,7 +11,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.intent
 	/// gien srcs, bak a disjoint addresses.
 	/// </summary>
 	///
-	[Obsolete("categorize according to git first; then depth1st; then for the intent.")]
+	//[Obsolete("categorize according to git first; then depth1st; then for the intent.")]
 	public  class Bak_srcsInAddress
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;

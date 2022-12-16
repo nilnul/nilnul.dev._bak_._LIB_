@@ -19,6 +19,16 @@ namespace nilnul.fs.addresses_.disjoint.deV_._bak
 	/// </summary>
 	public class Io
 	{
+		private BlockingCollection<(string,DateTime)> _slnVisitingEs=new dev.srcs.each.sln_.delvable._bak.SlnVisitingEs().asBlockingCollection();
+
+		public BlockingCollection<(string,DateTime)> slnVisitingEs
+		{
+			get {
+				return _slnVisitingEs;
+			}
+			
+		}
+
 		private nilnul.dev.SrcsI_addresses _srcs;
 		public nilnul.dev.SrcsI_addresses srcs
 		{

@@ -26,7 +26,7 @@ namespace nilnul.fs.addresses_.disjoint.deV_._bak.io
 			//var merged = shieldsBaked.Concat(newlyBaked);
 
 			//var newDoneFolders = nilnul.fs.address_.shields_.Disjoint.Fro(merged);
-
+			//todo: sub
 			if (
 				nilnul.fs.address_.shield.set.Eq.Singleton.eq_ofAddresses(
 					nilnul.dev.Properties.SettingsX.Srcs	//._dev_._bak_._LIB_.Properties.SettingsX.shields2bak

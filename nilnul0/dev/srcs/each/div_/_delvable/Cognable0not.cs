@@ -16,6 +16,7 @@ namespace nilnul.dev.src.div._bak
 	/// <summary>
 	/// for an individual shield, check if the div is cognable
 	/// </summary>
+	/// <see cref="dev.srcs.each.div_._delvable.ICognable0not"/>
 	public class Cognable0not
 	{
 

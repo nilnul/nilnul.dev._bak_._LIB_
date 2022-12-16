@@ -16,7 +16,8 @@ namespace nilnul.dev.src.div._bak.cognable
 {
 	/// <summary>
 	/// </summary>
-	 public class IfFolder
+	/// <see cref="dev.srcs.each.div_._delvable.cognable.IWhetherFolder"/>
+	public class IfFolder
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
 		internal IEnumerable<Seg[]> segsEs;
@@ -49,7 +50,7 @@ namespace nilnul.dev.src.div._bak.cognable
 
 			if (nilnul.fs.address_.shield.be_.Folder.Singleton.be(_shield) )
 			{
-				new cognable_.folder.EnsureUnjoint(cfg) {
+				new dev.srcs.each.div_._delvable.cognable_.folder.WhetherUnjoint(cfg) {
 					src=src,
 					cognom=cognom,
 					div=div

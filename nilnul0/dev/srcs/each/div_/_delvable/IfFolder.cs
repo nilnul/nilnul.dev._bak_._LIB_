@@ -14,6 +14,8 @@ namespace nilnul.dev.src.div._bak
 	/// <summary>
 	/// for an individual address, check if it's a folder
 	/// </summary>
+	///
+	[Obsolete(nameof(srcs.each.div_._delvable.cognable.IWhetherFolder), true)]
 	public class IfFolder
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;

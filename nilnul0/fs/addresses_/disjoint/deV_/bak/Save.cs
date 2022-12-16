@@ -80,19 +80,19 @@ namespace nilnul.fs.addresses_.disjoint.deV_.bak
 				#region not necessary as errors are already logged one by one in place
 
 				#endregion
-				//foreach (Exception v in e.Flatten().InnerExceptions)
-				//{
-				//	if (v is TaskCanceledException)
-				//	{
-				//		Trace.TraceInformation("   TaskCanceledException: Task {0}",
-				//						  ((TaskCanceledException)v).Task.Id);
-				//	}
-				//	else
-				//	{
-				//		Trace.TraceError($"exception when processing srcs: {shieldsTxt}: {e}");
-				//	}
-				//}
-				Trace.TraceError($"exception when processing srcs: {shieldsTxt}: {e}");
+				foreach (Exception v in e.Flatten().InnerExceptions)
+				{
+					if (v is TaskCanceledException)
+					{
+						Trace.TraceInformation("   TaskCanceledException: Task {0}",
+										  ((TaskCanceledException)v).Task.Id);
+					}
+					else
+					{
+						Trace.TraceError($"exception when processing srcs: {shieldsTxt}: {e}");
+					}
+				}
+				//Trace.TraceError($"exception when processing srcs: {shieldsTxt}: {e}");
 
 
 			}

@@ -1,19 +1,18 @@
 ﻿using nilnul.fs;
+using nilnul.fs._address;
+using nilnul.fs.address_;
 using System;
+using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src.sln
+namespace nilnul.dev.src.sln_.unjoint
 {
 	/// <summary>
 	/// </summary>
 	///
-	[Obsolete("as we start from "+nameof(dev.srcs.each.div_._delvable.ICognable0not) + ", sln shall be tacked there at "+ nameof( nilnul.dev.srcs.each.div_.delvable_.dispat_.nonneglect_.giT_.nonrepo_.incomplete.dir_.enlist.IBak
-) +"; "
-		,
-		true
-	)]
+	[Obsolete(nameof(srcs.each.sln_.delvable.BakTackler))]
 	public  class Bak_srcsInAddresses
 	{
 
@@ -24,38 +23,59 @@ namespace nilnul.dev.src.sln
 			set { _cfg = value; }
 		}
 
-		public Bak_srcsInAddresses(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg)
+
+		private nilnul.fs.address_.ShieldI _module;
+		public nilnul.fs.address_.ShieldI module
 		{
-			_cfg = cfg;
+			get => _module;
+			set => _module = value;
 		}
 
-		//private void __Exe(
-		//	string folder
-		//)
-		//{
-		//	new sln_.nonlink.div_.nonlink_.intent.Bak(cfg).__Exe(folder);
-		//}
+		public ConcurrentBag<nilnul.fs._address.DivI> innerModules;
+		public ConcurrentBag<nilnul.fs._address.DivI> innerModules2reinclude;
+
+		public Bak_srcsInAddresses(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg, ConcurrentBag<DivI> innerModules, ConcurrentBag<DivI> innerModules2reinclude, nilnul.fs.address_.ShieldI module)
+		{
+			this.cfg = cfg;
+			this.innerModules = innerModules;
+			this.innerModules2reinclude = innerModules2reinclude;
+			this._module = module;
+		}
+
+		private Bak_srcsInAddresses(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg, ConcurrentBag<DivI> innerModules, ConcurrentBag<DivI> innerModules2reinclude) : this(cfg, innerModules, innerModules2reinclude, null)
+		{
+
+		}
+
+
+		private Bak_srcsInAddresses(
+			nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg, ConcurrentBag<DivI> innerModules1
+		) : this(
+			cfg, innerModules1, new ConcurrentBag<DivI>()
+		)
+		{
+		}
+
+		public Bak_srcsInAddresses(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg) : this(cfg, new ConcurrentBag<DivI>())
+		{
+		}
 
 		/// <summary>
 		/// the instance of this will bak a shield inside sln in serial. 
 		/// we can use this instace to bak a lot of slns. and these slns will run in parallel 
 		/// </summary>
 		/// <param name="folder"></param>
-		public  void _StartTask(string folder)
+		public  void _vod_ofAddress(string folder)
 		{
-			///todo: schedule the sln according to last bak successful time;
 
-			if (nilnul.fs.folder.dir.be_._SymlinkX.Be_ofAddress(folder))
+			if (nilnul.fs.folder.be_.deV_.src_.bak_._NeglectX.Be_ofAddress(folder, cfg.git))
 			{
-				new sln_.link.Bak4unjoint(_cfg).exe_ofAddress(folder);
-
+				Trace.TraceWarning($"{folder} is ignored");
 			}
 			else
 			{
-				new dev.srcs.each.sln_.delvable.BakTraverse(_cfg)._vod_ofAddress(folder);
+				new unjoint_.nonneglect.Bak_srcsInAddresses(cfg,innerModules,innerModules2reinclude,module)._StartTask(folder);
 			}
-
-			
 
 
 
@@ -111,9 +131,14 @@ namespace nilnul.dev.src.sln
 
 		}
 
-		public  void _StartTask(FolderI folder)
+		internal void _vod(ShieldI shield)
 		{
-			_StartTask(folder.ToString());
+			_vod_ofAddress(shield.ToString());
+		}
+
+		public  void _vod(FolderI folder)
+		{
+			_vod_ofAddress(folder.ToString());
 		}
 	}
 }

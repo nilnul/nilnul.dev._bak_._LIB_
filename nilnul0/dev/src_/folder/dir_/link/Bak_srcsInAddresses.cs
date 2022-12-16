@@ -10,6 +10,12 @@ using System.Threading.Tasks;
 
 namespace nilnul.dev.src_.folder.dir_.link
 {
+	[Obsolete(
+		nameof( nilnul.dev.srcs.each.div_.delvable_.dispat_.nonneglect_.giT_.nonrepo_.incomplete.dir_.enlist_.link.IBak
+)
+		,
+		true
+	)]
 	public class Bak_srcsInAddresses
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;

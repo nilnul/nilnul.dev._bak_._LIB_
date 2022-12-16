@@ -1,16 +1,18 @@
 ﻿using nilnul.fs.address_.shields_;
+using nilnul.obj.str;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace nilnul.fs.addresses_.disjoint.deV_
 {
 	/// <summary>
 	/// given srcs that is disjoint addresses(including both spears and shields), bak disjoint addresses
 	/// </summary>
-	public  class Bak
+	public class Bak
 	{
 		/// <summary>
 		/// we extract nondisjoint folders, which is destinyDisjoint (with regards to their destiny that is nonlink, the collection is disjoint).
@@ -34,9 +36,9 @@ namespace nilnul.fs.addresses_.disjoint.deV_
 		/// <param name="_shieldsDisjoint">
 		/// disjoint
 		/// </param>
-		public  void _Bak(
+		public void _Bak(
 			IEnumerable<string> _shieldsDisjoint
-			
+
 		)
 		{
 			var cancel = cfg.cancel;
@@ -50,21 +52,40 @@ namespace nilnul.fs.addresses_.disjoint.deV_
 			}
 
 			//Trace.Indent();
-		
+			var t = Task.Factory.StartNew(
+				() => cfg.slnVisitingEs.GetConsumingEnumerable().Each(
+					s =>
+					new nilnul.dev.srcs.each.sln_.delvable.BakTackler(cfg)._startTask_ofAddress(s.Item1) ///here wouldnot return for next if semophore stalls;
+				)
+				,
+				cancel
+								,
+				TaskCreationOptions.AttachedToParent
+				, TaskScheduler.Current //TaskScheduler
+
+
+			);
+
 			try
 			{
+
 				foreach (string src in _shieldsDisjoint)
 				{
 					cancel.ThrowIfCancellationRequested();
 
 					new nilnul.fs.addresses_._disjoint.item.deV_.Bak(cfg).vod_ofAddress(src);
 				}
+
 			}
 			finally
 			{
+				cfg.slnVisitingEs.CompleteAdding(
+
+				);
 				//Trace.Unindent();
 
 			}
+			t.Wait();
 
 			//throw new NotImplementedException();
 		}
@@ -76,31 +97,31 @@ namespace nilnul.fs.addresses_.disjoint.deV_
 			);
 		}
 
-		public  void _ShuffleAndBak(
+		public void _ShuffleAndBak(
 			IEnumerable<string> _shieldsDisjoint
-			
+
 		)
 
-			
+
 		{
 			//shall be shuffled and shown in UI lest the UI is inconsisitent with the order in action.
 			_Bak(
 				/*nilnul.obj.str.op_.unary_._ShuffleX.Op*/
 				(_shieldsDisjoint)
-				
+
 			);
 
 		}
 
-		public  void _Bak( Disjoint disjoint)
+		public void _Bak(Disjoint disjoint)
 		{
-			_Bak( disjoint.toOriginal().Select(x => x.ToString()));
+			_Bak(disjoint.toOriginal().Select(x => x.ToString()));
 
 			//throw new NotImplementedException();
 		}
 
 
-		
+
 
 	}
 }

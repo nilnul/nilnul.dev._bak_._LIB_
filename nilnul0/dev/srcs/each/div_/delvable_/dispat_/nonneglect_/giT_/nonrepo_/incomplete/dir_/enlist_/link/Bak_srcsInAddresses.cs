@@ -38,7 +38,7 @@ namespace nilnul.dev.src_.folder_.unjoint_.nonneglect_.giT_.nonrepo_.incomplete.
 
 			if (key is null)
 			{
-				new dir_.unjoint.Bak_srcsInAddresses(_cfg).Exe(folder);
+				new dir_.unjoint.Bak_srcsInAddresses(_cfg) { src=this.src, div=this.div }.Exe(folder);
 
 			}
 			else

@@ -85,7 +85,7 @@ namespace nilnul.dev.src_.folder_.unjoint_.nonneglect_.giT_.nonrepo_.incomplete.
 				return;
 			}
 				///the parent is nonneglected; but that doesnot mean the dir is nonneglected
-			new src.sln_.unjoint.Bak_srcsInAddresses(cfg){
+			new srcs.each.sln_.delvable.BakTraverse(cfg){
 					
 				}._vod(folder);
 
