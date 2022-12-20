@@ -34,8 +34,12 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 			,
 			nilnul.win.prog_.Git git = null)
 		{
+			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
 			var branch=_Create_byCheckoutAsNewBranchX._Branch(_location,  cancel, git);
 
+
+
+			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
 			var newBranch= _collapse._DropRedundantX._Succeed(_location, branch, git);
 			newlyCreated = (branch == newBranch);
 			return newBranch;

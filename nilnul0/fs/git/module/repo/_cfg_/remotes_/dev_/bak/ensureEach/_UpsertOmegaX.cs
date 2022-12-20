@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using nilnul.fs.folder_.git_;
+using System.Threading;
 
 namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
 {
@@ -47,6 +48,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
 
 			if (newlyCreatedS.Any(x => x.ret))
 			{
+				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(gitTop.ToString()).Wait();
 				var urls = nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.next._CreateX.Urns(
 					gitTop, names, git
 				)
@@ -60,6 +62,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
 			}
 			else
 			{
+				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(gitTop.ToString()).Wait();
 				return remote_.dev_.baK_.all_.last.nulable.urns._EnsureX.Msg(
 					gitTop
 					,

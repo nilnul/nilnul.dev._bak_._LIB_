@@ -8,8 +8,9 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 {
 	/// <summary>
 	/// primed locally;
-	///		commited
 	///		configed
+	///			remote
+	///		not commited?
 	/// ready to push.
 	/// 
 	/// </summary>

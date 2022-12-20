@@ -25,7 +25,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 			string bakVeredKey = nilnul.txt_.vered._KeyX._Txt(newBakBranch);
 
 
-			
+			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location, 5*60*1000).Wait();
 
 			txt_.Vered prevNulable = nilnul.fs.git.module.repo.branch_.vered_.key.delNewIfSame._RetPrevIfDelElseNulX.PrevNulabe_ofModuleAddress(
 				_location

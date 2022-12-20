@@ -28,7 +28,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.bak.put
 			nilnul.win.prog_.Git git = null
 		)
 		{
-
+			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(gitTop.ToString()).Wait();
 			switch (client.client)
 			{
 				case nilnul.fs.git.svr_.amazon.client_.AccInVault amazon:

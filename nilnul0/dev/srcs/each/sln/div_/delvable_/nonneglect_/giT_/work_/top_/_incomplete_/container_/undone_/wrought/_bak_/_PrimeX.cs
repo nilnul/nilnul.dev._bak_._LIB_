@@ -31,6 +31,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			string name = "";
 			try
 			{
+
 				name = nilnul.fs.folder.repoName_.ThrowIfNotInSrc.Singleton.getName_ofAddress(_folder_address);
 
 				if (name.Length>64)
@@ -66,6 +67,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			cancel.ThrowIfCancellationRequested();
 			#region clients
 
+			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_folder_address).Wait();
 			var ensured = nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK._UpsertOmegaX.Msg(_folder_address, name,git);
 
 			

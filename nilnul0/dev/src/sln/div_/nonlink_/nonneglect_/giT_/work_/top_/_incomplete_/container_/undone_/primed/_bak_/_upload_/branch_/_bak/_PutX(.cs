@@ -48,6 +48,7 @@ namespace nilnul.dev.sln_.nonlink.div_.nonlink_.nonneglect_.git_.work_.top_._inc
 			//nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, $"checkout -b {bakBranch}", $"exception when: checkout -b {bakBranch} @ {_location}", git);
 			try
 			{
+				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
 				fs.git.module.head.set_.ref_._BranchX.Exe(module, bakBranch,git);
 
 				//nilnul.win.prog_.git.run.result._Void_throwErrX.OfAddress(
@@ -64,9 +65,10 @@ namespace nilnul.dev.sln_.nonlink.div_.nonlink_.nonneglect_.git_.work_.top_._inc
 
 			try
 			{
-				//System.Threading.Thread.Sleep(5000);// avoid the lock of files in .git such as head.lock or index.lock
+				//System.Threading.Thread.Slep(5000);// avoid the lock of files in .git such as head.lock or index.lock
 				//nilnul.fs.git.module.exe_._TilUnlockX._TilUnlock_ofTopAddress(_location, git);
 
+				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
 				int exitCode = nilnul.fs.git.module.index.commit_.allowEmpty_._MinUiTitledX.ExitCode(
 					_location
 					,
@@ -86,12 +88,14 @@ namespace nilnul.dev.sln_.nonlink.div_.nonlink_.nonneglect_.git_.work_.top_._inc
 				Trace.TraceError($" when commiting worksite for {_location}:{ex}");
 				Trace.TraceInformation($"setting head to original @ {_location}");
 
-				/*System.Threading.Thread.Sleep(5000)*/
+				/*System.Threading.Thread.Slep(5000)*/
 				;// avoid the lock of files in .git such as head.lock or index.lock
 				 //nilnul.fs.git.module.exe_._TilUnlockX._TilUnlock_ofTopAddress(_location, git);
 
 				//await Task.Delay(5000);
 				///todo: seemingly stalled here once
+				///
+				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
 				fs.git.module.head.set_._ReferenceX.Exe(module, _oldHead);
 				Trace.TraceInformation($"setted head to original @ {_location}");
 
@@ -103,9 +107,10 @@ namespace nilnul.dev.sln_.nonlink.div_.nonlink_.nonneglect_.git_.work_.top_._inc
 
 			try
 			{
-				//System.Threading.Thread.Sleep(5000);// avoid the lock of files in .git such as head.lock or index.lock
+				//System.Threading.Thread.Slep(5000);// avoid the lock of files in .git such as head.lock or index.lock
 				//nilnul.fs.git.module.exe_._TilUnlockX._TilUnlock_ofTopAddress(_location, git);
 
+				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
 				new nilnul.obj.vow_.true_.xpn_.Unacceptable(
 					$"exception when further adding all and commiting for {_location}"
 				).vow(
@@ -131,7 +136,11 @@ namespace nilnul.dev.sln_.nonlink.div_.nonlink_.nonneglect_.git_.work_.top_._inc
 
 				//	throw;
 				//}
+
+				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
 				fs.git.module.head.set_._ReferenceX.Exe(module, _oldHead);
+
+				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
 				nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, "reset", git);
 
 				Trace.TraceInformation($"setted head to original   @ {_location}");
@@ -149,31 +158,37 @@ namespace nilnul.dev.sln_.nonlink.div_.nonlink_.nonneglect_.git_.work_.top_._inc
 
 			Trace.TraceInformation($"creating temp branch:{tempBranch} @ {_location}");
 
-			//System.Threading.Thread.Sleep(5000);// avoid the lock of files in .git such as head.lock or index.lock
+			//System.Threading.Thread.Slep(5000);// avoid the lock of files in .git such as head.lock or index.lock
 
+			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
 			nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, $"checkout -b {tempBranch}", $"exception when checkout -b {tempBranch} @{_location}", git);
 
 			Trace.TraceInformation($"created temp branch{tempBranch}  @ {_location}");
 			Trace.TraceInformation($"backtracking head  @ {_location}");
 
-			//System.Threading.Thread.Sleep(5000);// avoid the lock of files in .git such as head.lock or index.lock
+			//System.Threading.Thread.Slep(5000);// avoid the lock of files in .git such as head.lock or index.lock
 
 			//change the index
 			//nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, "reset HEAD~", git);
+
+			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
 			nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, "reset HEAD~", git);
 			Trace.TraceInformation($"backtracked  @ {_location}");
 
 			Trace.TraceInformation($"setting head to original  @ {_location}");
 
-			//System.Threading.Thread.Sleep(5000);// avoid the lock of files in .git such as head.lock or index.lock
+			//System.Threading.Thread.Slep(5000);// avoid the lock of files in .git such as head.lock or index.lock
 
+			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
 			fs.git.module.head.set_._ReferenceX.Exe(module, _oldHead);
 
 			Trace.TraceInformation($"setted head to original  @ {_location}");
 			Trace.TraceInformation($"removing tmp branch  @ {_location}");
 
-			//System.Threading.Thread.Sleep(5000);// avoid the lock of files in .git such as head.lock or index.lock
+			//System.Threading.Thread.Slep(5000);// avoid the lock of files in .git such as head.lock or index.lock
 			//nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, $"branch -D {tempBranch}", git);
+
+			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
 			nilnul.win.prog_.git.run_.ui.exitCode.vow_._NilX.OfAddress(_location, $"branch -D {tempBranch}", git);
 			Trace.TraceInformation($"removed tmp branch  @ {_location}");
 

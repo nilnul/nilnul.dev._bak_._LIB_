@@ -85,7 +85,20 @@ namespace nilnul.fs.addresses_.disjoint.deV_
 				//Trace.Unindent();
 
 			}
-			t.Wait();
+			try
+			{
+				t.Wait();
+			}
+			catch (AggregateException ex)
+			{
+				ex.Handle(
+					c => {
+						/// if it's intentionally cancelled, ignore them
+						return c is OperationCanceledException oc && oc.CancellationToken == cfg.cancel;
+					}
+				);
+			}
+			
 
 			//throw new NotImplementedException();
 		}

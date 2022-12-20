@@ -115,7 +115,7 @@ namespace nilnul.fs.git.module.repo.remote_.dev_.baK_.gitlab_.vered_.newest.ensu
 								if (
 
 									Regex.IsMatch(
-										repoName,@"(\A|\W|\Z){2}"
+										repoName,@"\A\W|\W\W|\W\z"
 									)
 								//new nilnul.obj.co.str.of_._PeekAhead_ovStr<char>(
 								//	repoName
@@ -130,10 +130,7 @@ namespace nilnul.fs.git.module.repo.remote_.dev_.baK_.gitlab_.vered_.newest.ensu
 
 								return false;
 
-								bool isPunc(char c)
-								{
-									return !char.IsLetterOrDigit(c);
-								}
+							
 							}
 						}
 						return true;

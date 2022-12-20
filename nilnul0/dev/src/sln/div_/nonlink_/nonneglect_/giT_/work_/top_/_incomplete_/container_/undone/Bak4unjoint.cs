@@ -7,13 +7,20 @@ using nilnul.fs._address;
 using nilnul.fs.address_.shields.dev_._bak;
 using nilnul.fs.git.module;
 //using nilnul.fs.folder;
-namespace nilnul.dev.sln.div_.nonlink_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone
+namespace	nilnul.dev.		sln.div_.nonlink_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone
 
 {
 	/// <summary>
 	/// use this when you want to bak this module only (not to bak any modules in below)
 	/// </summary>
-	public  class Bak_srcsInAddresses
+	///
+	[Obsolete(
+		nameof(
+			nilnul.dev.src.	sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone.Bak_srcsInAddresses)
+		,true
+
+	)]
+	public class Bak_srcsInAddresses
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
 		public nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg
@@ -58,25 +65,12 @@ namespace nilnul.dev.sln.div_.nonlink_.nonneglect_.giT_.work_.top_._incomplete_.
 			bool isUnlocked = false;
 			var waitInbetween = 5000;
 			var tryingTimes = 10;
-			for (int i = 0; i < tryingTimes; i++)
+			try
 			{
-				if (
+				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(folder).Wait();
 
-					isUnlocked = nilnul.fs.git.module.be_.locked.Anto.Singleton._Be_assumeWorkbaseAddress(folder))
-				{
-
-
-					break;
-
-
-				}
-				else
-				{
-					Thread.Sleep(waitInbetween);
-				}
 			}
-
-			if (!isUnlocked)
+			catch (Exception)
 			{
 				Trace.TraceError(
 
@@ -85,6 +79,35 @@ namespace nilnul.dev.sln.div_.nonlink_.nonneglect_.giT_.work_.top_._incomplete_.
 				return;
 
 			}
+
+
+			//for (int i = 0; i < tryingTimes; i++)
+			//{
+			//	if (
+
+			//		isUnlocked = nilnul.fs.git.module.be_.locked.Anto.Singleton._Be_assumeWorkbaseAddress(folder))
+			//	{
+
+
+			//		break;
+
+
+			//	}
+			//	else
+			//	{
+			//		Thread.Slep(waitInbetween);
+			//	}
+			//}
+
+			//if (!isUnlocked)
+			//{
+			//	Trace.TraceError(
+
+			//		$"after checking {tryingTimes} time at a time interval of {waitInbetween} milliseconds,  {folder} is all the way locked. backup will not be done on this repo."
+			//	);
+			//	return;
+
+			//}
 
 
 			/// ensure (only touch it if not done)
@@ -96,16 +119,16 @@ namespace nilnul.dev.sln.div_.nonlink_.nonneglect_.giT_.work_.top_._incomplete_.
 
 
 			_exe(folder
-				
+
 
 				);
 
-		
+
 		}
 
 		public void _exe(
 			string folder
-		
+
 
 
 
@@ -115,16 +138,16 @@ namespace nilnul.dev.sln.div_.nonlink_.nonneglect_.giT_.work_.top_._incomplete_.
 			///
 
 
-			if (nilnul.fs.git.module.be_.dev_.NothingButSetting.Singleton.Be_ofAddress(folder) )
+			if (nilnul.fs.git.module.be_.dev_.NothingButSetting.Singleton.Be_ofAddress(folder))
 			{
-				new  nilnul.dev.sln.div_.nonlink_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.nonwrought.Bak_srcsInAddresses(_cfg)._exe(folder); //no need to pass in the parameters: innerModules and innerModules2reinclude, as have already been done by caller.
+				new nilnul.dev.sln.div_.nonlink_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.nonwrought.Bak_srcsInAddresses(_cfg)._exe(folder); //no need to pass in the parameters: innerModules and innerModules2reinclude, as have already been done by caller.
 			}
 			else
 			{
 				new undone_.wrought.Bak_srcsInAddresses(_cfg)._exe(folder);
 			}
 
-		
+
 		}
 
 	}

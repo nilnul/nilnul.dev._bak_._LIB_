@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
@@ -30,15 +31,19 @@ namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
 		)
 		{
 			return clients.Select(
-				c=>remote_.dev_.bak.put._ResultX.NewlyCreated(
-					gitTop
-					,
-					svrRepoName
-					,
-					c
-					,
-					git
-				)
+				c=>
+				{
+					nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(gitTop.ToString()).Wait();
+					return remote_.dev_.bak.put._ResultX.NewlyCreated(
+						gitTop
+						,
+						svrRepoName
+						,
+						c
+						,
+						git
+					);
+				}
 			);
 		}
 

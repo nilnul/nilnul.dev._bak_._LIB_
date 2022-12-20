@@ -35,7 +35,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 		//}
 
 		//[Obsolete("",true)]
-		private void _exe(
+		internal void _exe(
 			string folder
 		)
 		{
@@ -74,32 +74,50 @@ nilnul.fs.git.module.be_.Nonwrought.Singleton._Be_assumeWorkbaseAddress(folder)
 			ConcurrentBag<DivI> innerModules2reinclude
 		)
 		{
-			bool isUnlocked = false;
-			var waitInbetween = 5000;
-			var tryingTimes = 10;
-			for (int i = 0; i < tryingTimes; i++)
-			{
-				if (
-					isUnlocked = nilnul.fs.git.module.be_.locked.Anto.Singleton._Be_assumeWorkbaseAddress(folder))
-				{
-					break;
-				}
-				else
-				{
-					Thread.Sleep(waitInbetween);
-				}
-			}
+			//bool isUnlocked = false;
+			//var waitInbetween = 5000;
+			//var tryingTimes = 10;
+				var duration = 7*60 * 1000;
 
-			if (!isUnlocked)
+			try
+			{
+				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(folder,duration).Wait();
+
+			}
+			catch (Exception)
 			{
 				Trace.TraceError(
 
-					$"after checking {tryingTimes} time at a time interval of {waitInbetween} milliseconds,  {folder} is all the way locked. backup will not be done on this repo."
+					$"after waiting for {duration} milliseconds,  {folder} is all the way locked. backup will not be done on this repo."
 				);
-				nilnul.fs.git.module.repo._UnlockX._ByRename_moduleAssumeAddress(folder);
+				return;
 
-				//return;
 			}
+
+
+			//for (int i = 0; i < tryingTimes; i++)
+			//{
+			//	if (
+			//		isUnlocked = nilnul.fs.git.module.be_.locked.Anto.Singleton._Be_assumeWorkbaseAddress(folder))
+			//	{
+			//		break;
+			//	}
+			//	else
+			//	{
+			//		Thread.Slep(waitInbetween);
+			//	}
+			//}
+
+			//if (!isUnlocked)
+			//{
+			//	Trace.TraceError(
+
+			//		$"after checking {tryingTimes} time at a time interval of {waitInbetween} milliseconds,  {folder} is all the way locked. backup will not be done on this repo."
+			//	);
+			//	nilnul.fs.git.module.repo._UnlockX._ByRename_moduleAssumeAddress(folder);
+
+			//	//return;
+			//}
 
 			/// ensure (only touch it if not done)
 			nilnul.fs.git.module.repo.cfg.section_.core.Longpaths.EnsureTrue_ofAddress(folder);
