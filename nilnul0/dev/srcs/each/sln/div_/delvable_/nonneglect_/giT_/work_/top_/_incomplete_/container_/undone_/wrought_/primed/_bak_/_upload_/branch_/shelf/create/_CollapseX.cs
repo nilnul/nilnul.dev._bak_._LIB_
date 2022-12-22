@@ -35,6 +35,8 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 			nilnul.win.prog_.Git git = null)
 		{
 			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+
+			///create the bak branch; and also reset the head; soe here, the bak branch is not the default branch, and thus can be force dropped;
 			var branch=_Create_byCheckoutAsNewBranchX._Branch(_location,  cancel, git);
 
 

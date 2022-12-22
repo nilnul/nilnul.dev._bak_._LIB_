@@ -197,6 +197,8 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 			//change the index
 			//nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, "reset HEAD~", git);
 			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+
+			//nilnul.os.prog_.git.run_.exit_.onDue.cod_._ThrowKillingX._Cod_ofArgument_assumeDir("reset HEAD~", _location, 20 * 1000, 30 * 1000, 40 * 60 * 1000, 30 * 1000, git);
 			nilnul.os.prog_.git.run_.exit.cod.vow_._NilX.OfAddress(_location, "reset HEAD~", git);
 
 			Trace.TraceInformation($"backtracked  @ {_location}");
