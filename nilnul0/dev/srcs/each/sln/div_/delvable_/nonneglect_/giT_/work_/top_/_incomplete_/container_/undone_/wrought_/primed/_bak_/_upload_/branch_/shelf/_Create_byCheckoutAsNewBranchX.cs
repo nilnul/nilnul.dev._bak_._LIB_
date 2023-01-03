@@ -17,7 +17,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 	/// consider using git switch
 	public static class _Create_byCheckoutAsNewBranchX
 	{
-		public const int MILLISECONDS4PAUSE = 10*1000;
+		//public const int MILLISECONDS4PAUSE = 10*1000;
 		/// <summary>
 		/// use stash
 		/// </summary>
@@ -52,7 +52,6 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 			Trace.TraceInformation($"oldHead:{_oldHead} of {_location}");
 			Trace.TraceInformation($"switching to branch {bakBranch}  for { _location}");
 
-
 			//nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, $"checkout -b {bakBranch}", $"exception when: checkout -b {bakBranch} @ {_location}", git);
 
 			/// simulate git stash; we don't use git Stash as it errors if what to stash is empty.
@@ -60,10 +59,8 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 			{
 				//fs.git.module.head.set_.ref_._BranchX.Exe(module, bakBranch,git);
 
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
-
 				//nilnul.win.prog_.git.run.result._Void_throwErrX.OfAddress
-				nilnul.os.prog_.git.run_.exit_.onDue.result._Vow_codOkX.OfAddress(
+				nilnul.os.prog_.git.run_.exit.cod.vow_._NilX._Vod_ofAddress_ofArg(
 					_location, $"checkout -b {bakBranch}", git
 				);        //if the worktree is to be overridden by the checked-out files, an error will be thrown.
 						  //// todo: "checkout -b" means if large files are commited in somewhere in the history, that file won't be bunced by server quota; consider using "checkout --orphan" in addtion to this to keep the current snapshot without history;
@@ -82,7 +79,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 				//// avoid the lock of files in .git such as head.lock or index.lock
 				//nilnul.fs.git.module.exe_._TilUnlockX._TilUnlock_ofTopAddress(_location, git);
 
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+				
 				int exitCode = nilnul.fs.git.module.index.commit_.allowEmpty_._MinUiTitledX.ExitCode(
 					_location
 					,
@@ -110,7 +107,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 				///todo: seemingly stalled here once
 				///
 
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+				
 				fs.git.module.head.set_._ReferenceX.Exe(module, _oldHead);
 				Trace.TraceInformation($"setted head to original @ {_location}");
 
@@ -125,7 +122,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 				//// avoid the lock of files in .git such as head.lock or index.lock
 				//nilnul.fs.git.module.exe_._TilUnlockX._TilUnlock_ofTopAddress(_location, git);
 
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+				
 				new nilnul.obj.vow_.true_.xpn_.Unacceptable(
 					$"exception when further adding all and commiting for {_location}"
 				).vow(
@@ -140,11 +137,11 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 
 				Trace.TraceInformation($"setting head to original @ {_location}");
 
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+				nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, "reset", git);
+				
 				fs.git.module.head.set_._ReferenceX.Exe(module, _oldHead);
 
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait(); ;
-				nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, "reset", git);
+				 ;
 
 				Trace.TraceInformation($"setted head to original   @ {_location}");
 				throw;
@@ -163,7 +160,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 
 			//// avoid the lock of files in .git such as head.lock or index.lock
 
-			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+			
 			nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, $"checkout -b {tempBranch}", $"exception when checkout -b {tempBranch} @{_location}", git);
 
 			Trace.TraceInformation($"created temp branch{tempBranch}  @ {_location}");
@@ -174,7 +171,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 			//change the index
 			//nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, "reset HEAD~", git);
 
-			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+			
 			//nilnul.os.prog_.git.run_.exit_.onDue.cod_._ThrowKillingX._Cod_ofArgument_assumeDir( "reset HEAD~", _location, 20*1000, 30*1000,40*60*1000,30*1000, git);
 
 			nilnul.os.prog_.git.run_.exit.cod.vow_._NilX.OfAddress(_location, "reset HEAD~", git);
@@ -185,7 +182,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 
 			//// avoid the lock of files in .git such as head.lock or index.lock
 
-			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+			
 			fs.git.module.head.set_._ReferenceX.Exe(module, _oldHead);
 
 			Trace.TraceInformation($"setted head to original  @ {_location}");
@@ -194,7 +191,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 			//// avoid the lock of files in .git such as head.lock or index.lock
 			//nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, $"branch -D {tempBranch}", git);
 
-			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+			
 			nilnul.win.prog_.git.run_.ui.exitCode.vow_._NilX.OfAddress(_location, $"branch -D {tempBranch}", git);
 			Trace.TraceInformation($"removed tmp branch  @ {_location}");
 

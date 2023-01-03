@@ -67,7 +67,7 @@ namespace	nilnul.dev.		sln.div_.nonlink_.nonneglect_.giT_.work_.top_._incomplete
 			var tryingTimes = 10;
 			try
 			{
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(folder).Wait();
+				//nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(folder).Wait();
 
 			}
 			catch (Exception)

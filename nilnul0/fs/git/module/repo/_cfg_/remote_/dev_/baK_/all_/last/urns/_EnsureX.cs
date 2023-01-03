@@ -85,7 +85,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.last.urns
 						/// some, such as ssh, might be not url
 						///
 
-						nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(gitTop.ToString()).Wait();
+						//nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(gitTop.ToString()).Wait();
 						nilnul.fs.git.module.repo._cfg_.remote.urns_.push._InsX._Vod_assumesValid(
 							gitTop
 							,
@@ -178,7 +178,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.last.urns
 			urls2add.ForEach(
 				x =>
 				{
-					nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(gitTop.ToString()).Wait();
+					//nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(gitTop.ToString()).Wait();
 
 					nilnul.fs.git.module.repo._cfg_.remote.urls_.push._InsX1.Exe(
 						gitTop

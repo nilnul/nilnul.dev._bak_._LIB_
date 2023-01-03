@@ -1,4 +1,5 @@
 ﻿using nilnul.fs._address;
+using NuGet.Packaging.Signing;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -60,16 +61,22 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			bool newlyCreatedBak;
 			bool newlyCreatedSnap;
 			cancel.ThrowIfCancellationRequested();
+				string bakVeredKey = nilnul.txt_.vered._KeyX._Txt(nilnul.dev.bak.Properties.Settings.Default.branchBak);
 
 			try
 			{
 				bakBranch =
-					nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.primed._bak_.branch_.shelf.create._CollapseX._Branch
+					nilnul.fs.git.module.stow.create._CollapseX._Branch_addressAssumeModule_assumeShelfNub(
+						_location,bakVeredKey,out newlyCreatedBak,git
+				);
 
-					//_upload_.branch_._shelf.put._BranchOfNewContentX._Branch
-					(
-				   _location, /*innerModules,*/ cancel, out newlyCreatedBak, git
-			   );
+
+					//nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.primed._bak_.branch_.shelf.create._CollapseX._Branch
+
+					////_upload_.branch_._shelf.put._BranchOfNewContentX._Branch
+					//(
+				 //  _location, /*innerModules,*/ cancel, out newlyCreatedBak, git
+			  // );
 
 
 
@@ -94,23 +101,27 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			cancel.ThrowIfCancellationRequested();
 			try
 			{
+				
+				string snapKey = $"{bakVeredKey}_{"snap"}";
+
 				snapBranch =
-					nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_.branch_.snap.create._CollapseX._Branch
+					nilnul.fs.git.module.stow._skim.snap._CollapseX._Branch_addressAssumeModule_assumeShelfNub(_location, bakBranch, snapKey, out newlyCreatedSnap, git);
+					//nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_.branch_.snap.create._CollapseX._Branch
 
-					//_upload_.branch_._shelf.put._BranchOfNewContentX._Branch
-					(
-				   _location, /*innerModules,*/ cancel, out newlyCreatedSnap, git
-			   );
+					////_upload_.branch_._shelf.put._BranchOfNewContentX._Branch
+					//(
+				 //  _location,bakBranch, /*innerModules,*/ cancel, out newlyCreatedSnap, git
+			  // );
 
 
 
-				var ver = nilnul.txt_.vered._VerX.Txt(snapBranch);
-				var time = nilnul.time_.datetime.phrase_.Full.Singleton.parse(ver);
-				var sinceNow = time - DateTime.UtcNow;
-				if (sinceNow < -TimeSpan.FromDays(30 * 9))
-				{
-					Trace.TraceWarning($"{_location} is untouched since {time}");
-				}
+				//var ver = nilnul.txt_.vered._VerX.Txt(snapBranch);
+				//var time = nilnul.time_.datetime.phrase_.Full.Singleton.parse(ver);
+				//var sinceNow = time - DateTime.UtcNow;
+				//if (sinceNow < -TimeSpan.FromDays(30 * 9))
+				//{
+				//	Trace.TraceWarning($"{_location} is untouched since {time}");
+				//}
 			}
 			catch (Exception e)
 			{

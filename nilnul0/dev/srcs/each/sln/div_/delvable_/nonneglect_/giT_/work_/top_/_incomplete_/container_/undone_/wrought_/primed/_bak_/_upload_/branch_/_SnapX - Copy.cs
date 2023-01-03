@@ -12,6 +12,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 	/// <summary>
 	/// pushing the branch of "bak_snap...", 
 	/// </summary>
+	///
 	public static class _SnapX
 	{
 

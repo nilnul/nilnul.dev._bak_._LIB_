@@ -49,7 +49,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.nonexist.create
 				var lastkey = _all.key._VwX.GetLastAsName();
 				var moduleAddress = gitTop.ToString();
 
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(moduleAddress).Wait();
+				//nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(moduleAddress).Wait();
 				nilnul.fs.git.module.repo._cfg_.remote._CreateX._Vod_moduleOfAddress_assumeUrn(gitTop, lastkey, firstUrl);
 				///append
 				///
@@ -61,7 +61,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.nonexist.create
 						);
 						urls.Add(u);
 
-						nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(moduleAddress).Wait();
+						//nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(moduleAddress).Wait();
 						nilnul.fs.git.module.repo._cfg_.remote.urns_.push._InsX._Vod_moduleAssumeAddress_urnAssume(
 							gitTop
 							,

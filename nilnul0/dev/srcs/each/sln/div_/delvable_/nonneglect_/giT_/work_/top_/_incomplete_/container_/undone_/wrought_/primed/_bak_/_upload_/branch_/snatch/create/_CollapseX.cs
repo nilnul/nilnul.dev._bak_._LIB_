@@ -13,6 +13,9 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 	/// <summary>
 	/// if the last two bakBranches are same in contents, delete the last one, 
 	/// </summary>
+	///
+	[Obsolete(nameof(nilnul.fs.git.module.stow._skim.snap._CollapseX))]
+
 	public static class _CollapseX
 	{
 		/// <summary>
@@ -24,6 +27,8 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 
 		public static string _Branch(
 			string _location
+			,
+			string shelfTip
 			
 			//,
 			// ConcurrentBag<DivI> innerModules
@@ -34,10 +39,10 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 			,
 			nilnul.os.prog_.Git git = null)
 		{
-			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
-			var branch=_Create_byCheckoutAsNewBranchX._Branch(_location,  cancel, git);
+			
+			var branch=_Create_byCheckoutAsNewBranchX._Branch(_location, shelfTip, cancel, git);
 
-			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+			
 			var newBranch= nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.primed._bak_.branch_.shelf.create._collapse._DropRedundantX._Succeed(_location, branch, git);
 			newlyCreated = (branch == newBranch);
 			return newBranch;
@@ -45,6 +50,8 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 
 		public static string _Branch(
 			fs.FolderI _module
+			,
+			string shelfTip
 			//,
 			// ConcurrentBag<DivI> innerModules
 			,
@@ -54,7 +61,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 			, nilnul.os.prog_.Git git = null
 		)
 		{
-			return _Branch(_module.ToString(), /*innerModules,*/ cancel,out newlyCreated, git);
+			return _Branch(_module.ToString(),shelfTip, /*innerModules,*/ cancel,out newlyCreated, git);
 		}
 	}
 }

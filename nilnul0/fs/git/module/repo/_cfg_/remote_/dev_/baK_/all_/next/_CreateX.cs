@@ -62,7 +62,7 @@ nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.newly._VwX._Vered_assumeM
 					//nilnul.fs.git.module.repo._cfg_.remote_.bak_.awGlVs_.newest_.next._VwX.NameVer
 					(gitTop, git);
 
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(gitTop.ToString()).Wait();
+				//nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(gitTop.ToString()).Wait();
 				nilnul.fs.git.module.repo._cfg_.remote._CreateX._Vod_assumeModuleAddress1Remote1Urn(
 					gitTop
 					,
@@ -92,7 +92,7 @@ nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.newly._VwX._Vered_assumeM
 
 						urns.Add(u);
 
-						nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(gitTop).Wait();
+						//nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(gitTop).Wait();
 						nilnul.fs.git.module.repo._cfg_.remote.urns_.push._InsX._Vod_moduleAssumeAddress_urnAssume(
 							gitTop,
 							nextKey.ToString()

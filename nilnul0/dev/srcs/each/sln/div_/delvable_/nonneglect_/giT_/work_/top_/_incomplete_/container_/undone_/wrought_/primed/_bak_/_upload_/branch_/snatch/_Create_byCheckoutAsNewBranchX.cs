@@ -17,7 +17,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 	/// consider using git switch
 	public static class _Create_byCheckoutAsNewBranchX
 	{
-		public const int MILLISECONDS4PAUSE = 10 * 1000;
+		//public const int MILLISECONDS4PAUSE = 10 * 1000;
 
 		/// <summary>
 		/// use stash
@@ -28,6 +28,8 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 
 		public static string _Branch(
 			string _location
+			,
+			string shelfTip
 			//,
 			// ConcurrentBag<DivI> innerModules
 			,
@@ -62,7 +64,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 				//fs.git.module.head.set_.ref_._BranchX.Exe(module, bakBranch,git);
 
 
-				//nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+				//
 
 				nilnul.os.prog_.git.run_.exit_.onDue.result._Vow_codOkX.OfAddress(
 					_location, $"checkout --orphan {snapBranch}", git
@@ -73,59 +75,33 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 			catch (Exception x)
 			{
 
-				throw new Exception($"exception {x} when: checkout -b {snapBranch} @ {_location}", x);
+				throw new Exception($"exception {x} when: checkout -orphan {snapBranch} and reset @ {_location}", x);
 			}
-
-			Trace.TraceInformation($"committing worksite for {_location}");
-
 			try
 			{
-				//;// avoid the lock of files in .git such as head.lock or index.lock
-				//nilnul.fs.git.module.exe_._TilUnlockX._TilUnlock_ofTopAddress(_location, git);
+				nilnul.os.prog_.git.run_.exit.cod.vow_._NilX._Vod_ofAddress_ofArg(
+					_location, $"reset", git
+				); // 
 
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
-				int exitCode = nilnul.fs.git.module.index.commit_.allowEmpty_._MinUiTitledX.ExitCode(
-					_location
-					,
-					"commit workspace index for possibly restoring work site later"
-					,
-					git
-				);
-
-				new nilnul.obj.vow_.true_.xpn_.Unacceptable($"exception (exitCode:{exitCode}) When commiting worksite index/stage for {_location}: the exception is shown on the popped console, repeat the operation in git bash to repro").vow(
-					exitCode
-					==
-					0
-				);
 			}
-			catch (Exception ex)
+			catch (Exception)
 			{
-				Trace.TraceError($" when commiting worksite for {_location}:{ex}");
-				Trace.TraceInformation($"setting head to original @ {_location}");
-
-				//;// avoid the lock of files in .git such as head.lock or index.lock
-				//nilnul.fs.git.module.exe_._TilUnlockX._TilUnlock_ofTopAddress(_location, git);
-
-				//await Task.Delay(5000);
-				///todo: seemingly stalled here once
-				///
-
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
 				fs.git.module.head.set_._ReferenceX.Exe(module, _oldHead);
-				Trace.TraceInformation($"setted head to original @ {_location}");
 
 				throw;
 			}
+
+
+
+			Trace.TraceInformation($"committing worksite for {_location}");
 
 
 			Trace.TraceInformation($"adding and committing all changes at {_location}");
 
 			try
 			{
-				//// avoid the lock of files in .git such as head.lock or index.lock
-				//nilnul.fs.git.module.exe_._TilUnlockX._TilUnlock_ofTopAddress(_location, git);
 
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+
 				new nilnul.obj.vow_.true_.xpn_.Unacceptable(
 					$"exception when further adding all and commiting for {_location}"
 				).vow(
@@ -139,24 +115,10 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 				Trace.TraceError($" when commiting all for stashing for {_location}:{e}");
 
 				Trace.TraceInformation($"setting head to original @ {_location}");
-
-
-				//try
-				//{
-
-				//}
-				//catch (Exception)
-				//{
-				//	Trace.TraceError($"git rest  @ {_location} when resetting ");
-
-				//	throw;
-				//}
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+				nilnul.os.prog_.git.run_.exit.cod.vow_._NilX._Vod_ofAddress_ofArg(_location, $"reset {shelfTip}~", git);
 
 				fs.git.module.head.set_._ReferenceX.Exe(module, _oldHead);
 
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
-				nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, "reset", git);
 
 				Trace.TraceInformation($"setted head to original   @ {_location}");
 				throw;
@@ -177,13 +139,14 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 
 			try
 			{
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+
 				nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, $"checkout -b {tempBranch}", $"exception when checkout -b {tempBranch} @{_location}", git);
 
 			}
 			catch (Exception)
 			{
-				nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+				nilnul.os.prog_.git.run_.exit.cod.vow_._NilX._Vod_ofAddress_ofArg(_location, $"reset {shelfTip}~", git);
+
 				fs.git.module.head.set_._ReferenceX.Exe(module, _oldHead);
 				throw;
 			}
@@ -192,28 +155,28 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 			Trace.TraceInformation($"created temp branch{tempBranch}  @ {_location}");
 			Trace.TraceInformation($"backtracking head  @ {_location}");
 
-			//// avoid the lock of files in .git such as head.lock or index.lock
 
 			//change the index
-			//nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, "reset HEAD~", git);
-			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
 
-			//nilnul.os.prog_.git.run_.exit_.onDue.cod_._ThrowKillingX._Cod_ofArgument_assumeDir("reset HEAD~", _location, 20 * 1000, 30 * 1000, 40 * 60 * 1000, 30 * 1000, git);
-			nilnul.os.prog_.git.run_.exit.cod.vow_._NilX.OfAddress(_location, "reset HEAD~", git);
+
+			nilnul.os.prog_.git.run_.exit.cod.vow_._NilX._Vod_ofAddress_ofArg(_location, $"reset {shelfTip}~", git);
+
 
 			Trace.TraceInformation($"backtracked  @ {_location}");
 
 			Trace.TraceInformation($"setting head to original  @ {_location}");
 
-			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
+
 			fs.git.module.head.set_._ReferenceX.Exe(module, _oldHead);
+			/// note the references may be nonbranch, and it might contains some parts (separated by slash) prepended to branch name 
+			//nilnul.os.prog_.git.run_.exit.cod.vow_._NilX._Vod_ofAddress_ofArg(_location, $"reset --soft {_oldHead}", git);
+
+
 
 			Trace.TraceInformation($"setted head to original  @ {_location}");
 			Trace.TraceInformation($"removing tmp branch  @ {_location}");
 
-			//nilnul.win.prog_.git.run.exitCode.vow_._NilX.OfAddress(_location, $"branch -D {tempBranch}", git);
 
-			nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(_location).Wait();
 			nilnul.win.prog_.git.run_.ui.exitCode.vow_._NilX.OfAddress(_location, $"branch -D {tempBranch}", git);
 			Trace.TraceInformation($"removed tmp branch  @ {_location}");
 
@@ -236,9 +199,9 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 		}
 
 
-		public static string _Branch(fs.FolderI _module, /*ConcurrentBag<DivI> innerModules,*/ CancellationToken cancel, nilnul.win.prog_.Git git = null)
+		public static string _Branch(fs.FolderI _module, string shelfTip, /*ConcurrentBag<DivI> innerModules,*/ CancellationToken cancel, nilnul.win.prog_.Git git = null)
 		{
-			return _Branch(_module.ToString(),/* innerModules, */cancel, git);
+			return _Branch(_module.ToString(), shelfTip,/* innerModules, */cancel, git);
 			//throw new NotImplementedException();
 		}
 
