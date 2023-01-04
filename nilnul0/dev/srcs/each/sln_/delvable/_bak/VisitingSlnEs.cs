@@ -15,15 +15,15 @@ namespace nilnul.dev.srcs.each.sln_.delvable._bak
 	/// <summary>
 	/// 
 	/// </summary>
-	public class SlnVisitingEs : IProducerConsumerCollection<(string, DateTime)>
+	public class VisitingSlnEs : IProducerConsumerCollection<( DateTime, string)>
 	{
-		private class _Comparer : IComparer<(string, DateTime)>
+		private class _Comparer : IComparer<(DateTime, string)>
 		{
-			public int Compare((string, DateTime) first, (string, DateTime) second)
+			public int Compare((DateTime, string) first, (DateTime, string) second)
 			{
-				var returnValue = first.Item2.CompareTo(second.Item2);
+				var returnValue = first.Item1.CompareTo(second.Item1);
 				if (returnValue == 0)
-					returnValue = first.Item1.CompareTo(second.Item1);
+					returnValue = first.Item2.CompareTo(second.Item2);
 				return returnValue;
 			}
 			static public _Comparer Singleton
@@ -35,7 +35,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable._bak
 			}
 		}
 
-		SortedSet<(string, DateTime)> _dict = new SortedSet<(string, DateTime)>(
+		SortedSet<(DateTime, string)> _dict = new SortedSet<(DateTime, string)>(
 			_Comparer.Singleton
 		);
 
@@ -61,7 +61,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable._bak
 			//throw new NotImplementedException();
 		}
 
-		public void CopyTo((string, DateTime)[] array, int index)
+		public void CopyTo((DateTime, string)[] array, int index)
 		{
 			lock (_lock)
 			{
@@ -84,7 +84,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable._bak
 
 		}
 
-		public bool TryAdd((string, DateTime) item)
+		public bool TryAdd((DateTime, string) item)
 		{
 			lock (_lock)
 			{
@@ -92,7 +92,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable._bak
 			}
 		}
 
-		public bool TryTake(out (string, DateTime) item)
+		public bool TryTake(out (DateTime, string) item)
 		{
 			lock (_lock)
 			{
@@ -105,7 +105,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable._bak
 			}
 		}
 
-		public (string, DateTime)[] ToArray()
+		public (DateTime, string)[] ToArray()
 		{
 			lock (_lock)
 			{
@@ -114,7 +114,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable._bak
 			}
 		}
 
-		public IEnumerator<(string, DateTime)> GetEnumerator()
+		public IEnumerator<(DateTime, string)> GetEnumerator()
 		{
 			return ToArray().AsEnumerable().GetEnumerator();
 		}
@@ -122,28 +122,28 @@ namespace nilnul.dev.srcs.each.sln_.delvable._bak
 		/// <summary>
 		/// </summary>
 		/// <returns></returns>
-		public BlockingCollection<(string, DateTime)> asBlockingCollection() {
-			return new BlockingCollection<(string, DateTime)>(
+		public BlockingCollection<(DateTime, string)> asBlockingCollection() {
+			return new BlockingCollection<(DateTime, string)>(
 				this
 			);
 		}
 
-		static  void ExampleUse(CancellationToken cancellationToken) {
-			var s = new SlnVisitingEs().asBlockingCollection();
+		//static  void ExampleUse(CancellationToken cancellationToken) {
+		//	var s = new VisitingSlnEs().asBlockingCollection();
 
-			/// traversal thread:
-			s.Add(("", DateTime.MinValue));
+		//	/// traversal thread:
+		//	s.Add(( DateTime.MinValue, ""));
 
-			//...
-			s.CompleteAdding();
+		//	//...
+		//	s.CompleteAdding();
 
-			/// tackler thread:
-			///
-			foreach (var item in s.GetConsumingEnumerable(cancellationToken))
-			{
-				/// process the item
-			}
-		}
+		//	/// tackler thread:
+		//	///
+		//	foreach (var item in s.GetConsumingEnumerable(cancellationToken))
+		//	{
+		//		/// process the item
+		//	}
+		//}
 
 
 	}

@@ -51,7 +51,10 @@ namespace nilnul.fs.addresses_.disjoint.deV_
 				return;
 			}
 
+
 			//Trace.Indent();
+
+			/// the collection is initially empty, we would process items once the collection is added.
 			var t = Task.Factory.StartNew(
 				() => cfg.slnVisitingEs.GetConsumingEnumerable().Each(
 					s =>

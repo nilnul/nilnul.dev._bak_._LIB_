@@ -292,7 +292,7 @@
       <HintPath>packages\nilnul.dev._src_._LIB_.1.1.221209.142036\lib\net481\nilnul.dev._src_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.fs._git_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\_WIN_(Git\packages\nilnul.fs._git_._LIB_.2.1.230103.115639\lib\net481\nilnul.fs._git_._LIB_.dll</HintPath>
+      <HintPath>..\_WIN_(Git\packages\nilnul.fs._git_._LIB_.2.1.230103.171026\lib\net481\nilnul.fs._git_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.geometry._planar_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.geometry._planar_._LIB_.1.1.220815.32404\lib\net48\nilnul.geometry._planar_._LIB_.dll</HintPath>
@@ -718,10 +718,11 @@
     <Compile Include="nilnul0\dev\srcs\each\sln\div_\IDelvable.cs" />
     <Compile Include="nilnul0\dev\srcs\each\sln_\delvable\BakTackler.cs" />
     <Compile Include="nilnul0\dev\srcs\each\sln_\delvable\BakTraverse.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln_\delvable\_bak\VisitingSlnEs.cs" />
     <Compile Include="nilnul0\dev\srcs\each\sln_\delvable_\nonneglect\NewFolder1\Bak_srcsInAddresses.cs" />
     <Compile Include="nilnul0\dev\srcs\every\div_\IDelvable.cs" />
     <Compile Include="nilnul0\dev\srcs\every\ISln.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln_\delvable\_bak\BySortedSet.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln_\delvable\_bak\SlnVisitingEs.cs" />
     <Compile Include="nilnul0\dev\srcs\IEvery.cs" />
     <Compile Include="nilnul0\dev\src\crop_\depo_\IClear.cs" />
     <Compile Include="nilnul0\dev\src\crop_\IUnjoint.cs" />

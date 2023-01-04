@@ -69,7 +69,8 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 
 			var time =
 nilnul.fs.folder.cfg.bak.visited._VwX._Time0nul_addressAssumeFolder(folder);
-			cfg.slnVisitingEs.Add((folder, time ?? DateTime.MinValue));
+
+			cfg.slnVisitingEs.Add((folder, time ?? DateTime.MinValue)); 
 
 
 
