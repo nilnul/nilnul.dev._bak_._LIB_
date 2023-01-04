@@ -56,7 +56,7 @@ namespace nilnul.fs.addresses_.disjoint.deV_
 
 			/// the collection is initially empty, we would process items once the collection is added.
 			var t = Task.Factory.StartNew(
-				() => cfg.slnVisitingEs.GetConsumingEnumerable().Each(
+				() => cfg.slnVisitingEs.GetConsumingEnumerable(cancel).Each(
 					s =>
 					new nilnul.dev.srcs.each.sln_.delvable.BakTackler(cfg)._startTask_ofAddress(s.Item1) ///here wouldnot return for next if semophore stalls;
 				)
