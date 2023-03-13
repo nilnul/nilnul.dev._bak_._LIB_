@@ -103,7 +103,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.last.urns
 					}
 					catch (nilnul.exception_.ParseException parseXpn) {
 						Trace.TraceError(
-							$"when del pass from url by {typeof(_EnsureX).FullName}.{nameof(Msg)}, the parse failed: {parseXpn}"
+							$"when appending urn to {key} at {gitTop} by {typeof(_EnsureX).FullName}.{nameof(Msg)}, the parse failed: {parseXpn}"
 						);
 						
 
@@ -111,7 +111,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.last.urns
 					catch (Exception xpn1)
 					{
 						Trace.TraceError(
-							$"when del pass from url by {typeof(_EnsureX).FullName}.{nameof(Msg)}: {xpn1}"
+							$"when appending urn to {key} at {gitTop} by {typeof(_EnsureX).FullName}.{nameof(Msg)}: {xpn1}"
 						);
 						//throw;
 					}

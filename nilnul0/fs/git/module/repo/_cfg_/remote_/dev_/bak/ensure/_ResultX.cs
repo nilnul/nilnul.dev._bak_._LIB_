@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.bak.put
 {
+	/// <summary>
+	/// <see cref="nilnul.data.model_.monolith.IEnsure"/>
+	/// </summary>
 	static public class _ResultX
 	{
 

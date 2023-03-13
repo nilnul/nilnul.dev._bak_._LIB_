@@ -127,7 +127,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.nontop._bak
 							default:
 								/// if the dir is a crashed/corrupted module, then git would indicate it's plain of the trichonotomy
 								Trace.TraceError(
-									$"{child} as a dir under a module is triaged into an unknown category other than Work|Repo;  if the dir is a crashed/corrupted module, then git would indicate it's plain of the trichonotomy; we would not traverse into it, and plz check/rectify it."
+									$"{child} as a dir under a module is triaged into an unknown category other than Work|Repo;  if the dir is a crashed/corrupted module,or the owner is not the current user, then git would indicate it's plain of the trichonotomy; we would not traverse into it, and plz check/rectify it."
 								);
 
 								break;

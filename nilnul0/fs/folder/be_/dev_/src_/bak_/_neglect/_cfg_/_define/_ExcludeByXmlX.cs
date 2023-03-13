@@ -13,6 +13,8 @@ namespace nilnul.fs.folder.be_.deV_.src_.bak_._neglect._cfg_._define
 	/// .nilnul as xml
 	/// </summary>
 	/// <remarks>
+	/// we need to exclude a folder from within the folder itself, or from ancestor.
+	/// <seealso cref="nilnul.fs.folder.cfg"/> for unlist a dst by a Regex; if every dst is ignored, the folder as the container is ignored.
 	/// </remarks>
 	/// <see cref="nilnul.fs.folder.dnt_.cfg_"/>
 	public static class _ExcludeByXmlX

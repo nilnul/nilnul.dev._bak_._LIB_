@@ -92,7 +92,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			{
 				noError = false;
 				Trace.TraceError(
-					$"{nilnul.app._TraceX.Txt()}@{_location}:{e.ToString()}"
+					$"when creating stow branch on basis of current snapshot: {nilnul.app._TraceX.Txt()}@{_location}:{e.ToString()}"
 				);
 				return noError;
 				//throw;

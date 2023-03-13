@@ -99,9 +99,62 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 			Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- starting task");
 			/// due to that:
 			///		the semaphore is released after the task started, so the tasks are kept being started
-			cfg.semaphore.Wait(cfg.cancel);
+			var waited = cfg.semaphore.Wait(
+				10 * 60 * 1000/* when this time duration is set too short, the popped up windows would be too many;and when we handle them manually, new window would be popped out, increasing the total number of windows; So when we mannually handle a window, the new window shall not be popped out before we finish one; thus, supposing we need 10minuts to handle one window, the time here shall be set 10m
+				               * we generally run the program at night and artificially monitor it the next day; soe the total number of popup windows shall be not too much; We shall control the number of popups per hour in a trivia number, eg: 10minutes would make 6per hour; 
+				               And the next day we can cancel the running process  (or set a flag or new timespan for nonsephamore process ), and the popups are grouped in os taskbar; if the number is too much, they are forming a menu; if the number is not too much, they are forming a row of miniature windows, and this would make it easy to be monitored whether it's waiting4input;
+				               */
 
-			/// todo: schedule task according to the last succeeded bak time
+							 // or use the avg time of each task; the initial time can be 0, memicing the avg 0/0=0;
+				// make this half the avg time; but don't start too many programs at a time as that would crash the os;
+				, cfg.cancel); 
+
+			if (!waited)
+			{
+				Task.Factory.StartNew(
+					() =>
+					{
+						Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- in task- outside semaphore");
+						_vod_ofAddress(folder);
+						Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- in task - outside semaphore done;");
+					}
+					,
+					cfg.cancel
+					,
+					TaskCreationOptions.AttachedToParent
+					,
+					TaskScheduler.Current //TaskScheduler
+
+				).ContinueWith(
+					(t) =>
+					{
+						Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- task continueing outside semaphore");
+
+						try
+						{
+							nilnul.fs.folder.cfg.bak.visited._AppendX.Vod_folderOfAddress(folder);
+						}
+						catch (System.Exception e)
+						{
+							Trace.TraceError($"when configing baked.time for {folder} there is exception:{e}; (see rethrown exception); this may indicate that the folder is not a git module, and no '.git' subfolder is found inside.");
+							//throw;
+						}
+						//cfg.shieldsNewlyBaked.Add(folder); // as is already done in module bak
+						Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- task continued outside semaphore");
+					}
+					, cfg.cancel //bubbel up
+					,
+					TaskContinuationOptions.NotOnCanceled /*even if it's faulted; as err has been traced*/
+					| TaskContinuationOptions.ExecuteSynchronously
+					| TaskContinuationOptions.AttachedToParent
+					,
+					TaskScheduler.Current/*where ExecuteSynchronously continuations won’t run synchronously is when the target scheduler doesn’t allow it.  A TaskScheduler has the ability to say whether tasks are able to run on the current thread or not.  */
+				);
+
+				Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- started task outside semaphore");
+
+				return;
+			}
 
 			Task.Factory.StartNew(
 				() =>
@@ -112,7 +165,6 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 					try
 					{
 						_vod_ofAddress(folder);
-
 					}
 					finally
 					{
@@ -153,7 +205,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 				}
 				, cfg.cancel //bubbel up
 				,
-				TaskContinuationOptions.OnlyOnRanToCompletion /*even if it's faulted; as err has been traced*/
+				TaskContinuationOptions.NotOnCanceled /*even if it's faulted; as err has been traced*/
 				| TaskContinuationOptions.ExecuteSynchronously
 				| TaskContinuationOptions.AttachedToParent
 				,

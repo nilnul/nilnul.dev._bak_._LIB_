@@ -145,7 +145,10 @@ namespace nilnul.fs.git.module.repo.remote_.dev_.baK_.gitlab_.vered_.newest.ensu
 					,
 					newest
 					,
-					$@"{newest}{1}L{new BigInteger(Guid.NewGuid().ToByteArray().Append((byte)0).ToArray())}r"
+					$@"{newest}{1}L{
+						nilnul.time_.datetime.lex_.num_.YrInTwo.Singleton.phrase()
+						//new BigInteger(Guid.NewGuid().ToByteArray().Append((byte)0).ToArray())
+					}r"
 				);
 
 				return created4next(newest);
