@@ -61,22 +61,22 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			bool newlyCreatedBak;
 			bool newlyCreatedSnap;
 			cancel.ThrowIfCancellationRequested();
-				string bakVeredKey = nilnul.txt_.vered._KeyX._Txt(nilnul.dev.bak.Properties.Settings.Default.branchBak);
+			string bakVeredKey = nilnul.txt_.vered._KeyX._Txt(nilnul.dev.bak.Properties.Settings.Default.branchBak);
 
 			try
 			{
 				bakBranch =
 					nilnul.fs.git.module.stow.create._CollapseX._Branch_addressAssumeModule_assumeShelfNub(
-						_location,bakVeredKey,out newlyCreatedBak,git
+						_location, bakVeredKey, out newlyCreatedBak, git
 				);
 
 
-					//nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.primed._bak_.branch_.shelf.create._CollapseX._Branch
+				//nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.primed._bak_.branch_.shelf.create._CollapseX._Branch
 
-					////_upload_.branch_._shelf.put._BranchOfNewContentX._Branch
-					//(
-				 //  _location, /*innerModules,*/ cancel, out newlyCreatedBak, git
-			  // );
+				////_upload_.branch_._shelf.put._BranchOfNewContentX._Branch
+				//(
+				//  _location, /*innerModules,*/ cancel, out newlyCreatedBak, git
+				// );
 
 
 
@@ -101,17 +101,18 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			cancel.ThrowIfCancellationRequested();
 			try
 			{
-				
+
 				string snapKey = $"{bakVeredKey}_{"snap"}";
 
-				snapBranch =
-					nilnul.fs.git.module.stow._skim.snap._CollapseX._Branch_addressAssumeModule_assumeShelfNub(_location, bakBranch, snapKey, out newlyCreatedSnap, git);
-					//nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_.branch_.snap.create._CollapseX._Branch
+				/// exception if bak branch has no previous history, as we need to take a step back during the process to restore index;
+				snapBranch = nilnul.fs.git.module.stow._skim.snap._CollapseX._Branch_addressAssumeModule_assumeShelfNub(_location, bakBranch, snapKey, out newlyCreatedSnap, git);
 
-					////_upload_.branch_._shelf.put._BranchOfNewContentX._Branch
-					//(
-				 //  _location,bakBranch, /*innerModules,*/ cancel, out newlyCreatedSnap, git
-			  // );
+				//nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_.branch_.snap.create._CollapseX._Branch
+
+				////_upload_.branch_._shelf.put._BranchOfNewContentX._Branch
+				//(
+				//  _location,bakBranch, /*innerModules,*/ cancel, out newlyCreatedSnap, git
+				// );
 
 
 
@@ -145,7 +146,8 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 					/// even if there are no change since last bak commit, we still push it. Useful when we havenot resolved all the errors for last bak.
 					||
 					newlyCreatedBak
-				)				{
+				)
+				{
 					#region pushup the bakBranch.
 					var bakBranchSuccess = _upload_.branch_._BakX._Succed(
 						 _location
@@ -176,7 +178,8 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 					/// even if there are no change since last bak commit, we still push it. Useful when we havenot resolved all the errors for last bak.
 					||
 					newlyCreatedSnap
-				)				{
+				)
+				{
 
 					#region pushup the snapBranch.
 
@@ -207,7 +210,8 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 				if (
 	nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_._upload.SettingsX.Default.push4nonchange
 /// even if there are no change since last bak commit, we still push it. Useful when we havenot resolved all the errors for last bak.
-)				{
+)
+				{
 
 					if (!_upload_.branches_._AllX._NoErr(_location, nom2normlS, cancel, git))
 					{

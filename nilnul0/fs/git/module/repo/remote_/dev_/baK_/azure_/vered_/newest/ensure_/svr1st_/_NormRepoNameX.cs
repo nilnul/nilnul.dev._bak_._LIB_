@@ -46,9 +46,13 @@ namespace nilnul.fs.git.module.repo.remote_.dev_.baK_.azure_.vered_.newest.ensur
 			);
 
 			bool created4next(string r) {
-				
+
 
 				//create_._SvrNoErrX.SvrNoErr
+
+				
+	
+
 				azure.create_._SvrFirstX.SvrNoErr
 					(
 
@@ -62,6 +66,7 @@ namespace nilnul.fs.git.module.repo.remote_.dev_.baK_.azure_.vered_.newest.ensur
 					,
 					git
 				);
+
 				return true;
 			
 			}
@@ -136,7 +141,11 @@ namespace nilnul.fs.git.module.repo.remote_.dev_.baK_.azure_.vered_.newest.ensur
 					,
 					newest
 					,
-					$@"{newest}{1}L{new BigInteger(Guid.NewGuid().ToByteArray().Append((byte)0).ToArray())}r"
+					//$@"{newest}{1}L{new BigInteger(Guid.NewGuid().ToByteArray().Append((byte)0).ToArray())}r"
+
+					//$@"{newest}{1}L{nilnul.time_.datetime._lex_.phrase_.yr_.decimalSubsecond_.NoSep.Singleton.phrase()}r"
+					$@"{newest}{1}L{nilnul.time_.datetime.lex_.num_.YrInTwo.Singleton.phrase()}r" //use noncollapsed lest it conflicts with others;
+
 				);
 
 				return created4next(newest);

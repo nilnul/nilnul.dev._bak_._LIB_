@@ -13,7 +13,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 	/// <summary>
 	/// use this when you want to bak this module only (not to bak any modules in below)
 	/// </summary>
-	public  class Bak_srcsInAddresses
+	public class Bak_srcsInAddresses
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
 		public nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg
@@ -43,8 +43,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			///
 
 			if (
-				
-nilnul.fs.git.module.be_.Nonwrought.Singleton._Be_assumeWorkbaseAddress(folder)
+				nilnul.fs.git.module.be_.Nonwrought.Singleton._Be_assumeWorkbaseAddress(folder)
 			)
 			{
 				new container_.undone_.nonwrought.Bak_srcsInAddresses(_cfg)._exe(folder); //no need to pass in the parameters: innerModules and innerModules2reinclude, as have already been done by caller.
@@ -77,7 +76,7 @@ nilnul.fs.git.module.be_.Nonwrought.Singleton._Be_assumeWorkbaseAddress(folder)
 			//bool isUnlocked = false;
 			//var waitInbetween = 5000;
 			//var tryingTimes = 10;
-				var duration = 7*60 * 1000;
+			var duration = 7 * 60 * 1000;
 
 			try
 			{

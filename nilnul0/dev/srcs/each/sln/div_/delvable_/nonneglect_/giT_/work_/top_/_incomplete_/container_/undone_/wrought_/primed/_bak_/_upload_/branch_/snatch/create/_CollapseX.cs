@@ -14,7 +14,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 	/// if the last two bakBranches are same in contents, delete the last one, 
 	/// </summary>
 	///
-	[Obsolete(nameof(nilnul.fs.git.module.stow._skim.snap._CollapseX))]
+	[Obsolete(nameof(nilnul.fs.git.module.stow._skim.snap._CollapseX),true)]
 
 	public static class _CollapseX
 	{
@@ -39,7 +39,8 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 			,
 			nilnul.os.prog_.Git git = null)
 		{
-			
+
+
 			var branch=_Create_byCheckoutAsNewBranchX._Branch(_location, shelfTip, cancel, git);
 
 			

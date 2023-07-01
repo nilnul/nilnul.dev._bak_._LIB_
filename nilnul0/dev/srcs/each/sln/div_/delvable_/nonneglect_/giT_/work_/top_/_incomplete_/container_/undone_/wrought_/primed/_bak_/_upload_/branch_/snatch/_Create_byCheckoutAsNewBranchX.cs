@@ -14,7 +14,9 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._i
 	/// </summary>
 	/// <seealso cref="nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.primed._bak_._upload_.branch_._shelf._PutX"/>
 	///
-	/// consider using git switch
+	/// consider using git switch? no, as switch would also change worktree;
+	///
+	[Obsolete(nameof(nilnul.fs.git.module.work.commit_._Snap2orphanX),true)]
 	public static class _Create_byCheckoutAsNewBranchX
 	{
 		//public const int MILLISECONDS4PAUSE = 10 * 1000;

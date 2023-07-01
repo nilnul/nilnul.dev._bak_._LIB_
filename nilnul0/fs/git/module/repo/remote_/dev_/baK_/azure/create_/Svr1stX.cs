@@ -10,9 +10,13 @@ namespace nilnul.fs.git.module.repo.remote_.dev_.baK_.azure.create_
 {
 
 	/// <summary>
-	/// 
+	/// ensure the repo
 	/// </summary>
+	/// <remarks>
+	/// </remarks>
 	/// <see cref="nilnul.fs.git.module.repo.remote_.dev_.baK_.azure_.vered_.newest.ensure_.svr1st_._NormRepoNameX"/>
+	/// ensure svr first;
+
 	static public class _SvrFirstX
 	{
 		public static bool SvrNoErr(
@@ -28,13 +32,15 @@ namespace nilnul.fs.git.module.repo.remote_.dev_.baK_.azure.create_
 		)
 		{
 
-		
 
+			/// note here in git repo cfg we need the normalized name.
+			///
+			var normalizedRepoName = nilnul.fs.git.svr_.azure.repo.Name.Of_byEncode(svrRepoName);
 
 			var r = nilnul.fs.git.svr_.azure.client.teamwork.create_.personal._EnsureX.Result(
 				client
 				,
-				svrRepoName
+				normalizedRepoName
 			);
 
 			Trace.TraceInformation(
@@ -50,7 +56,9 @@ namespace nilnul.fs.git.module.repo.remote_.dev_.baK_.azure.create_
 				 ,
 				 client.org
 				 ,
-				 svrRepoName
+				 new svr.repo.Name(
+					normalizedRepoName.ee
+				 )
 				,
 				git
 			);
