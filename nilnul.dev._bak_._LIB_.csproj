@@ -290,7 +290,7 @@
       <HintPath>packages\nilnul.dev._src_._LIB_.1.1.221209.142036\lib\net481\nilnul.dev._src_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.fs._git_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.fs._git_._LIB_.2.1.230701.162545-sym\lib\net481\nilnul.fs._git_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.fs._git_._LIB_.2.1.230701.174441-sym\lib\net481\nilnul.fs._git_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.geometry._planar_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul.geometry._planar_._LIB_.1.1.230621.120911-sym\lib\net481\nilnul.geometry._planar_._LIB_.dll</HintPath>
@@ -400,7 +400,7 @@
       <HintPath>packages\nilnul._txt_._WIN_CTR_.1.1.220828.153928\lib\net481\nilnul._txt_._WIN_CTR_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._web_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._web_._LIB_.1.1.230630.153915-sym\lib\net481\nilnul._web_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._web_._LIB_.1.1.230701.165201-sym\lib\net481\nilnul._web_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._win_._CTR4WIN_,Version=1.1.220909.180734, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._win_._CTR4WIN_.1.1.220909.180734\lib\net481\nilnul._win_._CTR4WIN_.dll</HintPath>
@@ -1244,9 +1244,6 @@
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\..\.deps\AWSSDK.CodeCommit.3.7.100.147\analyzers\dotnet\cs\AWSSDK.CodeCommit.CodeAnalysis.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ip\address_\_egs\_wellknowns\Note.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="PostBuildMacros">

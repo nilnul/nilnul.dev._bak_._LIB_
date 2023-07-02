@@ -105,7 +105,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 				string snapKey = $"{bakVeredKey}_{"snap"}";
 
 				/// exception if bak branch has no previous history, as we need to take a step back during the process to restore index;
-				snapBranch = nilnul.fs.git.module.stow._skim.snap._CollapseX._Branch_addressAssumeModule_assumeShelfNub(_location, bakBranch, snapKey, out newlyCreatedSnap, git);
+				snapBranch = nilnul.fs.git.module.work.commit_.orphan._CollapseX._Branch_addressAssumeModule_assumeShelfNub(_location, bakBranch, snapKey, out newlyCreatedSnap, git);
 
 				//nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_.branch_.snap.create._CollapseX._Branch
 
