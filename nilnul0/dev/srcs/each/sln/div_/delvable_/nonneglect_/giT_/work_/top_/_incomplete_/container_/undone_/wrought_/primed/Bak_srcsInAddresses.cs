@@ -84,7 +84,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			catch (Exception e)
 			{
 				Trace.TraceError(
-					$"when vowing this as under quota and splitting large files:{this.GetType().FullName}.{nameof(_exe)}(folder):  {e}"
+					$"when vowing this as under quota and splitting large files:{this.GetType().FullName}.{nameof(_exe)}({folder}):  {e}"
 				);
 
 				return false;

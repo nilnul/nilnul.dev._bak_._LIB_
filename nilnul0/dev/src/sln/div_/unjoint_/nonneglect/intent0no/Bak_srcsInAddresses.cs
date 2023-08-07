@@ -1,5 +1,6 @@
-﻿using nilnul.dev.src.div.dir.cognomen_.commentedSegs._parse.parener._dotter.lex.symbol_;
+﻿//using nilnul.dev.src.div.dir.cognomen_.commentedSegs._parse.parener._dotter.lex.symbol_;
 using nilnul.fs._address;
+using nilnul.lang_.cognom._tex.symbol_;
 using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
@@ -62,9 +63,12 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.intend0no
 			var tip = nilnul.fs.address_.shield_.BaseDir.FroAddress(folder);
 			var tip1 = tip.child;
 
-			var parsed = nilnul.dev.src.div.dir.cognomen_.commentedSegs._ParseX.Parse(tip1.denote.en);
-
-
+			var parsed
+				=
+				//nilnul.dev.src.div.dir.cognomen_.commentedSegs._ParseX.Parse(
+				nilnul.lang_.cognom._TexX.Parse(
+					tip1.denote.en
+			);
 
 			if (
 			parsed.HasNotationCaseInsensitiveNonrecur("git")

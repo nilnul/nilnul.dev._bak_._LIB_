@@ -12,8 +12,17 @@ using nilnul.win.program_;
 namespace nilnul.fs.folder.be_.deV_.src_.bak_._neglect
 {
 	/// <summary>
-	/// neglect this folder
+	/// neglect this folder if the dir name includes, case insensitively, "(!Bak)" or the like:"!Bak)","(!Bak";
 	/// </summary>
+	/// <remarks>
+	/// vs:
+	///		"(!Git)"
+	///			,ignore this from within the work of a repo;
+	///		"(Git)"
+	///			,ignore this from within the work of a repo, as that itself would be a git depo
+	///			;
+	///			
+	/// </remarks>
 	static public class _PerNameX
 	{
 		public const string CONTENT = "!Bak";

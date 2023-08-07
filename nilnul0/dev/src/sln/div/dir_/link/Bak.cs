@@ -75,8 +75,8 @@ namespace nilnul.dev.src.sln.div.dir_.link
 			ShieldI shield
 		)
 		{
-
 			var old = _cfg._addDestiny_assumeLink(shield);
+
 			if (old.Key is null)
 			{
 				///unjoint
