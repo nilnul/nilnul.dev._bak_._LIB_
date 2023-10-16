@@ -14,7 +14,6 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 	/// for unprimed module, we need to deal with the workspace.
 	/// for primed module, we need only be concerned about the repo.
 	/// So this is in fact a repo.
-
 	/// </summary>
 	public static class _UploadX
 	{
@@ -65,10 +64,14 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 
 			try
 			{
+
+
 				bakBranch =
 					nilnul.fs.git.module.stow.create._CollapseX._Branch_addressAssumeModule_assumeShelfNub(
 						_location, bakVeredKey, out newlyCreatedBak, git
 				);
+
+
 
 
 				//nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.primed._bak_.branch_.shelf.create._CollapseX._Branch
@@ -103,6 +106,9 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			{
 
 				string snapKey = $"{bakVeredKey}_{"snap"}";
+
+
+				/// todo: when creating orphan branch, we need to later reset the current branch, and the stage; (the work would be unchanged all the time); Thus, we need not to reset in previous operation that we create the bakBranch.
 
 				/// exception if bak branch has no previous history, as we need to take a step back during the process to restore index;
 				snapBranch = nilnul.fs.git.module.work.commit_.orphan._CollapseX._Branch_addressAssumeModule_assumeShelfNub(_location, bakBranch, snapKey, out newlyCreatedSnap, git);

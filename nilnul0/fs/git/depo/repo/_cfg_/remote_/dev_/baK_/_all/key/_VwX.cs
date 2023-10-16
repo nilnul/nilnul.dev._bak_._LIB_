@@ -10,7 +10,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_._all.key
 	{
 		static public IEnumerable<string> GetKeys()
 		{
-			return nilnul.dev.bak.nilnul0.fs.git.module.repo._cfg_.remote_.dev_.baK_._all._key.Settings1.Default.nom.Cast<string>();
+			return nilnul.dev.bak.nilnul0.fs.git.depo.repo._cfg_.remote_.dev_.baK_._all._key.Settings1.Default.nom.Cast<string>();
 		}
 		static public string GetLast() {
 			return GetKeys().Last();

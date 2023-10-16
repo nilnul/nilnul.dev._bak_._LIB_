@@ -59,7 +59,7 @@ namespace nilnul.dev.srcs.each.div_.delvable
 
 			switch (distance)
 			{
-				case 0: //src
+				case 0: //subsrc
 					new nilnul.dev.src.div_.cognable_.empty.Bak(cfg) {src=src,div=div,cognom=this.cognom }.vod(
 					  // _div_inSrc.ToString()
 					);

@@ -129,6 +129,12 @@ namespace nilnul.fs.addresses_.disjoint.deV_
 
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="disjoint">
+		/// it's disjoint so there would be no two that is <see cref="nilnul.fs.address.co_.spearShield_.SameLocation"/>
+		/// </param>
 		public void _Bak(Disjoint disjoint)
 		{
 			_Bak(disjoint.toOriginal().Select(x => x.ToString()));

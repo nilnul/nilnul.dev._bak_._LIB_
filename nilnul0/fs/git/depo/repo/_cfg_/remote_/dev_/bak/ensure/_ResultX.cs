@@ -7,9 +7,12 @@ using System.Threading.Tasks;
 
 namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.bak.put
 {
+	/// <see cref="nilnul.data.change_.Put"/>
+	/// 
 	/// <summary>
-	/// <see cref="nilnul.data.model_.monolith.IEnsure"/>
+	/// ensure;
 	/// </summary>
+	/// <see cref="nilnul.data.model_.monolith.IEnsure"/>
 	static public class _ResultX
 	{
 
@@ -17,7 +20,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.bak.put
 		/// name assume unnormed
 		/// </summary>
 		/// <param name="gitTop"></param>
-		/// <param name="svrRepoName">assume unnormed</param>
+		/// <param name="svrRepoName">assume unnormed; the name might be too long;</param>
 		/// <param name="client"></param>
 		/// <param name="git"></param>
 		/// <returns></returns>

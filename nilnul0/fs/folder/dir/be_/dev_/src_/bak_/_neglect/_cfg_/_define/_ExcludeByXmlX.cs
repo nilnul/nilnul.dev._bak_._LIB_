@@ -31,8 +31,8 @@ namespace nilnul.fs.folder.be_.deV_.src_.bak_._neglect._cfg_._define
 				Trace.TraceError(
 					$"multiple {xpath} found; only the last will be effective."
 				);
-
 			}
+
 			var xel1 = xel.LastOrDefault();
 			if (xel1 is null)
 			{
@@ -44,6 +44,7 @@ namespace nilnul.fs.folder.be_.deV_.src_.bak_._neglect._cfg_._define
 			{
 				return true;
 			}
+
 			if (trimmed == "0")
 			{
 				return false;

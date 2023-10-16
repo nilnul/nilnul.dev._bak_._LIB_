@@ -1,4 +1,4 @@
-﻿using nilnul.dev.bak.nilnul0.fs.git.module.repo.remote_.dev_.baK_.github_.vered_.newest.ensure_.svr1st_._ensureSsh;
+﻿using nilnul.dev.bak.nilnul0.fs.git.depo.repo.remote_.dev_.baK_.github_.vered_.newest.ensure_.svr1st_._ensureSsh;
 
 namespace nilnul.fs.git.module.repo.remote_.dev_.baK_.github_.vered_.newest.ensure_.svr1st_._ensureSsh {
     

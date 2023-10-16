@@ -19,6 +19,15 @@ namespace nilnul.fs.git.module.repo.remote_.dev_.baK_.azure.create_
 
 	static public class _SvrFirstX
 	{
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="gitTop"></param>
+		/// <param name="remoteNameNom"></param>
+		/// <param name="client"></param>
+		/// <param name="svrRepoName">might be too long;</param>
+		/// <param name="git"></param>
+		/// <returns></returns>
 		public static bool SvrNoErr(
 			nilnul.fs.git.ModuleI gitTop
 			,
@@ -31,11 +40,64 @@ namespace nilnul.fs.git.module.repo.remote_.dev_.baK_.azure.create_
 			nilnul.win.prog_.Git git = null
 		)
 		{
+			var t = svrRepoName.ed;
+
+			var limit = 64;
+				//nilnul.fs.git.svr_.azure.repo._name.txt.Be
 
 
 			/// note here in git repo cfg we need the normalized name.
 			///
-			var normalizedRepoName = nilnul.fs.git.svr_.azure.repo.Name.Of_byEncode(svrRepoName);
+
+			if (
+				svrRepoName.ed.Length
+				>
+				limit
+
+			)
+			{
+				// we need to shorten the name
+					string autoname;
+
+				try
+				{
+					autoname = nilnul.fs.git.depo.repo._setting.descript._RepoNameX._Identy0nul_0depo(
+										gitTop.ToString()
+										,
+										git
+									);
+
+				}
+				catch (Exception)
+				{
+					/// there might be multiple names;
+					throw;
+				}
+
+				if (autoname is null)
+				{
+					/// todo: lzw to shorten the cognom?
+					///
+					throw new InvalidOperationException(
+						$"{svrRepoName} for {gitTop} is longer than limit:{limit}, and the name in description is null;"
+					);
+				}
+				else
+				{
+					Trace.TraceWarning(
+						$"{svrRepoName} for {gitTop} is longer than limit:{limit}, so the name in description:{autoname} is used;"
+
+					);
+					t = autoname;
+
+				}
+
+			}
+
+
+			var normalizedRepoName = nilnul.fs.git.svr_.azure.repo.Name.Of_byEncode(t); // "Unnamed repository; edit this file 'description' to name the repository" is the default in the description file;
+
+
 
 			var r = nilnul.fs.git.svr_.azure.client.teamwork.create_.personal._EnsureX.Result(
 				client
