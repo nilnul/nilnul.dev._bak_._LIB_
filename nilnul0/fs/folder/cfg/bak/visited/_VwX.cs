@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using nilnul.fs.file.blob;
+using nilnul.fs.git.depo.repo._setting;
+using nilnul.num.quotient.stream_;
 using nilnul.win.prog_;
 
 namespace nilnul.fs.folder.cfg.bak.visited
@@ -97,27 +101,61 @@ namespace nilnul.fs.folder.cfg.bak.visited
 				return null;
 			}
 
-			var content = nilnul._xml._el.content._ParseX.Load(
-				System.IO.Path.Combine(
-					cfgAddress
-					,
-					doc
-				)
+			XNode[] content = default;
+
+				string path = System.IO.Path.Combine(
+										cfgAddress
+										,
+										doc
+									);
+			
+
+			try
+			{
+				content = nilnul._xml._el.content._ParseX.Load(
+					path
+				).ToArray();
+
+				
 
 
-			);
+			}
+			catch (Exception e)
+			{
+				Trace.TraceError(
+					new XElement("xecParse",
+					$"error when parsing {path} as .xec: {e.ToString()}"
+					).ToString()
+				);
+				return null;
+				//throw;
+			}
 
-			var maxTime=
+			var maxTime =
 				nilnul.obj.str.to_.scalar_._MaxOrDefaultX.Max(
 
 				content.Where(
-					n=> n.NodeType == System.Xml.XmlNodeType.Element
-				).Cast<XElement>().Where(e=>e.Name.LocalName=="visited").Select(
-					v=>
-					(DateTime?) nilnul.time_.datetime.lex_.alnum_.NonyearCollapse.Singleton.parse(
-						v.Value
-					)
-				)
+					n => n.NodeType == System.Xml.XmlNodeType.Element
+				).Cast<XElement>().Where(e => e.Name.LocalName == "visited").Select(
+					v =>
+					{
+						try
+						{
+							return (DateTime?)nilnul.time_.datetime.lex_.alnum_.NonyearCollapse.Singleton.parse(
+													v.Value
+												);
+
+						}
+						catch (Exception x)
+						{
+							Trace.TraceError(
+								new XElement("time5alnum",
+									$"error when parsing alnum {v.Value} from {path} as time: {x.ToString()}"
+								).ToString()
+							);
+							return null;
+						}
+					})
 				,
 				nilnul.obj.nulable.comp_.NulMaxOvStruc<DateTime>.Singleton
 

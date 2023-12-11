@@ -52,7 +52,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			);
 			cancel.ThrowIfCancellationRequested();
 			//nilnul.fs.git._module.work._ignore.div_.top.doc.put_.dotnet._NilnulX.Exe(_folder_address);
-			nilnul.fs.folder.doc_.git_.ignore_.vsNilnul._PutX.Vod_ofAddress(_folder_address);
+			nilnul.fs.folder.doc_.git_.ignore_.vsNilnul._PutX.Vod_ofAddress(_folder_address);  //ensure, not update; (on the sidenote, patch means update)
 
 			//
 			//nilnul.fs.git.module._ignore_.exclude.unput._IfLinesNonemptyX._OfModuleAddress(_folder_address, innerModules2reinclude.Select(x=>x.ToString()));

@@ -67,8 +67,8 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 
 
 				bakBranch =
-					nilnul.fs.git.module.stow.create._CollapseX._Branch_addressAssumeModule_assumeShelfNub(
-						_location, bakVeredKey, out newlyCreatedBak, git
+					nilnul.fs.git.module.stow._CreateX._Branch_addressAssumeModule_assumeNub(
+						_location, bakVeredKey,  git
 				);
 
 
@@ -108,10 +108,16 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 				string snapKey = $"{bakVeredKey}_{"snap"}";
 
 
-				/// todo: when creating orphan branch, we need to later reset the current branch, and the stage; (the work would be unchanged all the time); Thus, we need not to reset in previous operation that we create the bakBranch.
+				/// todo: when creating orphan branch, we need to later reset the current branch, and the stage; (the work would be unchanged all the time); Thus, we need not to reset in previous operation where we create the bakBranch.
 
 				/// exception if bak branch has no previous history, as we need to take a step back during the process to restore index;
 				snapBranch = nilnul.fs.git.module.work.commit_.orphan._CollapseX._Branch_addressAssumeModule_assumeShelfNub(_location, bakBranch, snapKey, out newlyCreatedSnap, git);
+
+				/// now we remove the bakBranch:
+				///
+				var newBakBranch = fs.git.depo.repo.branch_.vered_.nob_.newest_.noncurrent.retract_._ToNonOrphanX._Regress_0moduleAddress_1branchNewestNoncurrent(_location, bakBranch, git);
+				newlyCreatedBak = (bakBranch == newBakBranch); //if Branch is the new, not a previous one
+				bakBranch = newBakBranch;
 
 				//nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_.branch_.snap.create._CollapseX._Branch
 
@@ -147,38 +153,7 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 			try
 			{
 				cancel.ThrowIfCancellationRequested();
-				if (
-					nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_._upload.SettingsX.Default.push4nonchange
-					/// even if there are no change since last bak commit, we still push it. Useful when we havenot resolved all the errors for last bak.
-					||
-					newlyCreatedBak
-				)
-				{
-					#region pushup the bakBranch.
-					var bakBranchSuccess = _upload_.branch_._BakX._Succed(
-						 _location
-						//,
-						// innerModules
-						,
-						 cancel
-						 ,
-						 bakBranch
-						 ,
-						 nom2normlS
-						,
-						 git = null
-					);
 
-					if (!bakBranchSuccess)
-					{
-						if (noError != false)
-						{
-							noError = false;
-						}
-					}
-					#endregion
-				}
-				cancel.ThrowIfCancellationRequested();
 				if (
 					nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_._upload.SettingsX.Default.push4nonchange
 					/// even if there are no change since last bak commit, we still push it. Useful when we havenot resolved all the errors for last bak.
@@ -212,6 +187,42 @@ namespace nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomple
 					}
 					#endregion
 				} // or else it means we failed to create new branch. and that means all the work has been saved in the last bak branch, which shall have already been bakked (possible with err, but err is traced and handled).
+
+				cancel.ThrowIfCancellationRequested();
+
+
+				if (
+					nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_._upload.SettingsX.Default.push4nonchange
+					/// even if there are no change since last bak commit, we still push it. Useful when we havenot resolved all the errors for last bak.
+					||
+					newlyCreatedBak
+				)
+				{
+					#region pushup the bakBranch.
+					var bakBranchSuccess = _upload_.branch_._BakX._Succed(
+						 _location
+						//,
+						// innerModules
+						,
+						 cancel
+						 ,
+						 bakBranch
+						 ,
+						 nom2normlS
+						,
+						 git = null
+					);
+
+					if (!bakBranchSuccess)
+					{
+						if (noError != false)
+						{
+							noError = false;
+						}
+					}
+					#endregion
+				}
+
 				cancel.ThrowIfCancellationRequested();
 				if (
 	nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_._upload.SettingsX.Default.push4nonchange
