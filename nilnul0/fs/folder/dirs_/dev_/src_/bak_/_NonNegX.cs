@@ -11,6 +11,8 @@ namespace nilnul.fs.folder.dirs_.dev_.src_.bak_
 	/// <summary>
 	/// list all the dirs that are not baked till after the given time
 	/// </summary>
+	///
+	[Obsolete()]
 	public class _NonNegX
 	{
 		public static IEnumerable<nilnul.fs._address.DirI> Dirs(nilnul.fs.FolderI s, nilnul.win.prog_.Git git = null)

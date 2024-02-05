@@ -13,6 +13,132 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.github.ensure_
 
 	static public class _EnsureSvrFirstX
 	{
+		public static bool _IsNewlyCreated_0depo_1nub4remote_3repoName(
+			string gitTop
+			,
+			string remoteNameNom
+			,
+			nilnul.fs.git.svr_.github.client_.Vaulted client
+			,
+			string svrRepoName
+			,
+			nilnul.win.prog_.Git git = null
+		)
+		{
+			if (nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.vered.be_._AnyX._Be_0depo_0nob4remote(
+				gitTop
+				,
+				remoteNameNom
+				,
+				git
+			))
+			{
+				return false;
+			}
+
+
+			/// here we might encouter xpn which failed to be caught by our logic, as the client's might change its logic as it's a preview version.
+			///
+			string url=null;
+			try
+			{
+				 url = nilnul.fs.git.svr_.github.client.repo.create_._PersonalX.Ensure(client,svrRepoName);
+
+			}
+			catch (Exception x)
+			{
+				Trace.TraceError(
+					$"when creating {svrRepoName} at github: {x.ToString()}. "
+				);
+				/// we don't rethrow; instead we assume it's successful.
+				//throw;
+			}
+
+			Trace.TraceInformation(
+				$"creating repo at github with given repoName{svrRepoName}; response:{url}."
+			);
+			
+			_CreateX._Vod_0depo_1remote_2acc_3repoName(
+				gitTop
+				,
+				 txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
+				remoteNameNom
+				)
+				 ,
+				 client.username
+				 ,
+				 svrRepoName
+				,
+				git
+			);
+			
+			///here as the remote key is not found, we return true.
+			return true;
+		}
+
+		public static bool _IsNewlyCreated_0depo_1nub4remote(
+			string gitTop
+			,
+			string remoteNameNom
+			,
+			nilnul.fs.git.svr_.github.client_.Vaulted client
+			,
+			nilnul.fs.git.svr.repo.Name svrRepoName
+			,
+			nilnul.win.prog_.Git git = null
+		)
+		{
+			if (nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.vered.be_._AnyX._Be_0depo_0nob4remote(
+				gitTop
+				,
+				remoteNameNom
+				,
+				git
+			))
+			{
+				return false;
+			}
+
+
+			/// here we might encouter xpn which failed to be caught by our logic, as the client's might change its logic as it's a preview version.
+			///
+			string url=null;
+			try
+			{
+				 url = nilnul.fs.git.svr_.github.client.repo.create_._PersonalX.Ensure(client,svrRepoName);
+
+			}
+			catch (Exception x)
+			{
+				Trace.TraceError(
+					$"when creating {svrRepoName} at github: {x.ToString()}. "
+				);
+				/// we don't rethrow; instead we assume it's successful.
+				//throw;
+			}
+
+			Trace.TraceInformation(
+				$"creating repo at github with given repoName{svrRepoName}; response:{url}."
+			);
+			
+			_CreateX._Vod_0depo_1remote(
+				gitTop
+				,
+				 txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
+				remoteNameNom
+				)
+				 ,
+				 client.username
+				 ,
+				 svrRepoName
+				,
+				git
+			);
+			
+			///here as the remote key is not found, we return true.
+			return true;
+		}
+
 		/// <summary>
 		/// 
 		/// </summary>

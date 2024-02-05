@@ -15,6 +15,373 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.bak.put
 	/// <see cref="nilnul.data.model_.monolith.IEnsure"/>
 	static public class _ResultX
 	{
+		public static nilnul._op.result_.Explain<bool> _NewlyCreated_0depo_1repoName(
+			string gitTop
+			,
+			string svrRepoName
+			,
+			nilnul.fs.git.svr.client_.accVaulted.Named client
+			,
+			nilnul.win.prog_.Git git = null
+		)
+		{
+			//nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(gitTop.ToString()).Wait();
+			switch (client.client)
+			{
+				case nilnul.fs.git.svr_.amazon.client_.AccInVault amazon:
+					/// todo: if its ohio?
+					try
+					{
+						return new nilnul._op.result_.Explain<bool>(
+							baK_.amazon_.ohio.put_._EnsureSvrFirstX._NewlyCreated_0depo_1nub4remote_3repoName(
+								gitTop
+								,
+								nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
+									client.name
+								)
+								,
+								amazon
+								,
+								svrRepoName
+								,
+								git
+							)
+						);
+					}
+					catch (Exception e)
+					{
+						return _op.result_.Explain<bool>.FroXpn(e.ToString());
+						//throw;
+					}
+					break;
+
+				case nilnul.fs.git.svr_.azure.client_.Vaulted azure:
+
+					try
+					{
+						return new nilnul._op.result_.Explain<bool>(
+							nilnul.fs.git.module.repo.remote_.dev_.baK_.azure_.vered_.newest.ensure_.svr1st_._NormRepoNameX
+							//baK_.azure.create.ensure_._SvrFirstX
+							._NewlyCreated_0depo_1nub4remote_3repoName
+							(
+								gitTop
+								,
+								nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
+									client.name
+								)
+								, azure, svrRepoName, git
+							)
+						);
+					}
+					catch (Exception e) /*Aggregate Exception: inner: ProjectAlreadyExistsException: TF200019: The following project already exists on the Azure DevOps Server: -_nilnulEdu_. You cannot create a new project with the same name as an existing project. Provide a different name.
+*/
+					{
+						Trace.TraceError(
+							$"{typeof(_ResultX).FullName }.{nameof(NewlyCreated)}({gitTop}, azure, {svrRepoName}): {e.ToString()}"
+						);
+						return _op.result_.Explain<bool>.FroXpn(e.ToString());
+						//throw;
+					}
+					break;
+
+				case nilnul.fs.git.svr_.github.client_.Vaulted github:
+
+					try
+					{
+						return new nilnul._op.result_.Explain<bool>(
+							//baK_.github.ensure_._EnsureSvrFirstX.NewlyCreated
+							nilnul.fs.git.module.repo.remote_.dev_.baK_.github_.vered_.newest.ensure_.svr1st_._EnsureSshX._IsNewlyCreated_0depo_1nub4remote_3repoName
+							(
+								gitTop
+								,
+								nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
+									client.name
+								)
+								, github, svrRepoName, git
+							)
+						);
+					}
+					catch (Exception e)
+					{
+						return _op.result_.Explain<bool>.FroXpn(e.ToString());
+						//throw;
+					}
+					break;
+
+				case nilnul.fs.git.svr.client_.accVaulted_.Github github:
+
+					try
+					{
+						return new nilnul._op.result_.Explain<bool>(
+							//baK_.github.ensure_._EnsureSvrFirstX.NewlyCreated
+nilnul.fs.git.module.repo.remote_.dev_.baK_.github_.vered_.newest.ensure_.svr1st_._EnsureSshX._IsNewlyCreated_0depo_1nub4remote_3repoName(
+								gitTop
+								,
+								nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
+									client.name
+								)
+								,
+								github
+								,
+								svrRepoName
+								,
+								git
+							)
+						);
+					}
+					catch (Exception e)
+					{
+						return _op.result_.Explain<bool>.FroXpn(e.ToString());
+						//throw;
+					}
+					break;
+
+				case nilnul.fs.git.svr.client_.accVaulted_.GitlabI gitlab:
+					try
+					{
+						return
+							new nilnul._op.result_.Explain<bool>(
+							//baK_.gitlab.ensure._ResultX.NewlyCreated
+							module.repo.remote_.dev_.baK_.gitlab_.vered_.newest.ensure_._NormRepoNameX._IsCreated_0depo_1nub4remote_3unnormed				(
+								gitTop,
+																nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
+									client.name
+								)
+
+								, gitlab, svrRepoName, git
+							)
+						)
+						;
+					}
+					catch (Exception e)
+					{
+						return _op.result_.Explain<bool>.FroXpn(e.ToString());
+						//throw;
+					}
+					break;
+
+
+				case nilnul.fs.git.svr_.vs.client_.AccInVault vs:
+
+					try
+					{
+						return new nilnul._op.result_.Explain<bool>(
+							baK_.vs.put_.ensureSvrFirst_._EnsureKeyX._IsNewlyCreated_0depo_1nub4remote_3repoName(
+								gitTop
+								,
+								nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
+									client.name
+								)
+								,
+								vs
+								,
+								svrRepoName
+								,
+								git
+							)
+						);
+					}
+					catch (Exception e)
+					{
+						return _op.result_.Explain<bool>.FroXpn(e.ToString());
+						//throw;
+					}
+					break;
+				default:
+					throw new UnexpectedReachException();
+					break;
+			}
+
+		}
+
+
+		/// <summary>
+		/// name assume unnormed
+		/// </summary>
+		/// <param name="gitTop"></param>
+		/// <param name="svrRepoName">assume unnormed; the name might be too long;</param>
+		/// <param name="client"></param>
+		/// <param name="git"></param>
+		/// <returns></returns>
+		public static nilnul._op.result_.Explain<bool> _NewlyCreated_0depo(
+			string gitTop
+			,
+			nilnul.fs.git.svr.repo.Name svrRepoName
+			,
+			nilnul.fs.git.svr.client_.accVaulted.Named client
+			,
+			nilnul.win.prog_.Git git = null
+		)
+		{
+			//nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(gitTop.ToString()).Wait();
+			switch (client.client)
+			{
+				case nilnul.fs.git.svr_.amazon.client_.AccInVault amazon:
+					/// todo: if its ohio?
+					try
+					{
+						return new nilnul._op.result_.Explain<bool>(
+							baK_.amazon_.ohio.put_._EnsureSvrFirstX._NewlyCreated_0depo_1nub4remote(
+								gitTop
+								,
+								nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
+									client.name
+								)
+								,
+								amazon
+								,
+								svrRepoName
+								,
+								git
+							)
+						);
+					}
+					catch (Exception e)
+					{
+						return _op.result_.Explain<bool>.FroXpn(e.ToString());
+						//throw;
+					}
+					break;
+
+				case nilnul.fs.git.svr_.azure.client_.Vaulted azure:
+
+					try
+					{
+						return new nilnul._op.result_.Explain<bool>(
+							nilnul.fs.git.module.repo.remote_.dev_.baK_.azure_.vered_.newest.ensure_.svr1st_._NormRepoNameX
+							//baK_.azure.create.ensure_._SvrFirstX
+							._NewlyCreated_0depo_1nub4remote
+							(
+								gitTop
+								,
+								nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
+									client.name
+								)
+								, azure, svrRepoName, git
+							)
+						);
+					}
+					catch (Exception e) /*Aggregate Exception: inner: ProjectAlreadyExistsException: TF200019: The following project already exists on the Azure DevOps Server: -_nilnulEdu_. You cannot create a new project with the same name as an existing project. Provide a different name.
+*/
+					{
+						Trace.TraceError(
+							$"{typeof(_ResultX).FullName }.{nameof(NewlyCreated)}({gitTop}, azure, {svrRepoName}): {e.ToString()}"
+						);
+						return _op.result_.Explain<bool>.FroXpn(e.ToString());
+						//throw;
+					}
+					break;
+
+				case nilnul.fs.git.svr_.github.client_.Vaulted github:
+
+					try
+					{
+						return new nilnul._op.result_.Explain<bool>(
+							//baK_.github.ensure_._EnsureSvrFirstX.NewlyCreated
+							nilnul.fs.git.module.repo.remote_.dev_.baK_.github_.vered_.newest.ensure_.svr1st_._EnsureSshX._IsNewlyCreated_0depo_1nub4remote
+							(
+								gitTop
+								,
+								nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
+									client.name
+								)
+								, github, svrRepoName, git
+							)
+						);
+					}
+					catch (Exception e)
+					{
+						return _op.result_.Explain<bool>.FroXpn(e.ToString());
+						//throw;
+					}
+					break;
+
+				case nilnul.fs.git.svr.client_.accVaulted_.Github github:
+
+					try
+					{
+						return new nilnul._op.result_.Explain<bool>(
+							//baK_.github.ensure_._EnsureSvrFirstX.NewlyCreated
+nilnul.fs.git.module.repo.remote_.dev_.baK_.github_.vered_.newest.ensure_.svr1st_._EnsureSshX._IsNewlyCreated_0depo_1nub4remote							(
+								gitTop
+								,
+								nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
+									client.name
+								)
+								,
+								github
+								,
+								svrRepoName
+								,
+								git
+							)
+						);
+					}
+					catch (Exception e)
+					{
+						return _op.result_.Explain<bool>.FroXpn(e.ToString());
+						//throw;
+					}
+					break;
+
+				case nilnul.fs.git.svr.client_.accVaulted_.GitlabI gitlab:
+					try
+					{
+						return
+							new nilnul._op.result_.Explain<bool>(
+							//baK_.gitlab.ensure._ResultX.NewlyCreated
+							module.repo.remote_.dev_.baK_.gitlab_.vered_.newest.ensure_._NormRepoNameX._IsCreated_0depo_1nub4remote_3unnormed							(
+								gitTop,
+																nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
+									client.name
+								)
+
+								, gitlab, svrRepoName, git
+							)
+						)
+						;
+					}
+					catch (Exception e)
+					{
+						return _op.result_.Explain<bool>.FroXpn(e.ToString());
+						//throw;
+					}
+					break;
+
+
+				case nilnul.fs.git.svr_.vs.client_.AccInVault vs:
+
+					try
+					{
+						return new nilnul._op.result_.Explain<bool>(
+							baK_.vs.put_.ensureSvrFirst_._EnsureKeyX._IsNewlyCreated_0depo_1nub4remote_3repoName(
+								gitTop
+								,
+								nilnul.txt_._vered.Name.CreateByAppendingUnderscoreIfNecessary(
+									client.name
+								)
+								,
+								vs
+								,
+								svrRepoName
+								,
+								git
+							)
+						);
+					}
+					catch (Exception e)
+					{
+						return _op.result_.Explain<bool>.FroXpn(e.ToString());
+						//throw;
+					}
+					break;
+				default:
+					throw new UnexpectedReachException();
+					break;
+			}
+
+		}
+
 
 		/// <summary>
 		/// name assume unnormed

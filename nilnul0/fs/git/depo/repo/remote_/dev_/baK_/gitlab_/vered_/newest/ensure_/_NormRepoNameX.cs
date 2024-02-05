@@ -13,6 +13,275 @@ namespace nilnul.fs.git.module.repo.remote_.dev_.baK_.gitlab_.vered_.newest.ensu
 
 	static public class _NormRepoNameX
 	{
+		public static bool _IsCreated_0depo_1nub4remote_3unnormed(
+			string gitTop
+			,
+			string remoteNameNom
+			,
+			nilnul.fs.git.svr.client_.accVaulted_.GitlabI client
+			,
+			string svrRepoName
+			,
+			nilnul.win.prog_.Git git = null
+		)
+		{
+			var newest = nilnul.fs.git.module.repo._cfg_.remote_.vered_.name_.newest._NulableX.Txt(
+				gitTop
+				,
+				remoteNameNom
+				,
+				git
+			);
+
+			bool created4next(string r)
+			{
+				//create_._SvrNoErrX.SvrNoErr
+				_cfg_.remote_.dev_.baK_.gitlab._CreateX._Vod_0depo_1nub4remote_2acc_3repoName
+					//azure.create_._SvrFirstX.SvrNoErr
+					(
+					gitTop
+					,
+					 r
+					 ,
+					 client.usr
+					 ,
+					 svrRepoName
+					,
+					git
+				);
+				return true;
+			}
+			if (newest is null)
+			{
+				return created4next(remoteNameNom);
+			}
+
+			var urns = nilnul.fs.git.depo.repo._cfg_.remote.uris._VwX._Txts_0depo_1remote(
+				gitTop
+				,
+				newest
+			).Select(a => a.Trim());
+
+			if (
+				urns.Any(   /// we tried to change url, if any url is unrepairable, we need to change the whole remote
+					u => //unrepairable
+					{
+
+						//try parse to url
+						nilnul.web.url_.SchemedNodewise url;
+						try
+						{
+							url = nilnul.web.url_.SchemedNodewise.Parse(u);
+
+						}
+						catch (Exception x)
+						{
+							Trace.TraceError($"{gitTop}:{newest}{u} is not url");
+							return true;
+							//throw;
+						}
+
+						var h = nilnul.web._url._origin._authority._socket.HostA.Polish(url.nodewise.authority0nul.socket.host);
+
+
+						if (
+							h is nilnul.web._url._origin._authority._socket.host_.named_.DomainedI domained
+
+						)
+						{
+							var d = domained.domain.ToString().ToLower();
+
+							if (d == "gitlab.com")
+							{
+								//change invalid repoName
+								var repoName = url.nodewise.resource0nul.render.route.division.denotes.Last().en;
+
+								if (
+									!repoName.EndsWith(".git")
+								)
+								{
+									return true; //need change name
+								}
+								if (
+
+									Regex.IsMatch(
+										repoName,@"\A\W|\W\W|\W\z"
+									)
+								//new nilnul.obj.co.str.of_._PeekAhead_ovStr<char>(
+								//	repoName
+								//).Any(
+								//	(a) => isPunc(a.Item1) && isPunc(a.Item2)
+								//)
+
+								)
+								{
+									return true;
+								}
+
+								return false;
+
+							
+							}
+						}
+						return true;
+					}
+				)
+			)
+			{
+				var remoteParsed = nilnul.txt_.Vered3.Parse(newest);
+
+				nilnul.fs.git.module.repo._cfg_.remote.name._ChangeX._Vod_addressAssumeModule_assumeValids(
+					gitTop
+					,
+					newest
+					,
+					$@"{newest}{1}L{
+						nilnul.time_.datetime.lex_.num_.YrInTwo.Singleton.phrase()
+						//new BigInteger(Guid.NewGuid().ToByteArray().Append((byte)0).ToArray())
+					}r"
+				);
+
+				return created4next(newest);
+
+			}
+			return false;
+		}
+
+		public static bool _IsCreated_0depo_1nub4remote_3unnormed(
+			string gitTop
+			,
+			string remoteNameNom
+			,
+			nilnul.fs.git.svr.client_.accVaulted_.GitlabI client
+			,
+			nilnul.fs.git.svr.repo.Name svrRepoName
+			,
+			nilnul.win.prog_.Git git = null
+		)
+		{
+			var newest = nilnul.fs.git.module.repo._cfg_.remote_.vered_.name_.newest._NulableX.Txt(
+				gitTop
+				,
+				remoteNameNom
+				,
+				git
+			);
+
+			bool created4next(string r)
+			{
+				//create_._SvrNoErrX.SvrNoErr
+				_cfg_.remote_.dev_.baK_.gitlab._CreateX._Vod_0depo_1nub4remote_2acc
+					//azure.create_._SvrFirstX.SvrNoErr
+					(
+					gitTop
+					,
+					 r
+					 ,
+					 client.usr
+					 ,
+					 svrRepoName
+					,
+					git
+				);
+				return true;
+			}
+			if (newest is null)
+			{
+				return created4next(remoteNameNom);
+			}
+
+			var urns = nilnul.fs.git.depo.repo._cfg_.remote.uris._VwX._Txts_0depo_1remote(
+				gitTop
+				,
+				newest
+			).Select(a => a.Trim());
+
+			if (
+				urns.Any(   /// we tried to change url, if any url is unrepairable, we need to change the whole remote
+					u => //unrepairable
+					{
+
+						//try parse to url
+						nilnul.web.url_.SchemedNodewise url;
+						try
+						{
+							url = nilnul.web.url_.SchemedNodewise.Parse(u);
+
+						}
+						catch (Exception x)
+						{
+							Trace.TraceError($"{gitTop}:{newest}{u} is not url");
+							return true;
+							//throw;
+						}
+
+						var h = nilnul.web._url._origin._authority._socket.HostA.Polish(url.nodewise.authority0nul.socket.host);
+
+
+						if (
+							h is nilnul.web._url._origin._authority._socket.host_.named_.DomainedI domained
+
+						)
+						{
+							var d = domained.domain.ToString().ToLower();
+
+							if (d == "gitlab.com")
+							{
+								//change invalid repoName
+								var repoName = url.nodewise.resource0nul.render.route.division.denotes.Last().en;
+
+								if (
+									!repoName.EndsWith(".git")
+								)
+								{
+									return true; //need change name
+								}
+								if (
+
+									Regex.IsMatch(
+										repoName,@"\A\W|\W\W|\W\z"
+									)
+								//new nilnul.obj.co.str.of_._PeekAhead_ovStr<char>(
+								//	repoName
+								//).Any(
+								//	(a) => isPunc(a.Item1) && isPunc(a.Item2)
+								//)
+
+								)
+								{
+									return true;
+								}
+
+								return false;
+
+							
+							}
+						}
+						return true;
+					}
+				)
+			)
+			{
+				var remoteParsed = nilnul.txt_.Vered3.Parse(newest);
+
+				nilnul.fs.git.module.repo._cfg_.remote.name._ChangeX._Vod_addressAssumeModule_assumeValids(
+					gitTop
+					,
+					newest
+					,
+					$@"{newest}{1}L{
+						nilnul.time_.datetime.lex_.num_.YrInTwo.Singleton.phrase()
+						//new BigInteger(Guid.NewGuid().ToByteArray().Append((byte)0).ToArray())
+					}r"
+				);
+
+				return created4next(newest);
+
+			}
+			return false;
+		}
+
+
 		/// <summary>
 		/// </summary>
 		/// <param name="gitTop"></param>
@@ -156,6 +425,7 @@ namespace nilnul.fs.git.module.repo.remote_.dev_.baK_.gitlab_.vered_.newest.ensu
 			}
 			return false;
 		}
+
 
 		public static bool _Created_repoNameAssumeUnnormed(
 			nilnul.fs.git.ModuleI gitTop

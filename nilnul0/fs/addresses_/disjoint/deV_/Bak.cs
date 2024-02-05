@@ -68,6 +68,8 @@ namespace nilnul.fs.addresses_.disjoint.deV_
 
 
 			);
+			///  for an address is not sln, but inner of sln, they will be tackled when being traversed.
+			///  as the addresses are disjoint, hence the sln contains hat address wouldnot be included here, and hence no confliction would arise;
 
 			try
 			{
@@ -90,6 +92,7 @@ namespace nilnul.fs.addresses_.disjoint.deV_
 			}
 			try
 			{
+				/// todo: GetAwaiter().GetResult()?
 				t.Wait();
 			}
 			catch (AggregateException ex)

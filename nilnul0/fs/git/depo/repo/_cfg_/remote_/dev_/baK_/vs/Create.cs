@@ -9,6 +9,32 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.vs
 	////extern alias git;
 	static public class _CreateX
 	{
+		static public void _Vod_0depo_1nub4remote_2acc_3repoName(
+			string _gitTop
+			,
+			string remoteNom
+			,
+			string prefix
+			,
+			string svrRepoName
+
+			,
+			nilnul.win.prog_.Git git = null
+		)
+		{
+
+			nilnul.fs.git.module.repo._cfg_.remote._CreateX._Vod_assumeModuleAddress1Remote1Urn(
+				_gitTop
+				, 
+				remoteNom
+								
+,
+				nilnul.fs.git.svr_.vs_.prefixed.repo._UrlX.Gen(prefix, svrRepoName)
+				, 
+				git
+			);
+		}
+
 
 		/// <summary>
 		/// 

@@ -1,4 +1,6 @@
 ﻿//#define SOME_AMAZON_REPO_NOT_CREATED
+using nilnul.fs.git.svr_.vs.client_;
+using nilnul.win.prog_;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -11,6 +13,88 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.vs.put_.ensureSvrFir
 
 	static public class _EnsureKeyX
 	{
+		public static bool _IsNewlyCreated_0depo_1nub4remote_3repoName(
+			string gitTop, txt_._vered.Name remoteNameNom, AccInVault client, string svrRepoName, Git git
+		)
+		{
+
+	
+			var remoteNewst = nilnul.fs.git.module.repo._cfg_.remote_.vered_.name_._NewestX.Txt(gitTop, remoteNameNom);
+			if (nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.vered.be_._AnyX._Be_0depo_0nob4remote(
+				gitTop
+				,
+				remoteNameNom
+				,
+				git
+			))
+			{
+				var r1 = nilnul.fs.git.module.repo._cfg_.remote.url_.svr_.vs.ensureSvr_._ViaLibX.Result(
+					client
+					,
+					gitTop
+					,
+					remoteNewst
+					,
+					git
+
+				);
+				Trace.TraceInformation(
+					$@"ensure svr reop for {gitTop} remote {remoteNewst}:
+					{r1}
+					"
+				);
+
+				///ensure svr
+				return false;
+			}
+
+			//var url = client.gitUrl(svrRepoName);
+
+
+			var r = nilnul.fs.git.svr_.vs.client.teamwork.create_.personal._EnsureX.Result(
+				client
+				,
+				svrRepoName
+			);
+
+			//var r = nilnul.fs.git.svr_.vs_.prefixed.client.repo.create_.prjDefault._EnsureX.Result(
+			//	client
+			//	,
+			//	svrRepoName
+			//);
+
+			Trace.TraceInformation(
+				$"creating repo at visualstudio.com with given repoName: {svrRepoName}; response:{r}."
+			);
+
+			vs._CreateX._Vod_0depo_1nub4remote_2acc_3repoName(
+				gitTop
+				,
+				 txt_._vered_.Name.CreateByAppendingUnderscoreIfNecessary(
+				remoteNameNom
+				)
+				 ,
+				 client.prefix
+				 ,
+				 svrRepoName
+				,
+				git
+			);
+
+			if (r.isXpn())
+			{	//not created.
+				return false;
+
+			}
+
+			return true;
+
+
+
+
+
+		}
+
 		public static bool NewlyCreated(
 			nilnul.fs.git.ModuleI gitTop
 			,

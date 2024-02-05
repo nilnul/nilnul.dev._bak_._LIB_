@@ -10,6 +10,46 @@ namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
 	/// </summary>
 	static public class _VwX
 	{
+		public static IEnumerable<string> _Name0nules_0depo(
+			string gitTop
+			,
+			IEnumerable<nilnul.txt_._vered.Name> individualRemotes
+			,
+			nilnul.win.prog_.Git git = null
+		)
+		{
+			var remotes = individualRemotes.Select(
+				r => nilnul.fs.git.module.repo._cfg_.remote_.vered_.name_.newest._NulableX._Txt_0depo(
+					gitTop
+					,
+					r
+					,
+					git
+				)
+			);
+			return remotes;
+		}
+
+		public static IEnumerable<string> _Name0nules_0depo(
+			string gitTop
+			,
+			IEnumerable<string> individualRemotes
+			,
+			nilnul.win.prog_.Git git = null
+		)
+		{
+			
+			return _Name0nules_0depo(
+				gitTop
+				,
+				individualRemotes.Select(
+					x=> new nilnul.txt_._vered.Name(x)
+				)
+				,
+				git
+			);
+		}
+
 
 		public static IEnumerable<string> Name0nuls(
 			nilnul.fs.git.ModuleI gitTop
@@ -19,8 +59,6 @@ namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
 			nilnul.win.prog_.Git git = null
 		)
 		{
-
-
 			var remotes = individualRemotes.Select(
 				r => nilnul.fs.git.module.repo._cfg_.remote_.vered_.name_.newest._NulableX.Txt(
 					gitTop
@@ -31,7 +69,6 @@ namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
 				)
 			);
 			return remotes;
-
 		}
 
 		public static IEnumerable<string> Name0nuls(

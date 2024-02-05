@@ -63,7 +63,7 @@ namespace nilnul.fs.addresses_.disjoint.deV_.bak
 					TaskCreationOptions.AttachedToParent// don't use: | TaskCreationOptions.DenyChildAttach
 					,
 					TaskScheduler.Current //https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.taskfactory.scheduler?view=netframework-4.7.2 If this property value is null, the value of the Current property is used..
-				).Wait(
+				).GetAwaiter().GetResult(
 					/*cancel*/
 				);
 

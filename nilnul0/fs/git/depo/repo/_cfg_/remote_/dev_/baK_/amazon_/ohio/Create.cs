@@ -9,17 +9,65 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.amazon_.ohio
 	////extern alias git;
 	static public class _CreateX
 	{
+		static public void _Vod_0depo_1remote_2repoName(
+			string _gitTop
+			,
+			string remote
+			,
+			string svrRepoName
+			,
+			nilnul.win.prog_.Git git = null
+		)
+		{
+			nilnul.fs.git.module.repo._cfg_.remote._CreateX._Vod_assumeModuleAddress1Remote1Urn(
+				_gitTop
+				, 
+				remote
+				, 
+				nilnul.fs.git.svr_.aw_.ohio.repo._UrlX.Create(svrRepoName)
+				, 
+				git
+			);
+		}
 		/// <summary>
 		/// 
 		/// </summary>
 		/// <param name="_gitTop"></param>
-		/// <param name="remoteNom"></param>
+		/// <param name="remote"></param>
+		/// <param name="svrRepoName">the nom, excluding the version</param>
+		/// <param name="git"></param>
+		static public void _Vod_0depo_1remote(
+			string _gitTop
+			,
+			string remote
+			,
+			nilnul.fs.git.svr.repo.Name svrRepoName
+			,
+			nilnul.win.prog_.Git git = null
+		)
+		{
+			nilnul.fs.git.module.repo._cfg_.remote._CreateX._Vod_assumeModuleAddress1Remote1Urn(
+				_gitTop
+				, 
+				remote
+				, 
+				nilnul.fs.git.svr_.aw_.ohio.repo._UrlX.Create(svrRepoName)
+				, 
+				git
+			);
+		}
+
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="_gitTop"></param>
+		/// <param name="remote"></param>
 		/// <param name="svrRepoName">the nom, excluding the version</param>
 		/// <param name="git"></param>
 		static public void Void(
 			nilnul.fs.git.ModuleI _gitTop
 			,
-			string remoteNom
+			string remote
 			,
 			nilnul.fs.git.svr.repo.Name svrRepoName
 			,
@@ -29,7 +77,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.amazon_.ohio
 			nilnul.fs.git.module.repo._cfg_.remote._CreateX.RetVoid(
 				_gitTop
 				, 
-				remoteNom
+				remote
 				, 
 				nilnul.fs.git.svr_.aw_.ohio.repo._UrlX.Create(svrRepoName)
 				, 

@@ -50,6 +50,7 @@ namespace nilnul.dev.src.div._bak.cognable
 
 			if (nilnul.fs.address_.shield.be_.Folder.Singleton.be(_shield) )
 			{
+				/// as the div is provided by user, we don't check whether any seg is nonparticipant or not, assuming the user explicitly requires it to be participant.
 				new dev.srcs.each.div_._delvable.cognable_.folder.WhetherUnjoint(cfg) {
 					src=src,
 					cognom=cognom,
@@ -57,15 +58,12 @@ namespace nilnul.dev.src.div._bak.cognable
 					,
 					segsEs=segsEs
 				}.exe(
-					//_shield
+
 				);
-
-
+				return;
 			}
-			else
-			{
-				Trace.TraceWarning($" {_shield} is not a folder");
-			}
+
+			Trace.TraceWarning($" {_shield} is not a folder");
 			
 		}
 

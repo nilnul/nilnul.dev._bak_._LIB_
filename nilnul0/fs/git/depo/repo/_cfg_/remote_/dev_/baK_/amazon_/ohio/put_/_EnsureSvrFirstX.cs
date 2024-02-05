@@ -13,6 +13,123 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.amazon_.ohio.put_
 
 	static public class _EnsureSvrFirstX
 	{
+		public static bool _NewlyCreated_0depo_1nub4remote_3repoName(
+			string gitTop
+			,
+			string remoteNameNom
+			,
+
+			nilnul.fs.git.svr_.amazon.client_.AccInVault amazon
+
+			,
+			string svrRepoName
+			,
+			nilnul.win.prog_.Git git=null
+		)
+		{
+			if (nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.vered.be_._AnyX._Be_0depo_0nob4remote(
+				gitTop
+				,
+				remoteNameNom
+				,
+				git
+			))
+			{
+#if SOME_AMAZON_REPO_NOT_CREATED
+				///ensure on the server
+				///todo: remove this
+				///
+				Trace.TraceInformation(
+					$@"ensuring repo with newest remote; response:{
+						nilnul.fs.git.module.repo._cfg_.remote_.svr_.amazon_.newest._EnsureOhioRepoX.Json(
+							gitTop, git
+						)
+					}"
+				);
+#endif
+				return false;
+			}
+
+			var r = nilnul.fs.git.svr_.amazon.client.repo.create._EnsureX.Ret(
+				amazon
+				,
+				svrRepoName
+			);
+
+			Trace.TraceInformation(
+				$"creating repo at amazon  with given repoName {svrRepoName}; response:{r}."
+			);
+
+			nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.amazon_.ohio._CreateX._Vod_0depo_1remote_2repoName(
+				gitTop
+				,
+				remoteNameNom
+					,
+				svrRepoName
+			);
+			
+			return true;
+		}
+
+		public static bool _NewlyCreated_0depo_1nub4remote(
+			string gitTop
+			,
+			string remoteNameNom
+			,
+
+			nilnul.fs.git.svr_.amazon.client_.AccInVault amazon
+
+			,
+			nilnul.fs.git.svr.repo.Name svrRepoName
+			,
+			nilnul.win.prog_.Git git=null
+		)
+		{
+			if (nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.vered.be_._AnyX._Be_0depo_0nob4remote(
+				gitTop
+				,
+				remoteNameNom
+				,
+				git
+			))
+			{
+#if SOME_AMAZON_REPO_NOT_CREATED
+				///ensure on the server
+				///todo: remove this
+				///
+				Trace.TraceInformation(
+					$@"ensuring repo with newest remote; response:{
+						nilnul.fs.git.module.repo._cfg_.remote_.svr_.amazon_.newest._EnsureOhioRepoX.Json(
+							gitTop, git
+						)
+					}"
+				);
+#endif
+				return false;
+			}
+
+			var r = nilnul.fs.git.svr_.amazon.client.repo.create._EnsureX.Ret(
+				amazon
+				,
+				svrRepoName
+			);
+
+			Trace.TraceInformation(
+				$"creating repo at amazon  with given repoName {svrRepoName}; response:{r}."
+			);
+
+			nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.amazon_.ohio._CreateX._Vod_0depo_1remote(
+				gitTop
+				,
+				remoteNameNom
+					,
+				svrRepoName
+			);
+			
+			return true;
+		}
+
+	
 		public static bool NewlyCreated(
 			nilnul.fs.git.ModuleI gitTop
 			,

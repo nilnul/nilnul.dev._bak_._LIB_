@@ -20,6 +20,33 @@ namespace nilnul.fs.git.module.repo._cfg_.remotes_.dev_.baK
 		/// <param name="clients"></param>
 		/// <param name="git"></param>
 		/// <returns></returns>
+		static public IEnumerable<nilnul._op.result_.Explain<bool>> _NewlyCreatedEs_0depo(
+			string gitTop
+			,
+			string svrRepoName
+			,
+			nilnul.fs.git.svr.client_.accVaulted.Nameds clients
+			,
+			nilnul.win.prog_.Git git = null
+		)
+		{
+			return clients.Select(
+				c=>
+				{
+					//nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(gitTop.ToString()).Wait();
+					return remote_.dev_.bak.put._ResultX._NewlyCreated_0depo_1repoName(
+						gitTop
+						,
+						svrRepoName
+						,
+						c
+						,
+						git
+					);
+				}
+			);
+		}
+
 		static public IEnumerable<nilnul._op.result_.Explain<bool>> NewlyCreatedS(
 			nilnul.fs.git.ModuleI gitTop
 			,

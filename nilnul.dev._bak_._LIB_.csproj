@@ -100,10 +100,10 @@
       <HintPath>packages\AE.Net.Mail.1.7.7816.38666\lib\net48\AE.Net.Mail.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.CodeCommit, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\AWSSDK.CodeCommit.3.7.300.16\lib\net45\AWSSDK.CodeCommit.dll</HintPath>
+      <HintPath>..\..\.deps\AWSSDK.CodeCommit.3.7.301.15\lib\net45\AWSSDK.CodeCommit.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\AWSSDK.Core.3.7.300.16\lib\net45\AWSSDK.Core.dll</HintPath>
+      <HintPath>..\..\.deps\AWSSDK.Core.3.7.301.9\lib\net45\AWSSDK.Core.dll</HintPath>
     </Reference>
     <Reference Include="DotNetZip, Version=1.16.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
       <HintPath>packages\DotNetZip.1.16.0\lib\net40\DotNetZip.dll</HintPath>
@@ -150,8 +150,8 @@
     <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\Microsoft.Extensions.Configuration.Abstractions.8.0.0\lib\net462\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Extensions.Configuration.Binder, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\Microsoft.Extensions.Configuration.Binder.8.0.0\lib\net462\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+    <Reference Include="Microsoft.Extensions.Configuration.Binder, Version=8.0.0.1, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\Microsoft.Extensions.Configuration.Binder.8.0.1\lib\net462\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.DependencyInjection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\Microsoft.Extensions.DependencyInjection.8.0.0\lib\net462\Microsoft.Extensions.DependencyInjection.dll</HintPath>
@@ -165,26 +165,26 @@
     <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\Microsoft.Extensions.Logging.Abstractions.8.0.0\lib\net462\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Extensions.Options, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\Microsoft.Extensions.Options.8.0.0\lib\net462\Microsoft.Extensions.Options.dll</HintPath>
+    <Reference Include="Microsoft.Extensions.Options, Version=8.0.0.1, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\Microsoft.Extensions.Options.8.0.1\lib\net462\Microsoft.Extensions.Options.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\Microsoft.Extensions.Primitives.8.0.0\lib\net462\Microsoft.Extensions.Primitives.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.IdentityModel.Abstractions, Version=7.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\Microsoft.IdentityModel.Abstractions.7.0.3\lib\net472\Microsoft.IdentityModel.Abstractions.dll</HintPath>
+    <Reference Include="Microsoft.IdentityModel.Abstractions, Version=7.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\Microsoft.IdentityModel.Abstractions.7.2.0\lib\net472\Microsoft.IdentityModel.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.IdentityModel.Clients.ActiveDirectory.5.3.0\lib\net45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.IdentityModel.JsonWebTokens, Version=7.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\Microsoft.IdentityModel.JsonWebTokens.7.0.3\lib\net472\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+    <Reference Include="Microsoft.IdentityModel.JsonWebTokens, Version=7.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\Microsoft.IdentityModel.JsonWebTokens.7.2.0\lib\net472\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.IdentityModel.Logging, Version=7.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\Microsoft.IdentityModel.Logging.7.0.3\lib\net472\Microsoft.IdentityModel.Logging.dll</HintPath>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=7.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\Microsoft.IdentityModel.Logging.7.2.0\lib\net472\Microsoft.IdentityModel.Logging.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.IdentityModel.Tokens, Version=7.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\Microsoft.IdentityModel.Tokens.7.0.3\lib\net472\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=7.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\Microsoft.IdentityModel.Tokens.7.2.0\lib\net472\Microsoft.IdentityModel.Tokens.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.IO.Redist, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.IO.Redist.6.0.0\lib\net472\Microsoft.IO.Redist.dll</HintPath>
@@ -277,13 +277,13 @@
       <HintPath>..\..\.deps\nilnul.collection_._discrete_._LIB_.1.1.230611.40617-sym\lib\net481\nilnul.collection_._discrete_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.dev._src_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.dev._src_._LIB_.1.1.230806.90443-sym\lib\net481\nilnul.dev._src_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.dev._src_._LIB_.1.1.240116.180257-sym\lib\net481\nilnul.dev._src_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.fs._git_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.fs._git_._LIB_.2.1.231211.181112-sym\lib\net481\nilnul.fs._git_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.fs._git_._LIB_.2.1.240118.150252-sym\lib\net481\nilnul.fs._git_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.geometry._planar_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.geometry._planar_._LIB_.1.1.231123.74333-sym\lib\net481\nilnul.geometry._planar_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.geometry._planar_._LIB_.1.1.240103.51136-sym\lib\net481\nilnul.geometry._planar_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.lang_._cognom_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul.lang_._cognom_._LIB_.1.1230806.123209-sym\lib\netstandard2.0\nilnul.lang_._cognom_._LIB_.dll</HintPath>
@@ -307,10 +307,10 @@
       <HintPath>packages\nilnul.num._integer_._LIB_.1.1.230515.93530-sym\lib\net481\nilnul.num._integer_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._quotient_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._quotient_._LIB_.1.1.230716.154720-sym\lib\net481\nilnul.num._quotient_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num._quotient_._LIB_.1.1.231225.105453-sym\lib\net481\nilnul.num._quotient_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._real_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._real_._LIB_.2.1.231025.120651-sym\lib\net481\nilnul.num._real_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num._real_._LIB_.2.1.240104.60751-sym\lib\net481\nilnul.num._real_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.rel._graph_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul.rel._graph_._LIB_.1.1.230804.73424-sym\lib\net481\nilnul.rel._graph_._LIB_.dll</HintPath>
@@ -323,10 +323,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="nilnul._app_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._app_._LIB_.1.1.231205.153029-sym\lib\net481\nilnul._app_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._app_._LIB_.1.1.231218.102740-sym\lib\net481\nilnul._app_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._bit_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._bit_._LIB_.1.1.231003.120850-sym\lib\net481\nilnul._bit_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._bit_._LIB_.1.1.231213.174600-sym\lib\net481\nilnul._bit_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._character_._LIB_, Version=2.1.8387.39356, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul._character_._LIB_.2.1.231121.55239-sym\lib\net481\nilnul._character_._LIB_.dll</HintPath>
@@ -338,13 +338,13 @@
       <HintPath>packages\nilnul._data_._LIB_.1.1.230318.144409-sym\lib\net481\nilnul._data_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._dev_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._dev_._LIB_.1.1.230806.93535-sym\lib\net481\nilnul._dev_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._dev_._LIB_.1.1.240120.140557-sym\lib\net481\nilnul._dev_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._fs_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._fs_._LIB_.2.1.231210.131344-sym\lib\net481\nilnul._fs_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._fs_._LIB_.2.1.240127.25605-sym\lib\net481\nilnul._fs_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._fs_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._fs_._LINQ_.1.1.231206.160117-sym\lib\net481\nilnul._fs_._LINQ_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._fs_._LINQ_.1.1.240127.25606-sym\lib\net481\nilnul._fs_._LINQ_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._fs_._WIN_CTR_,Version=1.1.220828.160201, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._fs_._WIN_CTR_.1.1.220828.160201\lib\net481\nilnul._fs_._WIN_CTR_.dll</HintPath>
@@ -362,7 +362,7 @@
       <HintPath>..\..\.deps\nilnul._linq_._LIB_.1.1.231012.113523-sym\lib\net481\nilnul._linq_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._num_._LIB_.1.1.231206.31606-sym\lib\net481\nilnul._num_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._num_._LIB_.1.1.240104.43053-sym\lib\net481\nilnul._num_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul._num_._LINQ_.1.1.231206.31605-sym\lib\net481\nilnul._num_._LINQ_.dll</HintPath>
@@ -371,10 +371,10 @@
       <HintPath>packages\nilnul._obj_._CTR4WIN_.1.1.220725.150624\lib\net48\nilnul._obj_._CTR4WIN_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.231210.134823-sym\lib\net481\nilnul._obj_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.240103.74005-sym\lib\net481\nilnul._obj_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._os_._LIB4FX_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._os_._LIB4FX_.1.0.231124.170057-sym\lib\net481\nilnul._os_._LIB4FX_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._os_._LIB4FX_.1.0.240118.150201-sym\lib\net481\nilnul._os_._LIB4FX_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._rel_._LIB_, Version=1.2.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.231003.172246-sym\lib\net481\nilnul._rel_._LIB_.dll</HintPath>
@@ -383,10 +383,10 @@
       <HintPath>..\..\.deps\nilnul._set_._LIB_.1.1.230730.135726-sym\lib\net481\nilnul._set_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._time_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._time_._LIB_.1.1.231205.150850-sym\lib\net481\nilnul._time_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._time_._LIB_.1.1.240110.52959-sym\lib\net481\nilnul._time_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.231117.163357-sym\lib\net481\nilnul._txt_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.240109.55913-sym\lib\net481\nilnul._txt_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._txt_._WIN_CTR_,Version=1.1.220828.153928, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._txt_._WIN_CTR_.1.1.220828.153928\lib\net481\nilnul._txt_._WIN_CTR_.dll</HintPath>
@@ -398,7 +398,7 @@
       <HintPath>packages\nilnul._win_._CTR4WIN_.1.1.220909.180734\lib\net481\nilnul._win_._CTR4WIN_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._win_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._win_._LIB_.1.1.231124.171847-sym\lib\net481\nilnul._win_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._win_._LIB_.1.1.240118.150156-sym\lib\net481\nilnul._win_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._xml_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul._xml_._LIB_.1.1.231205.164405-sym\lib\net481\nilnul._xml_._LIB_.dll</HintPath>
@@ -418,8 +418,8 @@
     <Reference Include="NuGet.Versioning, Version=6.8.0.131, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\NuGet.Versioning.6.8.0\lib\net472\NuGet.Versioning.dll</HintPath>
     </Reference>
-    <Reference Include="Octokit, Version=9.0.0.0, Culture=neutral, PublicKeyToken=0be8860aee462442, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\Octokit.9.0.0\lib\netstandard2.0\Octokit.dll</HintPath>
+    <Reference Include="Octokit, Version=9.1.0.0, Culture=neutral, PublicKeyToken=0be8860aee462442, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\Octokit.9.1.0\lib\netstandard2.0\Octokit.dll</HintPath>
     </Reference>
     <Reference Include="Remotion.Linq, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
       <HintPath>packages\Remotion.Linq.2.2.0\lib\net45\Remotion.Linq.dll</HintPath>
@@ -485,8 +485,8 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.IdentityModel" />
-    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=7.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\System.IdentityModel.Tokens.Jwt.7.0.3\lib\net472\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=7.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\System.IdentityModel.Tokens.Jwt.7.2.0\lib\net472\System.IdentityModel.Tokens.Jwt.dll</HintPath>
     </Reference>
     <Reference Include="System.Interactive.Async, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Ix-Async.1.2.5\lib\net45\System.Interactive.Async.dll</HintPath>
@@ -619,8 +619,8 @@
     <Reference Include="System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\System.Text.Encodings.Web.8.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
     </Reference>
-    <Reference Include="System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\System.Text.Json.8.0.0\lib\net462\System.Text.Json.dll</HintPath>
+    <Reference Include="System.Text.Json, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\System.Text.Json.8.0.1\lib\net462\System.Text.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\System.Text.RegularExpressions.4.3.1\lib\net463\System.Text.RegularExpressions.dll</HintPath>
@@ -677,248 +677,285 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="nilnul0\dev\srcs\each\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory\_bak\TowardsDelvable.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable\_bak\IIntendOrNot.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\partic\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\partic_\giT\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\unpartic\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\unpartic\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\unpartic_\giT_\plain\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\unpartic_\giT_\work\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\unpartic_\giT_\work_\top\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\IDelvable.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\_delvable\TowardsDelvable.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div\dir_\candidate\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div\dir_\candidate_\INonreentry.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div\dir_\candidate_\unjoint_\nonneglect_\giT_\nonrepo_\IIntent.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div\dir_\candidate_\unjoint_\nonneglect_\giT_\plain_\IIntent.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div\dir_\ICandidate.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div\dir_\IUnjoint.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div\_dir\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\giT_\work_\top\_BakX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\unpartic_\giT_\plain_\intend\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln_\delvable\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln_\delvable_\partic\BakTackler.cs" />
+    <Compile Include="nilnul0\dev\srcs\IEach.cs" />
     <Compile Include="nilnul0\dev\srcs\each\div\IBak.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\delvable\bak~\Bak_byCognom.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\nonneglect_\giT_\nonrepo_\incomplete\dir_\enlist\IBak.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\nonneglect_\giT_\nonrepo_\incomplete\dir_\enlist_\link\IBak.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\nonneglect_\giT_\nonrepo_\incomplete\dir_\enlist_\unjoint\IBak.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\IDelvable.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\partic_\giT_\nonrepo_\incomplete\dir_\unskip\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\partic_\giT_\nonrepo_\incomplete\dir_\unskip_\link\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\partic_\giT_\nonrepo_\incomplete\dir_\unskip_\unjoint\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\INeglect.cs" />
     <Compile Include="nilnul0\dev\srcs\each\div_\_delvable\cognable\IWhetherFolder.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\_delvable\cognable_\folder\folder\EnsureUnjoint.cs" />
     <Compile Include="nilnul0\dev\srcs\each\div_\_delvable\cognable_\folder\IWhetherUnjoint.cs" />
     <Compile Include="nilnul0\dev\srcs\each\div_\_delvable\ICognable0not.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\shelf\create\_CollapseX.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\shelf\create\ICollapse.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\shelf\create\_collapse\_DropRedundantX.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\shelf\ICreate.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload\SettingsX.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\snatch\create\_CollapseX.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\snatch\_Create_byCheckoutAsNewBranchX.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\_SnapX - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\nonrepo\dir\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\nonrepo\dir_\delve\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\nonrepo\dir_\attend\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\nonrepo\dir_\attend_\drab0nontop\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\nonrepo\dir_\attend_\drab0work\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\partic_\giT_\work_\nontop_\nonintent\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\shelf\create\_CollapseX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\shelf\create\ICollapse.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\shelf\create\_collapse\_DropRedundantX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\shelf\ICreate.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload\SettingsX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\snatch\create\_CollapseX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\snatch\_Create_byCheckoutAsNewBranchX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\_SnapX - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\tag_\_BakX.cs" />
     <Compile Include="nilnul0\dev\srcs\each\sln\div_\IDelvable.cs" />
     <Compile Include="nilnul0\dev\srcs\each\sln_\delvable\BakTackler.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln_\delvable\BakTraverse.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln_\delvable\slate\BakTraverse.cs" />
     <Compile Include="nilnul0\dev\srcs\each\sln_\delvable\_bak\VisitingSlnEs.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln_\delvable_\nonneglect\NewFolder1\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln_\delvable_\partic\NewFolder1\Bak_srcsInAddresses.cs" />
     <Compile Include="nilnul0\dev\srcs\every\div_\IDelvable.cs" />
     <Compile Include="nilnul0\dev\srcs\every\ISln.cs" />
     <Compile Include="nilnul0\dev\srcs\each\sln_\delvable\_bak\SlnVisitingEs.cs" />
     <Compile Include="nilnul0\dev\srcs\IEvery.cs" />
-    <Compile Include="nilnul0\dev\src\crop_\depo_\IClear.cs" />
-    <Compile Include="nilnul0\dev\src\crop_\IUnjoint.cs" />
-    <Compile Include="nilnul0\dev\src\crop_\unjoint_\INeglect.cs" />
-    <Compile Include="nilnul0\dev\src\crop_\unjoint_\INonneglect.cs" />
-    <Compile Include="nilnul0\dev\src\directory_\cognable_\markout\IBak.cs" />
-    <Compile Include="nilnul0\dev\src\directory_\cognable_\markout_\link\IBak.cs" />
-    <Compile Include="nilnul0\dev\src\directory_\cognable_\markout_\unjoint\IBak.cs" />
-    <Compile Include="nilnul0\dev\src\directory_\cognable_\markout_\unjoint_\nonneglect\IBak.cs" />
-    <Compile Include="nilnul0\dev\src\directory_\cognable_\markout_\unjoint_\nonneglect_\plain_\incomplete\IBak.cs" />
-    <Compile Include="nilnul0\dev\src\directory_\cognable_\markout_\unjoint_\nonneglect_\plain_\intent\IBak.cs" />
-    <Compile Include="nilnul0\dev\src\directory_\cognable_\markout_\unjoint_\nonneglect_\plain_\tended_\incomplete\IBak.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\delvable\Bak_byTier.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\delvable\bak~\Bak.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\_delvable\IfFolder.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\crop_\depo_\IClear.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\crop_\IUnjoint.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\crop_\unjoint_\INeglect.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\crop_\unjoint_\INonneglect.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\directory_\cognable_\markout\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\directory_\cognable_\markout_\link\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\directory_\cognable_\markout_\unjoint\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\directory_\cognable_\markout_\unjoint_\nonneglect\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\directory_\cognable_\markout_\unjoint_\nonneglect_\plain_\incomplete\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\directory_\cognable_\markout_\unjoint_\nonneglect_\plain_\intent\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\directory_\cognable_\markout_\unjoint_\nonneglect_\plain_\tended_\incomplete\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\delvable\_bak_\by_\Bak_byTier.cs" />
     <Compile Include="nilnul0\dev\srcs\each\div_\_delvable\cognable\IfFolder.cs" />
     <Compile Include="nilnul0\dev\srcs\each\div_\_delvable\cognable_\folder\WhetherUnjoint.cs" />
     <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat\bak~\Bak.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\nonneglect\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\nonneglect_\giT_\nonrepo\IBak.cs" />
-    <Compile Include="nilnul0\dev\src\div_\folder\_bak\EnsureDivUnjoint.cs" />
-    <Compile Include="nilnul0\dev\src\div_\folder_\unjoint_\INeglect.cs" />
-    <Compile Include="nilnul0\dev\src\div_\folder_\unjoint_\nonneglect_\giT_\nonrepo\IBak.cs" />
-    <Compile Include="nilnul0\dev\src\div_\INeglect.cs" />
-    <Compile Include="nilnul0\dev\src\div_\nonrefrain\bak~\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\giT_\nonplain\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\giT_\plain\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\giT_\work\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\giT_\work_\top\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\link\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\link_\giT_\plain\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\link_\giT_\work\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\link_\giT_\work_\top\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint\Bak4NeglectOrNo.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\giT_\nonplain\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\giT_\plain\Bak4unjoint.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\giT_\work\Bak4unjoint.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\giT_\work\NewFolder1\BakIntoTop0not.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\giT_\work_\nontop\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\giT_\work_\nontop_\intent\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\giT_\work_\nontop_\nonintent\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\giT_\work_\nontop_\nonintent_\nonneglect\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\giT_\work_\top\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\nonplain\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\work\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\work_\nontop\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\work_\nontop_\intent\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\work_\nontop_\nonintent\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\work_\nontop_\nonintent_\nonneglect\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\work_\top\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\work_\top\NewFolder1\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\plain\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\plain_\intent\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\work\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\work\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\work_\nontop\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\work_\nontop_\intent\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\work_\nontop_\nonintent\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\work_\top\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\nonneglect\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\nonneglect_\giT_\plain\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\nonneglect_\giT_\work\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\nonneglect_\giT_\work_\nontop\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\nonneglect_\giT_\work_\nontop_\intent\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\nonneglect_\giT_\work_\nontop_\nonintent\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\nonneglect_\giT_\work_\top\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\unjoint_\nonneglect_\nonintent_\giT_\work_\nontop\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div\dir\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div\dir_\link\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\giT_\module\Crypt.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\IDelvable.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\link_\nonneglect_\intent\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\intent_\giT_\plain0nontop\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\intent_\giT_\plain0nontop_\nonempty\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\intent_\giT_\plain0nontop_\nonempty\_bak\_IniX - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain0nontop_\_intent_\content\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain0nontop_\_intent_\_content_\dir_\plain\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain_\intent\%28retiring\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain_\_intent_\content\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain_\_intent_\_content_\directory_\plain\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\nontop_\_intent_\_content_\dir\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top\top\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\incomplete\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\incomplete_\moduleUndone\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container\Bak4unjoint.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone\Bak4unjoint.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought\_bak_\_PrimeX.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\Primed.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\primed\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\_UploadX%28 - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought\_bak_\_PrimeX - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought\_bak_\_PrimeX.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone\bak~\NewFolder1\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\content\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\work_\top\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\_upload_\branch_\_BakX.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\_upload_\branch_\_bak\put\BranchOfNew.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\_upload_\branch_\_bak\put\_branchWithContent\BranchOfNew.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\_upload_\branch_\_bak\_PutX%28.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\intent\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonneglect_\intent\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonneglect_\intent_\giT_\plain0nontop\Bak - Copy %282%29.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonneglect_\intent_\giT_\plain0nontop_\nontrivia\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonneglect_\intent_\giT_\plain0nontop_\nontrivia\_bak\_IniX.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonneglect_\unjoint_\giT_\work_\top\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonneglect_\work_\top_\_incomplete_\content\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\Unjoint.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect\intent0no\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\plain0nontop_\intent\_bak\Container.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\plain0nontop_\intent_\wrought\_bak\Container.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\plain0nontop_\intent_\wrought\_bak\_container\_IniX.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\plain\BakByIntent.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\plain_\intent\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\work\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\nontop\Bak.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\nontop_\intend\_NonTopX__serial.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\work_\top_\incomplete_\IOnlyModuleUndone.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\work_\top_\incomplete_\moduleUndone\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\work_\top_\_incomplete_\container\Bak4unjoint.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone\Bak4unjoint.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\INonwrought.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\IPrimed.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought\_bak_\_PrimeX.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed\Bak.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\stageClean\Bak.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\stageClean\_bak_\_UploadX%28 - Copy.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\stageClean\_bak_\_upload_\branches_\All.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\stageDirty\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\stageDirty\_bak_\_UploadX%28 - Copy.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\stageDirty\_bak_\_upload_\branches_\All.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\stageDirty\_bak_\_upload_\branch_\_ShelfX.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\stageDirty\_bak_\_upload_\branch_\_shelf\put\BranchOfNew.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\stageDirty\_bak_\_upload_\branch_\_shelf\put\_branchWithContent\BranchOfNew.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\stageDirty\_bak_\_upload_\branch_\_shelf\_PutX%28.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_UploadX.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload\Settings1.Designer.cs">
+    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\partic\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\partic_\giT_\nonrepo\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\dir_\delvable\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\dir_\enlist_\unjoint\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\folder\_bak\EnsureDivUnjoint.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\folder_\unjoint_\INeglect.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\folder_\unjoint_\nonneglect_\giT_\nonrepo\IBak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\INeglect.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\partic\bak~\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\giT_\nonplain\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div\dirs_\IUnneglected.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\giT_\plain\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\giT_\work\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\giT_\work_\top\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\link\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\giT_\plain_\link\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\link_\giT_\work\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\link_\giT_\work_\top\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable\Bak4NeglectOrNo.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\giT_\nonplain\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\giT_\plain\Bak4unjoint.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\giT_\work\Bak4unjoint_byPartic.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\giT_\work\_bak_\by_\BakIntoTop0not.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\giT_\work_\nontop\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\giT_\work_\nontop_\intent\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\giT_\work_\nontop_\nonintent\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\giT_\work_\nontop_\nonintent_\partic\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\giT_\work_\top\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\nonplain\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\work\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\work_\nontop\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\work_\nontop_\intent\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\work_\nontop_\nonintent\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\work_\nontop_\nonintent_\partic\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\work_\top\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\work_\top\NewFolder1\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\plain\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\plain_\intent\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\work\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\work\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\work_\nontop\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\work_\nontop_\intent\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\work_\nontop_\nonintent\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\work_\top\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\partic\_bak_\by_\div\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\partic_\giT_\plain\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\incomplete\dir_\delve_\attend_\werk\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\incomplete\dir_\delve_\attend_\werk_\untop\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\partic_\giT_\work_\nontop_\intent\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\nontop_\nonintend\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\partic_\giT_\work_\top\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\partic_\nonintent_\giT_\work_\nontop\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div\dir\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div\dir_\link\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\giT_\module\Crypt.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\link_\partic_\intent\Bak_srcsInAddress.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\IPartic.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\intent_\giT_\plain0nontop\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\intent_\giT_\plain0nontop_\nonempty\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\intent_\giT_\plain0nontop_\nonempty\_bak\_IniX - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain0nontop_\_intent_\content\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain0nontop_\_intent_\_content_\dir_\plain\NewFolder1\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain_\intent\%28retiring\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain_\_intent_\content\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain_\_intent_\_content_\directory_\plain\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\nontop_\_intent_\_content_\dir\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top\top\NewFolder1\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\incomplete\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\incomplete_\moduleUndone\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container\Bak4unjoint.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone\Bak4unjoint.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought\_bak_\_PrimeX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\Primed.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\primed\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\_UploadX%28 - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought\_bak_\_PrimeX - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought\_bak_\_PrimeX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone\bak~\NewFolder1\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\content\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\work_\top\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\_upload_\branch_\_BakX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\_upload_\branch_\_bak\put\BranchOfNew.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\_upload_\branch_\_bak\put\_branchWithContent\BranchOfNew.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\_upload_\branch_\_bak\_PutX%28.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\intent\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\partic_\intent\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\partic_\intent_\giT_\plain0nontop\Bak - Copy %282%29.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\partic_\intent_\giT_\plain0nontop_\nontrivia\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\partic_\intent_\giT_\plain0nontop_\nontrivia\_bak\_IniX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\partic_\unjoint_\giT_\work_\top\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\partic_\work_\top_\_incomplete_\content\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\Unjoint.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\partic\_bak_\by_\intent0no\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\plain0nontop_\intent\_bak\Container.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\plain0nontop_\intent_\wrought\_bak\Container.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\plain0nontop_\intent_\wrought\_bak\_container\_IniX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\plain\BakByIntent.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\plain_\intent\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\nontop\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\nontop_\intend\_NonTopX__serial.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\plain\dir_\unskip\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\plain\dir_\unskip_\link\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\plain\dir_\unskip_\unjoint\Bak4unjoint.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\partic_\giT_\work\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\partic_\giT_\work_\nontop\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\incomplete\dir_\unskip\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\incomplete\dir_\unskip_\link\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\incomplete\dir_\delve_\attend\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\incomplete\dir_\unskip_\unjoint\Bak4unjoint.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\incomplete_\IOnlyModuleUndone.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\incomplete_\moduleUndone\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container\Bak4unjoint.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone\Bak4unjoint.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\INonwrought.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\IPrimed.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought\_bak_\_PrimeX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\dry\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\dry\_bak_\_UploadX%28 - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\dry\_bak_\_upload_\branches_\All.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\wet\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\wet\_bak_\_UploadX%28 - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\wet\_bak_\_upload_\branches_\All.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\wet\_bak_\_upload_\branch_\_ShelfX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\wet\_bak_\_upload_\branch_\_shelf\put\BranchOfNew.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\wet\_bak_\_upload_\branch_\_shelf\put\_branchWithContent\BranchOfNew.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\wet\_bak_\_upload_\branch_\_shelf\_PutX%28.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_UploadX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload\Settings1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings1.settings</DependentUpon>
     </Compile>
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branches_\All.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\_ShelfX.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\_shelf\put\BranchOfNew.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\_shelf\put\_branchWithContent\BranchOfNew.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\shelf\_Create_byCheckoutAsNewBranchX.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\_shelf\_PutX%28.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought\_bak_\_PrimeX.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\work_\top_\_incomplete_\content\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\_plain\Depth1st.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\intent\Bak_srcsInAddress.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\intent\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\intent_\giT_\plain0nontop_\nontrivia\_bak\_IniX.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\work_\top_\incomplete\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\nonintent\Bak.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\nonintent\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\nontop_\nonintend\_bak\Depth1st.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\nonintent_\giT_\work_\top\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\nonintent_\giT_\plain\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branches_\All.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\_BakX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\_shelf\put\BranchOfNew.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\_shelf\put\_branchWithContent\BranchOfNew.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\shelf\_Create_byCheckoutAsNewBranchX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\_shelf\_PutX%28.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought\_bak_\_PrimeX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\content\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\_plain\Depth1st.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\intent\Bak_srcsInAddress.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\intent\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\intent_\giT_\plain0nontop_\nontrivia\_bak\_IniX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\incomplete\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\nonintent\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\nonintent\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\nontop\_bak\Depth1st.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\nonintent_\giT_\work_\top\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\plain_\unintent\Bak.cs" />
     <Compile Include="nilnul0\dev\srcs\each\sln_\link\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln_\nonlink\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln_\nonlink_\nonneglect\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln_\nonlink_\nonneglect\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln_\nonneglect\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln_\delvable_\nonneglect\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src_\folder\dir\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src_\folder\dir_\link\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src_\folder\dir_\unjoint\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src_\folder\div_\unjoint\NewFolder1\BakAsNeglect0not.cs" />
-    <Compile Include="nilnul0\dev\src_\folder\div_\unjoint\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src_\folder\div_\unjoint_\nonneglect\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln_\nonlink\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln_\nonlink_\nonneglect\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln_\nonlink_\nonneglect\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln_\partic\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln_\delvable_\partic\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder\dir\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder\dir_\link\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder\dir_\unjoint\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder\div_\unjoint\NewFolder1\BakAsNeglect0not.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder\div_\unjoint\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder\div_\unjoint_\nonneglect\Bak_srcsInAddresses.cs" />
     <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat\Bak.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\unjoint_\nonneglect\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\nonlink_\nonneglect\Bak.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\nonlink_\nonneglect_\giT_\nonrepo\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\nonlink_\nonneglect_\giT_\nonrepo_\incomplete\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\nonlink_\nonneglect_\giT_\nonrepo_\incomplete\dir_\nonlink\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\nonneglect_\giT_\nonrepo\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\nonneglect_\giT_\nonrepo_\incomplete\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\nonneglect_\giT_\nonrepo_\incomplete\dir_\nonlink\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\nonneglect_\giT_\nonrepo\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\nonneglect_\giT_\nonrepo_\incomplete\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\nonneglect_\giT_\nonrepo_\incomplete\dir_\enlist\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\nonneglect_\giT_\nonrepo_\incomplete\dir_\enlist_\link\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\nonneglect_\giT_\nonrepo_\incomplete\dir_\enlist_\unjoint\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\unjoint_\nonneglect\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\nonlink_\nonneglect\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\nonlink_\nonneglect_\giT_\nonrepo\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\nonlink_\nonneglect_\giT_\nonrepo_\incomplete\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\nonlink_\nonneglect_\giT_\nonrepo_\incomplete\dir_\nonlink\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\nonneglect_\giT_\nonrepo\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\nonneglect_\giT_\nonrepo_\incomplete\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\nonneglect_\giT_\nonrepo_\incomplete\dir_\nonlink\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\partic_\giT_\nonrepo\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\partic_\giT_\nonrepo_\incomplete\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\partic_\giT_\nonrepo_\incomplete\dir_\unskip\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\partic_\giT_\nonrepo_\incomplete\dir_\unskip_\link\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\partic_\giT_\nonrepo_\incomplete\dir_\unskip_\unjoint\Bak_srcsInAddresses.cs" />
     <Compile Include="nilnul0\fs\addresses\deV_\IBak.cs" />
     <Compile Include="nilnul0\fs\addresses_\disjoint\deV_\bak\Save.cs" />
-    <Compile Include="nilnul0\dev\src\div_\folder\~\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\div_\folder_\nonlink\Bak - Copy.cs" />
-    <Compile Include="nilnul0\dev\src\div_\folder_\nonlink_\nonneglect\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\folder\~\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\folder_\nonlink\Bak - Copy.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\folder_\nonlink_\nonneglect\Bak - Copy.cs" />
     <Compile Include="nilnul0\fs\addresses_\disjoint\deV_\Bak.cs" />
     <Compile Include="nilnul0\fs\addresses_\disjoint\deV_\_bak\Io.cs" />
     <Compile Include="nilnul0\fs\addresses_\disjoint\deV_\_bak\io\SaveX.cs" />
     <Compile Include="nilnul0\fs\addresses_\disjoint\deV_\_bak\io_\_CfgX.cs" />
     <Compile Include="nilnul0\fs\addresses_\disjoint\each\deV_\Bak.cs" />
     <Compile Include="nilnul0\dev\srcs\each\div_\_delvable\Cognable0not.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\_delvable\folder\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\div_\folder_\Unjoint.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\div_\nonrefrain\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\folder_\Unjoint.cs" />
     <Compile Include="nilnul0\fs\address\deV_\Srced.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\div_\_delvable\ifFolder~\NewFolder1\Bak.cs" />
     <Compile Include="nilnul0\fs\address_\nonlinks\deV_\Bak.cs" />
     <Compile Include="nilnul0\fs\address_\nonlinks_\disjoint\deV_\Bak.cs" />
     <Compile Include="nilnul0\fs\address_\shields\dev_\_bak\Io.cs" />
@@ -930,78 +967,89 @@
     <Compile Include="nilnul0\fs\address_\shield_\dev_\insideSrc\Bak.cs" />
     <Compile Include="nilnul0\fs\address_\shield_\dev_\insideSrc_\exist\Bak.cs" />
     <Compile Include="nilnul0\fs\address_\shields\dev_\Bak.cs" />
-    <Compile Include="nilnul0\fs\folder\dir\be_\dev_\src_\bak_\_neglect\_cfg_\_Defer.cs" />
-    <Compile Include="nilnul0\fs\folder\dir\be_\dev_\src_\bak_\_neglect\_cfg_\_DefiniteX.cs" />
-    <Compile Include="nilnul0\fs\folder\dir\be_\dev_\src_\bak_\_neglect\_cfg_\_defer\_legacy\aft\Anto.cs" />
-    <Compile Include="nilnul0\fs\folder\dir\be_\dev_\src_\bak_\Neglect.cs" />
-    <Compile Include="nilnul0\fs\folder\dir\be_\dev_\src_\bak_\neglect\Anto.cs" />
-    <Compile Include="nilnul0\fs\folder\dir\be_\dev_\src_\bak_\_neglect\_cfg_\_defer\IAft.cs" />
-    <Compile Include="nilnul0\fs\folder\dir\be_\dev_\src_\bak_\_neglect\_cfg_\IHalt.cs" />
-    <Compile Include="nilnul0\fs\folder\dir\be_\dev_\src_\bak_\_neglect\_cfg_\_defer\_OfDotNilnulAsXmlX.cs" />
-    <Compile Include="nilnul0\fs\folder\dir\be_\dev_\src_\bak_\_neglect\_cfg_\_defer\_legacy\_aft\_OfDotNilnulX.cs" />
-    <Compile Include="nilnul0\fs\folder\dir\be_\dev_\src_\bak_\_neglect\_cfg_\_define\_ExcludeByXmlX.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\nonpart\Anto.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\_NonparticipantX.cs" />
+    <Compile Include="nilnul0\fs\folder\dirs_\unclave_\unnegle_\unvsgen_\baK_\unskip_\delve\IParticipant.cs" />
+    <Compile Include="nilnul0\fs\folder\dirs_\unclave_\unnegle_\unvsgen_\baK_\unskip_\delve_\IUnIntent4git.cs" />
+    <Compile Include="nilnul0\fs\folder\dirs_\unclave_\unnegle_\unvsgen_\baK_\unskip_\IDelve.cs" />
+    <Compile Include="nilnul0\fs\folder\dirs_\unclave_\unnegle_\unvsgen_\baK_\unskip_\delve_\IIntent4git.cs" />
+    <Compile Include="nilnul0\fs\folder\dirs_\unclave_\unnegle_\unvsgen_\baK_\unskip_\_delve\IUnjoint.cs" />
+    <Compile Include="nilnul0\fs\folder\dirs_\unclave_\unnegle_\unvsgen_\baK_\_UnSkippedX.cs" />
+    <Compile Include="nilnul0\fs\folder\dir\be_\deV_\baK_\_unchart\perName_\PerName.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\_nonpart\_cfg_\_Defer.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\_nonpart\_cfg_\_defer\PerHier.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\_nonpart\_cfg_\_define\PerHier.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\_nonpart\_cfg_\_DefiniteX.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\_nonpart\_cfg_\_defer\_legacy\aft\Anto.cs" />
+    <Compile Include="nilnul0\fs\folder\dir\be_\deV_\baK_\_UnchartX.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\nonpart\NewFolder1\Anto.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\_nonpart\_cfg_\_defer\IAft.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\_nonpart\_cfg_\IHalt.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\_nonpart\_cfg_\_defer\_OfDotNilnulAsXmlX.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\_nonpart\_cfg_\_defer\_legacy\_aft\_OfDotNilnulX.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\_nonpart\_cfg_\_define\_legacy\_ExcludeByXmlX.cs" />
     <Compile Include="nilnul0\fs\folder\cfg\bak\visited\_VwX.cs" />
     <Compile Include="nilnul0\fs\folder\cfg\bak\visited\_AppendX.cs" />
-    <Compile Include="nilnul0\fs\folder\dirs_\dev_\src_\bak_\_NonNegX.cs" />
     <Compile Include="nilnul0\fs\folder\git_\cfg_\dev_\src_\baked_\_TimeX.cs" />
     <Compile Include="nilnul0\fs\folder\sign_\dev_\src_\bak_\_ReliveX.cs" />
-    <Compile Include="nilnul0\fs\folder\dir\be_\dev_\src_\bak_\_neglect\_cfg_\_defer\_legacy\_AftX.cs" />
-    <Compile Include="nilnul0\fs\folder\dir\be_\dev_\src_\bak_\_neglect\PerName.cs" />
-    <Compile Include="nilnul0\fs\folder\dir\be_\dev_\src_\bak_\_neglect\_cfg_\_define\_legacy\Exclude.cs" />
-    <Compile Include="nilnul0\fs\folder\dir\be_\dev_\src_\bak_\_neglect\_PerNilnulCfg.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\_nonpart\_cfg_\_defer\_legacy\_AftX.cs" />
+    <Compile Include="nilnul0\fs\folder\dir\be_\deV_\baK_\_unchart\PerName.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\_nonpart\_cfg_\_define\_legacy\Exclude.cs" />
+    <Compile Include="nilnul0\fs\folder\be_\deV_\baK_\_nonpart\_PerCfgX.cs" />
     <Compile Include="nilnul0\fs\folder\_cfg_\Sect4bak.cs" />
     <Compile Include="nilnul0\fs\git\depo\bakked\Evaucuate.cs" />
     <Compile Include="nilnul0\fs\git\depo\repo\cfg\remote_\bak_\all_\vereD_\newest\nulable\Vw.cs" />
     <Compile Include="nilnul0\fs\git\depo\repo\doc_\cfg_\custom\_TimeX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\remote_\dev_\baK_\azure\Create.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\remote_\dev_\baK_\azure\create_\Svr1stX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\remote_\dev_\baK_\azure_\vered_\next\create_\_SvrNoErrX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\remote_\dev_\baK_\github_\vered_\newest\ensure_\svr1st_\_EnsureSshX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\remote_\dev_\baK_\github_\vered_\newest\ensure_\svr1st_\_ensureSsh\Settings1.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\remote_\dev_\baK_\github_\vered_\newest\ensure_\svr1st_\_ensureSsh\Settings1.Designer.cs">
+    <Compile Include="nilnul0\fs\git\depo\repo\remote_\deV_\baK_\azure\Create.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\remote_\deV_\baK_\azure\create_\Svr1stX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\remote_\deV_\baK_\azure_\vered_\next\create_\_SvrNoErrX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\remote_\deV_\baK_\github_\vered_\newest\ensure_\svr1st_\_EnsureSshX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\remote_\deV_\baK_\github_\vered_\newest\ensure_\svr1st_\_ensureSsh\Settings1.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\remote_\deV_\baK_\github_\vered_\newest\ensure_\svr1st_\_ensureSsh\Settings1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings1.settings</DependentUpon>
     </Compile>
-    <Compile Include="nilnul0\fs\git\depo\repo\remote_\dev_\baK_\github_\vered_\next\create_\_EnsureSvrFirstX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\remote_\dev_\baK_\github_\vered_\next\_CreateX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\remote_\dev_\baK_\gitlab_\vered_\newest\ensure_\_NormRepoNameX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\remote_\deV_\baK_\github_\vered_\next\create_\_EnsureSvrFirstX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\remote_\deV_\baK_\github_\vered_\next\_CreateX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\remote_\deV_\baK_\gitlab_\vered_\newest\ensure_\_NormRepoNameX.cs" />
     <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remotes_\dev_\Bak.cs" />
     <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remotes_\dev_\bak\_VwX.cs" />
     <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remotes_\dev_\bak\every\_EnsureEachX.cs" />
     <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remotes_\dev_\bak\every\ensure\_UpsertOmegaX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\all_\last\nulabe\urns\_EnsureX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\all_\last\nulabe\urls\_EnsureX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\all_\last\nulabe\Vw.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\all_\last\urns\_EnsureX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\all_\last\urls\_EnsureX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\all_\next\NewFolder1\_CreateX - Copy.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\all_\next\_CreateX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\all_\next\_VwX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\all_\nonexist\create_\_IfAnyX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\all_\nonexist\create_\_UrlsX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\azure\Create.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\azure\create\ensure_\Svr1stX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\remote_\dev_\baK_\azure_\vered_\newest\ensure_\svr1st_\_NormRepoNameX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\_all\key\_VwX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\_all\_key\Settings1.Designer.cs">
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\all_\last\nulabe\NewFolder1\Vw.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\all_\last\nulabe\uris\_EnsureX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\all_\last\nulabe\urls\_EnsureX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\all_\last\nulabe\Vw.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\all_\last\uris\_EnsureX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\all_\last\urls\_EnsureX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\all_\next\NewFolder1\_CreateX - Copy.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\all_\next\_CreateX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\all_\next\_VwX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\all_\nonexist\create_\_IfAnyX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\all_\nonexist\create_\_IfUrlsX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\azure\Create.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\azure\create\ensure_\Svr1stX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\remote_\deV_\baK_\azure_\vered_\max\ensure_\svr1st_\_NormRepoNameX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\_all\key\_VwX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\_all\_key\Settings1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings1.settings</DependentUpon>
     </Compile>
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\bak\ensure\_ResultX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\amazon_\ohio\put_\_EnsureSvrFirstX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\amazon_\ohio\Create.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\github\Create.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\github\ensure_\_EnsureSvrFirstX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\gitlab\Create.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\gitlab\ensure\Result.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\gitlab\_EnsureOneX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\vered\be_\Any.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\vs\Create.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\vs\ensure_\ensureSvrFirst_\EnsureKeyX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\vs\put_\_EnsureCfgFirstX.cs" />
-    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\vs\put_\_EnsureSvrFirstX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\bak\ensure\_ResultX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\amazon_\ohio\put_\_EnsureSvrFirstX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\amazon_\ohio\Create.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\github\Create.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\github\ensure_\_EnsureSvrFirstX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\gitlab\Create.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\gitlab\ensure\Result.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\gitlab\_EnsureOneX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\vered\be_\Any.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\vs\Create.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\vs\ensure_\ensureSvrFirst_\EnsureKeyX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\vs\put_\_EnsureCfgFirstX.cs" />
+    <Compile Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\vs\put_\_EnsureSvrFirstX.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -1009,182 +1057,160 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="Properties\SettingsX.cs" />
-    <Compile Include="nilnul0\dev\src\sln_\nonlink\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink\bak_\Git.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink\bak_\NeglectOrNo.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\nonplain\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\plain0top\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\plain\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\work\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\work_\nonneglect\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\work_\nontop\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\work_\nontop_\intent\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\work_\nontop_\nonintent\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\work_\nontop_\nonintent_\nonneglect\NewFolder1\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\git_\work_\top\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\plain0top\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\plain0top\bak_\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\plain_\intent\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\plain_\nonIntent\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\plain0nontop_\intent\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\plain0nontop_\nonIntent\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\plain\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\work\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\work_\nontop\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\work_\nontop_\intent\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\work_\nontop_\nonintent\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\work_\top\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\git_\work_\top\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\intent\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\intent_\nonneglect\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain0Nontop\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain0nontop_\intent\intent\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain0nontop_\nondelay\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain0nontop_\nonIntent\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work\work\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\nontop\_NonTopX__serial.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\work_\top\be_\Neglect.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\incomplete\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\incomplete_\moduleUndone\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone\_bak_\_PrimeX.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\primed\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\NewFolder1\_UploadX%28.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\_upload_\branch_\All.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\content\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\intent\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain0nontop_\intent\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\intent_\giT_\plain0nontop_\nonempty\_bak\_IniX.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\intent_\giT_\plain0nontop_\nonempty\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain_\intent_\nonempty\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top\top\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\nonintent_\git_\plain0Nontop\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln_\nonlink\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink\bak_\Git.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink\bak_\NeglectOrNo.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\nonplain\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\plain0top\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\plain\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\work\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\work_\nonneglect\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\work_\nontop\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\work_\nontop_\intent\NewFolder1\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\work_\nontop_\nonintent\NewFolder1\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\work_\nontop_\nonintent_\partic\NewFolder1\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\git_\work_\top\NewFolder1\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\plain0top\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\plain0top\bak_\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\plain_\intent\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\plain_\nonIntent\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\plain0nontop_\intent\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\plain0nontop_\nonIntent\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\plain\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\work\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\work_\nontop\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\work_\nontop_\intent\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\work_\nontop_\nonintent\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\work_\top\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\git_\work_\top\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\intent\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\intent_\nonneglect\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain0Nontop\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain0nontop_\intent\intent\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain0nontop_\nondelay\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain0nontop_\nonIntent\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work\work\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\nontop\_NonTopX__serial.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\work_\top\be_\Neglect.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\incomplete\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\incomplete_\moduleUndone\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone\_bak_\_PrimeX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\primed\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\NewFolder1\_UploadX%28.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\_upload_\branch_\All.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\content\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\intent\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain0nontop_\intent\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\intent_\giT_\plain0nontop_\nonempty\_bak\_IniX.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\intent_\giT_\plain0nontop_\nonempty\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain_\intent_\nonempty\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top\top\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\nonintent_\git_\plain0Nontop\Bak.cs" />
     <Compile Include="nilnul0\dev\srcs\each\div_\_delvable\ifFolder~\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\div_\folder\_bak\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\div_\folder_\nondelay\Bak.cs" />
-    <Compile Include="nilnul0\dev\src\div_\folder_\nonlink\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\div_\folder_\nonlink_\nonneglect\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\src\div_\folder_\nonneglect\Bak.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\nonlink\Bak.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\nonlink_\git_\nonRepo\Bak.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\nonlink_\git_\nonRepo_\incomplete\Bak.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\nonlink_\git_\nonRepo_\incomplete\dir_\nonlink\Bak.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\nonlink_\nonneglect_\giT_\nonrepo\Bak.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\nonlink_\nonneglect_\giT_\nonrepo_\incomplete\Bak.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\nonlink_\nonneglect_\giT_\nonrepo_\incomplete\dir_\nonlink\Bak.cs" />
-    <Compile Include="nilnul0\dev\src_\folder_\nonlink_\nonneglect\deV_\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\folder\_bak\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\folder_\nondelay\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\folder_\nonlink\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\folder_\nonlink_\nonneglect\Bak_srcsInAddresses.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\div_\folder_\nonneglect\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\nonlink\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\nonlink_\git_\nonRepo\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\nonlink_\git_\nonRepo_\incomplete\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\nonlink_\git_\nonRepo_\incomplete\dir_\nonlink\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\nonlink_\nonneglect_\giT_\nonrepo\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\nonlink_\nonneglect_\giT_\nonrepo_\incomplete\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\nonlink_\nonneglect_\giT_\nonrepo_\incomplete\dir_\nonlink\Bak.cs" />
+    <Compile Include="nilnul0\dev\srcs\each_\folder_\nonlink_\nonneglect\deV_\Bak_srcsInAddresses.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="nilnul0\app\trace\" />
     <Folder Include="nilnul0\app\trace_\" />
     <Folder Include="nilnul0\app\_trace\" />
-    <Folder Include="nilnul0\dev\srcs\each\div_\cognable\" />
+    <Folder Include="nilnul0\dev\srcs\each\crop_\modul\" />
+    <Folder Include="nilnul0\dev\srcs\each\directory_\cognable\" />
+    <Folder Include="nilnul0\dev\srcs\each\directory_\cognable_\markout_\unjoint_\nonneglect_\plain\" />
+    <Folder Include="nilnul0\dev\srcs\each\directory_\cognable_\markout_\unjoint_\nonneglect_\plain_\tended\" />
+    <Folder Include="nilnul0\dev\srcs\each\directory_\cognable_\markout_\unjoint_\nonneglect_\plain_\tended_\incomplete\dir_\" />
+    <Folder Include="nilnul0\dev\srcs\each\directory_\cognable_\unjoint_\" />
+    <Folder Include="nilnul0\dev\srcs\each\directory_\unjoint_\nonneglect_\markout\" />
+    <Folder Include="nilnul0\dev\srcs\each\dir_\enlist\" />
+    <Folder Include="nilnul0\dev\srcs\each\div_\cognable\_bak\" />
+    <Folder Include="nilnul0\dev\srcs\each\div_\cognable_\dwelt\" />
+    <Folder Include="nilnul0\dev\srcs\each\div_\cognable_\folder\_bak\" />
+    <Folder Include="nilnul0\dev\srcs\each\div_\cognable_\folder_\" />
+    <Folder Include="nilnul0\dev\srcs\each\div_\cognom\" />
+    <Folder Include="nilnul0\dev\srcs\each\div_\crop\" />
+    <Folder Include="nilnul0\dev\srcs\each\div_\delvable\bak~\" />
     <Folder Include="nilnul0\dev\srcs\each\div_\delvable_\dispat\empty\" />
-    <Folder Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\nonneglect_\giT_\nonrepo_\incomplete\dir\" />
+    <Folder Include="nilnul0\dev\srcs\each\div_\delvable_\dispat_\partic_\giT_\nonrepo_\incomplete\dir\" />
     <Folder Include="nilnul0\dev\srcs\each\div_\delvable_\nonneglect\" />
-    <Folder Include="nilnul0\dev\srcs\each\div_\delvable_\nonneglect_\giT_\work_\" />
-    <Folder Include="nilnul0\dev\srcs\each\NewFolder1\" />
-    <Folder Include="nilnul0\dev\srcs\each\sln\div_\delvable\" />
-    <Folder Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\shelf\create\collapse\" />
-    <Folder Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\shelf\_create\" />
-    <Folder Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\_shelf\put_\" />
-    <Folder Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\_nonwrought_\" />
+    <Folder Include="nilnul0\dev\srcs\each\div_\folder_\unjoint\" />
+    <Folder Include="nilnul0\dev\srcs\each\div_\nonneglect_\" />
+    <Folder Include="nilnul0\dev\srcs\each\div_\_delvable\cognable_\folder\folder\" />
+    <Folder Include="nilnul0\dev\srcs\each\div_\_delvable\folder\" />
+    <Folder Include="nilnul0\dev\srcs\each\div_\_delvable\ifFolder~\NewFolder1\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\partic\_bak_\by_\gitTrich_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\directory_\delvable_\_intend0no\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\directory_\link_\giT_\plain\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\plain0Nontop\bak_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\plain0nontop_\undone_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\nonneglect_\giT_\work_\top_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\directory_\nonlink_\undone_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\directory_\_delvable\unjoint\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div\dir_\candidate_\intent_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div\dir_\candidate_\unjoint\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div\dir_\delve\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div\dir_\delve_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div\dir_\enlist\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div\dir_\probate\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div\dir_\unjoint\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\incomplete_\_moduleUndone_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\shelf\create\collapse\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\shelf\_create\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\_shelf\put_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\_nonwrought_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\nonneglect\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\newable\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain0nontop_\intent_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain0nontop_\_intent_\_content_\dir\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain0nontop_\_intent_\_content_\plain0Work\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain_\intent\_bak_\content\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain_\_intent_\_content_\dir\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\plain_\_intent_\_content_\dir_\plain\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\nontop_\intent\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\nontop_\_intent_\content\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\nontop_\_intent_\_content_\directory_\nontop\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\nontop_\_intent_\_content_\dir_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\incomplete_\cleared\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\incomplete_\_noncleared_\container\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\incomplete_\_noncleared_\container_\undone\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\incomplete_\_noncleared_\container_\undone_\primed\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\indexClean\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\indexUnclean\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\indexWarned\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\_upload_\_branch\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought\_bak_\NewFolder1\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\work_\top_\incomplete\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\work_\top_\incomplete_\moduleUndone_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\work_\top_\_incomplete_\content\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\work_\top_\_incomplete_\content_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\work_\top_\_incomplete_\module_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\giT_\work_\work_\top_\_incomplete_\_container_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\nonlink_\partic_\nonintent_\undone_\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\partic_\intent_\NewFolder1\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\partic_\intent_\unjoint_\giT_\plain0nontop\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln\div_\partic_\work_\top_\incomplete_\moduleUndone\" />
     <Folder Include="nilnul0\dev\srcs\each\sln_\delvable\NewFolder1\" />
-    <Folder Include="nilnul0\dev\srcs\each\sln_\unjoint\" />
+    <Folder Include="nilnul0\dev\srcs\each\sln_\nonlink_\nonneglect\NewFolder1\" />
+    <Folder Include="nilnul0\dev\srcs\each\_div\delvable\" />
+    <Folder Include="nilnul0\dev\srcs\each_\folder_\nonneglect_\giT_\nonrepo\dev_\" />
+    <Folder Include="nilnul0\dev\srcs\each_\folder_\unjoint\" />
     <Folder Include="nilnul0\dev\srcs\every\slns\_bak\" />
-    <Folder Include="nilnul0\dev\src\crop_\modul\" />
-    <Folder Include="nilnul0\dev\src\directory_\cognable\" />
-    <Folder Include="nilnul0\dev\src\directory_\cognable_\markout_\unjoint_\nonneglect_\plain\" />
-    <Folder Include="nilnul0\dev\src\directory_\cognable_\markout_\unjoint_\nonneglect_\plain_\tended\" />
-    <Folder Include="nilnul0\dev\src\directory_\cognable_\markout_\unjoint_\nonneglect_\plain_\tended_\incomplete\dir_\" />
-    <Folder Include="nilnul0\dev\src\directory_\cognable_\unjoint_\" />
-    <Folder Include="nilnul0\dev\src\directory_\unjoint_\nonneglect_\markout\" />
-    <Folder Include="nilnul0\dev\src\div_\cognable\_bak\" />
-    <Folder Include="nilnul0\dev\src\div_\cognable_\dwelt\" />
-    <Folder Include="nilnul0\dev\src\div_\cognable_\folder\_bak\" />
-    <Folder Include="nilnul0\dev\src\div_\cognable_\folder_\" />
-    <Folder Include="nilnul0\dev\src\div_\cognom\" />
-    <Folder Include="nilnul0\dev\src\div_\crop\" />
-    <Folder Include="nilnul0\dev\src\div_\folder_\unjoint\" />
-    <Folder Include="nilnul0\dev\src\div_\nonneglect_\" />
-    <Folder Include="nilnul0\dev\src\sln\depo\" />
-    <Folder Include="nilnul0\dev\src\sln\directory_\giT_\nonplain_\bare\" />
-    <Folder Include="nilnul0\dev\src\sln\directory_\giT_\nonplain_\work\" />
-    <Folder Include="nilnul0\dev\src\sln\directory_\giT_\work_\link\" />
-    <Folder Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\plain0Nontop\bak_\" />
-    <Folder Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\plain0nontop_\undone_\" />
-    <Folder Include="nilnul0\dev\src\sln\directory_\nonlink_\nonneglect_\giT_\work_\top_\" />
-    <Folder Include="nilnul0\dev\src\sln\directory_\nonlink_\undone_\" />
-    <Folder Include="nilnul0\dev\src\sln\directory_\nonneglect_\giT_\" />
-    <Folder Include="nilnul0\dev\src\sln\directory_\nonplain\" />
-    <Folder Include="nilnul0\dev\src\sln\directory_\unjoint_\giT_\nonplain_\work0bare\" />
-    <Folder Include="nilnul0\dev\src\sln\directory_\unjoint_\nonneglect_\giT_\nonplain_\work0bare\" />
-    <Folder Include="nilnul0\dev\src\sln\div\dir_\unjoint\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\giT_\work\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\giT_\work_\top\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\giT_\work_\top_\_incomplete_\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\newable\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain0nontop_\intent_\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain0nontop_\_intent_\_content_\dir\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain0nontop_\_intent_\_content_\plain0Work\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain_\intent\_bak_\content\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain_\_intent_\_content_\dir\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\plain_\_intent_\_content_\dir_\plain\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\nontop_\intent\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\nontop_\_intent_\content\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\nontop_\_intent_\_content_\directory_\nontop\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\nontop_\_intent_\_content_\dir_\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\incomplete_\cleared\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\incomplete_\_noncleared_\container\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\incomplete_\_noncleared_\container_\undone\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\incomplete_\_noncleared_\container_\undone_\primed\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\indexClean\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\indexUnclean\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\nonwrought_\primed_\indexWarned\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\primed\_bak_\_upload_\_branch\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought\_bak_\NewFolder1\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\work_\top_\incomplete\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\work_\top_\incomplete_\moduleUndone_\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\work_\top_\_incomplete_\content\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\work_\top_\_incomplete_\content_\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\work_\top_\_incomplete_\module_\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\giT_\work_\work_\top_\_incomplete_\_container_\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonlink_\nonneglect_\nonintent_\undone_\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonneglect_\intent_\NewFolder1\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonneglect_\intent_\unjoint_\giT_\plain0nontop\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonneglect_\unjoint_\giT_\plain0nontop\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonneglect_\unjoint_\intent_\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\nonneglect_\work_\top_\incomplete_\moduleUndone\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\plain0nontop\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\plain_\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\work_\nontop\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\work_\nontop_\intent\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\work_\nontop_\nonintent\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\work_\top_\incomplete_\_moduleUndone_\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\work_\top_\_incomplete_\container_\primed\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\intent\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\intent_\giT_\plain0nontop\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\intent_\giT_\plain\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\intent_\giT_\plain_\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\intent_\giT_\work\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\nonintent_\giT_\plain\bak_\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\nonintent_\giT_\work\" />
-    <Folder Include="nilnul0\dev\src\sln\div_\unjoint_\nonneglect_\nonintent_\giT_\work_\nontop\" />
-    <Folder Include="nilnul0\dev\src\sln_\nonlink_\nonneglect\NewFolder1\" />
-    <Folder Include="nilnul0\dev\src\sln_\unjoint_\nonneglect\" />
-    <Folder Include="nilnul0\dev\src\sln_\unjoint_\nonneglect_\" />
-    <Folder Include="nilnul0\dev\src\tgt\" />
-    <Folder Include="nilnul0\dev\src_\folder_\nonneglect_\giT_\nonrepo\dev_\" />
-    <Folder Include="nilnul0\dev\src_\folder_\unjoint\" />
-    <Folder Include="nilnul0\dev\_srcs\item\" />
     <Folder Include="nilnul0\fs\addresses\deV_\_bak\" />
     <Folder Include="nilnul0\fs\addresses_\disjoint\deV_\_bak\_cfg\srcs\" />
     <Folder Include="nilnul0\fs\addresses_\_disjoint\item\" />
@@ -1199,31 +1225,34 @@
     <Folder Include="nilnul0\fs\address_\shield_\dev_\bak_\" />
     <Folder Include="nilnul0\fs\address_\shield_\dev_\insideSrc\be_\" />
     <Folder Include="nilnul0\fs\address_\shield_\exist\" />
+    <Folder Include="nilnul0\fs\folder\be_\deV_\baK_\nonpart\neglect\" />
+    <Folder Include="nilnul0\fs\folder\be_\deV_\baK_\_nonpart\_cfg_\by_\" />
+    <Folder Include="nilnul0\fs\folder\be_\deV_\src_\" />
     <Folder Include="nilnul0\fs\folder\cfg\bak\remote_\eg\" />
     <Folder Include="nilnul0\fs\folder\cfg\bak\traversed\" />
-    <Folder Include="nilnul0\fs\folder\dir\be_\dev_\src_\bak_\_neglect\perName_\" />
     <Folder Include="nilnul0\fs\folder\git_\cfg_\dev_\src_\bak_\" />
     <Folder Include="nilnul0\fs\git\depo\repo\cfg\remote_\bak_\all_\vereD_\newest\urls\" />
-    <Folder Include="nilnul0\fs\git\depo\repo\remote_\dev_\baK_\github\" />
-    <Folder Include="nilnul0\fs\git\depo\repo\remote_\dev_\baK_\gitlab\" />
-    <Folder Include="nilnul0\fs\git\depo\repo\remote_\dev_\baK_\gitlab_\vered_\newest\ensure\" />
+    <Folder Include="nilnul0\fs\git\depo\repo\remote_\deV_\baK_\azure_\vered_\max\replenish_\svr1st_\" />
+    <Folder Include="nilnul0\fs\git\depo\repo\remote_\deV_\baK_\github\" />
+    <Folder Include="nilnul0\fs\git\depo\repo\remote_\deV_\baK_\gitlab\" />
+    <Folder Include="nilnul0\fs\git\depo\repo\remote_\deV_\baK_\gitlab_\vered_\newest\ensure\" />
     <Folder Include="nilnul0\fs\git\depo\repo\_cfg_\remotes_\dev_\bak\ensureEach\" />
     <Folder Include="nilnul0\fs\git\depo\repo\_cfg_\remotes_\dev_\bak_\" />
     <Folder Include="nilnul0\fs\git\depo\repo\_cfg_\remotes_\dev_\_bak\" />
-    <Folder Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\all\" />
-    <Folder Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\azure_\" />
+    <Folder Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\all\" />
+    <Folder Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\azure_\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="nilnul0\dev\srcs\each\sln\div_\delvable_\nonneglect_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload\Settings1.settings">
+    <None Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload\Settings1.settings">
       <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
     </None>
-    <None Include="nilnul0\fs\git\depo\repo\remote_\dev_\baK_\github_\vered_\newest\ensure_\svr1st_\_ensureSsh\Settings1.settings">
+    <None Include="nilnul0\fs\git\depo\repo\remote_\deV_\baK_\github_\vered_\newest\ensure_\svr1st_\_ensureSsh\Settings1.settings">
       <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
     </None>
-    <None Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\dev_\baK_\_all\_key\Settings1.settings">
+    <None Include="nilnul0\fs\git\depo\repo\_cfg_\remote_\deV_\baK_\_all\_key\Settings1.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
     </None>
@@ -1234,12 +1263,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="depo\divisions_\untracked_\_ignored\pattern_\egs.txt" />
-    <Content Include="icon.png" />
+    <Analyzer Include="..\..\.deps\AWSSDK.CodeCommit.3.7.301.15\analyzers\dotnet\cs\AWSSDK.CodeCommit.CodeAnalysis.dll" />
+    <Analyzer Include="..\..\.deps\AWSSDK.CodeCommit.3.7.301.15\analyzers\dotnet\cs\SharedAnalysisCode.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\..\.deps\AWSSDK.CodeCommit.3.7.300.16\analyzers\dotnet\cs\AWSSDK.CodeCommit.CodeAnalysis.dll" />
-    <Analyzer Include="..\..\.deps\AWSSDK.CodeCommit.3.7.300.16\analyzers\dotnet\cs\SharedAnalysisCode.dll" />
+    <Content Include="icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="PostBuildMacros">

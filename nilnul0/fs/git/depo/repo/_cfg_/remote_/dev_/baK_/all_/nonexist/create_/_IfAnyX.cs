@@ -8,19 +8,19 @@ using System.Threading.Tasks;
 namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.nonexist.create_
 {
 	/// <summary>
-	/// create the key if any url.
+	/// create the key if any urn.
 	/// </summary>
 	public class _IfAnyX
 	{
-		public static string _Msg_assumeModuleAddress(
+		public static string _Msg_0depo_1nob4each(
 			string gitTop
 			,
-			IEnumerable<nilnul.txt_._vered.Name> individualRemotes
+			IEnumerable<string> individualRemotes
 			,
 			nilnul.win.prog_.Git git = null
 		)
 		{
-
+			//return _IfUrlsX._Msg_0depo(gitTop, individualRemotes, git);
 
 			///get the urls
 			///
@@ -28,10 +28,10 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.nonexist.create
 
 			var remotes = individualRemotes.Select(
 				r=>
-				nilnul.fs.git.module.repo._cfg_.remote_.vered_.name_.newest._NulableX.Txt(gitTop,r,git)
+				nilnul.fs.git.module.repo._cfg_.remote_.vered_.name_.newest._NulableX._Txt_0depo_1nob(gitTop,r,git)
 			);
 
-			var notNuls = remotes.Where(x => x != null);
+			var notNuls = remotes.Where(x => x is not null);
 
 			var urls = new List<string>();
 
@@ -44,7 +44,6 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.nonexist.create
 					notNuls.First()
 				);
 				urls.Add(firstUrl);
-
 
 				var lastkey = _all.key._VwX.GetLastAsName();
 				var moduleAddress = gitTop.ToString();
@@ -61,8 +60,10 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.nonexist.create
 						);
 						urls.Add(u);
 
+						nilnul.fs.git.depo.repo.vow_.unlocked_.wait_._TimeoutX._Vod_0depo(gitTop);
+
 						//nilnul.fs.git.module.repo.unlock_.wait._TimeoutX._TimeoutAsTask_addressAssumeModule(moduleAddress).Wait();
-						nilnul.fs.git.module.repo._cfg_.remote.urns_.push._InsX._Vod_moduleAssumeAddress_urnAssume(
+						nilnul.fs.git.depo.repo._cfg_.remote.uris_.push._InsertX._Vod_0depo_1remote_2uri(
 							gitTop
 							,
 							lastkey
@@ -79,6 +80,20 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.nonexist.create
 			}
 			return ($"created fro {nilnul.txts.accumulate_.AsLines.Singleton.accumulate(urls)}");
 		}
+
+		public static string _Msg_assumeModuleAddress(
+			string gitTop
+			,
+			IEnumerable<nilnul.txt_._vered.Name> individualRemotes
+			,
+			nilnul.win.prog_.Git git = null
+		)
+		{
+			return _Msg_0depo_1nob4each(gitTop, individualRemotes.Select(r => r.en), git);
+
+
+		}
+
 		public static string Msg(
 			nilnul.fs.git.ModuleI gitTop
 			,

@@ -18,6 +18,46 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.vered.be_
 		/// <param name="remoteNom">the nom part of the remote name. excluding the version</param>
 		/// <param name="git"></param>
 		/// <returns></returns>
+		static public bool _Be_0depo_0nob4remote(
+			string module
+			,
+			string remoteNom	
+			,
+			nilnul.win.prog_.Git git = null
+			)
+		{
+			return  nilnul.fs.git.module.repo._cfg_.remote_.vered_.name.be_._AnyX._Be_0depo_0nob4remote(
+				module
+				,
+				remoteNom
+				,
+				git
+			);
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="module"></param>
+		/// <param name="remoteNom">the nom part of the remote name. excluding the version</param>
+		/// <param name="git"></param>
+		/// <returns></returns>
+		static public bool _Be_0depo(
+			string module
+			,
+			txt_._vered_.Name remoteNom	
+			,
+			nilnul.win.prog_.Git git = null
+			)
+		{
+			return  nilnul.fs.git.module.repo._cfg_.remote_.vered_.name.be_._AnyX._Be_0depo(
+				module
+				,
+				remoteNom
+				,
+				git
+			);
+		}
+
 		static public bool Be(
 			nilnul.fs.git.ModuleI module
 			,

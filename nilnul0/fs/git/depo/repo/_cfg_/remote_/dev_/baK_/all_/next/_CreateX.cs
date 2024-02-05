@@ -1,4 +1,5 @@
-﻿using System;
+﻿using nilnul.win.prog_;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.next
 		public static IEnumerable<string> _Urns_assumeModuleAddress_remoteAssumeValidKey(
 			string gitTop
 			,
-			IEnumerable<string> _key4remotEs
+			IEnumerable<string> _key4remoteEs
 			,
 			nilnul.win.prog_.Git git = null
 		)
@@ -25,8 +26,8 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.next
 			///get the urls
 			///
 
-			var remotes = _key4remotEs.Select(
-				r => nilnul.fs.git.module.repo._cfg_.remote_.vered_.name_.newest._NulableX.Txt(
+			var remotes = _key4remoteEs.Select(
+				r => nilnul.fs.git.module.repo._cfg_.remote_.vered_.name_.newest._NulableX._Txt_0depo_1nob(
 					gitTop
 					,
 					r
@@ -35,7 +36,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.next
 				)
 			);
 
-			var notNuls = remotes.Where(x => x != null);
+			var notNuls = remotes.Where(x => x != null).ToArray();
 			var urns = new List<string>();
 
 			if (notNuls.Any())
@@ -111,6 +112,17 @@ nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.newly._VwX._Vered_assumeM
 			}
 			return urns;
 		}
+
+		public static IEnumerable<string> _Uris_0depo_1nub4remoteEs(string gitTop, IEnumerable<txt_._vered.Name> names, Git git)
+		{
+			return _Urns_assumeModuleAddress_remoteAssumeValidKey(
+				gitTop
+				,
+				names.Select(n=>n.en)
+				,git
+			);
+		}
+
 		public static IEnumerable<string> Urns(
 			nilnul.fs.git.ModuleI gitTop
 			,

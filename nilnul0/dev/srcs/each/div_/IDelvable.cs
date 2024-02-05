@@ -15,6 +15,9 @@ namespace nilnul.dev.srcs.each.div_
 	///		-- its cognomen is valid, be it empty or dwelt;
 	///		
 	/// </summary>
+	/// <remarks>
+	///
+	/// </remarks>
 	/// <see cref="nilnul.dev.src.div_.IWordsable"/>
 	/// <see cref="nilnul.dev.src.sln.div_.IDelvable"/>
 	internal interface IDelvable:nilnul.dev.src.sln.div_.IDelvable

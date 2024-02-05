@@ -5,10 +5,13 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.src.div_.cognable_.empty
+namespace nilnul.dev.srcs.each.div_.delvable_.dispat
 {
-	
-	public  class Bak
+
+	/// <summary>
+	/// whether it's participant, is unknown;
+	/// </summary>
+	public class Bak
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
 		public nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg
@@ -27,7 +30,7 @@ namespace nilnul.dev.src.div_.cognable_.empty
 		}
 
 		public void vod(
-			//nilnul.fs.FolderI folder
+		//nilnul.fs.FolderI folder
 		)
 		{
 			var folder = new nilnul.fs.address_.shield_.BaseDiv(
@@ -35,31 +38,16 @@ namespace nilnul.dev.src.div_.cognable_.empty
 				,
 				div
 			);
-			if (nilnul.fs.folder.be_.deV_.src_.bak_.neglect.Anto.Be(folder))
-			{
-				new empty_.nonneglect.Bak(cfg) { src=src,div=div,cognom=this.cognom}.exe(
-					//folder
-				);
-			}
-			else
+			if (nilnul.fs.folder.be_.deV_.baK_._NonparticipantX.Be(folder))
 			{
 				Trace.TraceWarning($"{folder} is configured to bak later.");
+				return;
 			}
 
-			
+			new dev.srcs.each.div_.delvable_.dispat_.partic.Bak(cfg) { src = src, div = div, cognom = this.cognom }.exe(
+			//folder
+			);
 
 		}
-
-
-		//public  void _vod_ofAddress(
-		//	string folder
-		//)
-		//{
-		//	vod(nilnul.fs.Folder.FroAddress(folder) );
-		//}
-
-		
-
 	}
-
 }

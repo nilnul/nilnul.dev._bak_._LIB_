@@ -4,6 +4,8 @@ namespace nilnul.fs.folder.sign_.dev_.src_.bak_
 {
 	/// <summary>
 	/// </summary>
+	///
+	[Obsolete(nameof(folder.be_.deV_.baK_._AftX))]
 	public class _AftX
 	{
 		public static bool? Be(nilnul.fs.FolderI s, nilnul.win.prog_.Git git = null)

@@ -25,22 +25,26 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 		}
 
 
-		private nilnul.fs.address_.ShieldI _module;
-		public nilnul.fs.address_.ShieldI module
-		{
-			get => _module;
-			set => _module = value;
-		}
+		//private nilnul.fs.address_.ShieldI _module;
+		//public nilnul.fs.address_.ShieldI module
+		//{
+		//	get => _module;
+		//	set => _module = value;
+		//}
 
+		[Obsolete()]
 		public ConcurrentBag<nilnul.fs._address.DivI> innerModules;
+
+		[Obsolete()]
 		public ConcurrentBag<nilnul.fs._address.DivI> innerModules2reinclude;
 
-		public BakTackler(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg, ConcurrentBag<DivI> innerModules, ConcurrentBag<DivI> innerModules2reinclude, nilnul.fs.address_.ShieldI module)
+		[Obsolete()]
+		private BakTackler(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg, ConcurrentBag<DivI> innerModules, ConcurrentBag<DivI> innerModules2reinclude, nilnul.fs.address_.ShieldI module)
 		{
 			this.cfg = cfg;
 			this.innerModules = innerModules;
 			this.innerModules2reinclude = innerModules2reinclude;
-			this._module = module;
+			//this._module = module;
 		}
 
 		private BakTackler(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg, ConcurrentBag<DivI> innerModules, ConcurrentBag<DivI> innerModules2reinclude) : this(cfg, innerModules, innerModules2reinclude, null)
@@ -59,6 +63,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 
 		public BakTackler(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg) : this(cfg, new ConcurrentBag<DivI>())
 		{
+
 		}
 
 		/// <summary>
@@ -66,26 +71,21 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 		/// we can use this instace to bak a lot of slns. and these slns will run in parallel 
 		/// </summary>
 		/// <param name="folder"></param>
-		private void _vod_ofAddress(string folder)
+		private void _vod_0folderPartic(string folder)
 		{
-			if (nilnul.fs.folder.be_.deV_.src_.bak_._NeglectX.Be_ofAddress(folder, cfg.git))
-			{
-				Trace.TraceWarning($"{folder} is ignored");
-			}
-			else
-			{
-				new dev.srcs.each.sln_.delvable_.nonneglect.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude, module)._vod_ofAddress(folder);
-			}
+			
+				new dev.srcs.each.sln_.delvable_.partic.Bak_srcsInAddresses(cfg)._vod_ofAddress(folder);
+			
 		}
 
-		private void _vod(ShieldI shield)
+		private void _vod_0folderPartic(ShieldI shield)
 		{
-			_vod_ofAddress(shield.ToString());
+			_vod_0folderPartic(shield.ToString());
 		}
 
-		private void _vod(FolderI folder)
+		private void _vod_0folderPartic(FolderI folder)
 		{
-			_vod_ofAddress(folder.ToString());
+			_vod_0folderPartic(folder.ToString());
 		}
 
 
@@ -96,6 +96,16 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 		/// <param name="folder"></param>
 		public void _startTask_ofAddress(string folder)
 		{
+			if (nilnul.fs.folder.be_.deV_.baK_._NonparticipantX.Be_ofAddress(folder))
+			{
+				/// todo: move this out of task.
+				Trace.TraceWarning($"{folder} is not participating;");
+				return;
+			}
+
+			new delvable_.partic.BakTackler(_cfg)._startChildTask_0partic(folder);
+			return;
+
 			Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- starting task");
 			/// due to that:
 			///		the semaphore is released after the task started, so the tasks are kept being started
@@ -107,7 +117,8 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 
 							 // or use the avg time of each task; the initial time can be 0, memicing the avg 0/0=0;
 				// make this half the avg time; but don't start too many programs at a time as that would crash the os;
-				, cfg.cancel); 
+				, cfg.cancel
+			); 
 
 			if (!waited)
 			{
@@ -115,7 +126,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 					() =>
 					{
 						Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- in task- outside semaphore");
-						_vod_ofAddress(folder);
+						_vod_0folderPartic(folder);
 						Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- in task - outside semaphore done;");
 					}
 					,
@@ -164,7 +175,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 					//cfg.semaphore.Wait(cfg.cancel);
 					try
 					{
-						_vod_ofAddress(folder);
+						_vod_0folderPartic(folder);
 					}
 					finally
 					{

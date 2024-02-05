@@ -6,13 +6,13 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.src.div
+namespace nilnul.dev.srcs.each.div
 {
 	/// <summary>
 	///		from this on, we no longer need to look about the progenitors, thus we can look about the child only
 	/// </summary>
 	///
-	[Obsolete(nameof(Bak_byCognom),true)]
+	[Obsolete(nameof(dev.src.div.Bak_byCognom),true)]
 	public class Bak_srcsInAddresses
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
@@ -54,9 +54,9 @@ namespace nilnul.dev.src.div
 );
 			///check from inside whether it's neglected
 
-			if (nilnul.fs.folder.be_.deV_.src_.bak_.neglect.Anto.Be(_div_inSrc))
+			if (nilnul.fs.folder.be_.deV_.baK_.nonpart.Anto.Be(_div_inSrc))
 			{
-				new div_.nonneglect.Bak_srcsInAddresses(cfg) { src=src,div=div,cognom=cognom }.exe(_div_inSrc);
+				new div_.delvable.Bak_srcsInAddresses(cfg) { src=src,div=div,cognom=cognom }.exe(_div_inSrc);
 			}
 			else
 			{

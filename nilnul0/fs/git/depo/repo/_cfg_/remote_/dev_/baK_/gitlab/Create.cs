@@ -9,6 +9,51 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.gitlab
 	//extern alias git;
 	static public class _CreateX
 	{
+		static public void _Vod_0depo_1nub4remote_2acc_3repoName(
+			string _gitTop
+						,
+			string remoteNom
+			,string usr
+
+			,
+			string svrRepoName
+			,
+			nilnul.win.prog_.Git git=null
+		) {
+
+
+			nilnul.fs.git.module.repo._cfg_.remote._CreateX._Vod_assumeModuleAddress1Remote1Urn(
+				_gitTop
+				,
+				remoteNom
+				,
+				nilnul.fs.git.svr_.gitlab.client.repo._UrlX._Gen_repoAssumeUnnormed(usr, svrRepoName)
+				,git
+			);
+		}
+
+		static public void _Vod_0depo_1nub4remote_2acc(
+			string _gitTop
+						,
+			string remoteNom
+			,string usr
+
+			,
+			nilnul.fs.git.svr.repo.Name svrRepoName
+			,
+			nilnul.win.prog_.Git git=null
+		) {
+
+
+			nilnul.fs.git.module.repo._cfg_.remote._CreateX._Vod_assumeModuleAddress1Remote1Urn(
+				_gitTop
+				,
+				remoteNom
+				,
+				nilnul.fs.git.svr_.gitlab.client.repo._UrlX._Gen_repoAssumeUnnormed(usr, svrRepoName)
+				,git
+			);
+		}
 		/// <summary>
 		/// assume unnormed
 		/// </summary>

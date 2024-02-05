@@ -76,7 +76,8 @@ namespace nilnul.dev.srcs.each.div_._delvable.cognable_.folder
 			///loop the div, and store each progenitor's eventual target.
 			/// also check for errors.
 			/// here two directory in different srcs might have the same eventual target. (srcs have different eventual target). This is checked against in runtime. and the first one will succeed, and following ones will fail. In this way, it's efficient as otherwise each div in each src has to be checked in advance, not on the fly.
-			/// 
+			///
+
 			fs.address_.ShieldI newBase1 = ( src );
 
 			foreach (var dir in div.dirs)
