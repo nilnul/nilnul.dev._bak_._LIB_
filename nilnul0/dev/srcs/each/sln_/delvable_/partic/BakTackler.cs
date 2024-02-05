@@ -8,7 +8,7 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln_.delvable
+namespace nilnul.dev.srcs.each.sln_.delvable_.partic
 {
 	/// <summary>
 	/// not a traverser;
@@ -25,67 +25,37 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 		}
 
 
-		//private nilnul.fs.address_.ShieldI _module;
-		//public nilnul.fs.address_.ShieldI module
-		//{
-		//	get => _module;
-		//	set => _module = value;
-		//}
 
-		[Obsolete()]
-		public ConcurrentBag<nilnul.fs._address.DivI> innerModules;
-
-		[Obsolete()]
-		public ConcurrentBag<nilnul.fs._address.DivI> innerModules2reinclude;
-
-		[Obsolete()]
-		private BakTackler(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg, ConcurrentBag<DivI> innerModules, ConcurrentBag<DivI> innerModules2reinclude, nilnul.fs.address_.ShieldI module)
+		internal BakTackler(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg)
 		{
 			this.cfg = cfg;
-			this.innerModules = innerModules;
-			this.innerModules2reinclude = innerModules2reinclude;
-			//this._module = module;
 		}
 
-		private BakTackler(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg, ConcurrentBag<DivI> innerModules, ConcurrentBag<DivI> innerModules2reinclude) : this(cfg, innerModules, innerModules2reinclude, null)
-		{
-
-		}
-
-
-		private BakTackler(
-			nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg, ConcurrentBag<DivI> innerModules1
-		) : this(
-			cfg, innerModules1, new ConcurrentBag<DivI>()
-		)
-		{
-		}
-
-		public BakTackler(nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg) : this(cfg, new ConcurrentBag<DivI>())
-		{
-
-		}
-
+	
 		/// <summary>
 		/// the instance of this will bak a shield inside sln in serial. 
 		/// we can use this instace to bak a lot of slns. and these slns will run in parallel 
 		/// </summary>
 		/// <param name="folder"></param>
-		private void _vod_0folderPartic(string folder)
+		private void _vod_0partic(string folder)
 		{
 			
-				new dev.srcs.each.sln_.delvable_.partic.Bak_srcsInAddresses(cfg)._vod_ofAddress(folder);
-			
+			//new dev.srcs.each.sln_.delvable_.partic.Bak_srcsInAddresses(cfg)._vod_ofAddress(folder);
+
+			new dev.srcs.each.sln.div_.delvable_.partic_.intent.Bak_srcsInAddress(
+				cfg,  folder
+			).vod();
+
 		}
 
-		private void _vod_0folderPartic(ShieldI shield)
+		private void _vod_0partic(ShieldI shield)
 		{
-			_vod_0folderPartic(shield.ToString());
+			_vod_0partic(shield.ToString());
 		}
 
-		private void _vod_0folderPartic(FolderI folder)
+		private void _vod_0partic(FolderI folder)
 		{
-			_vod_0folderPartic(folder.ToString());
+			_vod_0partic(folder.ToString());
 		}
 
 
@@ -94,19 +64,10 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 		/// we can use this instace to bak a lot of slns. and these slns will run in parallel 
 		/// </summary>
 		/// <param name="folder"></param>
-		public void _startTask_ofAddress(string folder)
+		public void _startChildTask_0partic(string folder)
 		{
-			if (nilnul.fs.folder.be_.deV_.baK_._NonparticipantX.Be_ofAddress(folder))
-			{
-				/// todo: move this out of task.
-				Trace.TraceWarning($"{folder} is not participating;");
-				return;
-			}
 
-			new delvable_.partic.BakTackler(_cfg)._startChildTask_0partic(folder);
-			return;
-
-			Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- starting task");
+			Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startChildTask_0partic)}({folder})  --- starting task");
 			/// due to that:
 			///		the semaphore is released after the task started, so the tasks are kept being started
 			var waited = cfg.semaphore.Wait(
@@ -125,9 +86,9 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 				Task.Factory.StartNew(
 					() =>
 					{
-						Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- in task- outside semaphore");
-						_vod_0folderPartic(folder);
-						Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- in task - outside semaphore done;");
+						Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startChildTask_0partic)}({folder})  --- in task- outside semaphore");
+						_vod_0partic(folder);
+						Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startChildTask_0partic)}({folder})  --- in task - outside semaphore done;");
 					}
 					,
 					cfg.cancel
@@ -139,7 +100,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 				).ContinueWith(
 					(t) =>
 					{
-						Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- task continueing outside semaphore");
+						Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startChildTask_0partic)}({folder})  --- task continueing outside semaphore");
 
 						try
 						{
@@ -151,7 +112,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 							//throw;
 						}
 						//cfg.shieldsNewlyBaked.Add(folder); // as is already done in module bak
-						Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- task continued outside semaphore");
+						Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startChildTask_0partic)}({folder})  --- task continued outside semaphore");
 					}
 					, cfg.cancel //bubbel up
 					,
@@ -162,7 +123,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 					TaskScheduler.Current/*where ExecuteSynchronously continuations won’t run synchronously is when the target scheduler doesn’t allow it.  A TaskScheduler has the ability to say whether tasks are able to run on the current thread or not.  */
 				);
 
-				Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- started task outside semaphore");
+				Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startChildTask_0partic)}({folder})  --- started task outside semaphore");
 
 				return;
 			}
@@ -170,18 +131,18 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 			Task.Factory.StartNew(
 				() =>
 				{
-					Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- in task- waiting semaphore");
+					Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startChildTask_0partic)}({folder})  --- in task- waiting semaphore");
 
 					//cfg.semaphore.Wait(cfg.cancel);
 					try
 					{
-						_vod_0folderPartic(folder);
+						_vod_0partic(folder);
 					}
 					finally
 					{
 						cfg.semaphore.Release();
 					}
-					Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- in task - semaphore released");
+					Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startChildTask_0partic)}({folder})  --- in task - semaphore released");
 				}
 				,
 				cfg.cancel
@@ -192,7 +153,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 			).ContinueWith(
 				(t) =>
 				{
-					Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- task continueing");
+					Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startChildTask_0partic)}({folder})  --- task continueing");
 
 					try
 					{
@@ -212,7 +173,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 						//throw;
 					}
 					//cfg.shieldsNewlyBaked.Add(folder); // as is already done in module bak
-					Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- task continued");
+					Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startChildTask_0partic)}({folder})  --- task continued");
 				}
 				, cfg.cancel //bubbel up
 				,
@@ -225,19 +186,19 @@ namespace nilnul.dev.srcs.each.sln_.delvable
 			/// release is done in the task
 			//cfg.semaphore.Release();
 
-			Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startTask)}({folder})  --- started task");
+			Trace.TraceInformation($"{(this.GetType().FullName)}.{nameof(_startChildTask_0partic)}({folder})  --- started task");
 
 
 		}
 
-		public void _startTask(FolderI folder)
+		public void _startChildTask_0partic(FolderI folder)
 		{
-			_startTask_ofAddress(folder.ToString());
+			_startChildTask_0partic(folder.ToString());
 		}
 
-		public void _startTask(nilnul.fs.address_.ShieldI folder)
+		public void _startChildTask_0partic(nilnul.fs.address_.ShieldI folder)
 		{
-			_startTask_ofAddress(folder.ToString());
+			_startChildTask_0partic(folder.ToString());
 
 		}
 	}

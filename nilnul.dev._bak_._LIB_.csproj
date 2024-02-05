@@ -727,7 +727,7 @@
     <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\branch_\_SnapX - Copy.cs" />
     <Compile Include="nilnul0\dev\srcs\each\sln\div_\delvable_\partic_\giT_\work_\top_\_incomplete_\container_\undone_\wrought_\primed\_bak_\_upload_\tag_\_BakX.cs" />
     <Compile Include="nilnul0\dev\srcs\each\sln\div_\IDelvable.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln_\delvable\BakTackler.cs" />
+    <Compile Include="nilnul0\dev\srcs\each\sln_\delvable\BakByPartic.cs" />
     <Compile Include="nilnul0\dev\srcs\each\sln_\delvable\slate\BakTraverse.cs" />
     <Compile Include="nilnul0\dev\srcs\each\sln_\delvable\_bak\VisitingSlnEs.cs" />
     <Compile Include="nilnul0\dev\srcs\each\sln_\delvable_\partic\NewFolder1\Bak_srcsInAddresses.cs" />
@@ -922,7 +922,6 @@
     <Compile Include="nilnul0\dev\srcs\each\sln_\nonlink_\nonneglect\Bak_srcsInAddresses.cs" />
     <Compile Include="nilnul0\dev\srcs\each\sln_\nonlink_\nonneglect\Bak.cs" />
     <Compile Include="nilnul0\dev\srcs\each\sln_\partic\Bak_srcsInAddresses.cs" />
-    <Compile Include="nilnul0\dev\srcs\each\sln_\delvable_\partic\Bak_srcsInAddresses.cs" />
     <Compile Include="nilnul0\dev\srcs\each_\folder\dir\Bak - Copy.cs" />
     <Compile Include="nilnul0\dev\srcs\each_\folder\dir_\link\Bak_srcsInAddresses.cs" />
     <Compile Include="nilnul0\dev\srcs\each_\folder\dir_\unjoint\Bak_srcsInAddresses.cs" />
@@ -1205,7 +1204,6 @@
     <Folder Include="nilnul0\dev\srcs\each\sln\div_\partic_\intent_\NewFolder1\" />
     <Folder Include="nilnul0\dev\srcs\each\sln\div_\partic_\intent_\unjoint_\giT_\plain0nontop\" />
     <Folder Include="nilnul0\dev\srcs\each\sln\div_\partic_\work_\top_\incomplete_\moduleUndone\" />
-    <Folder Include="nilnul0\dev\srcs\each\sln_\delvable\NewFolder1\" />
     <Folder Include="nilnul0\dev\srcs\each\sln_\nonlink_\nonneglect\NewFolder1\" />
     <Folder Include="nilnul0\dev\srcs\each\_div\delvable\" />
     <Folder Include="nilnul0\dev\srcs\each_\folder_\nonneglect_\giT_\nonrepo\dev_\" />
