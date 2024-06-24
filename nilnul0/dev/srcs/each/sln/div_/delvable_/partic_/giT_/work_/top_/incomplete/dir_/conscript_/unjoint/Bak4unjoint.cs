@@ -6,7 +6,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.unskip_.unjoint
+namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.conscript_.unjoint
 {
 	public class Bak4unjoint
 	{
@@ -58,10 +58,11 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomp
 
 
 			cfg.cancel.ThrowIfCancellationRequested();
+
 			if (nilnul.fs.folder.be_.deV_.baK_._NonparticipantX.Be_ofAddress(work))
 			{
 				Trace.TraceWarning(
-					$"{work} is neglected"
+					$"{work} is nonparticipating;"
 				);
 				return;
 

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,21 +22,27 @@ namespace nilnul.fs.folder.dirs_.unclave_.unnegle_.unvsgen_.baK_
 	///	
 	/// </remarks>
 	/// alias:
+	///		conscript
+	///		curate
+	///		candidate
 	///		delvable
 	///			,delve
 	///		curated
 	///		nominated
 	///		appointed
+	///		unskipped
 	///
 
-	public class _UnSkippedX
+	public class _ConscriptX
 	{
 		public static IEnumerable<DirectoryInfo> _Infos_0folder(DirectoryInfo s)
 		{
 			/// todo: assumeFolder
-			return nilnul.fs.folder.dirs_.unnegle_.unvsgen_._UnClaveX._Infos_0folder(s).Where(
+			return	nilnul.fs.folder.dirs_.unnegle_.unvsgen_._UnClaveX._Infos_0folder(
+				s
+			).Where(
 				d =>
-				!nilnul.fs.folder.dir.be_.deV_.baK_._unchart._PerNameX._Be_0dnt(d.Name)
+				!nilnul.fs.folder.dir.be_.deV_.baK_._nonconscript._PerNameX._Be_0dnt(d.Name)
 			); 
 		}
 

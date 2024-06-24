@@ -11,6 +11,8 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.bak.put
 	/// 
 	/// <summary>
 	/// ensure;
+	/// for performance, if a remote is created, we assume the repo exists on the server; if it doesnot exist on the server, an error will be traced later, and hopefully the error will explain that it doesnot exist; to resolve that error, delete that remote such that that remote is created later.
+	/// with the above, a remote would be created if we are not assured that a repo has been created on the server successfully;
 	/// </summary>
 	/// <see cref="nilnul.data.model_.monolith.IEnsure"/>
 	static public class _ResultX

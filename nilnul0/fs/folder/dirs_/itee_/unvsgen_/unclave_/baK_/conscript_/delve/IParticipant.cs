@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.fs.folder.dirs_.unclave_.unnegle_.unvsgen_.baK_.unskip_.delve
+namespace nilnul.fs.folder.dirs_.unclave_.unnegle_.unvsgen_.baK_.conscript_.delve
 {
 	/// <summary>
 	/// <see cref="nilnul.fs.folder.be_._PartakeX"/>

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace nilnul.dev.srcs.each.sln.directory_._delvable
 {
 	/// <summary>
-	/// even if the directory is <see cref="nilnul.fs.folder.dirs_.unclave_.unnegle_.unvsgen_.baK_._UnSkippedX"/>, we still need further check:
+	/// even if the directory is <see cref="nilnul.fs.folder.dirs_.unclave_.unnegle_.unvsgen_.baK_._ConscriptX"/>, we still need further check:
 	/// for example, for some directory that is:
 	///		,a link, we need to determine whether it's unjoint
 	///		,

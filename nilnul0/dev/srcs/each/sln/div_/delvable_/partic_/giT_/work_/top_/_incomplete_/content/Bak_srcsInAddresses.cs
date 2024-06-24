@@ -109,7 +109,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 				//var unlisted = nilnul.fs.folder.dnts_._neglect._cfg_.doc_._DefaultX.Captions_ofAddress(folder);
 
 				foreach (
-					var dir in nilnul.fs.folder.dirs_.unclave_.unnegle_.unvsgen_.baK_._UnSkippedX._Infos_0folder(folder)	// unnegle unvsgen   unclave delve
+					var dir in nilnul.fs.folder.dirs_.unclave_.unnegle_.unvsgen_.baK_._ConscriptX._Infos_0folder(folder)	// unnegle unvsgen   unclave delve
 					)
 				{
 					var dnt = dir.Name;
@@ -140,7 +140,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 					///
 
 
-					new incomplete.dir_.unskip.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude, this._module).__exe(
+					new incomplete.dir_.conscript.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude, this._module).__exe(
 						child
 					);
 

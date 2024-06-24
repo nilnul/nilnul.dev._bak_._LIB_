@@ -14,7 +14,6 @@ namespace nilnul.fs.folder.be_.deV_.baK_._nonpart._cfg_
 	public static class _DefineX
 	{
 
-
 		public static bool _Be_0folder(string _folder)
 		{
 			return _define._PerHierX._IsNeglected_0folder(_folder);

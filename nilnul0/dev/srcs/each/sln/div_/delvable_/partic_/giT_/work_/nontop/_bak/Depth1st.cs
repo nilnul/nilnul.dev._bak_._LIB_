@@ -81,7 +81,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop._bak
 					foreach (
 						var dir
 						in
-						nilnul.fs.folder.dirs_.unclave_.unnegle_.unvsgen_.baK_._UnSkippedX._Infos_0folder(
+						nilnul.fs.folder.dirs_.unclave_.unnegle_.unvsgen_.baK_._ConscriptX._Infos_0folder(
 							_location__nonrootWork
 						)
 					)

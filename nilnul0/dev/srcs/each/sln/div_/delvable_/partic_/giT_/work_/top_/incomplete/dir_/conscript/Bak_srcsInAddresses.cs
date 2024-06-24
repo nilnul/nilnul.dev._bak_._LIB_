@@ -3,7 +3,7 @@ using nilnul.fs.folder_.git_;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.unskip
+namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.conscript
 {
 	public class Bak_srcsInAddresses
 	{
@@ -61,10 +61,10 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomp
 
 			if (nilnul.fs.folder.dir.be_._SymlinkX.Be_ofAddress(work))
 			{
-				new dir_.unskip_.link.Bak4unjoint(_cfg, innerModules, innerModules) { module = module }.exe_ofAddress(work);
+				new dir_.conscript_.link.Bak4unjoint(_cfg, innerModules, innerModules) { module = module }.exe_ofAddress(work);
 				return;
 			}
-			new dir_.unskip_.unjoint.Bak4unjoint(_cfg, innerModules, innerModules) { module = module }.__exe(work);
+			new dir_.conscript_.unjoint.Bak4unjoint(_cfg, innerModules, innerModules) { module = module }.__exe(work);
 
 
 			//new directory_.delvable_.giT_.work.Bak4unjoint(cfg,innerModules,innerModules2reinclude,module) .__exe(work);

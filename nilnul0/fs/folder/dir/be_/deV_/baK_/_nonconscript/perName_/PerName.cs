@@ -9,7 +9,7 @@ using nilnul.fs.address_.shield_;
 using nilnul.win.prog_;
 using nilnul.win.program_;
 
-namespace nilnul.fs.folder.dir.be_.deV_.baK_._unchart
+namespace nilnul.fs.folder.be_.deV_.baK_._neglect
 {
 	/// <summary>
 	/// neglect this folder if the dir name includes, case insensitively, "(!Bak)" or the like:"!Bak)","(!Bak";
@@ -23,6 +23,8 @@ namespace nilnul.fs.folder.dir.be_.deV_.baK_._unchart
 	///			;
 	///			
 	/// </remarks>
+	///
+	[Obsolete(nameof(folder.dir.be_.deV_.baK_._nonconscript._PerNameX))]
 	static public class _PerNameX
 	{
 		public const string CONTENT = "!Bak";
@@ -34,10 +36,10 @@ namespace nilnul.fs.folder.dir.be_.deV_.baK_._unchart
 		/// <summary>
 		/// note: "(!Git" is for git to ignore, not for bak to neglect
 		/// </summary>
-		static public readonly nilnul.txts_.seq_.BothCases SUFFIXS = new nilnul.txts_.seq_.BothCases(SUFFIX);
-		static public readonly nilnul.txts_.seq_.BothCases PREFIXS = new nilnul.txts_.seq_.BothCases(PREFIX);
+		static public nilnul.txts_.seq_.BothCases SUFFIXS = new nilnul.txts_.seq_.BothCases(SUFFIX);
+		static public nilnul.txts_.seq_.BothCases PREFIXS = new nilnul.txts_.seq_.BothCases(PREFIX);
 
-		static public readonly nilnul.txts_.seq_.BothCases INFIXS = new nilnul.txts_.seq_.BothCases(INFIX);
+		static public nilnul.txts_.seq_.BothCases INFIXS = new nilnul.txts_.seq_.BothCases(INFIX);
 
 		/// <summary>
 		/// 
@@ -47,21 +49,21 @@ namespace nilnul.fs.folder.dir.be_.deV_.baK_._unchart
 		/// <returns></returns>
 		/// todo: commented is not considered. eg: (!Bak (downed from web))
 
-		static public bool _Be_0dnt(string s)
+		static public bool Be(nilnul.fs._address._dst.Denote s, nilnul.win.prog_.Git git =null)
 		{
 			if (
 				(PREFIXS).Any(
 					x=>
-					s.StartsWith( x, StringComparison.InvariantCultureIgnoreCase  )
+					s.ToString().StartsWith( x, StringComparison.InvariantCultureIgnoreCase  )
 				)
 				||
 				(SUFFIXS).Any(
 					x=>
-					s.EndsWith( x, StringComparison.InvariantCultureIgnoreCase  )
+					s.ToString().EndsWith( x, StringComparison.InvariantCultureIgnoreCase  )
 				)
 				||
 				INFIXS.Any(x=>
-					s.ToLower().Contains(x.ToLower())
+					s.ToString().ToLower().Contains(x.ToLower())
 				)
 			)
 			{
@@ -69,26 +71,6 @@ namespace nilnul.fs.folder.dir.be_.deV_.baK_._unchart
 			}
 			return false;
 		}
-		static public bool _Be_0spear(string s)
-		{
-			return _Be_0dnt(
-				System.IO.Path.GetFileName(s)
-			);
-		}
-
-		static public bool _Be_0address(string s)
-		{
-			return _Be_0spear(
-				s.TrimEnd('/','\\')
-			);
-		}
-
-		static public bool Be(nilnul.fs._address._dst.Denote s)
-		{
-			return _Be_0dnt(s.ToString());
-		
-		}
-
 
 		//static public bool Be(nilnul.fs._address.DirI s, nilnul.win.prog_.Git git =null) {
 		//	if (
@@ -105,26 +87,26 @@ namespace nilnul.fs.folder.dir.be_.deV_.baK_._unchart
 		//	}
 		//	return false;
 		//}
-		public static bool Be(DirI child)
+		public static bool Be(DirI child, Git git=null)
 		{
 			return Be(child.denote);
 		}
 
 
-		public static bool Be(ShieldI shield)
+		public static bool Be(ShieldI shield, win.prog_.Git git=null)
 		{
-			return Be( nilnul.fs.address_.shield_.BaseDir._Ov(shield).child);
+			return Be( nilnul.fs.address_.shield_.BaseDir._Ov(shield).child,git);
 		}
-		static public bool Be_0address(string s) {
-			return Be(nilnul.fs.address_.Shield.FroAddress(s));
+		static public bool Be_ofAddress(string s, nilnul.win.prog_.Git git =null) {
+			return Be(nilnul.fs.address_.Shield.FroAddress(s),git);
 		}
 
-		public static bool Be(Exist address)
+		public static bool Be(Exist address,  win.prog_.Git git=null)
 		{
 			return Be(address.en);
 		}
 
-		static public bool Be(nilnul.fs.FolderI s) {
+		static public bool Be(nilnul.fs.FolderI s, nilnul.win.prog_.Git git =null) {
 			return Be(s.address);
 		}
 

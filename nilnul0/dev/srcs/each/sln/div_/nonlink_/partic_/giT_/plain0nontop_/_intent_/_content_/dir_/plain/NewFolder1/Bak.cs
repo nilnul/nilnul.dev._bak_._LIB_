@@ -56,7 +56,7 @@ namespace nilnul.dev.sln.div_.nonlink_.nonneglect_.giT_.plain0Nontop_._intent_._
 				}
 
 				/// todo: nondelve? 
-				if (nilnul.fs.folder.dir.be_.deV_.baK_._UnchartX._Be_0folder(child))
+				if (nilnul.fs.folder.dir.be_.deV_.baK_._NonconscriptX._Be_0folder(child))
 				{
 					continue;
 				}

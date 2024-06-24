@@ -9,23 +9,23 @@ using nilnul.win.program_;
 namespace nilnul.fs.folder.dir.be_.deV_.baK_
 {
 	/// <summary>
-	/// neglect this folder
+	/// is this folder candidate per its caption.
 	/// </summary>
+	/// alias:
+	///		candidate
+	///		curated
+	///		chart
+	///		pername
 	/// vs:
 	///		non <see cref="nilnul.fs.folder.dir_.enclave_"/>
 	///		<see cref="nilnul.fs.folder.dir_.IListed"/>
 	///		nonrepo
 	///		<see cref="nilnul.fs.folder.dirs_.IArtisan"/>
 	///		,neglect is for the content of a folder.
-	static public class _UnchartX
+	static public class _ConscriptX
 	{
 		static public bool _Be_0folder(string s) {
-			return
-				//nilnul.fs.folder.be_.Empty.Singleton.be(s)
-				//||
-				_unchart._PerNameX._Be_0address(s)
-				//||
-				//folder.be_.deV_.baK_._neglect._PerCfgX._Be_0folder(s)
+			return	! _NonconscriptX._Be_0folder(s)
 			;
 		}
 		public static bool _Be_0folder(ShieldI shield)

@@ -87,14 +87,14 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 
 				nilnul.fs.git.depo._werk_.documents_.included_.nonlink_.large.each.split._XpnWhenExceedQuotaX._XpnIfBeyondQuota_0depo(
 					folder, git
-				);///todo:unobtrusive. get the werk size, also get the total size of large files. get the upserted werek total size + large file that is not in upsert.
+				);///todo:unobtrusive. get the werk size, also get the total size of large files. get the upserted werk total size + large file that is not in upsert.
 				
 
 			}
 			catch (Exception e)
 			{
 				Trace.TraceError(
-					$"when vowing this as under quota and splitting large files:{this.GetType().FullName}.{nameof(_exe)}({folder}):  {e}"
+					$"when vowing this as under quota and splitting large files:{this.GetType().FullName}.{nameof(_exe)}({folder}):  {e}; this wouldnot proceed bakking;"
 				);
 				// throw not, to avoid repetitive log entries;
 				return;// false;

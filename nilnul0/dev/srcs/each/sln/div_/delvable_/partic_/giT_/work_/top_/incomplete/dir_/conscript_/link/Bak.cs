@@ -13,7 +13,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.unskip_.link
+namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.conscript_.link
 {
 	/// <summary>
 	/// 
@@ -79,7 +79,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomp
 				///unjoint
 				///
 
-				new unskip_.unjoint.Bak4unjoint(cfg, innerModules, innerModules2reinclude) { module = this.module }.__exe(shield);
+				new conscript_.unjoint.Bak4unjoint(cfg, innerModules, innerModules2reinclude) { module = this.module }.__exe(shield);
 				return;
 
 			}

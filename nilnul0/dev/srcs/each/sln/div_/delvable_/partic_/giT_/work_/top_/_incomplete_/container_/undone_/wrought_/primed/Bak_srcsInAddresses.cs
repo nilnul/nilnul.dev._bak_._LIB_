@@ -95,8 +95,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 			{
 
 				Trace.TraceError(
-					$"when pushing pub branches in {folder}:{x.ToString()};" +
-					$";Note that if bakking is successful, it's still saved in {nameof(_cfg.modulesNewlyBaked)}."
+					$"when pushing pub branches in {folder}:{x.ToString()}, {x.Message};Note that if bakking is successful, it's still saved in {nameof(_cfg.modulesNewlyBaked)}. If the error indicates that the repo doesnot exist on the server, you can remove the remote such that it will be recreated next time after a repo is created beforehand."
 				);
 			}
 

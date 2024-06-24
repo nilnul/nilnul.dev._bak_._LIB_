@@ -1,6 +1,7 @@
 ﻿using nilnul.obj.str.be_;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,12 +14,24 @@ namespace nilnul.fs.folder.be_.deV_.baK_._nonpart._cfg_._defer
 		public static bool _BeDeferred_0folder(string folder)
 		{
 
-#if DEBUG
-
-			var enumerable = nilnul.fs.folder.cfg.hier.vals_._MaximalX._Vals_0address4folder_1identy(
+#if DEBUG1
+			object[] enumerable;
+			try
+			{
+				enumerable = nilnul.fs.folder.cfg.hier.vals_._MaximalX._Vals_0address4folder_1identy(
 							folder,
 							"bak.aft"
 						).ToArray();
+
+			}
+			catch (System.Xml.XmlException e)
+			{
+
+				Trace.TraceError($"when retrieveing 'bak.aft' value from configuration of {folder}:{e}");
+				return false;
+				//throw;
+			}
+
 
 
 			return enumerable.Select(
@@ -31,30 +44,41 @@ namespace nilnul.fs.folder.be_.deV_.baK_._nonpart._cfg_._defer
 					}
 					return null;
 				}
-			).Where(d=> d is not null).Cast<DateTimeOffset>().Any(t=> t>= DateTimeOffset.UtcNow);
+			).Where(d => d is not null).Cast<DateTimeOffset>().Any(t => t >= DateTimeOffset.UtcNow);
 
 #else
+			try
+			{
 
-			return nilnul.fs.folder.cfg.hier.vals_._MaximalX._Vals_0address4folder_1identy(
-				folder,
-				"bak.aft"
-			).Select(
-				v =>
-				{
-					var parsed = DateTimeOffset.TryParse(v.ToString(), out var benchmark);
-					if (parsed)
+				return nilnul.fs.folder.cfg.hier.vals_._MaximalX._Vals_0address4folder_1identy(
+					folder,
+					"bak.aft"
+				).Select(
+					v =>
 					{
-						return (DateTimeOffset?)benchmark;
+						var parsed = DateTimeOffset.TryParse(v.ToString(), out var benchmark);
+						if (parsed)
+						{
+							return (DateTimeOffset?)benchmark;
+						}
+						return null;
 					}
-					return null;
-				}
-			).Where(d=> d is not null).Cast<DateTimeOffset>().Any(t=> t>=DateTimeOffset.UtcNow);
+				).Where(d => d is not null).Cast<DateTimeOffset>().Any(t => t >= DateTimeOffset.UtcNow);
+			}
+			catch (System.Xml.XmlException e)
+			{
+
+				Trace.TraceError($"when retrieveing 'bak.aft' value from configuration of {folder}:{e}");
+				return false;
+				//throw;
+			}
+
 
 #endif
 		}
 		public static bool? _Deferred0nul_0folder(string folder)
 		{
-			var vals= nilnul.fs.folder.cfg.hier.vals_._MaximalX._Vals_0address4folder_1identy(
+			var vals = nilnul.fs.folder.cfg.hier.vals_._MaximalX._Vals_0address4folder_1identy(
 				folder,
 				"bak.aft"
 			).Select(
@@ -73,7 +97,7 @@ namespace nilnul.fs.folder.be_.deV_.baK_._nonpart._cfg_._defer
 				return null;
 			}
 
-			return vals.Any(t=> t>=DateTimeOffset.UtcNow);
+			return vals.Any(t => t >= DateTimeOffset.UtcNow);
 		}
 
 

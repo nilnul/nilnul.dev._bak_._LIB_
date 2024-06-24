@@ -67,7 +67,7 @@ namespace nilnul.fs.git.module.repo._cfg_.remote_.dev_.baK_.all_.last.urns
 			var urls2add = nilnul.web.url.nulable.str.combine_.except_._DelKeyX.Txts(
 				urls,
 				oldUrls
-			);
+			).ToArray();
 
 
 			urls2add.ForEach(

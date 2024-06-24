@@ -63,7 +63,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 				var latestRemotes = remotes.Where(x => x != null);// 
 				if (cancel.IsCancellationRequested)
 				{
-					Trace.TraceWarning($"cancelled before pushing bak branch for {_location}");
+					Trace.TraceWarning($"cancelled before pushing bak tags for {_location}");
 					cancel.ThrowIfCancellationRequested();
 					return false;
 				}
@@ -102,7 +102,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 						)
 						{
 							Trace.TraceError(
-								$@"exceptions when pushing at {_location} of branch_ {bakTag}:(
+								$@"exceptions when pushing at {_location} of tag_ {bakTag}:(
 									{nilnul.txt.accumulate_.join_.DuoLineBreak.Singleton.accumulate(
 										resultsErr.Select(r => $@"{r.Key}:{nilnul.fs.git.module.repo._cfg_.remote.urn._VwX._Txt_assumesModuleAddress1Remote(_location,r.Key,git) }:{r.Value}:{ nilnul.fs.git.repo._push.ExitCodeX.Explain(r.Value)}")
 									)}
@@ -114,7 +114,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 						else
 						{
 							Trace.TraceWarning(
-								$@"exceptions when pushing at {_location} of branch_ {bakTag}:(
+								$@"exceptions when pushing at {_location} of tag_ {bakTag}:(
 									{nilnul.txt.accumulate_.join_.DuoLineBreak.Singleton.accumulate(
 										resultsErr.Select(r => $@"{r.Key}:{r.Value}:{ nilnul.fs.git.repo._push.ExitCodeX.Explain(r.Value)}")
 									)}
@@ -125,7 +125,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 					if (resultsSuccess.Any())
 					{
 						Trace.TraceInformation(
-							$@"success in pushing at {_location} of branch_ {bakTag}:(
+							$@"success in pushing at {_location} of tag_ {bakTag}:(
 								{nilnul.txt.accumulate_.join_.DuoLineBreak.Singleton.accumulate(
 									resultsSuccess.Select(r => $@"{r.Key}:{r.Value}")
 								)}
@@ -141,13 +141,12 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 				{
 					noError = false;
 					Trace.TraceError($"when pushing {bakTag} for {_location} as workroot inside sln by sync with remote: " + e.Message);
-
 					//throw;
 				}
 
 				if (cancel.IsCancellationRequested)
 				{
-					Trace.TraceWarning($"user cancelled before pushing all branches at {_location}");
+					Trace.TraceWarning($"user cancelled before pushing all tags at {_location}");
 					cancel.ThrowIfCancellationRequested();
 					return false;
 				}

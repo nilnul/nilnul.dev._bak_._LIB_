@@ -15,7 +15,7 @@ namespace nilnul.dev.srcs.each.sln.div_
 	///		- its parent is git nonrepo; but itself might be work, or repo ( a bare one), or plain
 	///	whether it's intended for git managed or not is not determined here, as intent or not, the folder has to be delved into.
 	/// </summary>
-	/// <see cref="nilnul.fs.folder.dirs_.unclave_.unnegle_.unvsgen_.baK_.unskip_._delve.IUnjoint"/>
+	/// <see cref="nilnul.fs.folder.dirs_.unclave_.unnegle_.unvsgen_.baK_.conscript_._delve.IUnjoint"/>
 	/// vs:
 	///		
 	internal interface IDelvable

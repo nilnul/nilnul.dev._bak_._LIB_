@@ -352,3 +352,7 @@ MigrationBackup/
 *(.git/
 *(!git/
 *([Gg]it/
+
+.*
+
+!.gitignore

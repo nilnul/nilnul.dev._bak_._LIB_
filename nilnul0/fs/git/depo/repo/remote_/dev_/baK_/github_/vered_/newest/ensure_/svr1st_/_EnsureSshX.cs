@@ -10,14 +10,7 @@ using global::nilnul.win.prog_;
 
 //#define SOME_AMAZON_REPO_NOT_CREATED
 using nilnul.fs.git.svr.client_.accVaulted_;
-using nilnul.win.prog_;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.TeamFoundation.SourceControl.WebApi;
+//using Microsoft.TeamFoundation.SourceControl.WebApi;
 
 namespace nilnul.fs.git.module.repo.remote_.dev_.baK_.github_.vered_.newest.ensure_.svr1st_
 {
