@@ -1,4 +1,4 @@
-﻿using nilnul.fs.address_.shields_;
+using nilnul.fs.address_.shields_;
 using nilnul.obj.str;
 using System;
 using System.Collections.Generic;
@@ -29,51 +29,52 @@ namespace nilnul.fs.addresses_.disjoint.deV_
 			_cfg = cfg;
 		}
 
-
 		/// <summary>
 		/// 
 		/// </summary>
 		/// <param name="_shieldsDisjoint">
 		/// disjoint
 		/// </param>
-		public void _Bak(
+		public void _bak_0disjoint(
 			IEnumerable<string> _shieldsDisjoint
+		){
 
-		)
-		{
 			var cancel = cfg.cancel;
 			string shieldsTxt = nilnul.fs.address.str._PhraseX.Phrase(_shieldsDisjoint);
+
 			Trace.TraceWarning($"begin {shieldsTxt}...");
+
 			if (cancel.IsCancellationRequested)
 			{
 				Trace.TraceWarning($"cancelled {shieldsTxt}...");
-
 				return;
 			}
 
-
 			//Trace.Indent();
 
-			/// the collection is initially empty, we would process items once the collection is added.
+			/// the collection is initially empty, we would process items(by the unit of sln) once the collection is added.
 			var t = Task.Factory.StartNew(
 				() => cfg.slnVisitingEs.GetConsumingEnumerable(cancel).Each(
 					s =>
-					new nilnul.dev.srcs.each.sln_.delvable.BakByPartic(cfg)._startChildTask_0delvable(s.Item1) ///here wouldnot return for next if semophore stalls;
+					new nilnul.dev.srcs.each.sln_.delvable.BakByPartic(
+						cfg
+					)._startChildTask_0delvable(
+						s.Item1
+					) ///here wouldnot return for next if semophore stalls;
 				)
 				,
 				cancel
 								,
 				TaskCreationOptions.AttachedToParent
-				, TaskScheduler.Current //TaskScheduler
-
-
+				,
+				TaskScheduler.Current //TaskScheduler
 			);
+
 			///  for an address is not sln, but inner of sln, they will be tackled when being traversed.
 			///  as the addresses are disjoint, hence the sln contains hat address wouldnot be included here, and hence no confliction would arise;
 
 			try
 			{
-
 				foreach (string src in _shieldsDisjoint)
 				{
 					cancel.ThrowIfCancellationRequested();
@@ -109,14 +110,14 @@ namespace nilnul.fs.addresses_.disjoint.deV_
 			//throw new NotImplementedException();
 		}
 
-		public void _bak_assumeDisjoint(List<AddressI> addressIs)
+		public void _bak_0disjoint(List<AddressI> addressIs)
 		{
-			_Bak(
+			_bak_0disjoint(
 				addressIs.Select(a => a.ToString())
 			);
 		}
 
-		public void _ShuffleAndBak(
+		public void _shuffleAndBak_0disjoint(
 			IEnumerable<string> _shieldsDisjoint
 
 		)
@@ -124,7 +125,7 @@ namespace nilnul.fs.addresses_.disjoint.deV_
 
 		{
 			//shall be shuffled and shown in UI lest the UI is inconsisitent with the order in action.
-			_Bak(
+			_bak_0disjoint(
 				/*nilnul.obj.str.op_.unary_._ShuffleX.Op*/
 				(_shieldsDisjoint)
 
@@ -138,9 +139,9 @@ namespace nilnul.fs.addresses_.disjoint.deV_
 		/// <param name="disjoint">
 		/// it's disjoint so there would be no two that is <see cref="nilnul.fs.address.co_.spearShield_.SameLocation"/>
 		/// </param>
-		public void _Bak(Disjoint disjoint)
+		public void bak(Disjoint disjoint)
 		{
-			_Bak(disjoint.toOriginal().Select(x => x.ToString()));
+			_bak_0disjoint(disjoint.toOriginal().Select(x => x.ToString()));
 
 			//throw new NotImplementedException();
 		}

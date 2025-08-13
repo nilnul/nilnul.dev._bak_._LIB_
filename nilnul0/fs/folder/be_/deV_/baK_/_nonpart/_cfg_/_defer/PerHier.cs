@@ -1,4 +1,4 @@
-﻿using nilnul.obj.str.be_;
+using nilnul.obj.str.be_;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -56,12 +56,17 @@ namespace nilnul.fs.folder.be_.deV_.baK_._nonpart._cfg_._defer
 				).Select(
 					v =>
 					{
-						var parsed = DateTimeOffset.TryParse(v.ToString(), out var benchmark);
-						if (parsed)
+						var parsed =
+						nilnul.time_.datetime.lex_.alnum_.NonyearCollapse.Singleton.parseAsNulable(v.ToString())
+					///DateTimeOffset.TryParse(v.ToString(), out var benchmark)
+					;
+						if (parsed is null)
 						{
-							return (DateTimeOffset?)benchmark;
+							return (DateTimeOffset?)null;
 						}
-						return null;
+
+						return (DateTimeOffset)parsed;
+
 					}
 				).Where(d => d is not null).Cast<DateTimeOffset>().Any(t => t >= DateTimeOffset.UtcNow);
 			}

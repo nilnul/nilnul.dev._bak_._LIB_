@@ -19,6 +19,18 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("nilnul.dev._bak_._LIB_")]
 [assembly: AssemblyCulture("")]
 
+///You need to sign both assemblies, because effectively both assemblies reference each other.
+///he public key is retrieved by running
+///sn -Tp path\to\test\assembly.dll
+///
+/// Alternatively, get it from the .snk file:
+/// sn -p MyStrongnameKey.snk public.pk
+/// sn -tp public.pk
+///  sn -k MyStrongnameKey.snk 
+/// 
+//[assembly: InternalsVisibleTo("nilnul.dev._bak_._TEST_,PublicKey=085f320e4a727230")]
+
+
 // Setting ComVisible to false makes the types in this assembly not visible
 // to COM components.  If you need to access a type in this assembly from
 // COM, set the ComVisible attribute to true on that type.

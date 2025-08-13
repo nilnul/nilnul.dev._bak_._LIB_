@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -57,10 +57,11 @@ namespace nilnul.fs.addresses_._disjoint.item.deV_
 
 		public void vod(
 			nilnul.fs.AddressI address
-
 		)
 		{
+
 			this._cfg.onNotify($"baking the {address} you specified...");
+
 			Trace.TraceInformation($"{this.GetType().FullName}.{nameof(vod)}({address})>>>");
 			/// get the parent src
 
@@ -68,28 +69,32 @@ namespace nilnul.fs.addresses_._disjoint.item.deV_
 				a => nilnul.fs.address.re_.Sup.Singleton.re(a, address)
 			).SingleOrDefault();
 
-			var src = nilnul.fs.address_.shield_._AddressX1.Create(sup);
-
 			if (sup is null)
 			{
-
 				Trace.TraceInformation($"{address} in not in srcs:{cfg.srcs}");
 				return;
 			}
 
+			var src = nilnul.fs.address_.shield_._AddressX1.Create(sup);
+
 			/// in src
 			if (
 				nilnul.fs.address.re_.sup_.EndMatters.Singleton.re(
-					sup, address
+					sup
+					,
+					address
 				)
 			)
 			{
 				new dev.src.div._bak.Cognable0not(
-						cfg
-					)
+					cfg
+				)
 				{
-					src = src,
-				}.vod(address);
+					src = src
+				}.vod(
+					address
+				);
+
 				return;
 			}
 
@@ -104,12 +109,11 @@ namespace nilnul.fs.addresses_._disjoint.item.deV_
 				Trace.TraceWarning($"{address} is appended a dirSep, before being taken as the sub of {sup}; or else {address} is the proper sup of {sup}. ");
 
 				new dev.src.div._bak.Cognable0not(
-						cfg
-					)
-				{
+					cfg
+				){
 					src = src,
 				}.vod(
-					(address)
+					address
 				);
 				return;
 

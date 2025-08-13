@@ -12,6 +12,8 @@ using nilnul.obj.str;
 namespace nilnul.fs.folder.dirs_.unclave_.unnegle_.unvsgen_.baK_
 {
 	/// <summary>
+	/// itee_ unvsgen_.unclave_
+	/// ._delvable whether it's "!Bak?"
 	/// list all the dirs that are not bakked till after the given time;
 	/// </summary>
 	/// <remarks>

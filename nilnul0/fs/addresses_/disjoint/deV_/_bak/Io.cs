@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,6 +12,8 @@ using nilnul.fs.address_.shield;
 using nilnul.fs.address_;
 using nilnul.fs.folder.be;
 using nilnul.obj.str;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace nilnul.fs.addresses_.disjoint.deV_._bak
 {
@@ -19,14 +21,15 @@ namespace nilnul.fs.addresses_.disjoint.deV_._bak
 	/// </summary>
 	public class Io
 	{
-		private BlockingCollection<(string,DateTime)> _slnVisitingEs=new dev.srcs.each.sln_.delvable._bak.SlnVisitingEs().asBlockingCollection();
+		private BlockingCollection<(string, DateTime)> _slnVisitingEs = new dev.srcs.each.sln_.delvable._bak.SlnVisitingEs().asBlockingCollection();
 
-		public BlockingCollection<(string,DateTime)> slnVisitingEs
+		public BlockingCollection<(string, DateTime)> slnVisitingEs
 		{
-			get {
+			get
+			{
 				return _slnVisitingEs;
 			}
-			
+
 		}
 
 		private nilnul.dev.SrcsI_addresses _srcs;
@@ -110,10 +113,14 @@ namespace nilnul.fs.addresses_.disjoint.deV_._bak
 		object _destinyLock = new object();
 
 		/// <summary>
-		/// 
+		///  
 		/// </summary>
-		/// <param name="destiny"></param>
-		/// <param name="src"></param>
+		/// <param name="destiny">
+		/// the tgt of the link
+		/// </param>
+		/// <param name="src">
+		///
+		/// </param>
 		/// <returns>
 		///		old entry with the given key. this old entry is null or valued.
 		/// </returns>
@@ -138,30 +145,80 @@ namespace nilnul.fs.addresses_.disjoint.deV_._bak
 				}
 				else
 				{
-					return joint;
+					return joint;  /// it's already coverred.
 				}
 			}
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="en"></param>
+		/// <returns>
+		/// the old entry, the key of which is null if there is no old;
+		/// </returns>
 		internal KeyValuePair<AddressI, address_.ShieldI> _addDestiny_assumeLink(ShieldI en)
 		{
+			/// todo: xpn when link is invalid;
+			///
+			/// Let's see whether the tgt is valid
+			///
+			ShieldI en1 = null;
+
+			try
+			{
+				en1 = nilnul.fs.folder_.link_.sym._DestinyX.Normal(en).en.address.en;
+
+			}
+			catch (Win32Exception ex)       /// System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的路径。
+			{
+				string element = $"{en} as symlink may have an invalid tgt: {ex.ToString()}";
+				nilnul.app.trace._OfXmlX.TraceError(
+
+					element
+				);
+				throw new InvalidOperationException(
+					element
+				);
+
+			}
+			catch (Exception x)
+			{
+				string element = $"unknown exception when parsing the tgt of {en}: {x.ToString()}";
+				nilnul.app.trace._OfXmlX.TraceError(
+
+					element
+				);
+
+				throw new InvalidOperationException(
+					element
+				);
+
+			}
+
 			return addDestiny(
-				nilnul.fs.folder_.link_.sym._DestinyX.Normal(en).en.address.en
+				en1
 				,
 
 				en
 
 			);
-		}
 
+
+
+			///throw new nilnul.fs.location_.link_.sym_.
+
+		}
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		private KeyValuePair<AddressI, address_.ShieldI> _addDestiny_assumeLink(AddressI f1)
 		{
+
 			return _addDestiny_assumeLink(nilnul.fs.address_.shield_._AddressX1.Create(f1));
 		}
 
-
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		internal KeyValuePair<AddressI, address_.ShieldI> _addDestiny_addressAssumeLink(string en)
-		{
+		{ 
 			return _addDestiny_assumeLink(nilnul.fs.address_.Shield.FroAddress(en));
 		}
 
@@ -222,18 +279,39 @@ namespace nilnul.fs.addresses_.disjoint.deV_._bak
 					if (nilnul.fs.address.be_.Folder.Singleton.be(f1))
 					{
 						if (
-nilnul.fs.folder.BeIX.Be(nilnul.fs.folder.be_.link_.Sym.Singleton, f1)
+							nilnul.fs.folder.BeIX.Be(nilnul.fs.folder.be_.link_.Sym.Singleton, f1)
 						)
 						{
-							var old = this._addDestiny_assumeLink(
-								f1
-							);
+							//var old = this._addDestiny_assumeLink(
+							//	f1
+							//);
+							KeyValuePair<fs.AddressI, ShieldI> old;
+							try
+							{
+								old = _addDestiny_assumeLink(f1);
+							}
+							catch (InvalidOperationException ex)
+							{
+								nilnul.app.trace._OfXmlX.TraceError(
+
+									nilnul.txt.op_.scule_._CapitalX.Capital(
+										$"{f1}'s tgt might be invalid:{ex}"
+									)
+								);
+
+								return;
+							}
+
+
+
 							if (old.Key is null)
 							{
 							}
 							else
 							{
-								throw new Exception($"{f1}'s target is joint with {old.Value}'s target {old.Key}");
+								/// it's joint. But it's unknown which one is super.
+								/// todo: shall we allow the super one to proceed? if so, will that bury the error that user is not informed and still think the src is disjoint?
+								throw new InvalidOperationException($"{f1}'s target is joint with {old.Value}'s target {old.Key}");
 							}
 						}
 						else
@@ -281,7 +359,7 @@ nilnul.fs.folder.BeIX.Be(nilnul.fs.folder.be_.link_.Sym.Singleton, f1)
 			CancellationToken cancel
 			,
 			win.prog_.Git git = null
-		):this(srcs,shields2neglect,modules2neglect,initialAvailable,0,cancel)
+		) : this(srcs, shields2neglect, modules2neglect, initialAvailable, 0, cancel)
 		{
 
 
@@ -297,12 +375,12 @@ nilnul.fs.folder.BeIX.Be(nilnul.fs.folder.be_.link_.Sym.Singleton, f1)
 			CancellationToken cancel
 			,
 			win.prog_.Git git = null
-		):this(
+		) : this(
 			srcs
-			,shields2neglect,modules2neglect
+			, shields2neglect, modules2neglect
 			,
 			nilnul.dev.bak.Properties.Settings.Default.semaphore
-			,cancel
+			, cancel
 		)
 		{
 		}

@@ -1,4 +1,6 @@
-﻿using System;
+using nilnul.obj.seq;
+using nilnul.obj.seq_.str.be_;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -9,26 +11,64 @@ namespace nilnul.fs.folder.be_.deV_.baK_._nonpart._cfg_._define
 {
 	static public class _PerHierX
 	{
+		/// <summary>
+		/// <see cref="nilnul.fs.folder.be_._PartakeX._IsParticipant_0folder(string)"/>
+		/// </summary>
+		private const string NOMINA = "bak.neglect";
 
 		public static bool _IsNeglected_0folder(string folder)
 		{
 			try
 			{
-				return nilnul.fs.folder.cfg.hier.vals_._MaximalX._Vals_0address4folder_1identy(
+				if (nilnul.fs.folder.cfg.hier.vals_._MaximalX._Vals_0address4folder_1identy(
 					folder,
-					"bak.neglect"
+					NOMINA
 				).Any(
 					v =>
 					{
 						return v?.ToString()?.Trim() == "1";
 
 					}
-				);
+				))
+				{
+					return true;
+				}
+
+				var vals = nilnul.fs.folder.cfg.hier.vals_._MaximalX._Vals_0address4folder_1identy(
+						folder,
+						"bak" + "." + "abstain" // nilnul.fs.folder.cfg.hier_.partake._MaximalX.NOM
+					).ToArray();
+				if (vals.Any() )
+				{
+					return vals.Any(
+						v =>
+						{
+							return v?.ToString()?.Trim() == "1";
+
+						}
+					);
+
+				}
+
+
+				return 					//nilnul.fs.folder.be_._PartakeX._IsParticipant_0folder(folder)
+					nilnul.fs.folder.cfg.hier.vals_._MaximalX._Vals_0address4folder_1identy(
+						folder,
+						 "abstain" // nilnul.fs.folder.cfg.hier_.partake._MaximalX.NOM
+					).Any(
+						v =>
+						{
+							return v?.ToString()?.Trim() == "1";
+
+						}
+					)
+
+				;
 			}
 			catch (System.Xml.XmlException e)
 			{
 
-				Trace.TraceError($"when retrieveing 'bak.neglect' value from configuration of {folder}:{e}");
+				Trace.TraceError($"when retrieveing '{NOMINA}' value from configuration of {folder}:{e}");
 				return false;
 				//throw;
 			}

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
@@ -55,7 +55,7 @@ namespace nilnul.fs.addresses_.disjoint.deV_.bak
 				/*Its CreationOptions property value is TaskCreationOptions.DenyChildAttach.*/
 				System.Threading.Tasks.Task.Factory.StartNew(
 					() => {
-						bak._ShuffleAndBak(_shieldsInAddresses_assumeDisjointAddresses);
+						bak._shuffleAndBak_0disjoint(_shieldsInAddresses_assumeDisjointAddresses);
 					}
 					,
 					cfg.cancel
