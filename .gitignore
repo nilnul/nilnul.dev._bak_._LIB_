@@ -42,10 +42,10 @@ $tf/*
 [Rr]eleases/
 x64/
 x86/
-build/
-bld/
-[Bb]in/
-[Oo]bj/
+/build/
+/bld/
+/[Bb]in/
+/[Oo]bj/
 
 # Visual Studo 2015 cache/options directory
 .vs/
@@ -180,7 +180,7 @@ AppPackages/
 ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
-*~
+#*~
 *.dbmdl
 #sql server project build files
 *.jfm 
@@ -251,8 +251,8 @@ $RECYCLE.BIN/
 *.msp
 *.lnk
 **/*(nilnul.win.prog_.Git/
-*/bin/
-*/obj/
+/bin/
+/obj/
 */.vs/
 
 (packages)
