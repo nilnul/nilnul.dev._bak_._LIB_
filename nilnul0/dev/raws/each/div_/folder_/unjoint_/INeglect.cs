@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src.div_.folder_.unjoint_
+namespace nilnul.dev.raw.div_.folder_.unjoint_
 {
 	internal class INeglect:div_.INeglect
 	{

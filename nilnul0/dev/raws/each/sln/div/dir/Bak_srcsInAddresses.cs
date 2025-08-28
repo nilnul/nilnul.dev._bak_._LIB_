@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.div.dir
+namespace nilnul.dev.raws.each.sln.div.dir
 {
 	/// <summary>
 	/// whether this as a dir is unjoint, is unknown

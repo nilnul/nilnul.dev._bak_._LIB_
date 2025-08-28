@@ -1,4 +1,4 @@
-﻿using nilnul.dev.srcs._bak;
+﻿
 using nilnul.win.program_;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src_.folder_.nonneglect_.giT_.nonrepo_.incomplete.dir_.nonlink
+namespace nilnul.dev.raw_.folder_.nonneglect_.giT_.nonrepo_.incomplete.dir_.nonlink
 {
 	public class Bak_srcsInAddresses
 	{

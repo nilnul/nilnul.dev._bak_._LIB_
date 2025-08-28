@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.src_.folder_.nonlink_.nonneglect_.giT_.nonrepo_.incomplete
+namespace nilnul.dev.raw_.folder_.nonlink_.nonneglect_.giT_.nonrepo_.incomplete
 {
 	/// <summary>
 	/// the src is nonrepo. If it's inside gitManaged, then the top of the src is still not regarded as a module, but as a plain folder, and only directories in src is dealt with.
@@ -58,12 +58,12 @@ namespace nilnul.dev.src_.folder_.nonlink_.nonneglect_.giT_.nonrepo_.incomplete
 					//Trace.Unindent();
 					cfg.cancel.ThrowIfCancellationRequested();
 				}
-				new nilnul.dev.src_.folder_.nonlink_.nonneglect_.giT_.nonrepo_.incomplete.dir_.nonlink.Bak_srcsInAddresses(cfg).Exe(dir);
+				new nilnul.dev.raw_.folder_.nonlink_.nonneglect_.giT_.nonrepo_.incomplete.dir_.nonlink.Bak_srcsInAddresses(cfg).Exe(dir);
 			}
 			//Trace.Unindent();
 
 			_cfg.shieldsNewlyBaked.Add(folder.address.ToString());
-			//nilnul.dev.srcs.bak_._retVoid.SettingX.shieldsNewlyBaked.Add(folder.address.ToString());
+			//nilnul.dev.raws.bak_._retVoid.SettingX.shieldsNewlyBaked.Add(folder.address.ToString());
 
 		}
 

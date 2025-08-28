@@ -5,7 +5,7 @@ using System.Threading;
 using nilnul.fs._address;
 using nilnul.fs.address_.shields.dev_._bak;
 
-namespace nilnul.dev.src.sln.div_.nonneglect_.intent_.giT_.plain0nontop_.nontrivia
+namespace nilnul.dev.raw.sln.div_.nonneglect_.intent_.giT_.plain0nontop_.nontrivia
 {
 	/// <summary>
 	/// 

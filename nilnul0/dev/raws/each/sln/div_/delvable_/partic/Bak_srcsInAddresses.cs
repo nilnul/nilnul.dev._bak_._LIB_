@@ -1,11 +1,11 @@
-﻿//using nilnul.dev.src.div.dir.cognomen_.commentedSegs._parse.parener._dotter.lex.symbol_;
+﻿//using nilnul.dev.raw.div.dir.cognomen_.commentedSegs._parse.parener._dotter.lex.symbol_;
 using nilnul.fs._address;
 using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic
 {
 	//[Obsolete("categorize according to git first; then depth1st; then for the intent.")]
 	/// <summary>

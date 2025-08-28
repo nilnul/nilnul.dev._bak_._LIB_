@@ -6,13 +6,13 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.directory
+namespace nilnul.dev.raws.each.sln.directory
 {
 	/// <summary>
 	/// whether this is unjoint, is unknown
 	/// </summary>
 	///
-	[Obsolete(nameof(nilnul.dev.srcs.each.div_.delvable) + "or: " + nameof(srcs.each.sln.directory_.delvable_.partic)+ ", thence proceeds and this will not be on that execution path forward.",true)]
+	[Obsolete(nameof(nilnul.dev.raws.each.div_.delvable) + "or: " + nameof(raws.each.sln.directory_.delvable_.partic)+ ", thence proceeds and this will not be on that execution path forward.",true)]
 	public class Bak_srcsInAddresses
 	{
 

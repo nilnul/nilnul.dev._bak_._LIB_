@@ -6,7 +6,7 @@ using System.Threading;
 using nilnul.fs._address;
 using nilnul.fs.address_.shields.dev_._bak;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.plain0nontop_.intent_.wrought._bak
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.plain0nontop_.intent_.wrought._bak
 {
 	/// <summary>
 	/// 
@@ -121,7 +121,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.plain0nontop_.int
 			//this.innerModules = new ConcurrentBag<DivI>();
 			//this.innerModules2reinclude = new ConcurrentBag<DivI>();
 
-			new nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.wrought.Bak_srcsInAddresses(cfg)._exe(
+			new nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.wrought.Bak_srcsInAddresses(cfg)._exe(
 				folderAddress
 			);
 
@@ -185,7 +185,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.plain0nontop_.int
 			//this.innerModules = new ConcurrentBag<DivI>();
 			//this.innerModules2reinclude = new ConcurrentBag<DivI>();
 
-			new nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.wrought.Bak_srcsInAddresses(cfg)._exe(
+			new nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.wrought.Bak_srcsInAddresses(cfg)._exe(
 				folderAddress
 			);
 

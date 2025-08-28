@@ -1,11 +1,11 @@
-//using nilnul.dev.src.div.dir.cognomen_.commentedSegs._parse.parener._dotter.lex.symbol_;
+//using nilnul.dev.raw.div.dir.cognomen_.commentedSegs._parse.parener._dotter.lex.symbol_;
 using nilnul.fs._address;
 using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.sln.directory_.delvable_.partic
+namespace nilnul.dev.raws.each.sln.directory_.delvable_.partic
 {
 	//[Obsolete("categorize according to git first; then depth1st; then for the intent.")]
 	/// <summary>
@@ -69,7 +69,7 @@ namespace nilnul.dev.srcs.each.sln.directory_.delvable_.partic
 				)
 				{
 					case fs.folder.categorize_.git_._plainWorkRepo.Ret.Plain:
-						new nilnul.dev.srcs.each.sln.directory_.delvable_.partic_.giT_.plain.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude) { module=_module}._exe(folderAddress);
+						new nilnul.dev.raws.each.sln.directory_.delvable_.partic_.giT_.plain.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude) { module=_module}._exe(folderAddress);
 
 						break;
 					case fs.folder.categorize_.git_._plainWorkRepo.Ret.Work:

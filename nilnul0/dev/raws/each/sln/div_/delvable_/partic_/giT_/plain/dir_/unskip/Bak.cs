@@ -1,5 +1,5 @@
 ﻿using nilnul.dev;
-using nilnul.dev.srcs._bak;
+using nilnul.dev.raws._bak;
 using nilnul.fs._address;
 using nilnul.fs.address_.shields.dev_._bak;
 using System;
@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.plain.dir_.unskip
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.plain.dir_.unskip
 {
 	/// <summary>
 	/// 
@@ -69,7 +69,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.plain.dir_.unskip
 		{
 			if (nilnul.fs.folder.dir.be_._SymlinkX.Be_ofAddress(work))
 			{
-				new nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.plain.dir_.unskip_.link.Bak4unjoint(_cfg,innerModules,innerModules2reinclude) {module=this.module  }.exe_ofAddress(work);
+				new nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.plain.dir_.unskip_.link.Bak4unjoint(_cfg,innerModules,innerModules2reinclude) {module=this.module  }.exe_ofAddress(work);
 
 				//new directory_.link_.giT_.plain.Bak4unjoint(_cfg,innerModules,innerModules2reinclude) {module=this.module  }.exe_ofAddress(work);
 				return;

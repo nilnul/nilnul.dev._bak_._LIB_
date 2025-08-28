@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src.directory_.cognable_.markout_.unjoint_.nonneglect
+namespace nilnul.dev.raw.directory_.cognable_.markout_.unjoint_.nonneglect
 {
 	/// <summary>
 	/// 

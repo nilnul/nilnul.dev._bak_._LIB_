@@ -9,7 +9,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln_.delvable._bak
+namespace nilnul.dev.raws.each.sln_.delvable._bak
 {
 	/// more understandable when it is (DateTime, string), as we order item1 first;
 	/// <summary>

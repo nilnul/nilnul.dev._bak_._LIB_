@@ -3,7 +3,7 @@ using nilnul.fs.address_.shields.dev_._bak;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 
-namespace nilnul.dev.srcs.each.sln.directory_.delvable_.giT_.work_.nontop_.nonintent
+namespace nilnul.dev.raws.each.sln.directory_.delvable_.giT_.work_.nontop_.nonintent
 {
 	public class Bak_srcsInAddresses
 	{

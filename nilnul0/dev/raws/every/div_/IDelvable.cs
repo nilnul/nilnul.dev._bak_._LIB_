@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.every.div_
+namespace nilnul.dev.raws.every.div_
 {
 	/// <summary>
 	/// all the info checked  by the progenitors:

@@ -6,7 +6,7 @@ using nilnul.dev.sln_.nonlink.directory_.nonlink_.nonneglect_.git_;
 using nilnul.fs._address;
 using System;
 
-namespace nilnul.dev.srcs.each.sln.directory_.delvable_.unpartic_.giT_.work
+namespace nilnul.dev.raws.each.sln.directory_.delvable_.unpartic_.giT_.work
 {
 	public class Bak_srcsInAddresses
 	{

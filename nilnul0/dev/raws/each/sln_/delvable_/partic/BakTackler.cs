@@ -8,7 +8,7 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln_.delvable_.partic
+namespace nilnul.dev.raws.each.sln_.delvable_.partic
 {
 	/// <summary>
 	/// not a traverser;
@@ -42,7 +42,7 @@ namespace nilnul.dev.srcs.each.sln_.delvable_.partic
 			
 			//new dev.srcs.each.sln_.delvable_.partic.Bak_srcsInAddresses(cfg)._vod_ofAddress(folder);
 
-			new dev.srcs.each.sln.div_.delvable_.partic_.intent.Bak_srcsInAddress(
+			new dev.raws.each.sln.div_.delvable_.partic_.intent.Bak_srcsInAddress(
 				cfg,  folder
 			).vod();
 

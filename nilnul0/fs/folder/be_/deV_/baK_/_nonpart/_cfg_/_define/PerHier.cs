@@ -72,6 +72,12 @@ namespace nilnul.fs.folder.be_.deV_.baK_._nonpart._cfg_._define
 				return false;
 				//throw;
 			}
+			catch(System.Exception e) { /// for configuration, exception shall not be fatal.
+				
+				Trace.TraceError($"when retrieveing '{NOMINA}' value from configuration of {folder}:{e}");
+				return false;
+			}
+			
 
 		}
 	}

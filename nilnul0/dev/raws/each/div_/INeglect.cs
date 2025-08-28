@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src.div_
+namespace nilnul.dev.raw.div_
 {
 	/// <summary>
 	/// this div is neglected due to disjunction of:

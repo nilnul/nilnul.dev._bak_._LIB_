@@ -5,7 +5,7 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.src.div_.folder_.nonlink_.nonneglect
+namespace nilnul.dev.raw.div_.folder_.nonlink_.nonneglect
 {
 	/// <summary>
 	/// the processed is:
@@ -53,7 +53,7 @@ namespace nilnul.dev.src.div_.folder_.nonlink_.nonneglect
 			switch (distance)
 			{
 				case 0: //src
-					new nilnul.dev.src_.folder_.nonlink_.nonneglect.Bak(cfg).exe(
+					new nilnul.dev.raw_.folder_.nonlink_.nonneglect.Bak(cfg).exe(
 					   _div_inSrc.ToString()
 					);
 

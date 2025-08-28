@@ -13,7 +13,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.div.dir_.link
+namespace nilnul.dev.raws.each.sln.div.dir_.link
 {
 	/// <summary>
 	/// 

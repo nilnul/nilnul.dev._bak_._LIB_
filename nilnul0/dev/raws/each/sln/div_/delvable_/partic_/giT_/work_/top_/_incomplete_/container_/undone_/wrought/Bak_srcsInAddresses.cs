@@ -8,7 +8,7 @@ using nilnul.fs.git.module;
 using nilnul.fs.folder;
 using System.Linq;
 using System.Collections.Specialized;
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.wrought
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.wrought
 
 {
 	/// <summary>

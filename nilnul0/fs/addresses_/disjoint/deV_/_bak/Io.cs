@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using nilnul.dev.srcs._bak;
+
 using nilnul.win.program_;
 using nilnul.fs.address_.shield;
 using nilnul.fs.address_;
@@ -21,7 +21,7 @@ namespace nilnul.fs.addresses_.disjoint.deV_._bak
 	/// </summary>
 	public class Io
 	{
-		private BlockingCollection<(string, DateTime)> _slnVisitingEs = new dev.srcs.each.sln_.delvable._bak.SlnVisitingEs().asBlockingCollection();
+		private BlockingCollection<(string, DateTime)> _slnVisitingEs = new dev.raws.each.sln_.delvable._bak.SlnVisitingEs().asBlockingCollection();
 
 		public BlockingCollection<(string, DateTime)> slnVisitingEs
 		{

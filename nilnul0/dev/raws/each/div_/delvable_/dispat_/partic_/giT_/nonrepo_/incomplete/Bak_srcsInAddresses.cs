@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.incomplete
+namespace nilnul.dev.raws.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.incomplete
 {
 	/// <summary>
 	/// the src is nonrepo. If it's inside gitManaged, then the top of the src is still not regarded as a module, but as a plain folder, and only directories in src is dealt with.
@@ -104,7 +104,7 @@ namespace nilnul.dev.srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.inco
 					//Trace.Unindent();
 					cfg.cancel.ThrowIfCancellationRequested();
 				}///semaphore here ?
-				new nilnul.dev.srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.incomplete.dir_.unskip.Bak_srcsInAddresses(cfg)
+				new nilnul.dev.raws.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.incomplete.dir_.unskip.Bak_srcsInAddresses(cfg)
 				{
 					src = this.src
 					,
@@ -118,7 +118,7 @@ namespace nilnul.dev.srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.inco
 			//Trace.Unindent();
 
 			_cfg.shieldsNewlyBaked.Add(folder.address.ToString());
-			//nilnul.dev.srcs.bak_._retVoid.SettingX.shieldsNewlyBaked.Add(folder.address.ToString());
+			//nilnul.dev.raws.bak_._retVoid.SettingX.shieldsNewlyBaked.Add(folder.address.ToString());
 
 		}
 

@@ -6,7 +6,7 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Linq;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.content
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.content
 {
 	/// <summary>
 	/// the content of the folder;
@@ -144,7 +144,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 						child
 					);
 
-					//new nilnul.dev.srcs.each.sln.directory_.giT_.nonplain.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude)
+					//new nilnul.dev.raws.each.sln.directory_.giT_.nonplain.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude)
 					//{
 					//	module = this._module // nilnul.fs.address_.shield_._AddressX1.Create(folder)
 					//}._void(

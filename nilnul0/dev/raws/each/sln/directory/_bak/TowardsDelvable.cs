@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.directory._bak
+namespace nilnul.dev.raws.each.sln.directory._bak
 {
 	/// <summary>
 	/// even if the directory is <see cref="nilnul.fs.folder.dirs_.unclave_.unnegle_.unvsgen_.baK_._ConscriptX"/>, we still need further check:

@@ -6,12 +6,12 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using nilnul.dev.sln.directory_.module.name.of_;
-using nilnul.dev.srcs._bak;
+
 using nilnul.fs;
 using nilnul.fs.address_;
 using nilnul.win.program_;
 
-namespace nilnul.dev.src.div._bak
+namespace nilnul.dev.raw.div._bak
 {
 	/// <summary>
 	/// for an individual shield, check if the div is cognable (by <see cref=""/>)

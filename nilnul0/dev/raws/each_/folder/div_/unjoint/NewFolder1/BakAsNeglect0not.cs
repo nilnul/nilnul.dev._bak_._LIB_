@@ -4,10 +4,10 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.src_.folder.div_.unjoint
+namespace nilnul.dev.raw_.folder.div_.unjoint
 {
 	/// <summary>
-	/// called by <see cref="nameof(nilnul.dev.src.div_.folder.Bak)"/>.
+	/// called by <see cref="nameof(nilnul.dev.raw.div_.folder.Bak)"/>.
 	///		from this on, we no longer need to look about the progenitors, thus we can look about the child only
 	/// </summary>
 	///

@@ -10,7 +10,7 @@ namespace nilnul.dev.sln
 	/// bak of a sln in <see cref="dev.src.IBak"/>.
 	/// </summary>
 	/// <remarks>
-	/// we here use nilnul.dev.sln, not nilnul.dev.src.sln, as that hierarchy is defined in nilnul.dev.src, not here.
+	/// we here use nilnul.dev.sln, not nilnul.dev.raw.sln, as that hierarchy is defined in nilnul.dev.raw, not here.
 	/// </remarks>
 	internal class IBak
 	{

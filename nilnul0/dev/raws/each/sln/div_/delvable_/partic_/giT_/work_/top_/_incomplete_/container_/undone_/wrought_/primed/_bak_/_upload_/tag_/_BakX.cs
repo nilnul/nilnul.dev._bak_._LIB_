@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_._upload_.tag_
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_._upload_.tag_
 {
 	/// <summary>
 	/// pushing the branch of "bak...", 
@@ -171,7 +171,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 			//if (noError)
 			//{
 
-			//	//nilnul.dev.srcs.bak_._retVoid.SettingX.modulesNewlyBaked.Add(_location);
+			//	//nilnul.dev.raws.bak_._retVoid.SettingX.modulesNewlyBaked.Add(_location);
 
 			//}
 			return noError;

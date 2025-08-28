@@ -2,10 +2,10 @@
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.src_.folder_.unjoint
+namespace nilnul.dev.raw_.folder_.unjoint
 {
 	[Obsolete(
-		nameof(dev.srcs.each.div_.delvable_.dispat_.partic.Bak),true
+		nameof(dev.raws.each.div_.delvable_.dispat_.partic.Bak),true
 	)]
 	public  class Bak
 	{

@@ -1,4 +1,4 @@
-﻿using nilnul.dev.srcs._bak;
+﻿
 using nilnul.fs._address;
 using nilnul.fs.address_;
 using nilnul.num._quotient;
@@ -11,16 +11,16 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo
+namespace nilnul.dev.raws.each.div_.delvable_.dispat_.partic_.giT_.nonrepo
 {
 	/// <summary>
 	/// not a git repo(the ".git" folder), be it bare or not. a plain folder, a work (top or nontop)
 	/// todo: 
 	/// </summary>
 	///
-	//[Obsolete("rename this to " + nameof(nilnul.dev.srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo.IBak))]
+	//[Obsolete("rename this to " + nameof(nilnul.dev.raws.each.div_.delvable_.dispat_.partic_.giT_.nonrepo.IBak))]
 	public class Bak_srcsInAddresses:
-		nilnul.dev.srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo.IBak
+		nilnul.dev.raws.each.div_.delvable_.dispat_.partic_.giT_.nonrepo.IBak
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
 		public nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg
@@ -73,7 +73,7 @@ namespace nilnul.dev.srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo
 
 			}
 
-			new nilnul.dev.srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.incomplete.Bak_srcsInAddresses(cfg)
+			new nilnul.dev.raws.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.incomplete.Bak_srcsInAddresses(cfg)
 			{
 				src = this.src
 				,

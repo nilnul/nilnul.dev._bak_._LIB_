@@ -5,7 +5,7 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.nonintent
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.nonintent
 {
 	public class Bak_srcsInAddresses
 	{
@@ -58,7 +58,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.non
 			)
 		{
 
-			new nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop._bak.Depth1st(cfg, innerModules,innerModules2reinclude,module)._exe(_location__nonrootWork);
+			new nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.nontop._bak.Depth1st(cfg, innerModules,innerModules2reinclude,module)._exe(_location__nonrootWork);
 
 
 			//new directory_.unjoint_.partic_.nonintent_.giT_.work_.nontop.Bak_srcsInAddresses(cfg,innerModules,innerModules2reinclude,module) ._Exe(_location__nonrootWork);

@@ -3,7 +3,7 @@ using nilnul.fs.folder_.git_;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 
-namespace nilnul.dev.srcs.each.sln.directory_.giT_.work
+namespace nilnul.dev.raws.each.sln.directory_.giT_.work
 {
 	/// <summary>
 	/// assume:

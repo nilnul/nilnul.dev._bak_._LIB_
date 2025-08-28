@@ -8,7 +8,7 @@ namespace nilnul.dev.raw.sln.div_.delve_
 {
     public interface IParticipate
 		:
-		nilnul.dev.src.sln.div_.IDelvable
+		nilnul.dev.raw.sln.div_.IDelvable
     {
     }
 }

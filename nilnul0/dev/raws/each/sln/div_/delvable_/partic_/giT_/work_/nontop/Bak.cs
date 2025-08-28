@@ -1,5 +1,5 @@
 ﻿using nilnul.dev;
-using nilnul.dev.srcs._bak;
+
 using nilnul.fs._address;
 using System;
 using System.Collections.Concurrent;
@@ -11,9 +11,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.nontop
 {
-	[Obsolete("intention0no shall be determined at " + nameof(srcs.each.sln.div_.delve_.partic_.giT_.nonrepo.dir.IBak)
+	[Obsolete("intention0no shall be determined at " + nameof(raws.each.sln.div_.delve_.partic_.giT_.nonrepo.dir.IBak)
 		,
 		true
 		)
@@ -74,7 +74,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop
 				nilnul.dev.sln.div.be_._IntendGitX.Be_ofAddress(folder, cfg.git) /// todo: allows subsrc;
 		)
 			{
-				nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.intent.Bak._InvokedFroParentModule(cfg, module, innerModules, this.innerModules2reinclude, folder);
+				nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.intent.Bak._InvokedFroParentModule(cfg, module, innerModules, this.innerModules2reinclude, folder);
 				return;
 
 #if false
@@ -92,7 +92,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop
 					);
 				}
 
-				new nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.intent.Bak(
+				new nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.intent.Bak(
 					cfg,
 					new ConcurrentBag<DivI>(),
 					new ConcurrentBag<DivI>(),

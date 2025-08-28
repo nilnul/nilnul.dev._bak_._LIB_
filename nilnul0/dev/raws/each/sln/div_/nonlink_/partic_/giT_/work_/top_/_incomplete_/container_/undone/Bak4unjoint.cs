@@ -16,7 +16,7 @@ namespace	nilnul.dev.		sln.div_.nonlink_.nonneglect_.giT_.work_.top_._incomplete
 	///
 	[Obsolete(
 		nameof(
-			nilnul.dev.srcs.each.	sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone.Bak_srcsInAddresses)
+			nilnul.dev.raws.each.	sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone.Bak_srcsInAddresses)
 		,true
 
 	)]

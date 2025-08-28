@@ -6,7 +6,7 @@ using nilnul.fs.address_.shields.dev_._bak;
 using nilnul.fs.git.module;
 using static nilnul.fs.git.module.BeX;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.nonwrought
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.nonwrought
 {
 	/// <summary>
 	/// for nonwroung:

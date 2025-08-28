@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src.dir_.delvable
+namespace nilnul.dev.raw.dir_.delvable
 {
 	internal class IBak
 	{

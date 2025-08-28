@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.src_.folder_.nonlink
+namespace nilnul.dev.raw_.folder_.nonlink
 {
 	public  class Bak
 	{

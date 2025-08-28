@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src.directory_.cognable_.markout_.link
+namespace nilnul.dev.raw.directory_.cognable_.markout_.link
 {
 	/// <summary>
 	/// 

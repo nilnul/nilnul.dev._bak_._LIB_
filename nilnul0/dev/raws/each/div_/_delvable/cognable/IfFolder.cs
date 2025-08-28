@@ -5,14 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using nilnul.dev.srcs._bak;
+
 using nilnul.fs;
 using nilnul.fs._address;
 using nilnul.fs.address_;
 using nilnul.lang_.cognom._tex.symbol_;
 using nilnul.win.program_;
 
-namespace nilnul.dev.src.div._bak.cognable
+namespace nilnul.dev.raw.div._bak.cognable
 {
 	/// <summary>
 	/// </summary>
@@ -51,7 +51,7 @@ namespace nilnul.dev.src.div._bak.cognable
 			if (nilnul.fs.address_.shield.be_.Folder.Singleton.be(_shield) )
 			{
 				/// as the div is provided by user, we don't check whether any seg is nonparticipant or not, assuming the user explicitly requires it to be participant.
-				new dev.srcs.each.div_._delvable.cognable_.folder.WhetherUnjoint(cfg) {
+				new dev.raws.each.div_._delvable.cognable_.folder.WhetherUnjoint(cfg) {
 					src=src,
 					cognom=cognom,
 					div=div

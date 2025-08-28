@@ -1,5 +1,5 @@
 ﻿using nilnul.dev;
-using nilnul.dev.srcs._bak;
+
 using nilnul.fs._address;
 using nilnul.fs.address_;
 using nilnul.fs.addresses_.disjoint.deV_._bak;
@@ -13,7 +13,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.intent
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.intent
 {
 	/// <summary>
 	/// as this is intend, the innerModules(including those reincluded) shall be renewed here;
@@ -72,7 +72,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.int
 		//{
 
 		//	var shield = nilnul.fs.address_.Shield.FroAddress(folder);
-		//	new nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop._bak.Depth1st(
+		//	new nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.nontop._bak.Depth1st(
 		//		cfg
 		//		,
 		//		innerModules
@@ -100,7 +100,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.int
 		)
 		{
 
-			new nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop._bak.Depth1st(
+			new nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.nontop._bak.Depth1st(
 				cfg
 				,
 				innerModules
@@ -142,7 +142,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.int
 					);
 				}
 
-				new nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.intent.Bak(
+				new nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.intent.Bak(
 					cfg,
 					new ConcurrentBag<DivI>(),
 					new ConcurrentBag<DivI>(),

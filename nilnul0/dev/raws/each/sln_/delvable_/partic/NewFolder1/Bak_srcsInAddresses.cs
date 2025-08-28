@@ -6,12 +6,12 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln_.unjoint_.nonneglect
+namespace nilnul.dev.raws.each.sln_.unjoint_.nonneglect
 {
 	/// <summary>
 	/// </summary>
 	///
-	[Obsolete(nameof(srcs.each.sln_.delvable_.partic.BakTackler)+" is preferred for queueing slns;")]
+	[Obsolete(nameof(raws.each.sln_.delvable_.partic.BakTackler)+" is preferred for queueing slns;")]
 	public  class Bak_srcsInAddresses
 	{
 

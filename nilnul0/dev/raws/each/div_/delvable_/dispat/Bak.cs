@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.div_.delvable_.dispat
+namespace nilnul.dev.raws.each.div_.delvable_.dispat
 {
 
 	/// <summary>
@@ -44,7 +44,7 @@ namespace nilnul.dev.srcs.each.div_.delvable_.dispat
 				return;
 			}
 
-			new dev.srcs.each.div_.delvable_.dispat_.partic.Bak(cfg) { src = src, div = div, cognom = this.cognom }.exe(
+			new dev.raws.each.div_.delvable_.dispat_.partic.Bak(cfg) { src = src, div = div, cognom = this.cognom }.exe(
 			//folder
 			);
 

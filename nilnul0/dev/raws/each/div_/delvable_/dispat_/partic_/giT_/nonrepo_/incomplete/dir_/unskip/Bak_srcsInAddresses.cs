@@ -1,4 +1,4 @@
-﻿using nilnul.dev.srcs._bak;
+﻿
 using nilnul.fs._address;
 using nilnul.fs.address_;
 using nilnul.win.program_;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.incomplete.dir_.unskip
+namespace nilnul.dev.raws.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.incomplete.dir_.unskip
 {
 	/// <summary>
 	/// for enlisted
@@ -42,7 +42,7 @@ namespace nilnul.dev.srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.inco
 				nilnul.fs.folder.dir.be_._SymlinkX.Be(folder)
 			)
 			{
-				new srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.incomplete.dir_.unskip_.link.Bak_srcsInAddresses(_cfg)
+				new raws.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.incomplete.dir_.unskip_.link.Bak_srcsInAddresses(_cfg)
 				{
 					src = this.src
 					,
@@ -54,7 +54,7 @@ namespace nilnul.dev.srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.inco
 				return;
 			}
 
-			new srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.incomplete.dir_.unskip_.unjoint.Bak_srcsInAddresses(_cfg)
+			new raws.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.incomplete.dir_.unskip_.unjoint.Bak_srcsInAddresses(_cfg)
 			{
 				src = this.src
 					,

@@ -6,7 +6,7 @@ using nilnul.dev.sln_.nonlink.directory_.nonlink_.nonneglect_.git_;
 using nilnul.fs._address;
 using System.Diagnostics;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.delve_.attend
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.delve_.attend
 {
 	public class Bak_srcsInAddresses
 	{
@@ -72,7 +72,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomp
 
 			if (new nilnul.fs.folder.be_.git_.Work(cfg.git).be_ofAddress(address4dir))
 			{
-				new nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.delve_.attend_.werk.Bak_srcsInAddresses(cfg, innerModules,innerModules2reinclude,module) { }.__exe_0address4dir(address4dir);
+				new nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.delve_.attend_.werk.Bak_srcsInAddresses(cfg, innerModules,innerModules2reinclude,module) { }.__exe_0address4dir(address4dir);
 				return;
 			}
 

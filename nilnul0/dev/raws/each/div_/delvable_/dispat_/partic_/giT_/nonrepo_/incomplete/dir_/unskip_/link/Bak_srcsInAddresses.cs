@@ -1,4 +1,4 @@
-using nilnul.dev.srcs._bak;
+
 using nilnul.fs._address;
 using nilnul.fs.address_;
 using nilnul.win.program_;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.incomplete.dir_.unskip_.link
+namespace nilnul.dev.raws.each.div_.delvable_.dispat_.partic_.giT_.nonrepo_.incomplete.dir_.unskip_.link
 {
 	public class Bak_srcsInAddresses
 	{

@@ -34,7 +34,7 @@ namespace nilnul.dev.sln.div_.nonlink_.nonneglect_.giT_.work_.top_._incomplete_.
 			nilnul.win.prog_.Git git = null
 		)
 		{
-			//if (nilnul.dev.srcs.bak_._retVoid.SettingX.IsModuleBaked(_location))
+			//if (nilnul.dev.raws.bak_._retVoid.SettingX.IsModuleBaked(_location))
 			//{
 			//	Trace.TraceInformation($"{_location} already baked.");
 
@@ -133,7 +133,7 @@ namespace nilnul.dev.sln.div_.nonlink_.nonneglect_.giT_.work_.top_._incomplete_.
 			//if (noError)
 			//{
 
-			//	//nilnul.dev.srcs.bak_._retVoid.SettingX.modulesNewlyBaked.Add(_location);
+			//	//nilnul.dev.raws.bak_._retVoid.SettingX.modulesNewlyBaked.Add(_location);
 
 			//}
 			return noError;

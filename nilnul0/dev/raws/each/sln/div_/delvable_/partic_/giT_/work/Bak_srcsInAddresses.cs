@@ -5,7 +5,7 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work
 {
 	/// <summary>
 	/// 
@@ -13,7 +13,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work
 	///
 
 
-	[Obsolete(nameof(nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.delve_.attend_.werk.Bak_srcsInAddresses))]
+	[Obsolete(nameof(nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.delve_.attend_.werk.Bak_srcsInAddresses))]
 
 	public class Bak_srcsInAddresses
 	{

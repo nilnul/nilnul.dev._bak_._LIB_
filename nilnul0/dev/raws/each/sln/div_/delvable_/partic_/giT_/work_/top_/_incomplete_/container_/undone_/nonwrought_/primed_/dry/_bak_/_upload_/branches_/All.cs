@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.nonwrought_.primed_.stageClean._bak_._upload_.branches_
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.nonwrought_.primed_.stageClean._bak_._upload_.branches_
 {
 	/// <summary>
 	/// </summary>

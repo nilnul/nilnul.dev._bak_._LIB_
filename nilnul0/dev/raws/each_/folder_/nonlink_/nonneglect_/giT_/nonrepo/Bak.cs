@@ -1,4 +1,4 @@
-﻿using nilnul.dev.srcs._bak;
+﻿
 using nilnul.win.program_;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src_.folder_.nonlink_.nonneg_.git_.nonRepo
+namespace nilnul.dev.raw_.folder_.nonlink_.nonneg_.git_.nonRepo
 {
 	public class Bak
 	{
@@ -52,7 +52,7 @@ namespace nilnul.dev.src_.folder_.nonlink_.nonneg_.git_.nonRepo
 			}
 			else
 			{
-				new src_.folder_.nonlink_.nonneg_.git_.nonRepo_.incomplete.Bak(cfg).Exe(
+				new raw_.folder_.nonlink_.nonneg_.git_.nonRepo_.incomplete.Bak(cfg).Exe(
 					 folder
 				);
 			}

@@ -4,7 +4,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 
-namespace nilnul.dev.srcs.each.sln.directory_.delvable_.partic_.giT_.plain
+namespace nilnul.dev.raws.each.sln.directory_.delvable_.partic_.giT_.plain
 {
 	public class Bak_srcsInAddresses
 	{
@@ -67,7 +67,7 @@ namespace nilnul.dev.srcs.each.sln.directory_.delvable_.partic_.giT_.plain
 				}
 				else
 				{
-					new nilnul.dev.srcs.each.sln.div_.delvable_.partic_.nonintent_.giT_.plain.Bak(cfg, innerModules, innerModules2reinclude, module)._vod(folder);
+					new nilnul.dev.raws.each.sln.div_.delvable_.partic_.nonintent_.giT_.plain.Bak(cfg, innerModules, innerModules2reinclude, module)._vod(folder);
 
 				}
 

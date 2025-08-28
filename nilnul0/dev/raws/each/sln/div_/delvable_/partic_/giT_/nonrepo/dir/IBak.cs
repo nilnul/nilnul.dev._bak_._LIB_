@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.div_.delve_.partic_.giT_.nonrepo.dir
+namespace nilnul.dev.raws.each.sln.div_.delve_.partic_.giT_.nonrepo.dir
 {
 	/// <summary>
 	/// </summary>

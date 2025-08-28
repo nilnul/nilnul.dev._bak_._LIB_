@@ -56,7 +56,7 @@ namespace nilnul.fs.addresses_.disjoint.deV_
 			var t = Task.Factory.StartNew(
 				() => cfg.slnVisitingEs.GetConsumingEnumerable(cancel).Each(
 					s =>
-					new nilnul.dev.srcs.each.sln_.delvable.BakByPartic(
+					new nilnul.dev.raws.each.sln_.delvable.BakByPartic(
 						cfg
 					)._startChildTask_0delvable(
 						s.Item1

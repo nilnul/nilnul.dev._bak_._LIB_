@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop._bak
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.nontop._bak
 {
 	/// <summary>
 	/// depth first traverse
@@ -114,7 +114,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop._bak
 						){
 							case fs.folder.categorize_.git_._plainWorkRepo.Ret.Work:
 								///top or nontop
-								new nilnul.dev.srcs.each.sln.directory_.giT_.work.Bak_srcsInAddresses(
+								new nilnul.dev.raws.each.sln.directory_.giT_.work.Bak_srcsInAddresses(
 									cfg, this.innerModules,this.innerModules2reinclude
 									) { module=this._module}.__exe(child);
 								break;

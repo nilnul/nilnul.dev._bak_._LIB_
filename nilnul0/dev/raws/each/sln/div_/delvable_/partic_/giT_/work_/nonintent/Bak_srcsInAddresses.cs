@@ -5,8 +5,8 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nonintent
-//    nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.nonintent_.giT_.top
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.nonintent
+//    nilnul.dev.raws.each.sln.div_.delvable_.nonneglect_.nonintent_.giT_.top
 {
 	/// <summary>
 	/// 

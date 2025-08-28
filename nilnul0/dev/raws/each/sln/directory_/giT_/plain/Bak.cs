@@ -1,5 +1,5 @@
 ﻿using nilnul.dev;
-using nilnul.dev.srcs._bak;
+
 using nilnul.fs._address;
 using nilnul.fs.address_.shields.dev_._bak;
 using System;
@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.directory_.giT_.plain
+namespace nilnul.dev.raws.each.sln.directory_.giT_.plain
 {
 	[Obsolete()]
 	public class Bak

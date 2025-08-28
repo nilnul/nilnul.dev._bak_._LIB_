@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src.crop_.depo_
+namespace nilnul.dev.raw.crop_.depo_
 {
 	/// <summary>
 	/// nothing but the ".git/"

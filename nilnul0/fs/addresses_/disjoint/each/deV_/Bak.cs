@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using nilnul.dev.srcs._bak;
+
 using nilnul.win.program_;
 
 
@@ -86,7 +86,7 @@ namespace nilnul.fs.addresses_._disjoint.item.deV_
 				)
 			)
 			{
-				new dev.src.div._bak.Cognable0not(
+				new dev.raw.div._bak.Cognable0not(
 					cfg
 				)
 				{
@@ -108,7 +108,7 @@ namespace nilnul.fs.addresses_._disjoint.item.deV_
 			{
 				Trace.TraceWarning($"{address} is appended a dirSep, before being taken as the sub of {sup}; or else {address} is the proper sup of {sup}. ");
 
-				new dev.src.div._bak.Cognable0not(
+				new dev.raw.div._bak.Cognable0not(
 					cfg
 				){
 					src = src,

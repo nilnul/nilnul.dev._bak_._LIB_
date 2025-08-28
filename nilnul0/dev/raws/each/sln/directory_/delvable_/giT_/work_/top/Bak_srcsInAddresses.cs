@@ -6,7 +6,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 
-namespace nilnul.dev.srcs.each.sln.directory_.delvable_.giT_.work_.top
+namespace nilnul.dev.raws.each.sln.directory_.delvable_.giT_.work_.top
 {
 	public class Bak_srcsInAddresses
 	{

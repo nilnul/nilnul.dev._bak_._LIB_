@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using nilnul.dev.srcs._bak;
+
 using nilnul.fs;
 using nilnul.fs.address_.shield_;
 using nilnul.fs.folder_;
 using nilnul.win.program_;
 
-namespace nilnul.dev.src.div_.exist_.nondelay
+namespace nilnul.dev.raw.div_.exist_.nondelay
 {
 	/// <summary>
 	/// for a virtual div. the div might be nonexistant.

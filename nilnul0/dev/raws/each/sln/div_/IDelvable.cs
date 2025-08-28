@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.div_
+namespace nilnul.dev.raws.each.sln.div_
 {
 	/// <summary>
 	/// the context/backgound has been checked and cleared, as:

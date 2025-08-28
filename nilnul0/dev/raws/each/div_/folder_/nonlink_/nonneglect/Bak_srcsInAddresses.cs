@@ -7,7 +7,7 @@ using System.Threading;
 using nilnul.fs.addresses_.disjoint;
 using System.Linq;
 
-namespace nilnul.dev.src.div_.folder_.nonlink_.nonneglect
+namespace nilnul.dev.raw.div_.folder_.nonlink_.nonneglect
 {
 	/// <summary>
 	/// the processed is:
@@ -61,7 +61,7 @@ namespace nilnul.dev.src.div_.folder_.nonlink_.nonneglect
 			switch (distance)
 			{
 				case 0: //src
-					new nilnul.dev.src_.folder_.nonlink_.nonneglect.Bak_srcsAsAddresses(cfg).exe(
+					new nilnul.dev.raw_.folder_.nonlink_.nonneglect.Bak_srcsAsAddresses(cfg).exe(
 					   _div_inSrc.ToString()
 					);
 

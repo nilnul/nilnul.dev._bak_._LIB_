@@ -1,4 +1,4 @@
-﻿namespace nilnul.dev.srcs.each.div_._delvable.cognable
+﻿namespace nilnul.dev.raws.each.div_._delvable.cognable
 {
 	public interface IWhetherFolder { }
 }

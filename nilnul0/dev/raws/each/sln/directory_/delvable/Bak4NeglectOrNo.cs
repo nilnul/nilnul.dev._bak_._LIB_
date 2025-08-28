@@ -13,7 +13,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.directory_.delvable
+namespace nilnul.dev.raws.each.sln.directory_.delvable
 {
 	/// <summary>
 	/// 
@@ -102,7 +102,7 @@ namespace nilnul.dev.srcs.each.sln.directory_.delvable
 
 				return;
 			}
-			new nilnul.dev.srcs.each.sln.directory_.delvable_.partic.Bak_srcsInAddresses(
+			new nilnul.dev.raws.each.sln.directory_.delvable_.partic.Bak_srcsInAddresses(
 				cfg, innerModules, innerModules2reinclude, module
 			)
 			{ }._vod(shield.ToString());

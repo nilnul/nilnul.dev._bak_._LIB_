@@ -9,7 +9,7 @@ using System.Linq;
 using System;
 using nilnul.fs._address;
 
-namespace nilnul.dev.src_.folder.div_.unjoint_.nonneglect
+namespace nilnul.dev.raw_.folder.div_.unjoint_.nonneglect
 {
 	/// <summary>
 	/// </summary>
@@ -86,17 +86,17 @@ namespace nilnul.dev.src_.folder.div_.unjoint_.nonneglect
 			switch (distance)
 			{
 				case 0: //src
-					new nilnul.dev.src_.folder_.unjoint_.nonneglect.Bak(cfg).exe(
+					new nilnul.dev.raw_.folder_.unjoint_.nonneglect.Bak(cfg).exe(
 					   _div_inSrc.ToString()
 					);
 
 					break;
 				case 1: //sln
-					new nilnul.dev.srcs.each.sln_.unjoint_.nonneglect.Bak_srcsInAddresses(cfg,innerModules,innerModules2reinclude,module).__exe(_div_inSrc.ToString());
+					new nilnul.dev.raws.each.sln_.unjoint_.nonneglect.Bak_srcsInAddresses(cfg,innerModules,innerModules2reinclude,module).__exe(_div_inSrc.ToString());
 					break;
 
 				default:    //inside sln
-					new nilnul.dev.srcs.each.sln.directory_.delvable_.partic.Bak_srcsInAddresses(cfg,innerModules,innerModules2reinclude,module).vod(
+					new nilnul.dev.raws.each.sln.directory_.delvable_.partic.Bak_srcsInAddresses(cfg,innerModules,innerModules2reinclude,module).vod(
 						 shield
 						);
 					break;

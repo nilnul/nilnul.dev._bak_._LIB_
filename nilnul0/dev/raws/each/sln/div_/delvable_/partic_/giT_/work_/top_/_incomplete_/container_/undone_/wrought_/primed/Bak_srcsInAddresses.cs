@@ -7,7 +7,7 @@ using nilnul.fs._address;
 using nilnul.win.program_;
 using System.Linq;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.primed
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.primed
 {
 	/// <summary>
 	/// </summary>
@@ -82,7 +82,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 
 			try
 			{
-				nilnul.dev.src.crop_.depo._PubX._Vod_assumeModuleAddress(
+				nilnul.dev.raw.crop_.depo._PubX._Vod_assumeModuleAddress(
 					folder
 				);
 

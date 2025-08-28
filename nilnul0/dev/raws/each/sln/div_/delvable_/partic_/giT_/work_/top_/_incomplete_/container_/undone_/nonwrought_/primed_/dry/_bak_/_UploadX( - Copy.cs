@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.nonwrought_.primed_.stageClean._bak_
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.nonwrought_.primed_.stageClean._bak_
 {
 	/// <summary>
 	/// for unprimed module, we need to deal with the workspace.
@@ -36,7 +36,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 			nilnul.win.prog_.Git git = null
 		)
 		{
-			//if (nilnul.dev.srcs.bak_._retVoid.SettingX.IsModuleBaked(_location))
+			//if (nilnul.dev.raws.bak_._retVoid.SettingX.IsModuleBaked(_location))
 			//{
 			//	Trace.TraceInformation($"{_location} already baked.");
 
@@ -93,7 +93,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 			//if (noError)
 			//{
 
-			//	//nilnul.dev.srcs.bak_._retVoid.SettingX.modulesNewlyBaked.Add(_location);
+			//	//nilnul.dev.raws.bak_._retVoid.SettingX.modulesNewlyBaked.Add(_location);
 
 			//}
 			return noError;

@@ -1,11 +1,11 @@
-﻿//using nilnul.dev.src.div.dir.cognomen_.commentedSegs._parse.parener._dotter.lex.symbol_;
+﻿//using nilnul.dev.raw.div.dir.cognomen_.commentedSegs._parse.parener._dotter.lex.symbol_;
 using nilnul.fs._address;
 using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.sln.directory_.delvable_.unpartic
+namespace nilnul.dev.raws.each.sln.directory_.delvable_.unpartic
 {
 	/// <summary>
 	/// by git category.
@@ -65,7 +65,7 @@ namespace nilnul.dev.srcs.each.sln.directory_.delvable_.unpartic
 				switch (nilnul.fs.folder.categorize_.git_.plainWorkRepo_.Deadlined.Category_ofAddress(folderAddress))
 				{
 					case fs.folder.categorize_.git_._plainWorkRepo.Ret.Plain:
-						new nilnul.dev.srcs.each.sln.directory_.delvable_.unpartic_.giT_.plain.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude) { module=_module}._exe(folderAddress);
+						new nilnul.dev.raws.each.sln.directory_.delvable_.unpartic_.giT_.plain.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude) { module=_module}._exe(folderAddress);
 
 						break;
 					case fs.folder.categorize_.git_._plainWorkRepo.Ret.Work:

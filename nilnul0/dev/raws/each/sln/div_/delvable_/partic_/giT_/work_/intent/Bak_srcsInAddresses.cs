@@ -7,7 +7,7 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.intent
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.intent
 {
 	/// <summary>
 	/// 
@@ -96,8 +96,8 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.intent
 				{
 
 
-					//new nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.intent.Bak(cfg,innerModules,innerModules2reinclude,module)._exe(folderAddress);
-					new nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.intent.Bak(
+					//new nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.intent.Bak(cfg,innerModules,innerModules2reinclude,module)._exe(folderAddress);
+					new nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.nontop_.intent.Bak(
 						cfg, innerModules, innerModules2reinclude)
 					{ module = this._module }._exe();
 

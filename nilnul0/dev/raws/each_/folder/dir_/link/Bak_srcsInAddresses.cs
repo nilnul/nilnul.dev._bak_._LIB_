@@ -1,4 +1,4 @@
-using nilnul.dev.srcs._bak;
+
 using nilnul.fs.address_;
 using nilnul.win.program_;
 using System;
@@ -9,10 +9,10 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src_.folder.dir_.link
+namespace nilnul.dev.raw_.folder.dir_.link
 {
 	[Obsolete(
-		nameof( nilnul.dev.srcs.each.div_.delvable_.dispat_.nonneglect_.giT_.nonrepo_.incomplete.dir_.enlist_.link.IBak
+		nameof( nilnul.dev.raws.each.div_.delvable_.dispat_.nonneglect_.giT_.nonrepo_.incomplete.dir_.enlist_.link.IBak
 )
 		,
 		true

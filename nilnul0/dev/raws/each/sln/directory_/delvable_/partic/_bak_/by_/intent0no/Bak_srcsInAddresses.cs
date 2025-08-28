@@ -1,4 +1,4 @@
-﻿//using nilnul.dev.src.div.dir.cognomen_.commentedSegs._parse.parener._dotter.lex.symbol_;
+﻿//using nilnul.dev.raw.div.dir.cognomen_.commentedSegs._parse.parener._dotter.lex.symbol_;
 using nilnul.fs._address;
 using nilnul.lang_.cognom._tex.symbol_;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.intend0no
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.intend0no
 {
 	[Obsolete("categorize according to git first; then depth1st; then for the intent, as git sign is always done, and intent is not necessary for git work top.",true)] /// choose the one with the biggest infoGain.
 
@@ -65,7 +65,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.intend0no
 
 			var parsed
 				=
-				//nilnul.dev.src.div.dir.cognomen_.commentedSegs._ParseX.Parse(
+				//nilnul.dev.raw.div.dir.cognomen_.commentedSegs._ParseX.Parse(
 				nilnul.lang_.cognom._TexX.Parse(
 					tip1.denote.en
 			);

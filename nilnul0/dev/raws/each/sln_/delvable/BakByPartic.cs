@@ -8,7 +8,7 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln_.delvable
+namespace nilnul.dev.raws.each.sln_.delvable
 {
 	/// <summary>
 	/// not a traverser;

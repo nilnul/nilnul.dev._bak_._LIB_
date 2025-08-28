@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.plain0nontop_.intent_.wrought._bak._container
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.plain0nontop_.intent_.wrought._bak._container
 {
 	static public class _IniX
 	{

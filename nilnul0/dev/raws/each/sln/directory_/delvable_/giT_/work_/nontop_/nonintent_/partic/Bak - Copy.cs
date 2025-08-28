@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.directory_.delvable_.giT_.work_.nontop_.nonintent_.partic
+namespace nilnul.dev.raws.each.sln.directory_.delvable_.giT_.work_.nontop_.nonintent_.partic
 {
 	/// <summary>
 	/// 

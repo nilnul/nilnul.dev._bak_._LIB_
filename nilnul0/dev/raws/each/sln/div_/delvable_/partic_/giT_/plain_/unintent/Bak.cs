@@ -1,5 +1,5 @@
 ﻿using nilnul.dev;
-using nilnul.dev.srcs._bak;
+
 using nilnul.fs._address;
 using System;
 using System.Collections.Concurrent;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.nonintent_.giT_.plain
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.nonintent_.giT_.plain
 {
 	/// <summary>
 	/// implemented by inheriting.

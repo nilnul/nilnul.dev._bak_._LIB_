@@ -2,7 +2,7 @@
 using nilnul.fs.address_.shields.dev_._bak;
 using System.Collections.Concurrent;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.delve_.attend_.werk_.untop
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.delve_.attend_.werk_.untop
 {
 	public class Bak_srcsInAddresses
 	{

@@ -5,9 +5,9 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.sln.directory_.delvable_.partic_.nonintent_.giT_.work_.nontop
+namespace nilnul.dev.raws.each.sln.directory_.delvable_.partic_.nonintent_.giT_.work_.nontop
 {
-	[Obsolete(nameof(nilnul.dev.srcs.each.sln.directory_.delvable_.partic_.giT_.work_.nontop_.nonintent.Bak_srcsInAddresses)+" is preferred;")]
+	[Obsolete(nameof(nilnul.dev.raws.each.sln.directory_.delvable_.partic_.giT_.work_.nontop_.nonintent.Bak_srcsInAddresses)+" is preferred;")]
 	public class Bak_srcsInAddresses
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
@@ -60,7 +60,7 @@ namespace nilnul.dev.srcs.each.sln.directory_.delvable_.partic_.nonintent_.giT_.
 		{
 
 
-			new nilnul.dev.srcs.each.sln.directory_.delvable_.partic_.giT_.work_.nontop_.nonintent.Bak_srcsInAddresses(cfg,innerModules,innerModules2reinclude,module) ._exe(_location__nonrootWork);
+			new nilnul.dev.raws.each.sln.directory_.delvable_.partic_.giT_.work_.nontop_.nonintent.Bak_srcsInAddresses(cfg,innerModules,innerModules2reinclude,module) ._exe(_location__nonrootWork);
 
 
 

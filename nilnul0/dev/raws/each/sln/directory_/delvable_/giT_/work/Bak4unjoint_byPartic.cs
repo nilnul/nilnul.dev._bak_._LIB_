@@ -6,7 +6,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 
-namespace nilnul.dev.srcs.each.sln.directory_.delvable_.giT_.work
+namespace nilnul.dev.raws.each.sln.directory_.delvable_.giT_.work
 {
 	/// <summary>
 	/// assume:

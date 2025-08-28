@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.directory_.delvable_.unpartic_.giT_.work_.top
+namespace nilnul.dev.raws.each.sln.directory_.delvable_.unpartic_.giT_.work_.top
 {
 	//[Obsolete(nameof(sln.div_.nonlink_.nonneglect_.giT_.work_.top.Bak))]
 	static public class _BakX

@@ -1,4 +1,4 @@
-﻿namespace nilnul.dev.src.crop_.unjoint_
+﻿namespace nilnul.dev.raw.crop_.unjoint_
 {
 	/// <summary>
 	/// it's neglected by:

@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using nilnul.dev.srcs._bak;
+
 using nilnul.win.program_;
 using nilnul.fs.folder;
 
-namespace nilnul.dev.src.div_.folder._bak
+namespace nilnul.dev.raw.div_.folder._bak
 {
 	/// <summary>
 	/// the div is a folder.
@@ -20,7 +20,7 @@ namespace nilnul.dev.src.div_.folder._bak
 	///
 	/// </remarks>
 	///
-	[Obsolete(nameof(srcs.each.div_._delvable.cognable_.folder.IWhetherUnjoint ),true)]
+	[Obsolete(nameof(raws.each.div_._delvable.cognable_.folder.IWhetherUnjoint ),true)]
 	public class EnsureDivUnjoint
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
@@ -113,7 +113,7 @@ namespace nilnul.dev.src.div_.folder._bak
 			///de-contextual
 			///	we hence look at the inside of the folder, no need to look at its ancesters.
 			
-			new nilnul.dev.src_.folder.div_.unjoint.Bak4sln(cfg).exe(_shield);
+			new nilnul.dev.raw_.folder.div_.unjoint.Bak4sln(cfg).exe(_shield);
 
 			//new nilnul.fs.addresses_._disjoint.member_.inSrc_.folder.div_.folder_.unjoint.Bak_srcsInAddresses(cfg).exe(_shield);
 			

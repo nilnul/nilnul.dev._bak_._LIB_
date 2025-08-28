@@ -6,7 +6,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.plain.dir_.unskip_.unjoint
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.plain.dir_.unskip_.unjoint
 {
 	public class Bak4unjoint
 	{
@@ -52,7 +52,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.plain.dir_.unskip
 		public void __exe(string work)
 		{
 
-			new nilnul.dev.srcs.each.sln.directory_.delvable.Bak4unjoint(cfg, innerModules, innerModules2reinclude) { module = this.module }.exe_ofAddress(work);
+			new nilnul.dev.raws.each.sln.directory_.delvable.Bak4unjoint(cfg, innerModules, innerModules2reinclude) { module = this.module }.exe_ofAddress(work);
 			return;
 
 			//cfg.cancel.ThrowIfCancellationRequested();
@@ -65,7 +65,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.plain.dir_.unskip
 			//}
 
 
-			//new nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.plain.dir_.unskip_.attend.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude) { module = this.module }._exe(work);
+			//new nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.plain.dir_.unskip_.attend.Bak_srcsInAddresses(cfg, innerModules, innerModules2reinclude) { module = this.module }._exe(work);
 
 		}
 

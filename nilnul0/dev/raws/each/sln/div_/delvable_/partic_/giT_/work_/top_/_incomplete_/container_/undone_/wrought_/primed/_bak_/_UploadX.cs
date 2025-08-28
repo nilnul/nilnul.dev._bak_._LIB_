@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_._upload_.tag_;
+using nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_._upload_.tag_;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.primed._bak_
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.primed._bak_
 {
 	/// <summary>
 	/// for unprimed module, we need to deal with the workspace.
@@ -37,7 +37,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 			nilnul.win.prog_.Git git = null
 		)
 		{
-			//if (nilnul.dev.srcs.bak_._retVoid.SettingX.IsModuleBaked(_location))
+			//if (nilnul.dev.raws.bak_._retVoid.SettingX.IsModuleBaked(_location))
 			//{
 			//	Trace.TraceInformation($"{_location} already baked.");
 
@@ -73,7 +73,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 					   , git
 			   );
 
-				//nilnul.dev.srcs.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.primed._bak_.branch_.shelf.create._CollapseX._Branch
+				//nilnul.dev.raws.each.sln.div_.delvable_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone_.primed._bak_.branch_.shelf.create._CollapseX._Branch
 
 				////_upload_.branch_._shelf.put._BranchOfNewContentX._Branch
 				//(
@@ -110,7 +110,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 
 
 				if (
-					nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_._upload.SettingsX.Default.push4nonchange
+					nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_._upload.SettingsX.Default.push4nonchange
 				/// even if there are no change since last bak commit, we still push it. Useful when we havenot resolved all the errors for last bak.
 				||
 				true
@@ -151,7 +151,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 
 				cancel.ThrowIfCancellationRequested();
 				if (
-	nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_._upload.SettingsX.Default.push4nonchange
+	nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.wrought_.primed._bak_._upload.SettingsX.Default.push4nonchange
 /// even if there are no change since last bak commit, we still push it. Useful when we havenot resolved all the errors for last bak.
 || true	/// determine whether the tags are old one or newly created;
 )
@@ -190,7 +190,7 @@ namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incom
 			//if (noError)
 			//{
 
-			//	//nilnul.dev.srcs.bak_._retVoid.SettingX.modulesNewlyBaked.Add(_location);
+			//	//nilnul.dev.raws.bak_._retVoid.SettingX.modulesNewlyBaked.Add(_location);
 
 			//}
 			return noError;

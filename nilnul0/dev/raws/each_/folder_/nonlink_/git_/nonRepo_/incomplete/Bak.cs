@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.src_.folder_.nonlink_.git_.nonRepo_.incomplete
+namespace nilnul.dev.raw_.folder_.nonlink_.git_.nonRepo_.incomplete
 {
 	public  class Bak
 	{
@@ -60,7 +60,7 @@ namespace nilnul.dev.src_.folder_.nonlink_.git_.nonRepo_.incomplete
 			//Trace.Unindent();
 
 			_cfg.shieldsNewlyBaked.Add(folder.address.ToString());
-			//nilnul.dev.srcs.bak_._retVoid.SettingX.shieldsNewlyBaked.Add(folder.address.ToString());
+			//nilnul.dev.raws.bak_._retVoid.SettingX.shieldsNewlyBaked.Add(folder.address.ToString());
 
 		}
 

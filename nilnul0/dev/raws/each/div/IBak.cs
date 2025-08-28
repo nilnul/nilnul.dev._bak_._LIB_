@@ -1,4 +1,4 @@
-﻿namespace nilnul.dev.src.div
+﻿namespace nilnul.dev.raw.div
 {
 	/// <summary>
 	/// whether the div is bakkable is up to the caller. here we assume the bak will go on in this div.

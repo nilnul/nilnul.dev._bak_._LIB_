@@ -8,7 +8,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using nilnul.fs.folder;
 
-namespace nilnul.dev.srcs.each.sln.div_.unpartic_.unjoint_.giT_.work_.top
+namespace nilnul.dev.raws.each.sln.div_.unpartic_.unjoint_.giT_.work_.top
 {
 	[Obsolete()]
 	public class Bak_srcsInAddresses

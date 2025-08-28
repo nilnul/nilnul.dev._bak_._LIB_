@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src.crop_
+namespace nilnul.dev.raw.crop_
 {
 	/// <summary>
 	/// when in project Bak, as we are bakking the srcs, for each linked folder, we check whether it's already in our processed list lest we fall into a cycle.

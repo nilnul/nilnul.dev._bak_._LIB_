@@ -5,14 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using nilnul.dev.srcs._bak;
+
 using nilnul.win.program_;
 using nilnul.fs.folder;
 using nilnul.fs;
 using nilnul.fs.address_;
 using nilnul.fs._address;
 
-namespace nilnul.dev.srcs.each.div_._delvable.cognable_.folder
+namespace nilnul.dev.raws.each.div_._delvable.cognable_.folder
 {
 	/// <summary>
 	/// the div is a folder.
@@ -127,8 +127,8 @@ namespace nilnul.dev.srcs.each.div_._delvable.cognable_.folder
 			///	we hence look at the inside of the folder, no need to look at its ancesters.
 			
 			new
-				//nilnul.dev.src.div.Bak_byCognom
-				srcs.each.div_.delvable.Bak_byTier
+				//nilnul.dev.raw.div.Bak_byCognom
+				raws.each.div_.delvable.Bak_byTier
 				(cfg) {
 				src=src, div=div,cognom=cognom
 				,

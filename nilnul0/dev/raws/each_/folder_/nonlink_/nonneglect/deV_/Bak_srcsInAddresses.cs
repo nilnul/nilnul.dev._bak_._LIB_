@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.src_.folder_.nonlink_.nonneglect
+namespace nilnul.dev.raw_.folder_.nonlink_.nonneglect
 {
 	/// <summary>
 	/// concerning link(symlink) destiny:
@@ -10,10 +10,10 @@ namespace nilnul.dev.src_.folder_.nonlink_.nonneglect
 	///		* each div, and div.dir, is checked on the fly such as to be unjoint  with any srcs.
 	/// </summary>
 	///
-	[Obsolete(nameof(dev.src.div_.folder_.unjoint_.nonneglect_.giT_.nonrepo.IBak))]
+	[Obsolete(nameof(dev.raw.div_.folder_.unjoint_.nonneglect_.giT_.nonrepo.IBak))]
 	public  class Bak_srcsAsAddresses
 		:
-		dev.src.div_.folder_.unjoint_.nonneglect_.giT_.nonrepo.IBak
+		dev.raw.div_.folder_.unjoint_.nonneglect_.giT_.nonrepo.IBak
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
 		public nilnul.fs.addresses_.disjoint.deV_._bak.Io cfg
@@ -35,12 +35,12 @@ namespace nilnul.dev.src_.folder_.nonlink_.nonneglect
 			switch (nilnul.fs.folder.categorize_.git_.PlainWorkRepo.Category(folder))
 			{
 				case fs.folder.categorize_.git_._plainWorkRepo.Ret.Plain:
-					new nilnul.dev.src_.folder_.nonlink_.nonneglect_.giT_.nonrepo.Bak_srcsInAddresses(cfg).Exe(folder);
+					new nilnul.dev.raw_.folder_.nonlink_.nonneglect_.giT_.nonrepo.Bak_srcsInAddresses(cfg).Exe(folder);
 
 					break;
 				case fs.folder.categorize_.git_._plainWorkRepo.Ret.Work:
 					//Trace.TraceWarning($"src {folder} shall not be a git workspace; it shall be a plain folder");
-					new nilnul.dev.src_.folder_.nonlink_.nonneglect_.giT_.nonrepo.Bak_srcsInAddresses(cfg).Exe(folder);
+					new nilnul.dev.raw_.folder_.nonlink_.nonneglect_.giT_.nonrepo.Bak_srcsInAddresses(cfg).Exe(folder);
 
 					break;
 				case fs.folder.categorize_.git_._plainWorkRepo.Ret.Repo:

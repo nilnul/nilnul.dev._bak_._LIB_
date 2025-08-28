@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.directory_.delvable_.unpartic
+namespace nilnul.dev.raws.each.sln.directory_.delvable_.unpartic
 {
 	internal class IBak
 	{

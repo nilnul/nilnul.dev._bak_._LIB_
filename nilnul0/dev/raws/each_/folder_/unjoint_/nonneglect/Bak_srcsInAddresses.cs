@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.src_.folder_.unjoint_.nonneglect
+namespace nilnul.dev.raw_.folder_.unjoint_.nonneglect
 {
 	/// <summary>
 	/// concerning link(symlink) destiny:
@@ -15,7 +15,7 @@ namespace nilnul.dev.src_.folder_.unjoint_.nonneglect
 	///		unjointAlreadyEnsured
 	/// </remarks>
 	///
-	[Obsolete(nameof(nilnul.dev.srcs.each.div_.delvable_.dispat_.partic.Bak))]
+	[Obsolete(nameof(nilnul.dev.raws.each.div_.delvable_.dispat_.partic.Bak))]
 	public  class Bak
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
@@ -41,7 +41,7 @@ namespace nilnul.dev.src_.folder_.unjoint_.nonneglect
 				case fs.folder.categorize_.git_._plainWorkRepo.Ret.Work:
 
 					//Trace.TraceWarning($"src {folder} shall not be a git workspace; it shall be a plain folder");
-					new nilnul.dev.srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo.Bak_srcsInAddresses(cfg) {
+					new nilnul.dev.raws.each.div_.delvable_.dispat_.partic_.giT_.nonrepo.Bak_srcsInAddresses(cfg) {
 						src=folder.address.en
 						,
 						div= new fs._address.Div()

@@ -7,7 +7,7 @@ using nilnul.fs._address;
 using nilnul.fs.address_.shields.dev_._bak;
 using nilnul.fs.git.module;
 //using nilnul.fs.folder;
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone
 
 {
 	/// <summary>

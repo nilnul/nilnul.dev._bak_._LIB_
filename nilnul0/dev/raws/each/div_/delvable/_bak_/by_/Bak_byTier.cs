@@ -8,7 +8,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.div_.delvable
+namespace nilnul.dev.raws.each.div_.delvable
 {
 	/// <summary>
 	///		from this on, we no longer need to look about the progenitors, thus we can look about the child only
@@ -60,23 +60,23 @@ namespace nilnul.dev.srcs.each.div_.delvable
 			switch (distance)
 			{
 				case 0: //subsrc
-					new nilnul.dev.srcs.each.div_.delvable_.dispat.Bak(cfg) {src=src,div=div,cognom=this.cognom }.vod(
+					new nilnul.dev.raws.each.div_.delvable_.dispat.Bak(cfg) {src=src,div=div,cognom=this.cognom }.vod(
 					  // _div_inSrc.ToString()
 					);
 
 					break;
 				case 1: //sln
-					new nilnul.dev.srcs.each.sln_.delvable.BakTraverse(cfg)._vod(_shield); // participate0no will be tackled by sln tackler;
+					new nilnul.dev.raws.each.sln_.delvable.BakTraverse(cfg)._vod(_shield); // participate0no will be tackled by sln tackler;
 
 					//var time =
 					//nilnul.fs.folder.cfg.bak.visited._VwX.Time0nul(_div_inSrc);
 					//cfg.slnVisitingEs.Add( (_div_inSrc.ToString(),time??DateTime.MinValue) );
 
-					//new nilnul.dev.srcs.each.sln_.delvable.BakTackler(cfg)._startTask(_div_inSrc);
+					//new nilnul.dev.raws.each.sln_.delvable.BakTackler(cfg)._startTask(_div_inSrc);
 					break;
 
 				default:    //inner sln
-					new nilnul.dev.srcs.each.sln.directory_.delvable.Bak4unjoint(
+					new nilnul.dev.raws.each.sln.directory_.delvable.Bak4unjoint(
 						cfg, new ConcurrentBag<fs._address.DivI>()
 					)._exe(
 						 _shield

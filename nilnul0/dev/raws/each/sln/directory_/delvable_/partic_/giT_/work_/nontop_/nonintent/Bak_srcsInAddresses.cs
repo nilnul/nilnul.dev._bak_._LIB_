@@ -5,7 +5,7 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.sln.directory_.delvable_.partic_.giT_.work_.nontop_.nonintent
+namespace nilnul.dev.raws.each.sln.directory_.delvable_.partic_.giT_.work_.nontop_.nonintent
 {
 	public class Bak_srcsInAddresses
 	{

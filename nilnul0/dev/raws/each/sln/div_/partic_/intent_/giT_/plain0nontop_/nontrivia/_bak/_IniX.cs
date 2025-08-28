@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src.sln.div_.nonneglect_.intent_.giT_.plain0nontop_.nontrivia._bak
+namespace nilnul.dev.raw.sln.div_.nonneglect_.intent_.giT_.plain0nontop_.nontrivia._bak
 {
 	static public class _IniX
 	{

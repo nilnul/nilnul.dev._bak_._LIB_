@@ -4,12 +4,12 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src.sln
+namespace nilnul.dev.raw.sln
 {
 	/// <summary>
 	/// </summary>
 	///
-	[Obsolete("as we start from "+nameof(dev.srcs.each.div_._delvable.ICognable0not) + ", sln shall be tacked there at "+ nameof( nilnul.dev.srcs.each.div_.delvable_.dispat_.nonneglect_.giT_.nonrepo_.incomplete.dir_.enlist.IBak
+	[Obsolete("as we start from "+nameof(dev.raws.each.div_._delvable.ICognable0not) + ", sln shall be tacked there at "+ nameof( nilnul.dev.raws.each.div_.delvable_.dispat_.nonneglect_.giT_.nonrepo_.incomplete.dir_.enlist.IBak
 ) +"; "
 		,
 		true
@@ -52,7 +52,7 @@ namespace nilnul.dev.src.sln
 			}
 			else
 			{
-				new dev.srcs.each.sln_.delvable.BakTraverse(_cfg)._vod_ofAddress(folder);
+				new dev.raws.each.sln_.delvable.BakTraverse(_cfg)._vod_ofAddress(folder);
 			}
 
 			

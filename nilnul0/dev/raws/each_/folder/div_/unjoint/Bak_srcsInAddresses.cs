@@ -8,12 +8,12 @@ using nilnul.fs.addresses_.disjoint;
 using System.Linq;
 using System;
 
-namespace nilnul.dev.src_.folder.div_.unjoint
+namespace nilnul.dev.raw_.folder.div_.unjoint
 {
 	/// <summary>
 	/// </summary>
 	///
-	[Obsolete(nameof(srcs.each.div_.IDelvable),true)]
+	[Obsolete(nameof(raws.each.div_.IDelvable),true)]
 	public  class Bak4sln
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
@@ -93,15 +93,15 @@ namespace nilnul.dev.src_.folder.div_.unjoint
 			switch (distance)
 			{
 				case 0: //src
-					new nilnul.dev.src_.folder_.unjoint.Bak(cfg).Exe(
+					new nilnul.dev.raw_.folder_.unjoint.Bak(cfg).Exe(
 					   _div_inSrc.ToString()
 					);
 					break;
 				case 1: //sln			//or commented folder
-					new nilnul.dev.src_.folder.dir_.unjoint.Bak_srcsInAddresses(cfg).exe(_div_inSrc.ToString());
+					new nilnul.dev.raw_.folder.dir_.unjoint.Bak_srcsInAddresses(cfg).exe(_div_inSrc.ToString());
 					break;
 				default:    //inside sln
-					new nilnul.dev.srcs.each.sln.directory_.delvable.Bak4unjoint(cfg)._exe(
+					new nilnul.dev.raws.each.sln.directory_.delvable.Bak4unjoint(cfg)._exe(
 						 shield
 						);
 					break;

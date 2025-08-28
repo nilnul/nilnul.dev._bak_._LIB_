@@ -7,7 +7,7 @@ using nilnul.fs.address_.shields.dev_._bak;
 using nilnul.fs.folder;
 
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.plain0nontop_.intent._bak
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.plain0nontop_.intent._bak
 {
 	/// <summary>
 	/// 

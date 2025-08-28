@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src.sln.div_
+namespace nilnul.dev.raw.sln.div_
 {
 	/// <summary>
 	/// given srcs, bak a collection of disjoint addresses, one by one.

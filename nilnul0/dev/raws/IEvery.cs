@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs
+namespace nilnul.dev.raws
 {
 	/// <summary>
 	///  select many

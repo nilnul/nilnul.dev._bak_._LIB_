@@ -1,4 +1,4 @@
-﻿using nilnul.dev.srcs._bak;
+﻿
 using nilnul.win.program_;
 using System;
 using System.Collections.Generic;
@@ -8,10 +8,10 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src_.folder.dir_.unjoint
+namespace nilnul.dev.raw_.folder.dir_.unjoint
 {
 	[Obsolete(
-		nameof(nilnul.dev.srcs.each.div_.delvable_.dispat_.nonneglect_.giT_.nonrepo_.incomplete.dir_.enlist_.unjoint.IBak
+		nameof(nilnul.dev.raws.each.div_.delvable_.dispat_.nonneglect_.giT_.nonrepo_.incomplete.dir_.enlist_.unjoint.IBak
 )
 		,
 		true
@@ -58,13 +58,13 @@ namespace nilnul.dev.src_.folder.dir_.unjoint
 			else
 			{
 				///the parent is nonneglected; but that doesnot mean the dir is nonneglected
-				new srcs.each.sln_.delvable.BakTraverse(cfg)._vod(folder);
+				new raws.each.sln_.delvable.BakTraverse(cfg)._vod(folder);
 
 			}
 		}
 
 		static public bool IsSlnNameBlank(nilnul.fs.FolderI folder) {
-			return nilnul.dev.src.sln.name.be_._BlankX._Be_assumeSln(folder);
+			return nilnul.dev.raw.sln.name.be_._BlankX._Be_assumeSln(folder);
 
 			
 		}

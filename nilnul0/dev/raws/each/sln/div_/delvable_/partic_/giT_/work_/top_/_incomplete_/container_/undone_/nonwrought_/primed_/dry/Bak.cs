@@ -7,7 +7,7 @@ using System.Threading;
 using nilnul.fs._address;
 using nilnul.win.program_;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.nonwrought_.primed_.stageClean
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone_.nonwrought_.primed_.stageClean
 {
 	/// <summary>
 	/// </summary>

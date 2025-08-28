@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using nilnul.dev.srcs._bak;
+
 using nilnul.win.program_;
 
-namespace nilnul.dev.src.div
+namespace nilnul.dev.raw.div
 {
 	/// <summary>
 	/// for a virtual div. the div might be nonexistant.

@@ -5,7 +5,7 @@ using System.Threading;
 using nilnul.fs._address;
 using nilnul.fs.address_.shields.dev_._bak;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete_.moduleUndone
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete_.moduleUndone
 {
 	/// <summary>
 	///  this is called by newly created repo at the folder that is intended to be a git repo.

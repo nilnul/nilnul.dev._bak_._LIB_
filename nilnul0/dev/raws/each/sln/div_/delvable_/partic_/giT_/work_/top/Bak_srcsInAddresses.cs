@@ -11,7 +11,7 @@ using nilnul.fs.address_;
 using nilnul.fs.addresses_.disjoint.deV_._bak;
 using nilnul.fs.folder;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top
 {
 	public class Bak_srcsInAddresses
 	{

@@ -3,7 +3,7 @@ using nilnul.fs.folder_.git_;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.conscript
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.work_.top_.incomplete.dir_.conscript
 {
 	public class Bak_srcsInAddresses
 	{

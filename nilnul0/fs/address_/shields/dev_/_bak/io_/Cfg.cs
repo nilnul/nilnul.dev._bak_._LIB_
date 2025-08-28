@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using nilnul.dev.srcs._bak;
+
 using nilnul.win.program_;
 using nilnul.fs.address_.shield;
 
@@ -32,7 +32,7 @@ namespace nilnul.fs.address_.shields.dev_._bak.io_
 		{
 			return new Io(
                 //nilnul.dev.Properties.SettingsX.Srcs
-				nilnul.dev.srcs_._CfgedX.GetSrcs() //.Srcs
+				nilnul.dev.raws_._CfgedX.GetSrcs() //.Srcs
 				,
 				shields2neglect
 				,

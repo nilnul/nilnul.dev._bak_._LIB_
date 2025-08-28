@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.directory_.delvable_.partic._bak_.by_
+namespace nilnul.dev.raws.each.sln.directory_.delvable_.partic._bak_.by_
 {
 	/// <summary>
 	/// </summary>

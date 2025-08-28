@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src.sln_.link
+namespace nilnul.dev.raw.sln_.link
 {
 	/// <summary>
 	/// 
@@ -77,7 +77,7 @@ namespace nilnul.dev.src.sln_.link
 				///unjoint
 				///
 
-				new dev.srcs.each. sln_.delvable.BakTraverse(cfg) { }._vod(shield);
+				new dev.raws.each. sln_.delvable.BakTraverse(cfg) { }._vod(shield);
 
 			}
 			else

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.div_.delve_.partic_.giT_.nonrepo.dir_.attend_.plain0nontop
+namespace nilnul.dev.raws.each.sln.div_.delve_.partic_.giT_.nonrepo.dir_.attend_.plain0nontop
 {
 	/// <summary>
 	/// here, this determines whether it's intended or not.

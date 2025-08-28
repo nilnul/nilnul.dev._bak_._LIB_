@@ -1,4 +1,4 @@
-﻿using nilnul.dev.srcs._bak;
+﻿
 using nilnul.win.program_;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src_.folder_.nonneglect_.giT_.nonrepo
+namespace nilnul.dev.raw_.folder_.nonneglect_.giT_.nonrepo
 {
 	/// <summary>
 	/// not a git repo(the ".git" folder), be it bare or not. a plain folder, a work (top or nontop)
@@ -55,7 +55,7 @@ namespace nilnul.dev.src_.folder_.nonneglect_.giT_.nonrepo
 			}
 			else
 			{
-				new nilnul.dev.src_.folder_.nonlink_.nonneglect_.giT_.nonrepo_.incomplete.Bak_srcsInAddresses(cfg).Exe(
+				new nilnul.dev.raw_.folder_.nonlink_.nonneglect_.giT_.nonrepo_.incomplete.Bak_srcsInAddresses(cfg).Exe(
 					 folder
 				);
 			}

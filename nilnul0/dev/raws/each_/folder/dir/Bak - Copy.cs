@@ -1,4 +1,4 @@
-﻿using nilnul.dev.srcs._bak;
+﻿
 using nilnul.win.program_;
 using System;
 using System.Collections.Generic;
@@ -8,10 +8,10 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.src_.folder.dir
+namespace nilnul.dev.raw_.folder.dir
 {
 	[Obsolete(
-	nameof(nilnul.dev.srcs.each.div_.delvable_.dispat_.nonneglect_.giT_.nonrepo_.incomplete.dir_.enlist.IBak
+	nameof(nilnul.dev.raws.each.div_.delvable_.dispat_.nonneglect_.giT_.nonrepo_.incomplete.dir_.enlist.IBak
 )
 	,
 	true

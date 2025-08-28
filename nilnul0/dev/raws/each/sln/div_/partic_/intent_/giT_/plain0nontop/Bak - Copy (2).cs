@@ -7,7 +7,7 @@ using nilnul.fs.address_.shields.dev_._bak;
 using nilnul.fs.folder;
 
 
-namespace nilnul.dev.src.sln.div_.nonneglect_.intent_.giT_.plain0nontop
+namespace nilnul.dev.raw.sln.div_.nonneglect_.intent_.giT_.plain0nontop
 {
 	/// <summary>
 	/// 

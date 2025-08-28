@@ -13,7 +13,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.plain.dir_.unskip_.link
+namespace nilnul.dev.raws.each.sln.div_.delvable_.partic_.giT_.plain.dir_.unskip_.link
 {
 	/// <summary>
 	/// 

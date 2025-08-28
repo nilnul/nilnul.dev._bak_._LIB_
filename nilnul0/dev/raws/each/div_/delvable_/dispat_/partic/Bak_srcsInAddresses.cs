@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 
-namespace nilnul.dev.srcs.each.div_.delvable_.dispat_.partic
+namespace nilnul.dev.raws.each.div_.delvable_.dispat_.partic
 {
 	/// <summary>
 	/// concerning link(symlink) destiny:
@@ -16,7 +16,7 @@ namespace nilnul.dev.srcs.each.div_.delvable_.dispat_.partic
 	///		unjoint
 	///		unjointAlreadyEnsured
 	/// </remarks>
-	/// <see cref="nilnul.dev.src_.folder_.unjoint_.nonneglect.Bak"/>
+	/// <see cref="nilnul.dev.raw_.folder_.unjoint_.nonneglect.Bak"/>
 	public class Bak
 	{
 		private nilnul.fs.addresses_.disjoint.deV_._bak.Io _cfg;
@@ -56,7 +56,7 @@ namespace nilnul.dev.srcs.each.div_.delvable_.dispat_.partic
 
 					/// it's regarded as a nonrepo. even if it's a worktop, it's not treated as a depo, as we are in a subsrc.
 					///
-					new nilnul.dev.srcs.each.div_.delvable_.dispat_.partic_.giT_.nonrepo.Bak_srcsInAddresses(cfg)
+					new nilnul.dev.raws.each.div_.delvable_.dispat_.partic_.giT_.nonrepo.Bak_srcsInAddresses(cfg)
 					{
 						src = this.src
 					,

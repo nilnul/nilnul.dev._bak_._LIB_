@@ -57,7 +57,7 @@ namespace nilnul.fs.address_.shields.dev_._bak.io
 		static public void _SaveNewlyBakedModule(Io io)
 		{
 			var absorbed = new nilnul.fs.address_.shield.Set(
-				nilnul.dev.srcs.bak_._retVoid.SettingX.modulesBaked.Concat( io.modulesNewlyBaked).Select(x=>nilnul.fs.address_.shield_._AddressX1.Create(x))
+				nilnul.dev.raws.bak_._retVoid.SettingX.modulesBaked.Concat( io.modulesNewlyBaked).Select(x=>nilnul.fs.address_.shield_._AddressX1.Create(x))
 			);
 
 			//var merged = modulesBaked.Concat(modulesNewlyBaked);
@@ -68,7 +68,7 @@ namespace nilnul.fs.address_.shields.dev_._bak.io
 
 			nilnul.dev.bak.Properties.Settings.Default.modulesBaked = nilnul.txts_.StrCollectionX.FroEnumable( absorbed.Select(x=>x.ToString()) );
 
-			//nilnul.dev.srcs.bak_._retVoid.Settings1.Default.Save();
+			//nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.Save();
 
 		}
 
